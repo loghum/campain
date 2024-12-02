@@ -1,0 +1,604 @@
+{
+  "players": [
+    {
+      "note": "Merijn",
+      "path": "1.pc/Merijn.md",
+      "name": "Merijn",
+      "ac": "20",
+      "hp": "100",
+      "level": "3",
+      "modifier": "4",
+      "player": true
+    },
+    {
+      "note": "Ramon",
+      "path": "1.pc/Ramon.md",
+      "name": "Ramon",
+      "ac": "14",
+      "hp": "34",
+      "level": "3",
+      "modifier": "4",
+      "player": true
+    },
+    {
+      "note": "Jeffrey",
+      "path": "1.pc/Jeffrey.md",
+      "name": "Jeffrey",
+      "ac": "14",
+      "hp": "34",
+      "level": "3",
+      "modifier": "4",
+      "player": true
+    }
+  ],
+  "parties": [
+    {
+      "name": "party1",
+      "players": [
+        "Merijn",
+        "Ramon",
+        "Jeffrey"
+      ]
+    }
+  ],
+  "defaultParty": "party1",
+  "statuses": [
+    {
+      "name": "Blinded",
+      "id": "Blinded",
+      "description": "A blinded creature can’t see and automatically fails any ability check that requires sight.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage."
+    },
+    {
+      "name": "Charmed",
+      "id": "Charmed",
+      "description": "A charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or magical Effects.\nThe charmer has advantage on any ability check to interact socially with the creature."
+    },
+    {
+      "name": "Concentrating",
+      "id": "Concentrating",
+      "description": "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.\nA creature loses concentration when: it casts another spell that requires concentration, is incapacitated, or dies.\nWhen a creature takes damage, it must make a constitution saving throw with a DC of 10 or half the damage it took, whichever is higher. On a failure, concentration is lost."
+    },
+    {
+      "name": "Deafened",
+      "id": "Deafened",
+      "description": "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
+    },
+    {
+      "name": "Frightened",
+      "id": "Frightened",
+      "description": "A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.\nThe creature can’t willingly move closer to the source of its fear."
+    },
+    {
+      "name": "Grappled",
+      "id": "Grappled",
+      "description": "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nThe condition ends if the Grappler is incapacitated.\nThe condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell."
+    },
+    {
+      "name": "Incapacitated",
+      "id": "Incapacitated",
+      "description": "An incapacitated creature can’t take Actions or Reactions."
+    },
+    {
+      "name": "Invisible",
+      "id": "Invisible",
+      "description": "An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.\nAttack rolls against the creature have disadvantage, and the creature’s Attack rolls have advantage."
+    },
+    {
+      "name": "Paralyzed",
+      "id": "Paralyzed",
+      "description": "A paralyzed creature is incapacitated and can’t move or speak.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    },
+    {
+      "name": "Petrified",
+      "id": "Petrified",
+      "description": "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\nThe creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nAttack rolls against the creature have advantage.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nThe creature has Resistance to all damage.\nThe creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+    },
+    {
+      "name": "Poisoned",
+      "id": "Poisoned",
+      "description": "A poisoned creature has disadvantage on Attack rolls and Ability Checks."
+    },
+    {
+      "name": "Prone",
+      "id": "Prone",
+      "description": "A prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.\nThe creature has disadvantage on Attack rolls.\nAn Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage."
+    },
+    {
+      "name": "Reacted",
+      "id": "Reacted",
+      "description": "A creature, unless otherwise specified, gets one reaction per round of combat.\nA reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s.\nA reaction can be spent to make an opportunity attack, do a readied action, or use an ability that requires a reaction.\nA creature that has already reacted cannot use a reaction until the start of its turn."
+    },
+    {
+      "name": "Restrained",
+      "id": "Restrained",
+      "description": "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.\nAttack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.\nThe creature has disadvantage on Dexterity Saving Throws."
+    },
+    {
+      "name": "Stunned",
+      "id": "Stunned",
+      "description": "A stunned creature is incapacitated, can’t move, and can speak only falteringly.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage."
+    },
+    {
+      "name": "Unconscious",
+      "id": "Unconscious",
+      "description": "An unconscious creature is incapacitated, can’t move or speak, and is unaware of its surroundings.\nThe creature drops whatever it’s holding and falls prone.\nThe creature automatically fails Strength and Dexterity Saving Throws.\nAttack rolls against the creature have advantage.\nAny Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    }
+  ],
+  "unconsciousId": "Unconscious",
+  "version": [
+    13,
+    0,
+    16
+  ],
+  "canUseDiceRoll": false,
+  "preferStatblockLink": false,
+  "initiative": "1d20 + %mod%",
+  "modifier": null,
+  "sync": true,
+  "playerMarker": "default",
+  "monsterMarker": "default",
+  "state": {
+    "creatures": [
+      {
+        "name": "Merijn",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 100,
+        "currentMaxHP": 100,
+        "ac": "20",
+        "currentAC": "20",
+        "note": "Merijn",
+        "path": "1.pc/Merijn.md",
+        "id": "ID_b88a5bb8aa88",
+        "currentHP": 100,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "3",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Ramon",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 34,
+        "currentMaxHP": 34,
+        "ac": "14",
+        "currentAC": "14",
+        "note": "Ramon",
+        "path": "1.pc/Ramon.md",
+        "id": "ID_487b49ebda0a",
+        "currentHP": 34,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "3",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Jeffrey",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 34,
+        "currentMaxHP": 34,
+        "ac": "14",
+        "currentAC": "14",
+        "note": "Jeffrey",
+        "path": "1.pc/Jeffrey.md",
+        "id": "ID_d999e9cb99cb",
+        "currentHP": 34,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "3",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Goblin",
+        "initiative": 11,
+        "static": false,
+        "modifier": 2,
+        "hp": 7,
+        "currentMaxHP": 7,
+        "cr": "1/4",
+        "ac": 15,
+        "currentAC": 15,
+        "id": "ID_69ea5a2a6aab",
+        "currentHP": 7,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d6",
+        "rollHP": false
+      },
+      {
+        "name": "Goblin",
+        "initiative": 16,
+        "static": false,
+        "modifier": 2,
+        "hp": 7,
+        "currentMaxHP": 7,
+        "cr": "1/4",
+        "ac": 15,
+        "currentAC": 15,
+        "id": "ID_aa98289ac91b",
+        "currentHP": 7,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d6",
+        "rollHP": false
+      },
+      {
+        "name": "Goblin",
+        "initiative": 7,
+        "static": false,
+        "modifier": 2,
+        "hp": 7,
+        "currentMaxHP": 7,
+        "cr": "1/4",
+        "ac": 15,
+        "currentAC": 15,
+        "id": "ID_5ad9dafb6ac9",
+        "currentHP": 7,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d6",
+        "rollHP": false
+      },
+      {
+        "name": "Wolf",
+        "initiative": 3,
+        "static": false,
+        "modifier": 2,
+        "hp": 11,
+        "currentMaxHP": 11,
+        "cr": "1/4",
+        "ac": 13,
+        "currentAC": 13,
+        "id": "ID_29f8795baac8",
+        "currentHP": 11,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d8 + 2",
+        "rollHP": false
+      },
+      {
+        "name": "Wolf",
+        "initiative": 8,
+        "static": false,
+        "modifier": 2,
+        "hp": 11,
+        "currentMaxHP": 11,
+        "cr": "1/4",
+        "ac": 13,
+        "currentAC": 13,
+        "id": "ID_09bb6a99eb6b",
+        "currentHP": 11,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d8 + 2",
+        "rollHP": false
+      },
+      {
+        "name": "Hobgoblin",
+        "initiative": 20,
+        "static": false,
+        "modifier": 1,
+        "hp": 11,
+        "currentMaxHP": 11,
+        "cr": "1/2",
+        "ac": 18,
+        "currentAC": 18,
+        "id": "ID_9b8abaeafbf9",
+        "currentHP": 11,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d8 + 2",
+        "rollHP": false
+      },
+      {
+        "name": "Hobgoblin",
+        "initiative": 9,
+        "static": false,
+        "modifier": 1,
+        "hp": 11,
+        "currentMaxHP": 11,
+        "cr": "1/2",
+        "ac": 18,
+        "currentAC": 18,
+        "id": "ID_685a3a8a9888",
+        "currentHP": 11,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "2d8 + 2",
+        "rollHP": false
+      }
+    ],
+    "state": false,
+    "name": "Goblins!",
+    "round": 1,
+    "logFile": "",
+    "rollHP": false
+  },
+  "condense": false,
+  "clamp": true,
+  "autoStatus": true,
+  "beginnerTips": true,
+  "displayDifficulty": true,
+  "encounters": {
+    "Encounter 1": {
+      "creatures": [
+        {
+          "name": "Henk Plataan",
+          "initiative": 0,
+          "static": false,
+          "modifier": 4,
+          "hp": 65,
+          "currentMaxHP": 65,
+          "ac": "20",
+          "currentAC": "20",
+          "note": "Henk Plataan",
+          "path": "1.pc/Henk Plataan.md",
+          "id": "ID_aa8a3a69291a",
+          "currentHP": 65,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "level": "7",
+          "player": true,
+          "hidden": false,
+          "friendly": false,
+          "isPlayer": true,
+          "count": 1
+        },
+        {
+          "name": "Hobgoblin",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 11,
+          "currentMaxHP": 11,
+          "cr": "1/2",
+          "ac": 18,
+          "currentAC": 18,
+          "id": "ID_bbba890acba8",
+          "currentHP": 11,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "2d8 + 2"
+        },
+        {
+          "name": "Hobgoblin",
+          "initiative": 0,
+          "static": false,
+          "modifier": 1,
+          "hp": 11,
+          "currentMaxHP": 11,
+          "cr": "1/2",
+          "ac": 18,
+          "currentAC": 18,
+          "id": "ID_28cafa0b3878",
+          "currentHP": 11,
+          "tempHP": 0,
+          "status": [],
+          "enabled": true,
+          "hidden": false,
+          "friendly": false,
+          "hit_dice": "2d8 + 2"
+        }
+      ],
+      "state": false,
+      "name": "Encounter 1",
+      "round": 1,
+      "roll": true,
+      "rollHP": false,
+      "logFile": null,
+      "timestamp": 1729877142188
+    }
+  },
+  "warnedAboutImports": false,
+  "openState": {
+    "battle": true,
+    "party": true,
+    "status": true,
+    "plugin": true,
+    "player": true,
+    "builder": true
+  },
+  "hpOverflow": "ignore",
+  "additiveTemp": false,
+  "rpgSystem": "dnd5e",
+  "logging": false,
+  "logFolder": "/",
+  "useLegacy": false,
+  "diplayPlayerHPValues": true,
+  "rollHP": false,
+  "descending": true,
+  "builder": {
+    "showParty": false,
+    "showXP": false,
+    "sidebarIcon": true,
+    "headers": [
+      {
+        "text": "CR",
+        "field": "cr",
+        "type": 1
+      },
+      {
+        "text": "Type",
+        "field": "type",
+        "type": 0
+      },
+      {
+        "text": "Size",
+        "field": "size",
+        "type": 0
+      },
+      {
+        "text": "Alignment",
+        "field": "alignment",
+        "type": 0
+      }
+    ],
+    "filters": {
+      "filters": [
+        {
+          "type": 0,
+          "text": "CR",
+          "fields": [
+            "cr"
+          ],
+          "options": [
+            0,
+            30
+          ],
+          "id": "ID_DEFAULT_CR_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Size",
+          "fields": [
+            "size"
+          ],
+          "options": [
+            "large",
+            "medium",
+            "huge",
+            "gargantuan",
+            "small",
+            "tiny"
+          ],
+          "id": "ID_DEFAULT_SIZE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Type",
+          "fields": [
+            "type"
+          ],
+          "options": [
+            "aberration",
+            "humanoid",
+            "dragon",
+            "undead",
+            "elemental",
+            "monstrosity",
+            "construct",
+            "beast",
+            "plant",
+            "fiend",
+            "ooze",
+            "fey",
+            "giant",
+            "celestial",
+            "swarm of tiny beasts"
+          ],
+          "id": "ID_DEFAULT_TYPE_FILTER",
+          "derive": true
+        },
+        {
+          "type": 2,
+          "text": "Alignment",
+          "fields": [
+            "alignment"
+          ],
+          "options": [
+            "lawful evil",
+            "any alignment",
+            "chaotic evil",
+            "chaotic good",
+            "lawful good",
+            "neutral",
+            "lawful neutral",
+            "unaligned",
+            "any non-good alignment",
+            "any non-lawful alignment",
+            "neutral evil",
+            "any chaotic alignment",
+            "neutral good",
+            "chaotic neutral",
+            "neutral good (50%) or neutral evil (50%)",
+            "any evil alignment"
+          ],
+          "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+          "derive": true
+        }
+      ],
+      "layout": [
+        {
+          "nested": [
+            {
+              "id": "ID_DEFAULT_CR_FILTER",
+              "type": "filter"
+            }
+          ],
+          "id": "ID_DEFAULT_NESTED_CR",
+          "type": "nested"
+        },
+        {
+          "id": "ID_DEFAULT_NESTED_LAYOUT",
+          "type": "nested",
+          "nested": [
+            {
+              "id": "ID_DEFAULT_SIZE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_TYPE_FILTER",
+              "type": "filter"
+            },
+            {
+              "id": "ID_DEFAULT_ALIGNMENT_FILTER",
+              "type": "filter"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rollPlayerInitiatives": 2
+}

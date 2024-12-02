@@ -1,0 +1,207 @@
+{
+  "mapMarkers": [
+    {
+      "id": "ezaros-world-region",
+      "lastAccessed": 1730642615674,
+      "markers": [
+        {
+          "id": "ID_79abda2acb7a",
+          "type": "default",
+          "loc": [
+            -3.1640625,
+            2.3203001823019314
+          ],
+          "link": "Thundercore",
+          "layer": "%5B%5Brealm_of_bel.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.29010835002163343,
+            0.3956043956043956
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "World/The vale Of verdantia/Vale of Verdantia.md"
+      ]
+    },
+    {
+      "id": "MapCalcExample",
+      "lastAccessed": 1732971065225,
+      "markers": [
+        {
+          "id": "ID_6a690b486b9a",
+          "type": "default",
+          "loc": [
+            985.53125,
+            604.5112286707121
+          ],
+          "link": "Thundercore",
+          "layer": "%5B%5Brealm_of_bel.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "4.world/The vale Of verdantia/1.Vale of Verdantia.md"
+      ]
+    },
+    {
+      "id": "Thundercore ### Must be unique with no spaces  ",
+      "lastAccessed": 1732971110207,
+      "markers": [
+        {
+          "id": "ID_3af80b18a96b",
+          "type": "default",
+          "loc": [
+            -4.8162841796875,
+            4.375
+          ],
+          "link": "Thundercore general store",
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e8083a68388b",
+          "type": "default",
+          "loc": [
+            -5.02880859375,
+            3.703125
+          ],
+          "link": "Ken's Ironworks - blacksmith",
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a9c89818db9a",
+          "type": "default",
+          "loc": [
+            -4.375732421875,
+            4.6484375
+          ],
+          "link": "The sleepy willow",
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2a9998895b1a",
+          "type": "default",
+          "loc": [
+            -4.547607421875,
+            2.6328125
+          ],
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "City hall\n",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6af8485a0af8",
+          "type": "default",
+          "loc": [
+            -4.133544921875,
+            4.171875
+          ],
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Barracks\n",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a6adb09eaf9",
+          "type": "default",
+          "loc": [
+            -2.391357421875,
+            4.65625
+          ],
+          "link": "Meyn's tack and feed",
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

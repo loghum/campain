@@ -1,0 +1,205 @@
+{
+  "monsters": [
+    [
+      "Dummy The Iron Bruiser",
+      {
+        "name": "Dummy The Iron Bruiser",
+        "source": "5e SRD",
+        "size": "Medium",
+        "type": "Construct",
+        "alignment": "Neutral",
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "1d10",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          10,
+          10,
+          1,
+          1,
+          1
+        ],
+        "saves": {
+          "strength": 0,
+          "dexterity": 0,
+          "constitution": 0,
+          "intelligence": 0,
+          "wisdom": 0,
+          "charisma": 0
+        },
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": [
+          "Stunned",
+          "Frightened"
+        ],
+        "senses": "Passive Perception 5",
+        "languages": "None",
+        "cr": "1",
+        "proficiency_bonus": 2,
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Heavy Swing",
+            "desc": "Once per round, the dummy winds up for a powerful overhead strike. It requires a Dexterity (Acrobatics) check (DC 12) to dodge, allowing the character to avoid damage and potentially counterattack.",
+            "attack_bonus": 0
+          },
+          {
+            "name": "Weak Spot",
+            "desc": "If attacked from behind, the dummy takes +1 damage per hit, rewarding the recruit for maneuvering around it.",
+            "attack_bonus": 0
+          }
+        ],
+        "actions": [
+          {
+            "name": "Swing",
+            "desc": "The dummy swings his club. +2 to hit. Hit: 1d4 bludgening damage",
+            "attack_bonus": 2,
+            "damage_dice": "1d4",
+            "damage_bonus": 0
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": []
+      }
+    ],
+    [
+      "Dummy The Sharpshooter",
+      {
+        "name": "Dummy The Sharpshooter",
+        "source": "5e SRD",
+        "size": "Medium",
+        "type": "Construct",
+        "subtype": "tital",
+        "alignment": "Neutral",
+        "ac": 12,
+        "hp": 8,
+        "hit_dice": "1d8",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          10,
+          10,
+          1,
+          1,
+          1
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": [
+          "Frightened",
+          "Paralyzed"
+        ],
+        "senses": "Passive Perception 5",
+        "languages": "",
+        "cr": "1",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Quick Roll",
+            "desc": "After every attack, it rolls to a new position, forcing the recruit to chase it.",
+            "attack_bonus": 0
+          },
+          {
+            "name": "Reload Delay",
+            "desc": "After firing twice, it takes one round to 'reload,' giving the recruit a chance to close in or hide.",
+            "attack_bonus": 0
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shoot",
+            "desc": "The dummy shoots one of its crossbows. +0 to hit. Hit: 1d4 +0 piercing damage.",
+            "attack_bonus": 0,
+            "damage_dice": "1d4",
+            "damage_bonus": 0
+          }
+        ]
+      }
+    ],
+    [
+      "Dummy The spellslinger",
+      {
+        "name": "Dummy The spellslinger",
+        "source": "5e SRD",
+        "size": "Medium",
+        "type": "Construct",
+        "subtype": "tital",
+        "alignment": "Neutral",
+        "ac": 10,
+        "hp": 6,
+        "hit_dice": "1d8",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          10,
+          10,
+          1,
+          1,
+          1
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": [
+          "Frightened",
+          "Paralyzed"
+        ],
+        "senses": "Passive Perception 5",
+        "languages": "",
+        "cr": "1",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Magic Missile",
+            "desc": "Fires an unavoidable bolt of energy that deals 1 damage (limited to once every other round).",
+            "attack_bonus": 0
+          },
+          {
+            "name": "Shockwave",
+            "desc": "Releases a 5-foot radius pulse that pushes the recruit back 10 feet. Dexterity (Saving Throw) DC 12 to resist",
+            "attack_bonus": 0
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shoot",
+            "desc": "The dummy shoots a blob of energy. +0 to hit. Hit: 1d4 +0 piercing damage.",
+            "attack_bonus": 0,
+            "damage_dice": "1d4",
+            "damage_bonus": 0
+          }
+        ]
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 7,
+    "patch": 8
+  },
+  "paths": [
+    "Downloaded/Monsters",
+    "Downloaded/Monsters (Alt)",
+    "2.Monsters"
+  ],
+  "autoParse": true,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": true,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

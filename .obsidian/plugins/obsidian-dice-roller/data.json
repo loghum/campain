@@ -1,0 +1,135 @@
+{
+  "position": "RIGHT",
+  "showFudgeIcon": false,
+  "rollLinksForTags": false,
+  "copyContentButton": true,
+  "customFormulas": [],
+  "displayFormulaForMod": true,
+  "displayResultsInline": false,
+  "displayFormulaAfter": false,
+  "escapeDiceMod": true,
+  "signed": false,
+  "displayLookupRoll": true,
+  "formulas": {},
+  "defaultRoll": 1,
+  "defaultFace": 100,
+  "renderer": false,
+  "renderAllDice": false,
+  "addToView": false,
+  "renderTime": 2000,
+  "colorfulDice": false,
+  "scaler": 1,
+  "diceColor": "#202020",
+  "textColor": "#ffffff",
+  "textFont": "Arial",
+  "showLeafOnStartup": true,
+  "displayAsEmbed": true,
+  "round": "None",
+  "initialDisplay": "Roll",
+  "icons": [
+    {
+      "id": "dice-roller-d4",
+      "shape": "Triangle",
+      "formula": "d4",
+      "text": "4"
+    },
+    {
+      "id": "dice-roller-d6",
+      "shape": "Square",
+      "formula": "d6",
+      "text": "6"
+    },
+    {
+      "id": "dice-roller-d8",
+      "shape": "Diamond",
+      "formula": "d8",
+      "text": "8"
+    },
+    {
+      "id": "dice-roller-d10",
+      "shape": "Diamond",
+      "formula": "d10",
+      "text": "10"
+    },
+    {
+      "id": "dice-roller-d12",
+      "shape": "Dodecahedron",
+      "formula": "d12",
+      "text": "12"
+    },
+    {
+      "id": "dice-roller-d20",
+      "shape": "Icosahedron",
+      "formula": "d20",
+      "text": "20"
+    },
+    {
+      "id": "dice-roller-d100",
+      "shape": "Circle",
+      "formula": "d%",
+      "text": "%"
+    }
+  ],
+  "showRenderNotice": true,
+  "diceModTemplateFolders": {},
+  "replaceDiceModInLivePreview": true,
+  "version": "11.3.4",
+  "viewResults": [
+    {
+      "result": 13,
+      "original": "3d6",
+      "resultText": "[4, 4, 5]",
+      "timestamp": 1730027749970,
+      "id": "g_8fARSP7U2f"
+    },
+    {
+      "result": 1,
+      "original": "1d20",
+      "resultText": "[1]",
+      "timestamp": 1730027779432,
+      "id": "FG0YFPLTfVDG"
+    },
+    {
+      "result": 1,
+      "original": "1d20 - 5",
+      "resultText": "[6] - 5",
+      "timestamp": 1730027798595,
+      "id": "ukNIdJBiVhb2"
+    },
+    {
+      "result": 10,
+      "original": "1d20",
+      "resultText": "[10]",
+      "timestamp": 1730027803474,
+      "id": "ZHOxdE_3yNV5"
+    },
+    {
+      "result": 18,
+      "original": "1d20",
+      "resultText": "[18]",
+      "timestamp": 1730027808627,
+      "id": "M8IO_NbLDvI4"
+    },
+    {
+      "result": 2,
+      "original": "1d20kh",
+      "resultText": "[2]",
+      "timestamp": 1730027821203,
+      "id": "oHXNzfWLbtCF"
+    },
+    {
+      "result": 7,
+      "original": "1d20kl",
+      "resultText": "[7]",
+      "timestamp": 1730027829730,
+      "id": "Y0e7C03ancHH"
+    },
+    {
+      "result": 151,
+      "original": "42d6",
+      "resultText": "[4, 5, 2, 3, 1, 5, 5, 3, 4, 3, 1, 2, 2, 6, 2, 2, 6, 6, 1, 2, 1, 5, 4, 5, 5, 4, 5, 2, 5, 4, 6, 6, 5, 3, 6, 3, 3, 1, 3, 6, 2, 2]",
+      "timestamp": 1730028342909,
+      "id": "5KHesQP0WeoB"
+    }
+  ]
+}
