@@ -124,7 +124,7 @@ creatures:
   - 
 ```
 
-1 hobgoblin heeft de glazen bol. Verder hebben de hobgoblins 5 silver en een potion of healing. Verder is er niks te halen hier.
+1 hobgoblin heeft de glazen bol[[orb of direction]]. Verder hebben de hobgoblins 5 silver en een potion of healing. Verder is er niks te halen hier.
 
 ## trail 3 terug reis.
 12 uur reis.
