@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6f5b035e67ea39db",
+        "id": "73401e0a824e8e0b",
         "type": "tabs",
         "children": [
           {
-            "id": "0352d599ecc5700f",
+            "id": "4519abed8dd0a75b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z.test/test.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "6573878f52120858",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.Sessions/Session 0.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session 0"
-            }
-          },
-          {
-            "id": "887c6141c750cd14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Act 1/Bootcamp.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Bootcamp"
-            }
-          },
-          {
-            "id": "46e161f5d9608b63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.world/The vale Of verdantia/Thundercore/1.Thundercore.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.Thundercore"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,6 +82,7 @@
       {
         "id": "14de89181a8f1969",
         "type": "tabs",
+        "dimension": 50.57471264367817,
         "children": [
           {
             "id": "d3a60c35e83909ad",
@@ -204,6 +158,26 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a9e9e1ad091d2b28",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "392ab25349130b23",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
               "icon": "dices",
               "title": "Dice Tray"
             }
@@ -214,6 +188,7 @@
       {
         "id": "89345d23a8f03d36",
         "type": "tabs",
+        "dimension": 49.42528735632184,
         "children": [
           {
             "id": "6435bed6e6a3a2d7",
@@ -229,52 +204,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 712.5
+    "width": 817.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-5e-statblocks:Open Creature pane": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "887c6141c750cd14",
+  "active": "c517d08587f5dfed",
   "lastOpenFiles": [
-    "5.Sessions/Session 0.md",
-    "3.Quests/Act 1/Bootcamp.md",
-    "4.world/The vale Of verdantia/Thundercore/1.Thundercore.md",
-    "z.test/test.md",
-    "1.pc/Ramon.md",
-    "1.pc/Merijn.md",
-    "1.pc/Jeffrey.md",
-    "Ironhearth's acedemy-fightingpit.png",
-    "9.Images/sunken church.png",
-    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
-    "4.world/The vale Of verdantia/Thundercore/Ironheart’s Academy of Blades and Spells.md",
-    "4.world/The vale Of verdantia/Thundercore/The sleepy willow.md",
-    "4.world/The vale Of verdantia/Thundercore/The gilded goose - general goods and provisions.md",
-    "4.world/The vale Of verdantia/Thundercore/Ken's Ironworks - blacksmith.md",
-    "4.world/The vale Of verdantia/Thundercore/Meyn's tack and feed.md",
-    "6.rules/Homebrew rules.md",
-    "1.npc/Maraze Dunacott.md",
+    "7. spells/Thorn whip.md",
+    "7. spells/Wrathful Smite.md",
+    "9.Downloaded/Spells/Aid.md",
+    "1.npc/Simzy Tayfoot.md",
+    "7. spells",
+    "3.Quests/Act 1/The Disappearing Caravan.md",
+    "1.npc/Zeba Popeholt.md",
+    "1.npc/Jila Aikener.md",
     "1.npc/Lyra stormraven.md",
     "1.npc/Ken Lindafern.md",
-    "1.npc/Jila Aikener.md",
+    "Templates/New npc.md",
+    "1.pc/Ramon.md",
+    "Templates/Create custom monster.md",
+    "1.npc/Statblocks/Jila Aikener.md",
+    "1.npc/Statblocks",
+    "2.Monsters/Dummy The Iron Bruiser.md",
+    "5.Sessions/Session 0.md",
     "1.npc/Danri Upmont.md",
     "1.npc/Berric Ironheart.md",
-    "1.npc/Simzy Tayfoot.md",
-    "1.npc/Meron Hardwell.md",
-    "1.npc/Meyn Ridian.md",
-    "1.npc/Zeba Popeholt.md",
+    "3.Quests/Act 1/Missing child.md",
+    "3.Quests/Act 1/The Baker's Ghost Quest.md",
+    "3.Quests/Act 1/Main.md",
+    "z.test/test.md",
+    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
+    "4.world/The vale Of verdantia/Thundercore/The sleepy willow.md",
+    "4.world/The vale Of verdantia/Thundercore/Ken's Ironworks - blacksmith.md",
+    "4.world/The vale Of verdantia/Thundercore/The gilded goose - general goods and provisions.md",
+    "3.Quests/Act 1/Bootcamp.md",
+    "Ironhearth's acedemy-fightingpit.png",
+    "9.Images/sunken church.png",
     "9.Images/Ironhearth's acedemy-fightingpit.png",
     "9.Images/Ironhearth's acedemy.png",
-    "2.Monsters/Dummy The spellslinger.md",
     "6.rules",
     "5.Sessions",
     "2.Monsters",
@@ -285,8 +263,6 @@
     "3.Quests",
     "9.Images/realm_of_bel.png",
     "4.world/The vale Of verdantia/Thundercore",
-    "1.npc",
-    "9.Images",
     "9.Downloaded/RE&.logo.png"
   ]
 }

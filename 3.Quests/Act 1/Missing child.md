@@ -1,4 +1,4 @@
-
+Berric stormt de klas lokaal binnen. Team groen, kom met mij mee. In de hal staat vrouw. jaar 35. simpele kleren. Boer. "Ik was even afgeleid en toen verloor ik mijn 8 jarige dochter, Lila uit het ook."
 Option 1: The Missing Child
 Hook
 The adventurers are approached by a distraught parent, begging for help to find their missing child. The child, a curious 8-year-old named Lila, wandered off while playing near the edge of the forest. The parent last saw Lila heading toward an old, abandoned mill, and they fear something terrible has happened.

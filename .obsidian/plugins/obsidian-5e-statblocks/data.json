@@ -174,6 +174,296 @@
           }
         ]
       }
+    ],
+    [
+      "Jila Aikener",
+      {
+        "monster": "Jila Aikener",
+        "name": "Jila Aikener",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Chaotic Neutral",
+        "ac": 14,
+        "hp": 22,
+        "hit_dice": "3d8+3",
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          12,
+          10,
+          10,
+          16
+        ],
+        "saves": [
+          {
+            "strength": -1
+          },
+          {
+            "dexterity": 2
+          },
+          {
+            "constitution": 3
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 0
+          },
+          {
+            "charisma": 5
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 10",
+        "languages": "Common, Elvish",
+        "cr": 1,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>",
+          "1st level (2 slots) <STATBLOCK-WIKI-LINK>Charm Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Faerie Fire<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Fey Presence",
+            "desc": "As an action, the Warlock can cause each creature in a 10-foot cube originating from them to make a DC 13 Wisdom saving throw. On a failed save, the creature is either charmed or frightened (Warlock's choice) until the end of the Warlock's next turn. (1/Short Rest)"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The Warlock is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)"
+          },
+          {
+            "name": "Eldritch Invocations",
+            "desc": "The Warlock has the following Eldritch Invocations. Agonizing Blast (adds Charisma modifier to <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> damage) and Eldritch Spear (increases range of <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> to 300 ft.)"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack +5 to hit, range 300 ft., one target. Hit 1d10+3 force damage"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Zeba Popeholt",
+      {
+        "monster": "Zeba Popeholt",
+        "name": "Zeba Popeholt",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Lawful Evil",
+        "ac": 16,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          10,
+          14,
+          10,
+          10,
+          16
+        ],
+        "saves": [
+          {
+            "strength": 5
+          },
+          {
+            "dexterity": 0
+          },
+          {
+            "constitution": 4
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 2
+          },
+          {
+            "charisma": 5
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 10",
+        "languages": "Common, Celestial",
+        "cr": 1,
+        "spells": [
+          "1st level (3 slots) <STATBLOCK-WIKI-LINK>Bless<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Command<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Wrathful Smite<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Aura of Conquest",
+            "desc": "Creatures within 10 feet of the Paladin that are frightened have their speed reduced to 0"
+          },
+          {
+            "name": "Divine Smite",
+            "desc": "When the Paladin hits a creature with a melee weapon attack, they can expend a spell slot to deal radiant damage in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, up to a maximum of 5d8"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Longsword",
+            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. Hit 1d8+3 slashing damage or 1d10+3 if used with two hands"
+          },
+          {
+            "name": "Commanding Strike",
+            "desc": "The Paladin utters a command, forcing one creature of their choice within 30 feet that can hear them to make a DC 13 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. (Recharge 5-6)"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Simzy Tayfoot",
+      {
+        "monster": "Simzy Tayfoot",
+        "name": "Simzy Tayfoot",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Neutral",
+        "ac": 15,
+        "hp": 24,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          14,
+          12,
+          16,
+          10
+        ],
+        "saves": [
+          {
+            "strength": 0
+          },
+          {
+            "dexterity": 2
+          },
+          {
+            "constitution": 4
+          },
+          {
+            "intelligence": 1
+          },
+          {
+            "wisdom": 5
+          },
+          {
+            "charisma": 0
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 13",
+        "languages": "Common, Druidic",
+        "cr": 1,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Produce Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn Whip<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Faerie Fire<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Healing Word<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Moonbeam<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Combat Wild Shape",
+            "desc": "As a bonus action, the Druid can expend one use of Wild Shape to transform into a beast with a CR of 1 or lower. They can use a bonus action to expend a spell slot and regain 1d8 hit points per spell level while in beast form"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The Druid is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks)"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack +2 to hit, reach 5 ft., one target. Hit 1d6+2 bludgeoning damage or 1d8+2 if used with two hands"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
@@ -191,7 +481,8 @@
   "paths": [
     "Downloaded/Monsters",
     "Downloaded/Monsters (Alt)",
-    "2.Monsters"
+    "2.Monsters",
+    "1.npc"
   ],
   "autoParse": true,
   "disableSRD": false,
