@@ -44,7 +44,7 @@ senses: Passive Perception 10
 languages: Common, Celestial
 cr: 1
 spells:
-  - 1st level (3 slots) [[Bless]], [[Command]], [[Wrathful Smite]]
+  - 1st level (3 slots) [[Bless]], [[Command]], [[Thunderous Smite]]
 traits:
   - name: Aura of Conquest
     desc: Creatures within 10 feet of the Paladin that are frightened have their speed reduced to 0
