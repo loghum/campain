@@ -44,8 +44,8 @@ languages: Common, Druidic
 cr: 1
 spells:
   - cantrips [[Produce Flame]], [[thorn wip]]
-  - 1st level (4 slots) [[Faerie Fire]], [[Healing Word]]
-  - 2nd level (2 slots) [[Moonbeam]], [[Spike Growth]]
+  - 1st level (4 slots) [[Thunderwave]], [[Healing Word]], [[Entangle]]
+  - 2nd level (2 slots) [[Hold Person]], [[Spike Growth]], [[Heat Metal]]
 traits:
   - name: Combat Wild Shape
     desc: As a bonus action, the Druid can expend one use of Wild Shape to transform into a beast with a CR of 1 or lower. They can use a bonus action to expend a spell slot and regain 1d8 hit points per spell level while in beast form
