@@ -49,8 +49,8 @@ languages: Common, Elvish
 cr: 1
 spells:
   - cantrips [[Eldritch Blast]], [[Minor Illusion]]
-  - 1st level (2 slots) [[Charm Person]], [[Faerie Fire]]
-  - 2nd level (2 slots) [[Misty Step]], [[Hold Person]]
+  - 1st level (2 slots) [[Hex]]
+  - 2nd level (2 slots) [[Misty Step]], [[Hold Person]], [[Shatter]]
 traits:
   - name: Fey Presence
     desc: As an action, the Warlock can cause each creature in a 10-foot cube originating from them to make a DC 13 Wisdom saving throw. On a failed save, the creature is either charmed or frightened (Warlock's choice) until the end of the Warlock's next turn. (1/Short Rest)
