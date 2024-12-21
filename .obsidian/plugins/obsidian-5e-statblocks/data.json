@@ -464,6 +464,314 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Pixie",
+      {
+        "monster": "Pixie",
+        "name": "Pixie",
+        "size": "Tiny",
+        "type": "Fey",
+        "subtype": "None",
+        "alignment": "Neutral Good",
+        "ac": 15,
+        "hp": 1,
+        "speed": "10 ft., fly 30 ft.",
+        "stats": [
+          2,
+          20,
+          8,
+          10,
+          14,
+          15
+        ],
+        "saves": [
+          {
+            "strength": -4
+          },
+          {
+            "dexterity": 5
+          },
+          {
+            "constitution": -1
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 2
+          },
+          {
+            "charisma": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 4
+          },
+          {
+            "Stealth": 7
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 14",
+        "languages": "Sylvan",
+        "cr": "1/4",
+        "spells": [
+          {
+            "At will": "<STATBLOCK-WIKI-LINK>Druidcraft<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1/day each": "<STATBLOCK-WIKI-LINK>Confusion<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Dancing Lights<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Detect Evil and Good<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Detect Thoughts<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Dispel Magic<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fly<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Phantasmal Force<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Polymorph<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Sleep<STATBLOCK-WIKI-LINK>"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Innate Spellcasting",
+            "desc": "The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast its spells requiring only its pixie dust as a component."
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "The pixie has advantage on saving throws against spells and other magical effects."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Superior Invisibility",
+            "desc": "The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Quickling",
+      {
+        "monster": "Quickling",
+        "name": "Quickling",
+        "size": "Tiny",
+        "type": "Fey",
+        "subtype": "None",
+        "alignment": "Chaotic Evil",
+        "ac": 16,
+        "hp": 10,
+        "speed": "120 ft.",
+        "stats": [
+          4,
+          23,
+          13,
+          10,
+          12,
+          7
+        ],
+        "saves": [
+          {
+            "strength": -3
+          },
+          {
+            "dexterity": 6
+          },
+          {
+            "constitution": 1
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 1
+          },
+          {
+            "charisma": -2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 8
+          },
+          {
+            "Perception": 5
+          },
+          {
+            "Sleight of Hand": 8
+          },
+          {
+            "Stealth": 8
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., Passive Perception 15",
+        "languages": "Common, Sylvan",
+        "cr": 1,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Blurred Movement",
+            "desc": "Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained."
+          },
+          {
+            "name": "Evasion",
+            "desc": "If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The quickling makes three dagger attacks."
+          },
+          {
+            "name": "Dagger",
+            "desc": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4 + 6) piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Satyr",
+      {
+        "name": "Satyr",
+        "source": "5e SRD",
+        "size": "Medium",
+        "type": "Fey",
+        "subtype": "None",
+        "alignment": "Chaotic Neutral",
+        "ac": 14,
+        "hp": 31,
+        "hit_dice": "7d8 + -1",
+        "speed": "40 ft.",
+        "stats": [
+          12,
+          16,
+          11,
+          12,
+          10,
+          14
+        ],
+        "skillsaves": [
+          {
+            "Perception": 2
+          },
+          {
+            "Performance": 6
+          },
+          {
+            "Stealth": 5
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 12",
+        "languages": "Common, Elvish, Sylvan",
+        "cr": "1/2",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Magic Resistance",
+            "desc": "The satyr has advantage on saving throws against spells and other magical effects."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ram",
+            "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage."
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          },
+          {
+            "name": "Shortbow",
+            "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          }
+        ],
+        "monster": "Satyr",
+        "saves": [
+          {
+            "strength": 1
+          },
+          {
+            "dexterity": 3
+          },
+          {
+            "constitution": 0
+          },
+          {
+            "intelligence": 1
+          },
+          {
+            "wisdom": 0
+          },
+          {
+            "charisma": 2
+          }
+        ],
+        "spells": [],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},

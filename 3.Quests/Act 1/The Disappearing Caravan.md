@@ -32,10 +32,6 @@ Als ze proberen te luisteren. Perception check 13 dc
 name: Encounter name
 creatures:
   - 8:Bandit
-  - Zeba Popeholt
-  - Simzy Tayfoot
-  - Jila Aikener
-  - 
 ```
 
 

@@ -1,5 +1,5 @@
 ---
-name: Jeffrey
+name: TinkerWiz
 level: "3"
 hp: "34"
 ac: "14"

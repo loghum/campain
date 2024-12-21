@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/Act 1/Bootcamp.md",
+                "file": "5.Sessions/Session 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bootcamp"
+              "title": "Session 1"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "3.Quests/Act 1/Missing child.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of Missing child"
             }
           },
           {
@@ -162,8 +162,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
@@ -208,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 817.5
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,20 +225,33 @@
   },
   "active": "4519abed8dd0a75b",
   "lastOpenFiles": [
-    "z.test/test.md",
     "3.Quests/Act 1/Bootcamp.md",
+    "3.Quests/Act 1/Missing child.md",
+    "2.Monsters/Pixie.md",
+    "2.Monsters/Quickling.md",
+    "2.Monsters/Satyr.md",
+    "1.npc/Zeba Popeholt.md",
+    "1.pc/Roderick Fitzgerald-blackwood.md",
+    "1.pc/Rolf Ravioli.md",
+    "1.pc/TinkerWiz.md",
+    "2.Monsters/Dummy The Iron Bruiser.md",
+    "2.Monsters/Dummy The spellslinger.md",
+    "3.Quests/Act 1/The Baker's Ghost Quest.md",
+    "4. items/orb of direction.md",
+    "5.Sessions/Session 1.md",
+    "7. spells/Phantasmal Force.md",
+    "3.Quests/Act 1/The Disappearing Caravan.md",
+    "z.test/test.md",
+    "Nieuw - Text Document.txt",
+    "5.Sessions/Session 0.md",
     "Templates/New npc.md",
     "Templates/Monster statblock template.md",
     "7. spells/Wrathful Smite.md",
-    "3.Quests/Act 1/The Disappearing Caravan.md",
-    "5.Sessions/Session 1.md",
     "1.npc/Jila Aikener.md",
     "1.npc/Simzy Tayfoot.md",
-    "1.npc/Zeba Popeholt.md",
     "7. spells/Thunderous Smite.md",
     "1.npc/Ken Lindafern.md",
     "1.npc/Lyra stormraven.md",
-    "7. spells/Hex.md",
     "9.Images/ZebaPopeholt.png",
     "9.Images/SimzyTayfoot.png",
     "9.Images/JilaAikener.png",
@@ -247,20 +260,8 @@
     "9.Images/realm_of_bel.png",
     "9.Images/Ironhearth's acedemy.png",
     "9.Images/DALL·E 2024-12-13 15.12.36 - A top-down battlemap for a D&D scenario set in an abandoned forest mill. The map includes a circular clearing surrounded by dense trees and undergrowt.webp",
-    "1.npc/Meron Hardwell.md",
-    "1.npc/Meyn Ridian.md",
-    "5.Sessions/Session 0.md",
-    "7. spells/Thorn whip.md",
-    "9.Downloaded/Spells/Aid.md",
     "7. spells",
-    "1.pc/Ramon.md",
-    "Templates/Create custom monster.md",
-    "1.npc/Statblocks/Jila Aikener.md",
     "1.npc/Statblocks",
-    "2.Monsters/Dummy The Iron Bruiser.md",
-    "1.npc/Danri Upmont.md",
-    "1.npc/Berric Ironheart.md",
-    "3.Quests/Act 1/Missing child.md",
     "Ironhearth's acedemy-fightingpit.png",
     "9.Images/Ironhearth's acedemy-fightingpit.png",
     "6.rules",
@@ -269,7 +270,6 @@
     "3.Quests/Act 0",
     "3.Quests/Act 1/Bootcamp",
     "3.Quests/Act 1",
-    "3.Quests",
-    "4.world/The vale Of verdantia/Thundercore"
+    "3.Quests"
   ]
 }

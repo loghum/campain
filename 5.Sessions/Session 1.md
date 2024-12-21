@@ -3,3 +3,5 @@ Vorige sessie was sessie 0. Homebrew regels doorgenomem. Stats gerold. Begonnen 
 
 
 ## start sessie
+[[Bootcamp]] 
+[[Missing child]]

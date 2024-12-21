@@ -1,8 +1,8 @@
 ---
-name: Ramon
+name: Roderick
 level: "3"
-hp: "34"
-ac: "14"
+hp: "100"
+ac: "20"
 modifier: "4"
 ---
 Test
