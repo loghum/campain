@@ -70,24 +70,14 @@ Kort verhaaltje over hoe ze leren in de 3 maanden.
 - Spoor en speur kunde
 - Nederlands
 # Exam trail
-Berric: het is nu tijd voor jullie eind examen. Jullie krijgen 2 opdrachten. Jullie nemen het nog een keer op tegen de dummies om te laten hoe jullie hebben verbeterd. Daarna sturen we jullie naar afgelegen begraven ruine. Hier heb ik een glazen bal achter gelaten die jullie voor moeten ophalen. Ik heb ook een paar andere verassingen achtergelaten. 
+Berric: het is nu tijd voor jullie eind examen. Jullie krijgen 2 opdrachten. We sturen jullie naar afgelegen begraven ruine. Hier heb ik een glazen bal achter gelaten die jullie voor moeten ophalen. Ik heb ook een paar andere verassingen achtergelaten. Wij helpen jullie om daar te komen, jullie moeten zelf zien weer terug te komen. *Geef map van de omgeving*. Als beide teams weer terug zijn, is er nog een laatste uitdaging. Halen julie deze proeven, dan mogen jullie echte contracten uitvoeren terwijl jullie hier nog leren. 
 
 ## trail 1
-```encounter
-name: Encounter name
-creatures: 
-  - Dummy The Iron Bruiser
-  - Dummy The Sharpshooter
-  - Dummy The spellslinger
-```
-
-Berric: neem rust. morgen ochtend vertrekken jullie naar de ruine
-## trail2
-Berric: we teleporteren jullie naar de ruine the sunken church. Jullie gaan naar binnen en halen de glazen bol op en brengen het terug naar mij. Jullie zijn op zoek naar een grot ingang. Geeft map van omgeving
+Berric: we teleporteren jullie naar de ruine the sunken church. Jullie gaan naar binnen en halen de glazen bol op en brengen het terug naar mij. Jullie zijn op zoek naar een grot ingang. Lyra, de vrouw van berric: "Zijn jullie er klaar voor, houd elkaars handen vast"
 
 na teleporten:
 
-Staan aan het rand van een bos. Perseption check 10dc zien ze een smal pad het bos ingaan. Na 15 minuten lopen komen ze aan bij een grot ingang.
+Staan aan het rand van een bos. golvende open vlakte. Perseption check 10dc zien ze een smal pad het bos ingaan. Na 15 minuten lopen komen ze aan bij een grot ingang. pressure plate. 14 perseption. 16 dex save. 10 con save or [[Conditions#Poisoned]]
 De gang snaked ongeveer 100 meter.
 
 ![[sunken church.png]]
@@ -127,5 +117,15 @@ creatures:
 1 hobgoblin heeft de glazen bol[[orb of direction]]. Verder hebben de hobgoblins 5 silver en een potion of healing. Verder is er niks te halen hier.
 
 ## trail 3 terug reis.
-12 uur reis.
+12 uur reis. 14 perception check voor bekend landmarks. haal. dan 2 uur van reistijd af. survival check of 15 voor snelste weg thuis. fail dan komen ze een 
+
+```encounter
+name: Encounter name
+creatures:
+  - Ape
+  - 
+  -
+  - 
+  - 
+```
 

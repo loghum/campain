@@ -14,6 +14,8 @@ Voice: Deep, Normal volume, Slow, Speaks in a very formal manner
 Mannerism: They are always looking for a way to make money
 PlotHook: Is being framed for a crime they didn't commit
 
+![[ZebaPopeholt.png]]
+
 Conquest Paladin
 ```statblock
 
@@ -23,7 +25,7 @@ size: Medium
 type: Humanoid
 subtype: None
 alignment: Lawful Evil
-ac: 16
+ac: 18 Chainmail + shield
 hp: 27
 speed: 30 ft.
 stats: [16, 10, 14, 10, 10, 16]

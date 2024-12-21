@@ -14,6 +14,8 @@ Voice: Deep, Forceful, Fast, Speaks in a monotone
 Mannerism: They are very judgemental
 PlotHook: Woke up here this morning with no memory of how they got here, and a very sore toe
 
+![[SimzyTayfoot.png]]
+
 moon druid
 ```statblock
 monster: Simzy Tayfoot
@@ -43,7 +45,7 @@ senses: Passive Perception 13
 languages: Common, Druidic
 cr: 1
 spells:
-  - cantrips [[Produce Flame]], [[thorn wip]]
+  - cantrips [[Produce Flame]], [[Thorn whip]]
   - 1st level (4 slots) [[Thunderwave]], [[Healing Word]], [[Entangle]]
   - 2nd level (2 slots) [[Hold Person]], [[Spike Growth]], [[Heat Metal]]
 traits:
@@ -64,5 +66,9 @@ reactions:
   - name: None
     desc: None
 
+```
+
+```statblock
+creature: Panther
 ```
 

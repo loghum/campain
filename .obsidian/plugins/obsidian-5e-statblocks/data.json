@@ -228,8 +228,8 @@
         "cr": 1,
         "spells": [
           "cantrips <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>",
-          "1st level (2 slots) <STATBLOCK-WIKI-LINK>Charm Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Faerie Fire<STATBLOCK-WIKI-LINK>",
-          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>"
+          "1st level (2 slots) <STATBLOCK-WIKI-LINK>Hex<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shatter<STATBLOCK-WIKI-LINK>"
         ],
         "traits": [
           {
@@ -282,7 +282,7 @@
         "type": "Humanoid",
         "subtype": "None",
         "alignment": "Lawful Evil",
-        "ac": 16,
+        "ac": "18 Chainmail + shield",
         "hp": 27,
         "speed": "30 ft.",
         "stats": [
@@ -324,7 +324,7 @@
         "languages": "Common, Celestial",
         "cr": 1,
         "spells": [
-          "1st level (3 slots) <STATBLOCK-WIKI-LINK>Bless<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Command<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Wrathful Smite<STATBLOCK-WIKI-LINK>"
+          "1st level (3 slots) <STATBLOCK-WIKI-LINK>Bless<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Command<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thunderous Smite<STATBLOCK-WIKI-LINK>"
         ],
         "traits": [
           {
@@ -423,9 +423,9 @@
         "languages": "Common, Druidic",
         "cr": 1,
         "spells": [
-          "cantrips <STATBLOCK-WIKI-LINK>Produce Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn Whip<STATBLOCK-WIKI-LINK>",
-          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Faerie Fire<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Healing Word<STATBLOCK-WIKI-LINK>",
-          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Moonbeam<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>"
+          "cantrips <STATBLOCK-WIKI-LINK>Produce Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn whip<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Thunderwave<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Healing Word<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Heat Metal<STATBLOCK-WIKI-LINK>"
         ],
         "traits": [
           {
