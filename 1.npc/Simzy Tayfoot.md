@@ -72,3 +72,85 @@ reactions:
 creature: Panther
 ```
 
+Updated Simzy Tayfoot
+Monster: Simzy Tayfoot
+Name: Simzy Tayfoot
+Size: Medium
+Type: Humanoid
+Subtype: None
+Alignment: Neutral
+AC: 15 (Hide Armor + Dexterity)
+HP: 24
+Speed: 30 ft.
+
+Stats:
+
+Strength: 10
+Dexterity: 14
+Constitution: 14
+Intelligence: 12
+Wisdom: 18
+Charisma: 9
+Saves:
+
+Strength: +0
+Dexterity: +2
+Constitution: +4
+Intelligence: +1
+Wisdom: +6
+Charisma: -1
+Skillsaves:
+
+None
+Damage Vulnerabilities: None
+Damage Resistances: None
+Damage Immunities: None
+Condition Immunities: None
+
+Senses: Passive Perception 14
+Languages: Common, Druidic
+
+CR: 1
+
+Spells:
+
+Cantrips: Produce Flame, Thorn Whip
+1st Level (4 slots): Thunderwave, Healing Word, Entangle
+2nd Level (2 slots): Hold Person, Spike Growth, Heat Metal
+Features:
+
+Wild Shape (Moon Druid):
+
+You can transform into a beast with a CR of 1 or lower as a bonus action, and your Wild Shape can last for up to 3 hours.
+While in beast form, you can use a bonus action to expend a spell slot and regain 1d8 hit points per spell level.
+Combat Wild Shape:
+
+As a bonus action, you can transform into a beast.
+You can use a bonus action to expend a spell slot to regain 1d8 hit points per level of the slot.
+Spellcasting:
+
+You are a 3rd-level spellcaster. Your spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks).
+Druid Circle (Circle of the Moon):
+
+Your connection with nature allows you to transform into more powerful beasts.
+Feat: War Caster:
+
+You have advantage on Constitution saving throws to maintain concentration on a spell when you take damage.
+You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
+When a hostile creature’s movement provokes an opportunity attack, you can cast a spell at the creature instead of making an opportunity attack. The spell must have a casting time of 1 action and target only that creature.
+Actions:
+
+Quarterstaff: Melee Weapon Attack +2 to hit, reach 5 ft., one target.
+Hit: 1d6 + 2 bludgeoning damage or 1d8 + 2 if used with two hands.
+Legendary Actions:
+
+None
+Bonus Actions:
+
+None
+Reactions:
+
+None
+
+Create dire wolf
+
