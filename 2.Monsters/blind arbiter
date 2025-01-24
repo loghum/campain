@@ -1,0 +1,42 @@
+Blind Arbiter
+Medium aberration, neutral
+
+Armor Class: 16 (natural armor)
+Hit Points: 60 (8d8 + 24)
+Speed: 0 ft.
+
+STR	DEX	CON	INT	WIS	CHA
+8 (-1)	14 (+2)	16 (+3)	10 (+0)	18 (+4)	12 (+1)
+Saving Throws Wis +6, Dex +4
+Skills Perception +6, Insight +6
+Damage Resistances Necrotic, Psychic
+Damage Immunities Poison, Bludgeoning, Piercing, and Slashing from nonmagical attacks
+Condition Immunities Blinded, Charmed, Frightened, Poisoned
+Senses Blindsight 60 ft. (blind beyond this radius), Passive Perception 16
+Languages Telepathy 60 ft.
+
+Traits
+Unlimited Reactions. The Blind Arbiter can take any number of reactions per round, but only one per trigger.
+
+Aura of Intimidation. Creatures that start their turn within 10 feet of the Arbiter must succeed on a DC 14 Wisdom saving throw or have disadvantage on attack rolls against creatures other than the Arbiter until the start of their next turn.
+
+Eerie Stillness. The Arbiter does not take actions or bonus actions, relying solely on its reactions and legendary actions to interact with its environment and adversaries.
+
+Actions
+The Blind Arbiter has no actions.
+
+Reactions
+Judgment Slash. When a creature within 5 feet of the Arbiter makes an attack, the Arbiter lashes out with an invisible psychic blade.
+Melee Weapon Attack: +6 to hit, reach 5 ft., one target.
+Hit: 12 (2d8 + 3) psychic damage.
+
+Deflecting Glare. When a creature casts a spell within 30 feet of the Arbiter, the Arbiter forces the caster to make a DC 14 Constitution saving throw. On a failed save, the caster takes 9 (2d6 + 2) psychic damage and loses concentration (if applicable).
+
+Grasp of the Abyss. When a creature moves within 10 feet of the Arbiter, the creature must succeed on a DC 14 Strength saving throw or be pulled adjacent to the Arbiter and restrained until the end of its next turn.
+
+Reflective Pain. When the Arbiter takes damage from a melee attack, the attacker must succeed on a DC 14 Wisdom saving throw or take psychic damage equal to half the damage dealt to the Arbiter.
+
+Legendary Actions
+The Blind Arbiter can take 1 legendary action per round, choosing from the options below. It regains the ability to do so at the start of its turn.
+
+Misty Step (Costs 1 Action). The Arbiter magically teleports up to 30 feet to an unoccupied space it can sense within range.
