@@ -28,21 +28,21 @@ alignment: Lawful Evil
 ac: 18 Chainmail + shield
 hp: 27
 speed: 30 ft.
-stats: [16, 10, 14, 10, 10, 16]
+stats: [20, 10, 14, 9, 12, 11]
 saves:
-  - strength: +5
+  - strength: +7
   - dexterity: +0
   - constitution: +4
-  - intelligence: +0
-  - wisdom: +2
-  - charisma: +5
+  - intelligence: -1
+  - wisdom: +3
+  - charisma: +2
 skillsaves:
   - None
 damage_vulnerabilities: None
 damage_resistances: None
 damage_immunities: None
 condition_immunities: None
-senses: Passive Perception 10
+senses: Passive Perception 11
 languages: Common, Celestial
 cr: 1
 spells:
@@ -54,9 +54,13 @@ traits:
     desc: When the Paladin hits a creature with a melee weapon attack, they can expend a spell slot to deal radiant damage in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, up to a maximum of 5d8
   - name: Spellcasting
     desc: The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)
+- name: Divine Sense (3 Uses)
+    desc: As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn.
+- name: Lay on Hands 5xlvl
+    desc: You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target.
 actions:
   - name: Longsword
-    desc: Melee Weapon Attack +5 to hit, reach 5 ft., one target. Hit 1d8+3 slashing damage or 1d10+3 if used with two hands
+    desc: Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 1d8+5 slashing damage or 1d10+3 if used with two hands
   - name: Commanding Strike
     desc: The Paladin utters a command, forcing one creature of their choice within 30 feet that can hear them to make a DC 13 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. (Recharge 5-6)
 legendary_actions:
