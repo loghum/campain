@@ -32,3 +32,41 @@ Key NPCs
 Lyria Vanholt: A morally ambiguous scholar desperate to rewrite her past mistakes.
 Karael Voss: A warlock with delusions of grandeur, who views the Eye as a tool for ultimate power.
 Spectral Sentinel: The ancient, incorporeal guardian of the Vault, bound to test anyone seeking the artifact
+
+
+Lyria Vanholt
+Medium humanoid (human), Neutral
+
+Armor Class: 13 (16 with mage armor)
+Hit Points: 45 (7d8 + 14)
+Speed: 30 ft.
+
+STR	DEX	CON	INT	WIS	CHA
+8 (-1)	14 (+2)	14 (+2)	18 (+4)	12 (+1)	14 (+2)
+Saving Throws Int +6, Wis +3
+Skills Arcana +6, History +6, Investigation +6, Persuasion +4
+Damage Resistances Psychic (via Mind Ward trait)
+Languages Common, Elvish, Draconic, Infernal
+
+Traits
+Arcane Scholar. Lyria has advantage on Intelligence (Arcana) and Intelligence (History) checks related to ancient artifacts, magical glyphs, and curses.
+
+Mind Ward (1/Day). When Lyria takes psychic damage, she can reduce the damage by 10.
+
+Tactical Mind. Lyria can use the Help action as a bonus action to assist an ally within 30 feet in making an attack roll or ability check.
+
+Actions
+Dagger.
+Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target.
+Hit: 5 (1d6 + 2) piercing damage.
+
+Spellcasting. Lyria is a 5th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). She has the following spells prepared:
+
+Cantrips (at will): Mage Hand, Minor Illusion, Prestidigitation, Ray of Frost
+1st level (4 slots): Mage Armor, Shield, Magic Missile
+2nd level (3 slots): Mirror Image, Misty Step
+3rd level (2 slots): Counterspell, Fireball
+Reactions
+Counterspell. When a creature casts a spell that Lyria can see within 60 feet, she can use her reaction to attempt to interrupt it.
+
+Shield (1st-level spell). When she is hit by an attack, Lyria can use her reaction to increase her AC by 5 until the start of her next turn.
