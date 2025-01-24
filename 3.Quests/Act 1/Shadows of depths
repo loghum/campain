@@ -144,3 +144,28 @@ Loot:
 The Eye of Nythra, the key artifact of the quest.
 An Obsidian Blade is embedded in the pedestal’s base.
 A hidden cache behind one of the walls contains the Shadowfell Lantern and an additional 100 gold pieces.
+
+
+Puzzle Mechanics:
+Correct Order: The players must press the buttons in the following order: 3, 1, 2, 1, 4 (Star, Moon, Sun, Moon, Cloud).
+
+Trap Activation: Each time the players press a wrong button, shadow mastiffs are summoned and immediately attack.
+
+Mastiff Count:
+
+On the first mistake, 4 shadow mastiffs are summoned.
+On the second mistake, only 3 shadow mastiffs appear.
+On the third mistake, 2 shadow mastiffs are summoned.
+On the fourth mistake, only 1 shadow mastiff remains.
+Once all the mastiffs are defeated or incapacitated, the puzzle resets, and the buttons return to their original positions. The players must try again.
+
+The reset does not affect the mastiff count; each mistake still reduces the number of mastiffs.
+
+Additional Detail:
+The mastiffs are CR 1/2 each, so the encounter begins with a moderately tough challenge and gets progressively easier with each mistake.
+Example:
+Players press button 3 (correct).
+They press button 2 (wrong) — 4 shadow mastiffs spawn.
+After defeating the mastiffs, the puzzle resets.
+Players try again and press button 4 (wrong) — 3 shadow mastiffs spawn this time.
+This setup keeps the trap challenging but provides a clear advantage with each mistake, as the mastiffs become fewer and easier to deal with. Would you like any other tweaks or details for the encounter?
