@@ -27,14 +27,14 @@ alignment: Neutral
 ac: 15
 hp: 24
 speed: 30 ft.
-stats: [10, 14, 14, 12, 16, 10]
+stats: [10, 14, 14, 12, 20, 9]
 saves:
   - strength: +0
   - dexterity: +2
   - constitution: +4
   - intelligence: +1
-  - wisdom: +5
-  - charisma: +0
+  - wisdom: +7
+  - charisma: -1
 skillsaves:
   - None
 damage_vulnerabilities: None
@@ -52,7 +52,9 @@ traits:
   - name: Combat Wild Shape
     desc: As a bonus action, the Druid can expend one use of Wild Shape to transform into a beast with a CR of 1 or lower. They can use a bonus action to expend a spell slot and regain 1d8 hit points per spell level while in beast form
   - name: Spellcasting
-    desc: The Druid is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks)
+    desc: The Druid is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks)
+- name: feat warcaster
+    desc: You have advantage on Constitution saving throws to maintain concentration on a spell when you take damage. You can perform the somatic components of spells even when you have weapons or a shield in one or both hands. When a hostile creature’s movement provokes an opportunity attack, you can cast a spell at the creature instead of making an opportunity attack. The spell must have a casting time of 1 action and target only that creature
 actions:
   - name: Quarterstaff
     desc: Melee Weapon Attack +2 to hit, reach 5 ft., one target. Hit 1d6+2 bludgeoning damage or 1d8+2 if used with two hands
