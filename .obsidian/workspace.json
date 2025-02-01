@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Sessions/Session 1.md",
-                "mode": "preview",
+                "file": "3.Quests/Act 1/Shadows in the Depths.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Session 1"
+              "title": "Shadows in the Depths"
             }
           }
         ]
@@ -208,7 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 942.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,38 +225,42 @@
   },
   "active": "4519abed8dd0a75b",
   "lastOpenFiles": [
-    "3.Quests/Act 1/Bootcamp.md",
-    "3.Quests/Act 1/Missing child.md",
-    "2.Monsters/Pixie.md",
-    "2.Monsters/Quickling.md",
-    "2.Monsters/Satyr.md",
-    "1.npc/Zeba Popeholt.md",
-    "1.pc/Roderick Fitzgerald-blackwood.md",
-    "1.pc/Rolf Ravioli.md",
-    "1.pc/TinkerWiz.md",
-    "2.Monsters/Dummy The Iron Bruiser.md",
-    "2.Monsters/Dummy The spellslinger.md",
-    "3.Quests/Act 1/The Baker's Ghost Quest.md",
-    "4. items/orb of direction.md",
-    "5.Sessions/Session 1.md",
-    "7. spells/Phantasmal Force.md",
     "3.Quests/Act 1/The Disappearing Caravan.md",
-    "z.test/test.md",
-    "Nieuw - Text Document.txt",
-    "5.Sessions/Session 0.md",
-    "Templates/New npc.md",
-    "Templates/Monster statblock template.md",
-    "7. spells/Wrathful Smite.md",
-    "1.npc/Jila Aikener.md",
-    "1.npc/Simzy Tayfoot.md",
-    "7. spells/Thunderous Smite.md",
-    "1.npc/Ken Lindafern.md",
-    "1.npc/Lyra stormraven.md",
+    "3.Quests/Act 1/Shadows in the Depths.md",
+    "4. items/Traveler’s Beacon.md",
+    "1.npc/Lyra vanHolt.md",
+    "1.npc/Thundercore/School/Zeba Popeholt.md",
+    "1.npc/Thundercore/Meyn Ridian.md",
+    "1.npc/Thundercore/School/Jila Aikener.md",
+    "1.npc/Thundercore/School/Berric Ironheart.md",
+    "3.Quests/Act 1/Bootcamp.md",
+    "3.Quests/Act 1/Main.md",
+    "1.npc/Thundercore/Meron Hardwell.md",
+    "1.npc/Thundercore/Marek halford.md",
+    "1.npc/Thundercore/Maraze Dunacott.md",
+    "1.npc/Thundercore/Ken Lindafern.md",
+    "1.npc/Thundercore/Danri Upmont.md",
+    "1.npc/Thundercore/School/Lyra stormraven.md",
+    "1.npc/Thundercore/School/Simzy Tayfoot.md",
+    "1.pc/Yakub Khalid Sumbul.md",
+    "1.pc/TinkerWiz.md",
+    "1.pc/Rolf Ravioli.md",
+    "1.pc/Roderick Fitzgerald-blackwood.md",
+    "5.Sessions/Session 2.md",
+    "4. items/Mender’s Stone.md",
+    "9.Images/thundercore.png",
     "9.Images/ZebaPopeholt.png",
+    "9.Images/sunken church.png",
+    "7. spells/Hex.md",
+    "7. spells/Phantasmal Force.md",
+    "7. spells/Thorn whip.md",
+    "1.badguys",
+    "1.npc/Thundercore/School",
+    "3.Quests/Completed",
+    "1.npc/Thundercore",
+    "Nieuw - Text Document.txt",
     "9.Images/SimzyTayfoot.png",
     "9.Images/JilaAikener.png",
-    "9.Images/thundercore.png",
-    "9.Images/sunken church.png",
     "9.Images/realm_of_bel.png",
     "9.Images/Ironhearth's acedemy.png",
     "9.Images/DALL·E 2024-12-13 15.12.36 - A top-down battlemap for a D&D scenario set in an abandoned forest mill. The map includes a circular clearing surrounded by dense trees and undergrowt.webp",
@@ -266,10 +270,6 @@
     "9.Images/Ironhearth's acedemy-fightingpit.png",
     "6.rules",
     "5.Sessions",
-    "2.Monsters",
-    "3.Quests/Act 0",
-    "3.Quests/Act 1/Bootcamp",
-    "3.Quests/Act 1",
-    "3.Quests"
+    "2.Monsters"
   ]
 }

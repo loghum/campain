@@ -185,16 +185,16 @@
         "subtype": "None",
         "alignment": "Chaotic Neutral",
         "ac": 14,
-        "hp": 22,
+        "hp": 24,
         "hit_dice": "3d8+3",
         "speed": "30 ft.",
         "stats": [
           8,
           14,
+          14,
+          10,
           12,
-          10,
-          10,
-          16
+          20
         ],
         "saves": [
           {
@@ -204,16 +204,16 @@
             "dexterity": 2
           },
           {
-            "constitution": 3
+            "constitution": 4
           },
           {
             "intelligence": 0
           },
           {
-            "wisdom": 0
+            "wisdom": 1
           },
           {
-            "charisma": 5
+            "charisma": 7
           }
         ],
         "skillsaves": [
@@ -223,7 +223,7 @@
         "damage_resistances": "None",
         "damage_immunities": "None",
         "condition_immunities": "None",
-        "senses": "Passive Perception 10",
+        "senses": "Passive Perception 11",
         "languages": "Common, Elvish",
         "cr": 1,
         "spells": [
@@ -238,11 +238,19 @@
           },
           {
             "name": "Spellcasting",
-            "desc": "The Warlock is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)"
+            "desc": "The Warlock is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks)"
           },
           {
             "name": "Eldritch Invocations",
-            "desc": "The Warlock has the following Eldritch Invocations. Agonizing Blast (adds Charisma modifier to <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> damage) and Eldritch Spear (increases range of <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> to 300 ft.)"
+            "desc": "The Warlock has the following Eldritch Invocations. Agonizing Blast, adds Charisma modifier to Eldritch Blast damage. Repelling Blast When you hit a creature with Eldritch Blast, you can push the creature up to 10 feet away from you in a straight line."
+          },
+          {
+            "name": "feat warcaster",
+            "desc": "Advantage on Constitution saving throws to maintain concentration on a spell. Can perform somatic components of spells even when holding weapons or a  shield. When a creature provokes an opportunity attack, you can cast a spell targeting the creature instead of making a melee attack (spell must have a casting time of 1 action and target only that creature)."
+          },
+          {
+            "name": "Dark One’s Blessing",
+            "desc": "When reducing a creature to 0 hit points, gain temporary hit points equal to Charisma modifier + Warlock level (minimum 1)."
           }
         ],
         "actions": [
@@ -286,16 +294,16 @@
         "hp": 27,
         "speed": "30 ft.",
         "stats": [
-          16,
+          20,
           10,
           14,
-          10,
-          10,
-          16
+          9,
+          12,
+          11
         ],
         "saves": [
           {
-            "strength": 5
+            "strength": 7
           },
           {
             "dexterity": 0
@@ -304,13 +312,13 @@
             "constitution": 4
           },
           {
-            "intelligence": 0
+            "intelligence": -1
           },
           {
-            "wisdom": 2
+            "wisdom": 3
           },
           {
-            "charisma": 5
+            "charisma": 2
           }
         ],
         "skillsaves": [
@@ -320,7 +328,7 @@
         "damage_resistances": "None",
         "damage_immunities": "None",
         "condition_immunities": "None",
-        "senses": "Passive Perception 10",
+        "senses": "Passive Perception 11",
         "languages": "Common, Celestial",
         "cr": 1,
         "spells": [
@@ -338,12 +346,20 @@
           {
             "name": "Spellcasting",
             "desc": "The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)"
+          },
+          {
+            "name": "Divine Sense (3 Uses)",
+            "desc": "As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn."
+          },
+          {
+            "name": "Lay on Hands 5xlvl",
+            "desc": "You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target."
           }
         ],
         "actions": [
           {
             "name": "Longsword",
-            "desc": "Melee Weapon Attack +5 to hit, reach 5 ft., one target. Hit 1d8+3 slashing damage or 1d10+3 if used with two hands"
+            "desc": "Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 1d8+5 slashing damage or 1d10+3 if used with two hands"
           },
           {
             "name": "Commanding Strike",
@@ -389,8 +405,8 @@
           14,
           14,
           12,
-          16,
-          10
+          20,
+          9
         ],
         "saves": [
           {
@@ -406,10 +422,10 @@
             "intelligence": 1
           },
           {
-            "wisdom": 5
+            "wisdom": 7
           },
           {
-            "charisma": 0
+            "charisma": -1
           }
         ],
         "skillsaves": [
@@ -434,7 +450,11 @@
           },
           {
             "name": "Spellcasting",
-            "desc": "The Druid is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks)"
+            "desc": "The Druid is a 3rd-level spellcaster. Their spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks)"
+          },
+          {
+            "name": "feat warcaster",
+            "desc": "You have advantage on Constitution saving throws to maintain concentration on a spell when you take damage. You can perform the somatic components of spells even when you have weapons or a shield in one or both hands. When a hostile creature’s movement provokes an opportunity attack, you can cast a spell at the creature instead of making an opportunity attack. The spell must have a casting time of 1 action and target only that creature"
           }
         ],
         "actions": [

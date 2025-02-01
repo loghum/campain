@@ -31,13 +31,17 @@ Als ze proberen te luisteren. Perception check 13 dc
 ```encounter
 name: Encounter name
 creatures:
-  - 8:Bandit
+  - 7:Bandit
+  - Bandit Captain
+  - 
 ```
 
 
 A chest of gold (50 gp).
 zakken en kratten met herbs enzo 12 gold 
 duurius is ligt gewond maar kan lopen.
+
+Vind een brief: handoud
 
 bij terug komst in de winkel. Meron helemaal blij. Jammer van de inhoud.
 

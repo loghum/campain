@@ -61,7 +61,7 @@
     },
     {
       "id": "Thundercore ### Must be unique with no spaces  ",
-      "lastAccessed": 1732971110207,
+      "lastAccessed": 1738075167607,
       "markers": [
         {
           "id": "ID_3af80b18a96b",
@@ -162,11 +162,30 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_3868eadad9cb",
+          "type": "default",
+          "loc": [
+            -3.6134033203125,
+            2.80859375
+          ],
+          "link": "The jolly Jackdaw (pub)",
+          "layer": "%5B%5Bthundercore.png%5D%5D%20%23%23%23%20Link%20to%20the%20map%20image%20file%20%20",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
       "shapes": [],
-      "files": []
+      "files": [
+        "4.world/The vale Of verdantia/Thundercore/1.Thundercore.md"
+      ]
     }
   ],
   "defaultMarker": {

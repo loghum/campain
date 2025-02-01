@@ -54,9 +54,9 @@ traits:
     desc: When the Paladin hits a creature with a melee weapon attack, they can expend a spell slot to deal radiant damage in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, up to a maximum of 5d8
   - name: Spellcasting
     desc: The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)
-- name: Divine Sense (3 Uses)
+  - name: Divine Sense 3 Uses
     desc: As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn.
-- name: Lay on Hands 5xlvl
+  - name: Lay on Hands 5xlvl
     desc: You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target.
 actions:
   - name: Longsword

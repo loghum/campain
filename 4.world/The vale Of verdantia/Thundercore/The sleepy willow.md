@@ -1,4 +1,4 @@
-[[Meron Hardwell]]
+![[Meron Hardwell]]
 #### **Items for Sale**
 
 **Potions and Elixirs**
