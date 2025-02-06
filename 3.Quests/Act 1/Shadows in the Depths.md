@@ -15,3 +15,15 @@ creatures:
 ```
 
 5e dag
+1. The Wailing Shadows
+As the party walks through the misty woods, they hear mournful wails. Ghostly figures drift between the trees, whispering for help. If the party follows, they find a mass grave marked with old, rotten totems. The ghosts beg the party to bury them properly—but as soon as they start, 1d4+1 Shadows and 1 Wraith rise from the graves, angry that their rest is disturbed.
+
+Twist: If the party fights instead of performing a proper burial, the spirits reform every night until exorcised or buried correctly.
+2. The Puppeteer’s Web
+A dense section of the forest is covered in unnaturally thick webs. At the center, a deathly pale drider (Drider Ghost-Woven, Tome of Beasts) or Ettercap controls 1d4+1 Giant Spiders—all of which have glowing, soulless eyes. The spiders move in eerie unison, their actions controlled like puppets.
+
+Twist: The drider isn’t attacking to kill, but to capture. It needs hosts for the “eggs” of its ghostly master, a long-dead necromancer trying to be reborn.
+4. The Hanging Ones
+A section of the forest is lined with nooses hanging from dead trees. A Banshee presides over the area, mourning her lost family. When she notices the party, she lets out a piercing scream, calling forth the spirits of those who died here—4 Wights, hanging lifelessly until they suddenly drop to attack.
+
+Twist: If the party investigates the corpses, they find evidence that the banshee herself was responsible for their deaths in life. Convincing her of her own guilt may free her soul.
