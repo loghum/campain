@@ -15,15 +15,155 @@ creatures:
 ```
 
 5e dag
+Na paar uur reizen, bos begroeing is dichter, denser. Het wordt donker, schemerig. Jullie weten dat het dag is maar zo voelt het niet. Na een tijdje wordt het pad te smal voor paard en wagen.
+
 1. The Wailing Shadows
-As the party walks through the misty woods, they hear mournful wails. Ghostly figures drift between the trees, whispering for help. If the party follows, they find a mass grave marked with old, rotten totems. The ghosts beg the party to bury them properly—but as soon as they start, 1d4+1 Shadows and 1 Wraith rise from the graves, angry that their rest is disturbed.
+As the party walks through the misty woods, they hear mournful wails. Ghostly figures drift between the trees, whispering for help. If the party follows, they find a mass grave marked with old, rotten totems. The ghosts beg the party to bury them properly—but as soon as they start, 5 Shadows and 5 zombies rise from the graves, angry that their rest is disturbed.
+
+```encounter
+name: Encounter name
+creatures:
+  - 3:Shadow
+  - 4:Zombie
+  - Lyria Vanholt
+```
 
 Twist: If the party fights instead of performing a proper burial, the spirits reform every night until exorcised or buried correctly.
-2. The Puppeteer’s Web
+
+
+1. The Puppeteer’s Web
 A dense section of the forest is covered in unnaturally thick webs. At the center, a deathly pale drider (Drider Ghost-Woven, Tome of Beasts) or Ettercap controls 1d4+1 Giant Spiders—all of which have glowing, soulless eyes. The spiders move in eerie unison, their actions controlled like puppets.
 
-Twist: The drider isn’t attacking to kill, but to capture. It needs hosts for the “eggs” of its ghostly master, a long-dead necromancer trying to be reborn.
-4. The Hanging Ones
-A section of the forest is lined with nooses hanging from dead trees. A Banshee presides over the area, mourning her lost family. When she notices the party, she lets out a piercing scream, calling forth the spirits of those who died here—4 Wights, hanging lifelessly until they suddenly drop to attack.
+```encounter
+name: Encounter name
+creatures:
+  - 3:Fire Spider
+  - Lyria Vanholt
+```
 
-Twist: If the party investigates the corpses, they find evidence that the banshee herself was responsible for their deaths in life. Convincing her of her own guilt may free her soul.
+Twist: The drider isn’t attacking to kill, but to capture. It needs hosts for the “eggs” of its ghostly master, a long-dead necromancer trying to be reborn.
+
+dag 6
+
+Komen aan bij opening in bos. Daar stoot een vierkante doos van opsidian. Boven een zwaare dubbele deur hangen 6 vakkels. links en rechts naast de deur staan 3 plakken.
+
+**1. The Timekeeper’s Riddle**
+_"I have hands but no fingers, I have a face but no eyes. I follow you but never move. What am I?"_  
+**Answer:** A **clock**
+
+### **2. The Key to the Door**
+
+_"The more you take, the more you leave behind. What am I?"_  
+**Answer:** **Footsteps**
+
+
+ **3. The Elemental Puzzle**
+
+_"Born in fire, yet I do not burn. I float in air, yet I am not alive. I disappear in water, yet I am not dead. What am I?"_  
+**Answer:** **Ash**
+
+
+**4. The Silent Watcher**
+
+_"I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?"_  
+**Answer:** A **map**
+
+
+ **5. The Guardian’s Warning**
+
+_"You can see me in water, but I never get wet. What am I?"_  
+**Answer:** A **reflection**
+
+
+ **6. The Hidden Path**
+
+_"I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?"_  
+**Answer:** An **echo**
+
+
+### **Main Chamber: The Threshold of the Damned**
+
+The **main chamber** of the Obsidian Fault is vast, with cracked stone pillars and swirling mist hanging in the air. Three doors are set into the walls:
+
+- **North Door**: Leads to the **Trial of Courage**.
+- **West Door**: Leads to the **Trial of Might**.
+- **East Door**: Leads to the **Trial of Mind**.
+
+A **skeletal figure** stands near the center of the room, holding a glowing tablet that speaks cryptic warnings to the party:
+
+noord deur heeft 2 plekken waar iets in de deur gezet moet worden.
+
+
+
+
+
+_"Those who seek the heart of this place must first prove their strength, their mind, and their courage. Fail, and the Obsidian Fault will claim you."_
+
+---
+
+## **West Path: Trial of Might (Combat & Traps)**
+
+### **West Chamber 1: The Bone Pit (Undead Combat Trial)**
+
+Houten deur met daarom 9 edelstenen, 1 blauwe en 8 rooie. in een 3 bij 3 formaat. De juiste stenen moeten ingedrukt.
+
+De deur is gewoon open
+
+### **West Chamber 2: The Gauntlet of the Dead (Trap Trial & Mini-Boss)**
+As the party steps into this eerie, sunken chamber, the ground shakes. The **Bone Golems** rise from the dust and bones littering the floor.
+
+- The party faces **1 skeleton knight** instead of the usual 4.
+
+```encounter
+name: Encounter name
+creatures:
+  - Minotaur Skeleton
+  - 3:Skeleton
+  - 
+  - Lyria Vanholt
+  - 
+```
+
+Drops a black gem.
+
+## **East Path: Trial of Mind (Trap-Based Challenges)**
+
+### **East Chamber 1: The Hall of Whispers (Magical Trap Puzzle)**
+
+### **East Chamber 2: The Trap of Echoes (Illusory Traps & Combat)**
+
+This chamber is filled with a mist that makes the air thick with dread. In the distance, the party hears the haunting sound of chains dragging.
+
+```encounter
+name: Encounter name
+creatures:
+  - Specter
+  - 4: Shadow
+  - 
+  - Lyria Vanholt
+  - 
+```
+
+specter drops a black gem
+
+
+## north chamber
+```encounter
+name: Encounter name
+creatures:
+  - Shadow Guardian
+  - 
+  - Lyria Vanholt
+  - 
+```
+
+#LOOT
+150 GP
+5 gemstone(50 each)
+[[Flameheart dagger]]
+[[Boots of Elvenkind]]
+[[Ring of Protection]]
+[[Potion of greater healing]] 2x
+Scroll of fireball
+[[Lantern of Revealing]]
+Ancient warrior's helmet. Te kappot om te dragen maar 25 gold waard.

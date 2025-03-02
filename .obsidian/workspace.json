@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "3.Quests/Act 1/Shadows in the Depths.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -208,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 942.5
+    "width": 985.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,35 +226,35 @@
   },
   "active": "4519abed8dd0a75b",
   "lastOpenFiles": [
-    "3.Quests/Act 1/The Disappearing Caravan.md",
-    "3.Quests/Act 1/Shadows in the Depths.md",
-    "4. items/Traveler’s Beacon.md",
-    "1.npc/Lyra vanHolt.md",
-    "1.npc/Thundercore/School/Zeba Popeholt.md",
-    "1.npc/Thundercore/Meyn Ridian.md",
-    "1.npc/Thundercore/School/Jila Aikener.md",
-    "1.npc/Thundercore/School/Berric Ironheart.md",
-    "3.Quests/Act 1/Bootcamp.md",
-    "3.Quests/Act 1/Main.md",
-    "1.npc/Thundercore/Meron Hardwell.md",
-    "1.npc/Thundercore/Marek halford.md",
-    "1.npc/Thundercore/Maraze Dunacott.md",
-    "1.npc/Thundercore/Ken Lindafern.md",
-    "1.npc/Thundercore/Danri Upmont.md",
-    "1.npc/Thundercore/School/Lyra stormraven.md",
-    "1.npc/Thundercore/School/Simzy Tayfoot.md",
-    "1.pc/Yakub Khalid Sumbul.md",
-    "1.pc/TinkerWiz.md",
-    "1.pc/Rolf Ravioli.md",
     "1.pc/Roderick Fitzgerald-blackwood.md",
+    "1.pc/Rolf Ravioli.md",
+    "1.pc/TinkerWiz.md",
+    "1.pc/Yakub Khalid Sumbul.md",
+    "3.Quests/Act 1/Shadows in the Depths.md",
+    "2.Monsters/Shadow guardian.md",
+    "4. items/Flameheart dagger.md",
+    "4. items/Alchemist fire.md",
+    "4. items/Potion of greater healing.md",
+    "1.npc/Lyra vanHolt.md",
+    "2.Monsters/Skeletal knight.md",
+    "2.Monsters/Fire spider.md",
+    "2.Monsters/Fire spider queen.md",
+    "2.Monsters/Shadow demon.md",
+    "2.Monsters/Satyr.md",
+    "3.Quests/Act 1/The Disappearing Caravan.md",
+    "2.Monsters/Pixie.md",
     "5.Sessions/Session 2.md",
+    "5.Sessions/Session 1.md",
+    "3.Quests/Act 1/Main.md",
+    "4. items/Moon-touched sword.md",
+    "1.npc/Thundercore/Meyn Ridian.md",
+    "2.Monsters/Quickling.md",
+    "2.Monsters/Dummy The Iron Bruiser.md",
     "4. items/Mender’s Stone.md",
+    "3.Quests/Act 1/Bootcamp.md",
     "9.Images/thundercore.png",
     "9.Images/ZebaPopeholt.png",
     "9.Images/sunken church.png",
-    "7. spells/Hex.md",
-    "7. spells/Phantasmal Force.md",
-    "7. spells/Thorn whip.md",
     "1.badguys",
     "1.npc/Thundercore/School",
     "3.Quests/Completed",

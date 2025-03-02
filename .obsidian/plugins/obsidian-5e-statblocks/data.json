@@ -792,6 +792,530 @@
         ],
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Lyria Vanholt",
+      {
+        "monster": "Lyria Vanholt",
+        "name": "Lyria Vanholt",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Human",
+        "alignment": "Neutral",
+        "ac": "13 (16 with mage armor)",
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          14,
+          18,
+          12,
+          14
+        ],
+        "saves": [
+          {
+            "intelligence": 6
+          },
+          {
+            "wisdom": 3
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 6
+          },
+          {
+            "history": 6
+          },
+          {
+            "investigation": 6
+          },
+          {
+            "persuasion": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Psychic (via Mind Ward trait)",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 11",
+        "languages": "Common, Elvish, Draconic, Infernal",
+        "cr": 0,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Mage Hand<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Prestidigitation<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Ray of Frost<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Mage Armor<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shield<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Magic Missile<STATBLOCK-WIKI-LINK>",
+          "2nd level (3 slots) <STATBLOCK-WIKI-LINK>Mirror Image<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>",
+          "3rd level (2 slots) <STATBLOCK-WIKI-LINK>Counterspell<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fireball<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Arcane Scholar",
+            "desc": "Lyria has advantage on Intelligence (Arcana) and Intelligence (History) checks related to ancient artifacts, magical glyphs, and curses."
+          },
+          {
+            "name": "Mind Ward (1/Day)",
+            "desc": "When Lyria takes psychic damage, she can reduce the damage by 10."
+          },
+          {
+            "name": "Tactical Mind",
+            "desc": "Lyria can use the Help action as a bonus action to assist an ally within 30 feet in making an attack roll or ability check."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Dagger",
+            "desc": "Melee or Ranged Weapon Attack +4 to hit, range 20/60. 1d6+2"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Lyria is a 5th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks)."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Tactical Mind",
+            "desc": "Lyria can use the Help action as a bonus action to assist an ally within 30 feet."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Counterspell",
+            "desc": "When a creature casts a spell that Lyria can see within 60 feet, she can use her reaction to attempt to interrupt it."
+          },
+          {
+            "name": "Shield (1st-level spell)",
+            "desc": "When she is hit by an attack, Lyria can use her reaction to increase her AC by 5 until the start of her next turn."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Shadow Demon",
+      {
+        "monster": "Shadow Demon",
+        "name": "Shadow Demon",
+        "size": "Medium",
+        "type": "Fiend",
+        "subtype": "Demon",
+        "alignment": "Chaotic Evil",
+        "ac": 13,
+        "hp": 66,
+        "speed": "30 ft., fly 30 ft.",
+        "stats": [
+          1,
+          17,
+          12,
+          14,
+          13,
+          14
+        ],
+        "saves": [
+          {
+            "dexterity": 5
+          },
+          {
+            "charisma": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Stealth": 7
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Acid, Fire, Necrotic, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical attacks",
+        "damage_immunities": "Cold, Lightning, Poison",
+        "condition_immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
+        "senses": "Darkvision 120 ft., passive Perception 11",
+        "languages": "Abyssal, telepathy 120 ft.",
+        "cr": 4,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Incorporeal Movement",
+            "desc": "The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+          },
+          {
+            "name": "Light Sensitivity",
+            "desc": "While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+          },
+          {
+            "name": "Shadow Stealth",
+            "desc": "While in dim light or darkness, the demon can take the Hide action as a bonus action."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Claws",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Skeletal Knight",
+      {
+        "monster": "Skeletal Knight",
+        "name": "Skeletal Knight",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "None",
+        "alignment": "Lawful Evil",
+        "ac": "18 (plate)",
+        "hp": 112,
+        "speed": "30 ft.",
+        "stats": [
+          20,
+          10,
+          16,
+          13,
+          14,
+          10
+        ],
+        "saves": [
+          {
+            "constitution": 6
+          },
+          {
+            "wisdom": 5
+          }
+        ],
+        "skillsaves": "None",
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Exhaustion, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 12",
+        "languages": "Understands the languages it knew in life but can't speak",
+        "cr": 7,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the skeletal knight to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is bludgeoning or from a critical hit. On a success, the skeletal knight drops to 1 hit point instead."
+          },
+          {
+            "name": "Unusual Nature",
+            "desc": "The skeletal knight doesn't require air, food, drink, or sleep."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The skeletal knight makes three Enervating Blade or Throwing Axe attacks in any combination."
+          },
+          {
+            "name": "Enervating Blade",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) necrotic damage, and if the target is a creature, it can't regain hit points until the start of the skeletal knight's next turn."
+          },
+          {
+            "name": "Throwing Axe",
+            "desc": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 14 (2d8 + 5) slashing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Fire Spider Queen",
+      {
+        "monster": "Fire Spider Queen",
+        "name": "Fire Spider Queen",
+        "size": "Large",
+        "type": "Beast",
+        "subtype": "None",
+        "alignment": "Unaligned",
+        "ac": "14 (natural armor)",
+        "hp": 44,
+        "speed": "30 ft., Climb 30 ft.",
+        "stats": [
+          14,
+          16,
+          12,
+          2,
+          11,
+          4
+        ],
+        "saves": "None",
+        "skillsaves": [
+          {
+            "stealth": 7
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Fire",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Blindsight 10 ft., Darkvision 60 ft., passive Perception 10",
+        "languages": "None",
+        "cr": 2,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Burning Aura",
+            "desc": "Any creature that starts its turn within 5 feet of the spider takes 5 (2d4) fire damage."
+          },
+          {
+            "name": "Spider Climb",
+            "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          },
+          {
+            "name": "Web Sense",
+            "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+          },
+          {
+            "name": "Web Walker",
+            "desc": "The spider ignores movement restrictions caused by webbing."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+          },
+          {
+            "name": "Fiery Web",
+            "desc": "Ranged Weapon Attack (Recharge 5–6): +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing and takes 2 (1d4) fire damage at the start of each of its turns. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to cold damage; immunity to fire, poison, and psychic damage)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Fire Spider",
+      {
+        "monster": "Fire Spider",
+        "name": "Fire Spider",
+        "size": "Large",
+        "type": "Beast",
+        "subtype": "None",
+        "alignment": "Unaligned",
+        "ac": "14 (natural armor)",
+        "hp": 26,
+        "speed": "30 ft., Climb 30 ft.",
+        "stats": [
+          14,
+          16,
+          12,
+          2,
+          11,
+          4
+        ],
+        "saves": "None",
+        "skillsaves": [
+          {
+            "stealth": 7
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Fire",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Blindsight 10 ft., Darkvision 60 ft., passive Perception 10",
+        "languages": "None",
+        "cr": 1,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Spider Climb",
+            "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          },
+          {
+            "name": "Web Sense",
+            "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+          },
+          {
+            "name": "Web Walker",
+            "desc": "The spider ignores movement restrictions caused by webbing."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+          },
+          {
+            "name": "Fiery Web",
+            "desc": "Ranged Weapon Attack (Recharge 5–6): +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing and takes 1 fire damage at the start of each of its turns. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to cold damage; immunity to fire, poison, and psychic damage)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Shadow Guardian",
+      {
+        "monster": "Shadow Guardian",
+        "name": "Shadow Guardian",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "None",
+        "alignment": "Neutral Evil",
+        "ac": "16 (natural armor)",
+        "hp": 120,
+        "speed": "0 ft. (immobile)",
+        "stats": [
+          14,
+          18,
+          16,
+          12,
+          14,
+          18
+        ],
+        "saves": [
+          {
+            "dexterity": 6
+          },
+          {
+            "wisdom": 4
+          },
+          {
+            "charisma": 6
+          }
+        ],
+        "skillsaves": "None",
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Necrotic; Bludgeoning, Piercing, and Slashing from non-magical attacks",
+        "damage_immunities": "Psychic",
+        "condition_immunities": "Charmed, Frightened, Paralyzed, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 14",
+        "languages": "Understands Common but cannot speak",
+        "cr": 6,
+        "proficiency_bonus": 3,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Immovable Shadow",
+            "desc": "The Shadow Guardian is fixed in place, unable to move or take actions other than those related to its Reactions."
+          },
+          {
+            "name": "Magical Resistance",
+            "desc": "The Shadow Guardian has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Aura of Dread",
+            "desc": "Any creature that starts its turn within 10 feet of the Shadow Guardian must succeed on a DC 14 Wisdom saving throw or be frightened until the start of its next turn."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Dark Tendril",
+            "desc": "The Shadow Guardian lashes out with a shadowy tendril at a creature within 10 feet. The target must make a DC 14 Dexterity saving throw or take 10 (3d6) necrotic damage."
+          },
+          {
+            "name": "Reckless Fear",
+            "desc": "The Shadow Guardian can target a creature it can see within 30 feet. The creature must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shadow Strike",
+            "desc": "When a creature within 5 feet of the Shadow Guardian makes a melee attack against it, the Shadow Guardian can use its reaction to make a melee attack against the creature. On a hit, the target takes 10 (2d6 + 4) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or have its movement speed reduced by 10 feet until the start of its next turn."
+          },
+          {
+            "name": "Shadow Lash",
+            "desc": "When a creature within 30 feet of the Shadow Guardian makes a ranged attack, the Shadow Guardian can use its reaction to lash out with a shadowy tendril. The attack has a +6 to hit, and on a hit, the target takes 8 (2d4 + 3) necrotic damage."
+          },
+          {
+            "name": "Phantasmal Shield",
+            "desc": "When a creature casts a spell that targets the Shadow Guardian, the Guardian can use its reaction to warp the magic. The target creature must make a DC 14 Intelligence saving throw or have the spell redirected back at them, with disadvantage on the saving throw. The Shadow Guardian is unaffected by magic damage or effects that require physical presence."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},

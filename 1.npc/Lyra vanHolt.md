@@ -1,3 +1,11 @@
+---
+name: Lyra vanHolt
+level: "5"
+hp: "100"
+ac: "20"
+modifier: "4"
+---
+
 ```statblock
 
 monster: Lyria Vanholt
@@ -7,7 +15,7 @@ type: Humanoid
 subtype: Human
 alignment: Neutral
 ac: 13 (16 with mage armor)
-hp: 45 (7d8 + 14)
+hp: 45
 speed: 30 ft.
 stats: [8, 14, 14, 18, 12, 14]
 saves:
@@ -24,7 +32,7 @@ damage_immunities: None
 condition_immunities: None
 senses: Passive Perception 11
 languages: Common, Elvish, Draconic, Infernal
-cr: 3
+cr: 0
 spells:
   - cantrips [[Mage Hand]], [[Minor Illusion]], [[Prestidigitation]], [[Ray of Frost]]
   - 1st level (4 slots) [[Mage Armor]], [[Shield]], [[Magic Missile]]
