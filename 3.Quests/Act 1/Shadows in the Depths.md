@@ -162,6 +162,10 @@ creatures:
   - 
 ```
 
+http://dndroll.wikidot.com/creatures:abyssal-chicken
+http://dndroll.wikidot.com/creatures:nergaliid
+http://dndroll.wikidot.com/creatures:bearded-devil
+
 specter drops a black gem
 
 
