@@ -105,9 +105,12 @@ _"Those who seek the heart of this place must first prove their strength, their 
 
 ### **West Chamber 1: The Bone Pit (Undead Combat Trial)**
 
-Houten deur met daarom 9 edelstenen, 1 blauwe en 8 rooie. in een 3 bij 3 formaat. De juiste stenen moeten ingedrukt.
+Description: The players encounter a large, magically sealed door with five colored handles: Red, Blue, Yellow, White, and Black. Above the door, a glowing inscription is etched into the stone.
+1 persoon kan maar 1 hendel overhalen
+Inscription: "At day's end, the sky burns bright before darkness falls."
+Solution: Red + Yellow = Orange (sunset colors)
+If the wrong handles are pulled, a pulse of arcane energy deals 2d6 lightning damage to all within 10 feet.
 
-De deur is gewoon open
 
 ### **West Chamber 2: The Gauntlet of the Dead (Trap Trial & Mini-Boss)**
 As the party steps into this eerie, sunken chamber, the ground shakes. The **Bone Golems** rise from the dust and bones littering the floor.
@@ -129,6 +132,21 @@ Drops a black gem.
 ## **East Path: Trial of Mind (Trap-Based Challenges)**
 
 ### **East Chamber 1: The Hall of Whispers (Magical Trap Puzzle)**
+Scenario:
+The party arrives at a vast, seemingly bottomless chasm. The only way forward is across, but there is no visible bridge, rope, or obvious way to traverse it. The air shimmers faintly above the gap, and a few stray pebbles seem to hover in midair before vanishing.
+
+Possible Solutions & Clues:
+1. The Invisible Path (Perception/Investigation Check)
+If a character throws sand, dust, or liquid across the gap, it briefly clings to something unseen, revealing part of an invisible bridge.
+A DC 15 Perception or Investigation check might let a character spot the faint outline of the bridge.
+2. The Leap of Faith (Divine or Arcane Interaction)
+If a cleric or paladin calls upon their deity, whispers of divine encouragement may guide them to take a step forward, revealing the bridge.
+A character with a strong belief or purpose who willingly steps into the void (without testing it first) finds the bridge solid beneath their feet.
+3. The Power of Imagination (Concentration Mechanic)
+A character who describes a bridge in detail (materials, width, texture) sees it begin to take shape, but only as long as they maintain concentration (like concentrating on a spell).
+If they fail a DC 12 Intelligence check each round, the bridge flickers, forcing them to stop or risk falling.
+Failure Consequence:
+If a character steps off the wrong place or falls, they reappear at the edge where they first fell, taking 2d6 psychic or force damage from the mysterious chasm.
 
 ### **East Chamber 2: The Trap of Echoes (Illusory Traps & Combat)**
 
