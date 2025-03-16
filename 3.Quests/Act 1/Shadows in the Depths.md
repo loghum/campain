@@ -47,12 +47,13 @@ dag 6
 
 Komen aan bij opening in bos. Daar stoot een vierkante doos van opsidian. Boven een zwaare dubbele deur hangen 6 vakkels. links en rechts naast de deur staan 3 plakken.
 
+
+
 **1. The Timekeeper’s Riddle**
 _"I have hands but no fingers, I have a face but no eyes. I follow you but never move. What am I?"_  
 **Answer:** A **clock**
 
-### **2. The Key to the Door**
-
+ **2. The Key to the Door**
 _"The more you take, the more you leave behind. What am I?"_  
 **Answer:** **Footsteps**
 

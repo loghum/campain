@@ -1280,7 +1280,7 @@
           },
           {
             "name": "Aura of Dread",
-            "desc": "Any creature that starts its turn within 10 feet of the Shadow Guardian must succeed on a DC 14 Wisdom saving throw or be frightened until the start of its next turn."
+            "desc": "Any creature that starts its turn within 10 feet of the Shadow Guardian must succeed on a DC 14 Wisdom saving throw or be <STATBLOCK-WIKI-LINK>Conditions#Frightened<STATBLOCK-WIKI-LINK> until the start of its next turn."
           }
         ],
         "legendary_actions": [
@@ -1290,7 +1290,7 @@
           },
           {
             "name": "Reckless Fear",
-            "desc": "The Shadow Guardian can target a creature it can see within 30 feet. The creature must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            "desc": "The Shadow Guardian can target a creature it can see within 30 feet. The creature must succeed on a DC 14 Wisdom saving throw or be <STATBLOCK-WIKI-LINK>Conditions#Frightened<STATBLOCK-WIKI-LINK> for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
           }
         ],
         "bonus_actions": [
