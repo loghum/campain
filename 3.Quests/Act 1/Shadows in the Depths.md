@@ -121,8 +121,8 @@ As the party steps into this eerie, sunken chamber, the ground shakes. The **Bon
 ```encounter
 name: Encounter name
 creatures:
-  - Minotaur Skeleton
-  - 3:Skeleton
+  - 2:Minotaur Skeleton
+  - 4:Skeleton
   - 
   - Lyria Vanholt
   - 
@@ -156,8 +156,8 @@ This chamber is filled with a mist that makes the air thick with dread. In the d
 ```encounter
 name: Encounter name
 creatures:
-  - Specter
-  - 4: Shadow
+  - Bearded Devil
+  - Nergaliid
   - 
   - Lyria Vanholt
   - 
@@ -166,6 +166,7 @@ creatures:
 http://dndroll.wikidot.com/creatures:abyssal-chicken
 http://dndroll.wikidot.com/creatures:nergaliid
 http://dndroll.wikidot.com/creatures:bearded-devil
+
 
 specter drops a black gem
 
@@ -183,10 +184,27 @@ creatures:
 #LOOT
 150 GP
 5 gemstone(50 each)
-[[Flameheart dagger]]
-[[Boots of Elvenkind]]
+[[Flameheart dagger]] 
+[[Ethereal boots]]
 [[Ring of Protection]]
+[[Lantern of Revealing]]
+[[Locket of self reliance]]
 [[Potion of greater healing]] 2x
 Scroll of fireball
-[[Lantern of Revealing]]
+
 Ancient warrior's helmet. Te kappot om te dragen maar 25 gold waard.
+
+- **Flameheart Dagger**:  
+    The blade of this dagger is crafted from a dark, gleaming metal with faint flickers of fire-like patterns running through it. The hilt is wrapped in black leather, with a small ruby set at the pommel that glows faintly. When the dagger is ignited, the flames dance along the blade, crackling softly.
+    
+- **Ethereal Boots**:  
+    These boots are made from soft, shimmering leather, with faint ethereal wisps emanating from them. The soles are a silvery-white, almost translucent, and seem to shimmer with a soft glow. When activated, the boots leave behind faint, glowing footprints that quickly fade.
+    
+- **Ring of Protection**:  
+    This simple yet elegant silver ring is inscribed with intricate runes along its band. The runes pulse with a soft, steady light. The ring feels warm to the touch, and when worn, it creates an almost imperceptible aura of calm and defense around the wearer.
+    
+- **Lantern of Revealing**:  
+    The lantern is made of aged brass, with intricate filigree along the sides. Its glass panes shimmer with an unnatural clarity, and the flame inside is an eerie blue. When lit, the lantern casts a strong, unnatural light that illuminates not just the physical space but reveals hidden and invisible objects.
+    
+- **Locket of Self-Reliance**:  
+    The locket is a delicate, silver piece shaped like a small, ornate compass. Its front is engraved with a swirling, abstract design symbolizing personal strength. When opened, the locket reveals a faint, soft glow from the inside, and a small, polished gemstone that seems to shimmer with potential.

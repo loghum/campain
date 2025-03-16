@@ -5,4 +5,4 @@ hp: "34"
 ac: "14"
 modifier: "4"
 ---
-Test
+[[Moon-touched sword]]
