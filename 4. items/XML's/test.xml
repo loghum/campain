@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
+<item>
+    <name>Flameheart Dagger</name>
+    <detail>Uncommon (requires attunement)</detail>
+    <type>M</type>
+    <magic>YES</magic>
+    <weight>6</weight>
+    <property>P,F,L</property>
+    <dmg1>1d4</dmg1>
+    <dmgType>S</dmgType>
+    <text>The Flameheart Dagger deals an additional 1d4 fire damage on a hit. Once per day, the wielder can use a bonus action to ignite the blade, causing it to deal an additional 2d4 fire damage for 1 minute.</text>
+  </item>
+  
+  <item>
+    <name>Etherneal boots</name>
+    <detail>Uncommon (requires attunement)</detail>
+    <type>W</type>
+    <magic>YES</magic>
+    <weight>6</weight>
+    <text>The wearer of these boots can cast Misty Step once per long rest without expending a spell slot. While wearing the boots, the wearer’s movement speed increases by 10 feet</text>
+  </item>
+  
+  <item>
+    <name>Travaler's beacon</name>
+    <detail>Rare</detail>
+    <type>W</type>
+    <magic>YES</magic>
+    <weight>6</weight>
+    <text>This small, rune-inscribed stone is warm to the touch and hums with latent magical energy. Once attuned, the bearer can use it to return to a predetermined location.
+
+Teleportation Ritual. As an action, the user can activate the Traveler’s Beacon to begin a teleportation ritual. The ritual takes 5 minutes per person being teleported, up to a maximum of 10 creatures (50 minutes total). At the end of the ritual, all chosen creatures within 10 feet of the beacon are teleported to a previously designated safe location, such as a home, guild hall, or temple. This location must be a place the user has attuned the beacon to by spending 1 hour in meditation there. The beacon can only be attuned to one location at a time.
+
+Limitations. The beacon cannot teleport unwilling creatures. If the ritual is interrupted before completion, no teleportation occurs, and the magic is not expended. The beacon can be used once per long rest.</text>
+  </item>
+  
+  <item>
+    <name>Locket of self reliance</name>
+    <detail>Uncommon (requires attunement)</detail>
+    <type>W</type>
+    <magic>YES</magic>
+    <weight>6</weight>
+    <text>When you fail an ability check or saving throw, you can use your reaction to reroll the check or save, but you must accept the second roll. This can be used once per long rest</text>
+  </item>
+
+
+</compendium>

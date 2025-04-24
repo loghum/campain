@@ -1,6 +1,6 @@
 ---
 name: Roderick
-level: "3"
+level: "4"
 hp: "100"
 ac: "20"
 modifier: "4"

@@ -181,7 +181,7 @@ creatures:
   - 
 ```
 
-#LOOT
+# LOOT
 150 GP
 5 gemstone(50 each)
 [[Flameheart dagger]] 

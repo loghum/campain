@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/Act 1/Shadows in the Depths.md",
-                "mode": "preview",
+                "file": "3.Quests/Act 1/Missing person.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Shadows in the Depths"
+              "title": "Missing person"
             }
           }
         ]
@@ -163,12 +163,32 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "a9e9e1ad091d2b28",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "392ab25349130b23",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0365273074be2a7b",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -178,7 +198,7 @@
             }
           },
           {
-            "id": "392ab25349130b23",
+            "id": "fe0dc2500ef3856d",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -209,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 985.5
+    "width": 880.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,32 +246,35 @@
   },
   "active": "4519abed8dd0a75b",
   "lastOpenFiles": [
-    "4. items/Locket of self reliance.md",
+    "2.Monsters/Nyx the shade walker.md",
+    "9.Downloaded/Spells/Silent Image.md",
+    "5.Sessions/Session 6.md",
     "3.Quests/Act 1/Shadows in the Depths.md",
-    "4. items/Ethereal boots.md",
+    "3.Quests/Act 1/Missing person.md",
+    "3.Quests/Act 1/Soulbound animals.md",
+    "1.npc/Lyra vanHolt.md",
+    "1.pc/Yakub Khalid Sumbul.md",
+    "2.Monsters/Shadow demon.md",
+    "2.Monsters/Shadow guardian.md",
+    "2.Monsters/Satyr.md",
+    "2.Monsters/Quickling.md",
+    "2.Monsters/Abyssal chicken.md",
+    "2.Monsters/Dummy The spellslinger.md",
+    "2.Monsters/Dummy The sharpshooter.md",
+    "2.Monsters/Fire spider.md",
+    "2.Monsters/Fire spider queen.md",
+    "2.Monsters/Negraliid.md",
+    "2.Monsters/Skeletal knight.md",
+    "4. mecanics/Soul links.md",
+    "4. mecanics",
+    "3.Quests/Completed/The Disappearing Caravan.md",
+    "3.Quests/Act 1/Main.md",
+    "1.pc/Tarnak the Terrible.md",
+    "1.pc/TinkerWiz.md",
     "1.pc/Rolf Ravioli.md",
     "1.pc/Roderick Fitzgerald-blackwood.md",
-    "4. items/Flameheart dagger.md",
-    "1.pc/TinkerWiz.md",
-    "1.pc/Yakub Khalid Sumbul.md",
-    "4. items/Ring of final rest.md",
-    "5.Sessions/Session 2.md",
-    "4. items/Moon-touched sword.md",
-    "2.Monsters/Negraliid.md",
-    "2.Monsters/Pixie.md",
-    "2.Monsters/Abyssal chicken.md",
-    "2.Monsters/Fire spider queen.md",
-    "2.Monsters/Shadow guardian.md",
-    "9.Downloaded/Gamemastering/Conditions.md",
-    "2.Monsters/Skeletal knight.md",
-    "4. items/Alchemist fire.md",
-    "4. items/Potion of greater healing.md",
-    "1.npc/Lyra vanHolt.md",
-    "2.Monsters/Fire spider.md",
-    "2.Monsters/Shadow demon.md",
-    "2.Monsters/Satyr.md",
-    "3.Quests/Act 1/The Disappearing Caravan.md",
-    "5.Sessions/Session 1.md",
+    "4. items/XML's/test.xml",
+    "4. items/XML's",
     "9.Images/thundercore.png",
     "9.Images/ZebaPopeholt.png",
     "9.Images/sunken church.png",
@@ -268,9 +291,6 @@
     "7. spells",
     "1.npc/Statblocks",
     "Ironhearth's acedemy-fightingpit.png",
-    "9.Images/Ironhearth's acedemy-fightingpit.png",
-    "6.rules",
-    "5.Sessions",
-    "2.Monsters"
+    "9.Images/Ironhearth's acedemy-fightingpit.png"
   ]
 }
