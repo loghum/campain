@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Missing person"
             }
+          },
+          {
+            "id": "9793055761b3f9c5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,7 +257,7 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "4519abed8dd0a75b",
+  "active": "9793055761b3f9c5",
   "lastOpenFiles": [
     "2.Monsters/Nyx the shade walker.md",
     "9.Downloaded/Spells/Silent Image.md",
