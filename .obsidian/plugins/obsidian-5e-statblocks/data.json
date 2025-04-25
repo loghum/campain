@@ -1599,6 +1599,338 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "The Treebound",
+      {
+        "monster": "The Treebound",
+        "name": "The Treebound",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Druidic Abomination",
+        "alignment": "Chaotic Evil",
+        "ac": "16 (Natural Armor)",
+        "hp": 90,
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          12,
+          16,
+          12,
+          18,
+          14
+        ],
+        "saves": [
+          {
+            "wisdom": 6
+          },
+          {
+            "constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "nature": 6
+          },
+          {
+            "perception": 6
+          },
+          {
+            "survival": 6
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Necrotic; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 16",
+        "languages": "Druidic, Sylvan, Common",
+        "cr": 5,
+        "proficiency_bonus": 3,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Druidcraft<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn Whip<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Chill Touch<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Cure Wounds<STATBLOCK-WIKI-LINK>",
+          "2nd level (3 slots) <STATBLOCK-WIKI-LINK>Barkskin<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>",
+          "3rd level (2 slots) <STATBLOCK-WIKI-LINK>Animate Dead<STATBLOCK-WIKI-LINK>",
+          "4th level (1 slot) <STATBLOCK-WIKI-LINK>Blight<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Undead Nature",
+            "desc": "The Treebound does not require air, food, drink, or sleep."
+          },
+          {
+            "name": "Animate Rot (Recharge 5–6)",
+            "desc": "The Treebound causes roots and bone to rise from the ground. Up to two Medium undead beasts (use Zombie stat block) rise in unoccupied spaces within 30 feet and act on the next initiative count 20 (losing ties)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Necrotic Touch",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) necrotic damage."
+          },
+          {
+            "name": "Blight (2/day)",
+            "desc": "The Treebound casts *Blight* as a 4th-level spell (DC 14)."
+          },
+          {
+            "name": "Entangling Roots (1/day)",
+            "desc": "Terrain in a 20 ft. radius becomes difficult terrain for 1 minute. Each creature in the area must make a DC 14 Strength saving throw or be restrained until the end of its turn. A restrained creature can repeat the save at the end of each of its turns."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Wild Shape (1/day)",
+            "desc": "The Treebound transforms into a corrupted blight-beast (use Vine Blight stats with 45 HP and Necrotic Touch attack), retaining its HP and mental ability scores."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Nature’s Rebound",
+            "desc": "When The Treebound is hit by a melee attack, roots lash out. The attacker must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) piercing damage and be pulled 10 feet closer."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Call of the Rot",
+            "desc": "The Treebound animates one undead forest creature (Zombie) in a space within 10 ft. The creature acts on initiative 20 (losing ties)."
+          },
+          {
+            "name": "Grasping Soil",
+            "desc": "One creature The Treebound can see within 30 feet must succeed on a DC 14 Strength saving throw or have its speed halved and take 5 (1d10) necrotic damage until the end of its next turn."
+          },
+          {
+            "name": "Druidic Howl",
+            "desc": "The Treebound emits a guttural howl. Each undead within 60 feet gains advantage on its next attack roll before the start of The Treebound’s next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Shadow Druid",
+      {
+        "monster": "Shadow Druid",
+        "name": "Shadow Druid",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Human",
+        "alignment": "Neutral Evil",
+        "ac": "13 (Hide Armor)",
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          12,
+          14,
+          11,
+          16,
+          13
+        ],
+        "saves": [
+          {
+            "wisdom": 5
+          },
+          {
+            "constitution": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "nature": 4
+          },
+          {
+            "stealth": 4
+          },
+          {
+            "perception": 5
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 15",
+        "languages": "Common, Druidic, Sylvan",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Druidcraft<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Chill Touch<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn Whip<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Cure Wounds<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Darkness<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Druidic Corruption",
+            "desc": "The Shadow Druid's spells deal necrotic damage instead of their normal type, when applicable."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Corrupted Staff",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Shadowmeld (1/day)",
+            "desc": "The druid becomes heavily obscured in dim light or darkness until the start of their next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Undead Stag",
+      {
+        "monster": "Undead Stag",
+        "name": "Undead Stag",
+        "size": "Large",
+        "type": "Undead",
+        "subtype": "Beast",
+        "alignment": "Unaligned",
+        "ac": "12 (Natural Armor)",
+        "hp": 52,
+        "speed": "50 ft.",
+        "stats": [
+          18,
+          14,
+          16,
+          2,
+          10,
+          5
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "perception": 2
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Bludgeoning from Nonmagical Attacks",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Trampling Charge",
+            "desc": "If the stag moves at least 20 ft. straight toward a creature and hits it with a Ram attack, the target must succeed on a DC 13 Strength saving throw or be knocked prone."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Ram",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage."
+          },
+          {
+            "name": "Hooves (Bonus Action if target is prone)",
+            "desc": "+6 to hit, one prone creature. Hit: 15 (2d10 + 4) bludgeoning damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Zombie Wolf",
+      {
+        "monster": "Zombie Wolf",
+        "name": "Zombie Wolf",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Beast",
+        "alignment": "Unaligned",
+        "ac": "12 (Natural Armor)",
+        "hp": 22,
+        "speed": "40 ft.",
+        "stats": [
+          14,
+          14,
+          12,
+          3,
+          10,
+          5
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "perception": 2
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "cr": "1/4",
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Pack Tactics",
+            "desc": "The zombie wolf has advantage on an attack roll against a creature if at least one of the zombie wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Medium Undead Beast",
+      {
+        "monster": "Medium Undead Beast",
+        "name": "Medium Undead Beast",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Beast",
+        "alignment": "Unaligned",
+        "ac": 10,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": [
+          13,
+          8,
+          14,
+          2,
+          6,
+          5
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 8",
+        "languages": "—",
+        "cr": "1/2",
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Slam",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
