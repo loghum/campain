@@ -99,6 +99,8 @@ Players may investigate the altar or try to dispel the corruption.
 name: Encounter name
 creatures:
   - 2:Shadow Druid
+  - 2:Zombie Wolf
+  - 
 ```
 
 - **2x Shadow Druids** (custom statblock: druid with necrotic spells)
