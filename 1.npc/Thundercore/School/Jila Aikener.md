@@ -3,10 +3,10 @@ name: Jila Aikener
 location: Thundercore
 role: Shool student
 building: "[[Ironheart’s Academy of Blades and Spells]]"
-level: "3"
-hp: "16"
+level: "4"
+hp: "30"
 ac: "14"
-modifier: "2"
+modifier: "7"
 ---
 
 
@@ -24,13 +24,13 @@ Fiend warlock
 ```statblock
 
 monster: Jila Aikener
-name: Jila Aikener
+name: Jila Aikener +5 initif
 size: Medium
 type: Humanoid
 subtype: None
 alignment: Chaotic Neutral
 ac: 14
-hp: 24
+hp: 30
 speed: 30 ft.
 stats: [8, 14, 14, 10, 12, 20]
 saves:
@@ -62,11 +62,13 @@ traits:
     desc: The Warlock has the following Eldritch Invocations. Agonizing Blast, adds Charisma modifier to Eldritch Blast damage. Repelling Blast When you hit a creature with Eldritch Blast, you can push the creature up to 10 feet away from you in a straight line.
   - name: feat warcaster
     desc: Advantage on Constitution saving throws to maintain concentration on a spell. Can perform somatic components of spells even when holding weapons or a  shield. When a creature provokes an opportunity attack, you can cast a spell targeting the creature instead of making a melee attack (spell must have a casting time of 1 action and target only that creature).
+  - name: feat alert
+    desc: gives +5 to inative
   - name: Dark One’s Blessing
     desc: When reducing a creature to 0 hit points, gain temporary hit points equal to Charisma modifier + Warlock level (minimum 1).
 actions:
   - name: Eldritch Blast
-    desc: Ranged Spell Attack +5 to hit, range 300 ft., one target. Hit 1d10+3 force damage
+    desc: Ranged Spell Attack +7 to hit, range 120 ft., one target. Hit 1d10+5 force damage. push 10 feet
 legendary_actions:
   - name: None
     desc: None

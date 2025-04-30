@@ -9,3 +9,11 @@ Ondertussen heeft iemand zich aan gemeld op school en aangezien jullie weer een 
 
 [[Soulbound animals]]
 [[Missing person]]
+
+```encounter
+name: Encounter name
+creatures:
+  - Korin Swiftstep
+  - 
+  - 
+```

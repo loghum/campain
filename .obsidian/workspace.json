@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4519abed8dd0a75b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Act 1/Missing person.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Missing person"
-            }
-          },
-          {
             "id": "9793055761b3f9c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/Act 1/Rot Beneath the Boughs.md",
+                "file": "1.pc/Pc party.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rot Beneath the Boughs"
+              "title": "Pc party"
+            }
+          },
+          {
+            "id": "699fd4a4c18cf451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.npc/Thundercore/School/Zeba Popeholt.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Zeba Popeholt"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "746ac8b1a2e9830b",
@@ -103,7 +102,7 @@
       {
         "id": "14de89181a8f1969",
         "type": "tabs",
-        "dimension": 50.57471264367817,
+        "dimension": 72.69417475728156,
         "children": [
           {
             "id": "d3a60c35e83909ad",
@@ -145,7 +144,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -157,10 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.Quests/Act 1/Missing child.md"
+                "file": "1.npc/Thundercore/School/Korin Switfstep.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Missing child"
+              "title": "Outline of Korin Switfstep"
             }
           },
           {
@@ -179,8 +183,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
@@ -204,16 +208,6 @@
             }
           },
           {
-            "id": "0365273074be2a7b",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
             "id": "fe0dc2500ef3856d",
             "type": "leaf",
             "state": {
@@ -229,7 +223,7 @@
       {
         "id": "89345d23a8f03d36",
         "type": "tabs",
-        "dimension": 49.42528735632184,
+        "dimension": 27.30582524271845,
         "children": [
           {
             "id": "6435bed6e6a3a2d7",
@@ -245,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1179.5
+    "width": 432.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,34 +254,36 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "9793055761b3f9c5",
+  "active": "699fd4a4c18cf451",
   "lastOpenFiles": [
-    "5.Sessions/Session 0.md",
-    "3.Quests/Act 1/Rot Beneath the Boughs.md",
-    "3.Quests/Act 1/Shadows in the Depths.md",
-    "9.Downloaded/Gamemastering/Pantheons.md",
-    "9.Downloaded/Gamemastering/Poisons.md",
-    "9.Downloaded/Gamemastering/Traps.md",
-    "4. items/Ring of final rest.md",
-    "4. items/Traveler’s Beacon.md",
-    "1.pc/Tarnak the Terrible.md",
-    "1.pc/Rolf Ravioli.md",
-    "1.pc/Roderick Fitzgerald-blackwood.md",
-    "1.pc/TinkerWiz.md",
-    "1.pc/Varron Hellebore.md",
-    "1.pc/Yakub Khalid Sumbul.md",
-    "4. items/Amulet of the Grovebound.md",
-    "4. items/Nature's mourning staff.md",
+    "1.npc/Thundercore/School/Lyra stormraven.md",
+    "1.npc/Thundercore/School/Simzy Tayfoot.md",
+    "1.npc/Thundercore/School/Zeba Popeholt.md",
+    "1.npc/Thundercore/School/Jila Aikener.md",
+    "1.npc/Thundercore/School/Berric Ironheart.md",
+    "1.npc/Thundercore/School/Korin Switfstep.md",
+    "1.npc/Thundercore/School/Team blue.md",
+    "1.npc/Thundercore/Danri Upmont.md",
+    "1.pc/Pc party.md",
     "3.Quests/Act 1/Missing person.md",
-    "2.Monsters/Medium undead beast.md",
+    "7. spells/Ice Knife.md",
+    "5.Sessions/Session 6.md",
+    "3.Quests/Act 1/Rot Beneath the Boughs.md",
+    "3.Quests/Act 1/Soulbound animals.md",
+    "7. spells/Gift of Alacrity.md",
+    "5.Sessions/Session 0.md",
+    "2.Monsters/The treebound.md",
+    "3.Quests/Completed/Missing child.md",
+    "2.Monsters/blind arbiter",
     "2.Monsters/Zombie wolf.md",
     "2.Monsters/Undead stag.md",
+    "2.Monsters/Skeletal knight.md",
+    "2.Monsters/Shadow guardian.md",
     "2.Monsters/Shadow druid.md",
-    "2.Monsters/The treebound.md",
-    "2.Monsters/Nyx the shade walker.md",
-    "9.Downloaded/Spells/Silent Image.md",
-    "5.Sessions/Session 6.md",
-    "3.Quests/Act 1/Soulbound animals.md",
+    "2.Monsters/Shadow demon.md",
+    "2.Monsters/Satyr.md",
+    "2.Monsters/Quickling.md",
+    "2.Monsters",
     "4. mecanics",
     "4. items/XML's/test.xml",
     "4. items/XML's",
@@ -304,8 +300,6 @@
     "9.Images/realm_of_bel.png",
     "9.Images/Ironhearth's acedemy.png",
     "9.Images/DALL·E 2024-12-13 15.12.36 - A top-down battlemap for a D&D scenario set in an abandoned forest mill. The map includes a circular clearing surrounded by dense trees and undergrowt.webp",
-    "7. spells",
-    "1.npc/Statblocks",
     "Ironhearth's acedemy-fightingpit.png",
     "9.Images/Ironhearth's acedemy-fightingpit.png"
   ]

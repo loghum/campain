@@ -185,7 +185,7 @@
         "subtype": "None",
         "alignment": "Chaotic Neutral",
         "ac": 14,
-        "hp": 24,
+        "hp": 30,
         "hit_dice": "3d8+3",
         "speed": "30 ft.",
         "stats": [
@@ -249,6 +249,10 @@
             "desc": "Advantage on Constitution saving throws to maintain concentration on a spell. Can perform somatic components of spells even when holding weapons or a  shield. When a creature provokes an opportunity attack, you can cast a spell targeting the creature instead of making a melee attack (spell must have a casting time of 1 action and target only that creature)."
           },
           {
+            "name": "feat alert",
+            "desc": "gives +5 to inative"
+          },
+          {
             "name": "Dark One’s Blessing",
             "desc": "When reducing a creature to 0 hit points, gain temporary hit points equal to Charisma modifier + Warlock level (minimum 1)."
           }
@@ -256,7 +260,7 @@
         "actions": [
           {
             "name": "Eldritch Blast",
-            "desc": "Ranged Spell Attack +5 to hit, range 300 ft., one target. Hit 1d10+3 force damage"
+            "desc": "Ranged Spell Attack +7 to hit, range 120 ft., one target. Hit 1d10+5 force damage. push 10 feet"
           }
         ],
         "legendary_actions": [
@@ -290,8 +294,8 @@
         "type": "Humanoid",
         "subtype": "None",
         "alignment": "Lawful Evil",
-        "ac": "18 Chainmail + shield",
-        "hp": 27,
+        "ac": "16 Chainmail",
+        "hp": 38,
         "speed": "30 ft.",
         "stats": [
           20,
@@ -348,22 +352,30 @@
             "desc": "The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks)"
           },
           {
-            "name": "Divine Sense (3 Uses)",
+            "name": "Divine Sense 3 Uses",
             "desc": "As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn."
           },
           {
             "name": "Lay on Hands 5xlvl",
             "desc": "You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target."
+          },
+          {
+            "name": "Feat sentinel",
+            "desc": "When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach. When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
+          },
+          {
+            "name": "Feat Polearm master",
+            "desc": "you can use a bonus action to make a melee attack. 1d4. other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon."
+          },
+          {
+            "name": "Great weapon fighting",
+            "desc": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
           }
         ],
         "actions": [
           {
-            "name": "Longsword",
-            "desc": "Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 1d8+5 slashing damage or 1d10+3 if used with two hands"
-          },
-          {
-            "name": "Commanding Strike",
-            "desc": "The Paladin utters a command, forcing one creature of their choice within 30 feet that can hear them to make a DC 13 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. (Recharge 5-6)"
+            "name": "Halberd",
+            "desc": "Melee Weapon Attack +7 to hit, reach 10 ft., one target. Hit 1d10+5 slashing damage"
           }
         ],
         "legendary_actions": [
@@ -398,7 +410,7 @@
         "subtype": "None",
         "alignment": "Neutral",
         "ac": 15,
-        "hp": 24,
+        "hp": 30,
         "speed": "30 ft.",
         "stats": [
           10,
@@ -439,9 +451,9 @@
         "languages": "Common, Druidic",
         "cr": 1,
         "spells": [
-          "cantrips <STATBLOCK-WIKI-LINK>Produce Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn whip<STATBLOCK-WIKI-LINK>",
-          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Thunderwave<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Healing Word<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>",
-          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Heat Metal<STATBLOCK-WIKI-LINK>"
+          "cantrips <STATBLOCK-WIKI-LINK>Produce Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn whip<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shillelagh<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Thunderwave<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Healing Word<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Ice Knife<STATBLOCK-WIKI-LINK>",
+          "2nd level (3 slots) <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Heat Metal<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Summon Beast<STATBLOCK-WIKI-LINK>"
         ],
         "traits": [
           {
@@ -1926,6 +1938,420 @@
           {
             "name": "Slam",
             "desc": "+4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Korin Swiftstep",
+      {
+        "monster": "Korin Swiftstep",
+        "name": "Korin Swiftstep",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Neutral",
+        "ac": 18,
+        "hp": 34,
+        "speed": "50 ft.",
+        "stats": [
+          10,
+          20,
+          14,
+          9,
+          16,
+          11
+        ],
+        "saves": [
+          {
+            "strength": 2
+          },
+          {
+            "dexterity": 7
+          },
+          {
+            "constitution": 2
+          },
+          {
+            "intelligence": -1
+          },
+          {
+            "wisdom": 4
+          },
+          {
+            "charisma": 0
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 12",
+        "languages": "Common, Elvish",
+        "cr": 1,
+        "spells": [
+          {
+            "1st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Gift of Alacrity<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "2st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>"
+            ]
+          }
+        ],
+        "traits": [
+          {
+            "name": "Ki save",
+            "desc": "8 + prof + wisdom: 13"
+          },
+          {
+            "name": "Martial Arts",
+            "desc": "Use Dexterity instead of Strength for unarmed strikes and monk weapons. Unarmed strikes deal 1d4 damage. Can make an unarmed strike as a bonus action after using the Attack action with an unarmed or monk weapon."
+          },
+          {
+            "name": "Ki (4 points)",
+            "desc": "Spend ki to use Flurry of Blows, Patient Defense, or Step of the Wind. Regains all ki on a short or long rest."
+          },
+          {
+            "name": "Unarmored Movement",
+            "desc": "+10 ft. movement when not wearing armor or using a shield."
+          },
+          {
+            "name": "Deflect Missiles",
+            "desc": "Use reaction to reduce damage from a ranged weapon attack by 1d10 + 7. Can catch and throw it if reduced to 0."
+          },
+          {
+            "name": "Slow Fall",
+            "desc": "Reduce falling damage by 20 as a reaction."
+          },
+          {
+            "name": "Open Hand Technique",
+            "desc": "When you hit a creature with Flurry of Blows, you can knock it prone, push it 15 ft., or prevent it from taking reactions (DC 13)."
+          },
+          {
+            "name": "Mobile (Feat)",
+            "desc": "+10 ft. speed, no difficult terrain when dashing, and no opportunity attacks from targets you’ve attacked (hit or miss)."
+          },
+          {
+            "name": "Fey Touched (Feat)",
+            "desc": "+1 Wisdom, learn Misty Step and Gift of Alacrity. Misty Step can be cast once per long rest without a spell slot."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strike",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d4+5 bludgeoning damage."
+          },
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6+5 bludgeoning damage (one-handed) or 1d8+5 (two-handed)."
+          },
+          {
+            "name": "Dart",
+            "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 1d4+5 piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Martial Arts",
+            "desc": "After making an attack with a monk weapon or unarmed strike, make one unarmed strike."
+          },
+          {
+            "name": "Flurry of Blows (1 ki)",
+            "desc": "Make two unarmed strikes after taking the Attack action."
+          },
+          {
+            "name": "Step of the Wind (1 ki)",
+            "desc": "Take the Dash or Disengage action as a bonus action. Jump distance is doubled."
+          },
+          {
+            "name": "Patient Defense (1 ki)",
+            "desc": "Take the Dodge action as a bonus action."
+          },
+          {
+            "name": "Misty Step (1/day)",
+            "desc": "Teleport 30 feet to an unoccupied space you can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Deflect Missiles",
+            "desc": "When hit by a ranged weapon attack, reduce the damage by 1d10 + 7. If reduced to 0, catch the missile and make a monk weapon attack with it."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Korin Swiftstep +4 initief",
+      {
+        "monster": "Korin Swiftstep",
+        "name": "Korin Swiftstep +4 initief",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Neutral",
+        "ac": 18,
+        "hp": 34,
+        "speed": "50 ft.",
+        "stats": [
+          10,
+          20,
+          14,
+          9,
+          16,
+          11
+        ],
+        "saves": [
+          {
+            "strength": 2
+          },
+          {
+            "dexterity": 7
+          },
+          {
+            "constitution": 2
+          },
+          {
+            "intelligence": -1
+          },
+          {
+            "wisdom": 4
+          },
+          {
+            "charisma": 0
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 12",
+        "languages": "Common, Elvish",
+        "cr": 1,
+        "spells": [
+          {
+            "1st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Gift of Alacrity<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "2st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>"
+            ]
+          }
+        ],
+        "traits": [
+          {
+            "name": "Ki save",
+            "desc": "8 + prof + wisdom: 13"
+          },
+          {
+            "name": "Martial Arts",
+            "desc": "Use Dexterity instead of Strength for unarmed strikes and monk weapons. Unarmed strikes deal 1d4 damage. Can make an unarmed strike as a bonus action after using the Attack action with an unarmed or monk weapon."
+          },
+          {
+            "name": "Ki (4 points)",
+            "desc": "Spend ki to use Flurry of Blows, Patient Defense, or Step of the Wind. Regains all ki on a short or long rest."
+          },
+          {
+            "name": "Unarmored Movement",
+            "desc": "+10 ft. movement when not wearing armor or using a shield."
+          },
+          {
+            "name": "Deflect Missiles",
+            "desc": "Use reaction to reduce damage from a ranged weapon attack by 1d10 + 7. Can catch and throw it if reduced to 0."
+          },
+          {
+            "name": "Slow Fall",
+            "desc": "Reduce falling damage by 20 as a reaction."
+          },
+          {
+            "name": "Open Hand Technique",
+            "desc": "When you hit a creature with Flurry of Blows, you can knock it prone, push it 15 ft., or prevent it from taking reactions (DC 13)."
+          },
+          {
+            "name": "Mobile (Feat)",
+            "desc": "+10 ft. speed, no difficult terrain when dashing, and no opportunity attacks from targets you’ve attacked (hit or miss)."
+          },
+          {
+            "name": "Fey Touched (Feat)",
+            "desc": "+1 Wisdom, learn Misty Step and Gift of Alacrity. Misty Step can be cast once per long rest without a spell slot."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strike",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d4+5 bludgeoning damage."
+          },
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6+5 bludgeoning damage (one-handed) or 1d8+5 (two-handed)."
+          },
+          {
+            "name": "Dart",
+            "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 1d4+5 piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Martial Arts",
+            "desc": "After making an attack with a monk weapon or unarmed strike, make one unarmed strike."
+          },
+          {
+            "name": "Flurry of Blows (1 ki)",
+            "desc": "Make two unarmed strikes after taking the Attack action."
+          },
+          {
+            "name": "Step of the Wind (1 ki)",
+            "desc": "Take the Dash or Disengage action as a bonus action. Jump distance is doubled."
+          },
+          {
+            "name": "Patient Defense (1 ki)",
+            "desc": "Take the Dodge action as a bonus action."
+          },
+          {
+            "name": "Misty Step (1/day)",
+            "desc": "Teleport 30 feet to an unoccupied space you can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Deflect Missiles",
+            "desc": "When hit by a ranged weapon attack, reduce the damage by 1d10 + 7. If reduced to 0, catch the missile and make a monk weapon attack with it."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Jila Aikener +5 initif",
+      {
+        "monster": "Jila Aikener",
+        "name": "Jila Aikener +5 initif",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Chaotic Neutral",
+        "ac": 14,
+        "hp": 30,
+        "hit_dice": "3d8+3",
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          14,
+          10,
+          12,
+          20
+        ],
+        "saves": [
+          {
+            "strength": -1
+          },
+          {
+            "dexterity": 2
+          },
+          {
+            "constitution": 4
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 1
+          },
+          {
+            "charisma": 7
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 11",
+        "languages": "Common, Elvish",
+        "cr": 1,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>",
+          "1st level (2 slots) <STATBLOCK-WIKI-LINK>Hex<STATBLOCK-WIKI-LINK>",
+          "2nd level (2 slots) <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shatter<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Fey Presence",
+            "desc": "As an action, the Warlock can cause each creature in a 10-foot cube originating from them to make a DC 13 Wisdom saving throw. On a failed save, the creature is either charmed or frightened (Warlock's choice) until the end of the Warlock's next turn. (1/Short Rest)"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The Warlock is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks)"
+          },
+          {
+            "name": "Eldritch Invocations",
+            "desc": "The Warlock has the following Eldritch Invocations. Agonizing Blast, adds Charisma modifier to Eldritch Blast damage. Repelling Blast When you hit a creature with Eldritch Blast, you can push the creature up to 10 feet away from you in a straight line."
+          },
+          {
+            "name": "feat warcaster",
+            "desc": "Advantage on Constitution saving throws to maintain concentration on a spell. Can perform somatic components of spells even when holding weapons or a  shield. When a creature provokes an opportunity attack, you can cast a spell targeting the creature instead of making a melee attack (spell must have a casting time of 1 action and target only that creature)."
+          },
+          {
+            "name": "feat alert",
+            "desc": "gives +5 to inative"
+          },
+          {
+            "name": "Dark One’s Blessing",
+            "desc": "When reducing a creature to 0 hit points, gain temporary hit points equal to Charisma modifier + Warlock level (minimum 1)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack +7 to hit, range 120 ft., one target. Hit 1d10+5 force damage. push 10 feet"
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
           }
         ],
         "source": "Homebrew",
