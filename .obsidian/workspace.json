@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5,
-    "collapsed": true
+    "width": 527.5
   },
   "right": {
     "id": "746ac8b1a2e9830b",
@@ -260,10 +259,21 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "9793055761b3f9c5",
+  "active": "89c33ae4ea3cb030",
   "lastOpenFiles": [
-    "5.Sessions/Session 0.md",
+    "RamonShot",
+    "z.test/test.md",
+    "1.badGuys.md",
+    "7. spells/Wrathful Smite.md",
+    "7. spells/Thorn whip.md",
+    "7. spells/Thunderous Smite.md",
+    "7. spells/Phantasmal Force.md",
+    "7. spells/Hex.md",
+    "2.Monsters/Shadow druid.md",
+    "2.Monsters/Undead stag.md",
     "3.Quests/Act 1/Rot Beneath the Boughs.md",
+    "5.Sessions/Session 6.md",
+    "5.Sessions/Session 0.md",
     "3.Quests/Act 1/Shadows in the Depths.md",
     "9.Downloaded/Gamemastering/Pantheons.md",
     "9.Downloaded/Gamemastering/Poisons.md",
@@ -277,17 +287,6 @@
     "1.pc/Varron Hellebore.md",
     "1.pc/Yakub Khalid Sumbul.md",
     "4. items/Amulet of the Grovebound.md",
-    "4. items/Nature's mourning staff.md",
-    "3.Quests/Act 1/Missing person.md",
-    "2.Monsters/Medium undead beast.md",
-    "2.Monsters/Zombie wolf.md",
-    "2.Monsters/Undead stag.md",
-    "2.Monsters/Shadow druid.md",
-    "2.Monsters/The treebound.md",
-    "2.Monsters/Nyx the shade walker.md",
-    "9.Downloaded/Spells/Silent Image.md",
-    "5.Sessions/Session 6.md",
-    "3.Quests/Act 1/Soulbound animals.md",
     "4. mecanics",
     "4. items/XML's/test.xml",
     "4. items/XML's",

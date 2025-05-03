@@ -178,3 +178,13 @@ creatures:
 ## 🎁 **Rewards**
 
 [[Nature's mourning staff]] [[Amulet of the Grovebound]]
+
+```encounter
+name: Encounter name
+creatures:
+  - 6:Bandit
+  - 2:Bandit Captain
+  - 
+  - 
+  - 
+```
