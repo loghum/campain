@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.npc/Thundercore/School/Zeba Popeholt.md",
+                "file": "3.Quests/Act 1/Orc raider.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zeba Popeholt"
+              "title": "Orc raider"
             }
           }
         ],
@@ -102,7 +102,7 @@
       {
         "id": "14de89181a8f1969",
         "type": "tabs",
-        "dimension": 72.69417475728156,
+        "dimension": 54.97572815533981,
         "children": [
           {
             "id": "d3a60c35e83909ad",
@@ -223,7 +223,7 @@
       {
         "id": "89345d23a8f03d36",
         "type": "tabs",
-        "dimension": 27.30582524271845,
+        "dimension": 45.0242718446602,
         "children": [
           {
             "id": "6435bed6e6a3a2d7",
@@ -239,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 681.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,33 +256,33 @@
   },
   "active": "699fd4a4c18cf451",
   "lastOpenFiles": [
-    "1.npc/Thundercore/School/Lyra stormraven.md",
-    "1.npc/Thundercore/School/Simzy Tayfoot.md",
-    "1.npc/Thundercore/School/Zeba Popeholt.md",
-    "1.npc/Thundercore/School/Jila Aikener.md",
-    "1.npc/Thundercore/School/Berric Ironheart.md",
-    "1.npc/Thundercore/School/Korin Switfstep.md",
-    "1.npc/Thundercore/School/Team blue.md",
-    "1.npc/Thundercore/Danri Upmont.md",
-    "1.pc/Pc party.md",
-    "3.Quests/Act 1/Missing person.md",
-    "7. spells/Ice Knife.md",
-    "5.Sessions/Session 6.md",
-    "3.Quests/Act 1/Rot Beneath the Boughs.md",
-    "3.Quests/Act 1/Soulbound animals.md",
-    "7. spells/Gift of Alacrity.md",
-    "5.Sessions/Session 0.md",
-    "2.Monsters/The treebound.md",
-    "3.Quests/Completed/Missing child.md",
-    "2.Monsters/blind arbiter",
-    "2.Monsters/Zombie wolf.md",
-    "2.Monsters/Undead stag.md",
-    "2.Monsters/Skeletal knight.md",
-    "2.Monsters/Shadow guardian.md",
-    "2.Monsters/Shadow druid.md",
+    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
+    "3.Quests/Act 1/Orc raider.md",
+    "4. items/test1.md",
+    "4. items/Flameheart dagger.md",
+    "4. items/Horn of Silent Alarm.md",
+    "4. items/Ethereal boots.md",
+    "4. items/Thermal cube.md",
+    "4. items/orb of direction.md",
+    "1.pc/Varron Hellebore.md",
+    "1.pc/Roderick Fitzgerald-blackwood.md",
+    "4. items/Amulet of the Grovebound.md",
+    "2.Monsters/Orc warrior.md",
+    "2.Monsters/Orc shaman.md",
+    "2.Monsters/Orc captain.md",
+    "2.Monsters/Orc Battleborn.md",
+    "2.Monsters/Orc Archer.md",
     "2.Monsters/Shadow demon.md",
-    "2.Monsters/Satyr.md",
-    "2.Monsters/Quickling.md",
+    "2.Monsters/Shadow druid.md",
+    "1.pc/Yakub Khalid Sumbul.md",
+    "1.pc/TinkerWiz.md",
+    "1.pc/Tarnak the Terrible.md",
+    "1.pc/Rolf Ravioli.md",
+    "3.Quests/Act 1/Missing person.md",
+    "3.Quests/Act 1/Soulbound animals.md",
+    "2.Monsters/Nyx the shade walker.md",
+    "z.test/test.md",
+    "2.Monsters/blind arbiter",
     "2.Monsters",
     "4. mecanics",
     "4. items/XML's/test.xml",

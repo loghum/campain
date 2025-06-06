@@ -28,7 +28,7 @@ alignment: Lawful Evil
 ac: 16 Chainmail
 hp: 38
 speed: 30 ft.
-stats: [20, 10, 14, 9, 12, 11]
+stats: [20, 10, 14, 9, 11, 12]
 saves:
   - strength: +7
   - dexterity: +0
@@ -46,7 +46,7 @@ senses: Passive Perception 11
 languages: Common, Celestial
 cr: 1
 spells:
-  - 1st level (3 slots) [[Bless]], [[Command]], [[Thunderous Smite]]
+  - 1st level (3 slots) [[Armor of agathys]], [[Bless]], [[Command]], [[Thunderous Smite]]
 traits:
   - name: Aura of Conquest
     desc: Creatures within 10 feet of the Paladin that are frightened have their speed reduced to 0

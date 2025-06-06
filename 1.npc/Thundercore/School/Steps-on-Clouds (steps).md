@@ -1,5 +1,5 @@
 ---
-name: Korin Swiftstep
+name: Steps-on-Clouds
 location: Thundercore
 role: Shool student
 building: "[[Ironheart’s Academy of Blades and Spells]]"
@@ -9,8 +9,8 @@ ac: "18"
 modifier: "10"
 ---
 ```statblock
-monster: Korin Swiftstep
-name: Korin Swiftstep +4 initief
+monster: Steps-on-Clouds
+name: Steps-on-Clouds + 1d8
 size: Medium
 type: Humanoid
 subtype: None
@@ -59,11 +59,11 @@ traits:
     desc: "+10 ft. speed, no difficult terrain when dashing, and no opportunity attacks from targets you’ve attacked (hit or miss)."
   - name: Fey Touched (Feat)
     desc: "+1 Wisdom, learn Misty Step and Gift of Alacrity. Misty Step can be cast once per long rest without a spell slot."
+  - name: Feline Agility
+    desc: Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
 actions:
   - name: Unarmed Strike
-    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d4+5 bludgeoning damage."
-  - name: Quarterstaff
-    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6+5 bludgeoning damage (one-handed) or 1d8+5 (two-handed)."
+    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6+5 slashing."
   - name: Dart
     desc: "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 1d4+5 piercing damage."
 legendary_actions:

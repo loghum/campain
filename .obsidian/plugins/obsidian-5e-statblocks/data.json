@@ -2357,6 +2357,576 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Steps-on-Clouds + 1d8",
+      {
+        "monster": "Steps-on-Clouds",
+        "name": "Steps-on-Clouds + 1d8",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Neutral",
+        "ac": 18,
+        "hp": 34,
+        "speed": "50 ft.",
+        "stats": [
+          10,
+          20,
+          14,
+          9,
+          16,
+          11
+        ],
+        "saves": [
+          {
+            "strength": 2
+          },
+          {
+            "dexterity": 7
+          },
+          {
+            "constitution": 2
+          },
+          {
+            "intelligence": -1
+          },
+          {
+            "wisdom": 4
+          },
+          {
+            "charisma": 0
+          }
+        ],
+        "skillsaves": [
+          "None"
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 12",
+        "languages": "Common, Elvish",
+        "cr": 1,
+        "spells": [
+          {
+            "1st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Gift of Alacrity<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "2st level (1/day)": [
+              "<STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>"
+            ]
+          }
+        ],
+        "traits": [
+          {
+            "name": "Ki save",
+            "desc": "8 + prof + wisdom: 13"
+          },
+          {
+            "name": "Martial Arts",
+            "desc": "Use Dexterity instead of Strength for unarmed strikes and monk weapons. Unarmed strikes deal 1d4 damage. Can make an unarmed strike as a bonus action after using the Attack action with an unarmed or monk weapon."
+          },
+          {
+            "name": "Ki (4 points)",
+            "desc": "Spend ki to use Flurry of Blows, Patient Defense, or Step of the Wind. Regains all ki on a short or long rest."
+          },
+          {
+            "name": "Unarmored Movement",
+            "desc": "+10 ft. movement when not wearing armor or using a shield."
+          },
+          {
+            "name": "Deflect Missiles",
+            "desc": "Use reaction to reduce damage from a ranged weapon attack by 1d10 + 7. Can catch and throw it if reduced to 0."
+          },
+          {
+            "name": "Slow Fall",
+            "desc": "Reduce falling damage by 20 as a reaction."
+          },
+          {
+            "name": "Open Hand Technique",
+            "desc": "When you hit a creature with Flurry of Blows, you can knock it prone, push it 15 ft., or prevent it from taking reactions (DC 13)."
+          },
+          {
+            "name": "Mobile (Feat)",
+            "desc": "+10 ft. speed, no difficult terrain when dashing, and no opportunity attacks from targets you’ve attacked (hit or miss)."
+          },
+          {
+            "name": "Fey Touched (Feat)",
+            "desc": "+1 Wisdom, learn Misty Step and Gift of Alacrity. Misty Step can be cast once per long rest without a spell slot."
+          },
+          {
+            "name": "Feline Agility",
+            "desc": "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.\""
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strike",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6+5 slashing."
+          },
+          {
+            "name": "Dart",
+            "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 1d4+5 piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Martial Arts",
+            "desc": "After making an attack with a monk weapon or unarmed strike, make one unarmed strike."
+          },
+          {
+            "name": "Flurry of Blows (1 ki)",
+            "desc": "Make two unarmed strikes after taking the Attack action."
+          },
+          {
+            "name": "Step of the Wind (1 ki)",
+            "desc": "Take the Dash or Disengage action as a bonus action. Jump distance is doubled."
+          },
+          {
+            "name": "Patient Defense (1 ki)",
+            "desc": "Take the Dodge action as a bonus action."
+          },
+          {
+            "name": "Misty Step (1/day)",
+            "desc": "Teleport 30 feet to an unoccupied space you can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Deflect Missiles",
+            "desc": "When hit by a ranged weapon attack, reduce the damage by 1d10 + 7. If reduced to 0, catch the missile and make a monk weapon attack with it."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Orc Archer",
+      {
+        "monster": "Orc Archer",
+        "name": "Orc Archer",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Orc",
+        "alignment": "Chaotic Evil",
+        "ac": "14 (leather armor)",
+        "hp": 19,
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          16,
+          14,
+          7,
+          11,
+          10
+        ],
+        "saves": "None",
+        "skillsaves": [
+          {
+            "Athletics": 4
+          },
+          {
+            "Intimidation": 2
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "languages": "Common, Orc",
+        "cr": "1/2",
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Longbow",
+            "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Orc Battleborn",
+      {
+        "monster": "Orc Battleborn",
+        "name": "Orc Battleborn",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Orc",
+        "alignment": "Chaotic Evil",
+        "ac": "16 (studded leather)",
+        "hp": 37,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          13,
+          16,
+          7,
+          8,
+          13
+        ],
+        "saves": "None",
+        "skillsaves": [
+          {
+            "Athletics": 5
+          },
+          {
+            "Intimidation": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Orc",
+        "cr": 1,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          },
+          {
+            "name": "Healing Rage (1/day)",
+            "desc": "As a bonus action, the orc can heal 18 hit points while in combat."
+          },
+          {
+            "name": "Tough",
+            "desc": "The orc adds its Constitution modifier to its Armor Class."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Greataxe",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."
+          },
+          {
+            "name": "Javelin",
+            "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          },
+          {
+            "name": "Healing Rage (1/day)",
+            "desc": "As a bonus action, the orc can heal 18 hit points while in combat."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Orc Captain",
+      {
+        "monster": "Orc Captain",
+        "name": "Orc Captain",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Orc",
+        "alignment": "Chaotic Evil",
+        "ac": "19 (half plate)",
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          13,
+          16,
+          8,
+          9,
+          14
+        ],
+        "saves": "None",
+        "skillsaves": [
+          {
+            "Athletics": 5
+          },
+          {
+            "Intimidation": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Orc",
+        "cr": 3,
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          },
+          {
+            "name": "Tough",
+            "desc": "The orc adds its Constitution modifier to its Armor Class."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The orc makes two melee attacks."
+          },
+          {
+            "name": "Greataxe",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."
+          },
+          {
+            "name": "Javelin",
+            "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Aggressive",
+            "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Orc Warrior",
+      {
+        "monster": "Orc Warrior",
+        "name": "Orc Warrior",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Orc",
+        "alignment": "Chaotic Evil",
+        "ac": 13,
+        "hp": 22,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          12,
+          16,
+          7,
+          10,
+          12
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "Athletics": 5
+          },
+          {
+            "Intimidation": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "languages": "Common, Orc",
+        "cr": "1/2",
+        "spells": "None",
+        "traits": [
+          {
+            "name": "Healing Rage",
+            "desc": "The orc warrior can heal 11 hit points as a bonus action. This ability can be used once per day."
+          },
+          {
+            "name": "Relentless Endurance",
+            "desc": "When the orc warrior is reduced to 0 hit points but not killed outright, it drops to 1 hit point instead. This ability can be used once per day."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The orc warrior makes two attacks with its hand axes."
+          },
+          {
+            "name": "Hand Axe",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Orc Shaman",
+      {
+        "monster": "Orc Shaman",
+        "name": "Orc Shaman",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Orc",
+        "alignment": "Chaotic Evil",
+        "ac": 14,
+        "hp": 55,
+        "speed": "30 ft.",
+        "stats": [
+          13,
+          15,
+          13,
+          15,
+          16,
+          11
+        ],
+        "saves": [
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 3
+          },
+          {
+            "Intimidation": 2
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 13",
+        "languages": "Common, Orc",
+        "cr": 4,
+        "spells": [
+          {
+            "Cantrips (at will)": "mage hand, mending, shillelagh, shocking grasp"
+          },
+          {
+            "1st level (4 slots)": "cure wounds, healing word, inflict wounds"
+          },
+          {
+            "2nd level (3 slots)": "hold person, lesser restoration, silence"
+          },
+          {
+            "3rd level (3 slots)": "bestow curse, spirit guardians"
+          },
+          {
+            "4th level (3 slots)": "banishment, conjure woodland beings"
+          },
+          {
+            "5th level (2 slots)": "mass cure wounds"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "The orc shaman is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following druid spells prepared:"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +3 to hit (+5 to hit with shillelagh), reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage or 7 (1d8 + 3) bludgeoning damage with shillelagh."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "None",
+            "desc": "None"
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
