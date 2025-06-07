@@ -130,6 +130,34 @@
       "resultText": "[4, 5, 2, 3, 1, 5, 5, 3, 4, 3, 1, 2, 2, 6, 2, 2, 6, 6, 1, 2, 1, 5, 4, 5, 5, 4, 5, 2, 5, 4, 6, 6, 5, 3, 6, 3, 3, 1, 3, 6, 2, 2]",
       "timestamp": 1730028342909,
       "id": "5KHesQP0WeoB"
+    },
+    {
+      "result": 4,
+      "original": "1d8",
+      "resultText": "[4]",
+      "timestamp": 1746004039199,
+      "id": "hkad66xtjvow"
+    },
+    {
+      "result": 3,
+      "original": "1d10",
+      "resultText": "[3]",
+      "timestamp": 1746011624529,
+      "id": "6e7NGwt6hrrR"
+    },
+    {
+      "result": 9,
+      "original": "1d10",
+      "resultText": "[9]",
+      "timestamp": 1746011629605,
+      "id": "-5h1VKjcm4Zw"
+    },
+    {
+      "result": 18,
+      "original": "1d20kh",
+      "resultText": "[18]",
+      "timestamp": 1747383834251,
+      "id": "8wEvup76T0ps"
     }
   ]
 }

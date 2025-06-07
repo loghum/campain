@@ -4,7 +4,7 @@ location: Thundercore
 role: Shool student
 building: "[[Ironheart’s Academy of Blades and Spells]]"
 level: "3"
-hp: "27"
+hp: "38"
 ac: "16"
 modifier: "2"
 ---
@@ -25,10 +25,10 @@ size: Medium
 type: Humanoid
 subtype: None
 alignment: Lawful Evil
-ac: 18 Chainmail + shield
-hp: 27
+ac: 16 Chainmail
+hp: 38
 speed: 30 ft.
-stats: [20, 10, 14, 9, 12, 11]
+stats: [20, 10, 14, 9, 11, 12]
 saves:
   - strength: +7
   - dexterity: +0
@@ -46,7 +46,7 @@ senses: Passive Perception 11
 languages: Common, Celestial
 cr: 1
 spells:
-  - 1st level (3 slots) [[Bless]], [[Command]], [[Thunderous Smite]]
+  - 1st level (3 slots) [[Armor of agathys]], [[Bless]], [[Command]], [[Thunderous Smite]]
 traits:
   - name: Aura of Conquest
     desc: Creatures within 10 feet of the Paladin that are frightened have their speed reduced to 0
@@ -58,11 +58,15 @@ traits:
     desc: As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn.
   - name: Lay on Hands 5xlvl
     desc: You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target.
+  - name: Feat sentinel
+    desc: When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach. When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.
+  - name: Feat Polearm master
+    desc: you can use a bonus action to make a melee attack. 1d4. other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon.
+  - name: Great weapon fighting
+    desc: When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
 actions:
-  - name: Longsword
-    desc: Melee Weapon Attack +7 to hit, reach 5 ft., one target. Hit 1d8+5 slashing damage or 1d10+3 if used with two hands
-  - name: Commanding Strike
-    desc: The Paladin utters a command, forcing one creature of their choice within 30 feet that can hear them to make a DC 13 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. (Recharge 5-6)
+  - name: Halberd
+    desc: Melee Weapon Attack +7 to hit, reach 10 ft., one target. Hit 1d10+5 slashing damage
 legendary_actions:
   - name: None
     desc: None
@@ -75,70 +79,3 @@ reactions:
 
 ```
 
-Updated Zeba Popeholt
-Monster: Zeba Popeholt
-Name: Zeba Popeholt
-Size: Medium
-Type: Humanoid
-Subtype: None
-Alignment: Lawful Evil
-AC: 19 (Chainmail + shield + Defense Fighting Style)
-HP: 27
-Speed: 30 ft.
-
-Stats:
-
-Strength: 18
-Dexterity: 10
-Constitution: 14
-Intelligence: 9
-Wisdom: 12
-Charisma: 11
-Saves:
-
-Strength: +6
-Dexterity: +0
-Constitution: +4
-Intelligence: -1
-Wisdom: +3
-Charisma: +2
-Skillsaves:
-
-None
-Damage Vulnerabilities: None
-Damage Resistances: None
-Damage Immunities: None
-Condition Immunities: None
-
-Senses: Passive Perception 11
-Languages: Common, Celestial
-CR: 1
-
-Spells:
-
-1st Level (3 slots): Bless, Command, Thunderous Smite
-Features:
-
-Divine Sense (3 Uses): As an action, you can detect the location of any celestial, fiend, or undead within 60 feet that is not behind total cover. You can also detect the presence of consecrated or desecrated areas or objects. Lasts until the end of your next turn.
-Lay on Hands (15 HP Pool): You have a pool of healing power that replenishes when you finish a long rest. As an action, you can touch a creature and restore a number of hit points up to the amount in the pool. Alternatively, you can expend 5 HP to cure one disease or neutralize one poison affecting the target.
-Aura of Conquest: Creatures within 10 feet of the Paladin that are frightened have their speed reduced to 0.
-Divine Smite: When the Paladin hits a creature with a melee weapon attack, they can expend a spell slot to deal radiant damage in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, up to a maximum of 5d8.
-Spellcasting: The Paladin is a 3rd-level spellcaster. Their spellcasting ability is Charisma (spell save DC 11, +2 to hit with spell attacks).
-Fighting Style – Defense: While you are wearing armor, you gain a +1 bonus to AC.
-War Caster:
-You have advantage on Constitution saving throws that you make to maintain concentration on a spell when you take damage.
-You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
-When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and target only that creature.
-Actions:
-
-Longsword: Melee Weapon Attack +6 to hit, reach 5 ft., one target. Hit: 1d8 + 4 slashing damage or 1d10 + 4 if used with two hands.
-Commanding Strike: The Paladin utters a command, forcing one creature of their choice within 30 feet that can hear them to make a DC 11 Wisdom saving throw or become frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. (Recharge 5-6)
-Legendary Actions:
-
-None
-Bonus Actions:
-
-None
-Reactions:
-
-None

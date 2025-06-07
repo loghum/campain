@@ -1,10 +1,12 @@
 ---
 name: Tarnak the Terrible
-level: "4"
+level: "5"
 hp: "34"
 ac: "14"
 modifier: "4"
 ---
+
+[[Thermal cube]]
 
 |d10|Effect|
 |---|---|

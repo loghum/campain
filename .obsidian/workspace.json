@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "7b1ee22d651c2666",
+    "id": "31ac31d71dbcdf11",
     "type": "split",
     "children": [
       {
-        "id": "73401e0a824e8e0b",
+        "id": "4cf61f051bce3391",
         "type": "tabs",
         "children": [
           {
-            "id": "4519abed8dd0a75b",
+            "id": "80cfc962576e7791",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/Act 1/Missing person.md",
+                "file": "5.Sessions/Session 6.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Missing person"
-            }
-          },
-          {
-            "id": "9793055761b3f9c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Act 1/Rot Beneath the Boughs.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Rot Beneath the Boughs"
+              "title": "Session 6"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "95e37a4d928675ee",
+    "id": "819935e43cfb0db9",
     "type": "split",
     "children": [
       {
-        "id": "44037e44486ef25c",
+        "id": "07fd8df89ddd5d00",
         "type": "tabs",
         "children": [
           {
-            "id": "89c33ae4ea3cb030",
+            "id": "9d575760197c07e4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "1539191ee1c29f6e",
+            "id": "751733d03cb48bba",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "fead3fce0e724074",
+            "id": "8ebc2e5c09ceb1f9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,24 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 300
   },
   "right": {
-    "id": "746ac8b1a2e9830b",
+    "id": "89269e3e5c7772a4",
     "type": "split",
     "children": [
       {
-        "id": "14de89181a8f1969",
+        "id": "c1e2be42c927c868",
         "type": "tabs",
-        "dimension": 50.57471264367817,
         "children": [
           {
-            "id": "d3a60c35e83909ad",
+            "id": "0b731a31dfa2dc05",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "5.Sessions/Session 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,50 +104,55 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for test"
+              "title": "Backlinks for Session 6"
             }
           },
           {
-            "id": "736cc024e70e268a",
+            "id": "cab67a19e4cb7761",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "5.Sessions/Session 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from test"
+              "title": "Outgoing links from Session 6"
             }
           },
           {
-            "id": "65e57b175198a51e",
+            "id": "c50d09813c382489",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "f2071d6b03bf32a1",
+            "id": "3a095b2c99ce19e8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.Quests/Act 1/Missing child.md"
+                "file": "5.Sessions/Session 6.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Missing child"
+              "title": "Outline of Session 6"
             }
           },
           {
-            "id": "c517d08587f5dfed",
+            "id": "e075f8f723000361",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -173,47 +162,7 @@
             }
           },
           {
-            "id": "39b2d544e258d4e5",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a9e9e1ad091d2b28",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "392ab25349130b23",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "0365273074be2a7b",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "fe0dc2500ef3856d",
+            "id": "921cc4dc655281ed",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -222,29 +171,12 @@
               "title": "Dice Tray"
             }
           }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "89345d23a8f03d36",
-        "type": "tabs",
-        "dimension": 49.42528735632184,
-        "children": [
-          {
-            "id": "6435bed6e6a3a2d7",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 1179.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,53 +191,6 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "89c33ae4ea3cb030",
-  "lastOpenFiles": [
-    "RamonShot",
-    "z.test/test.md",
-    "1.badGuys.md",
-    "7. spells/Wrathful Smite.md",
-    "7. spells/Thorn whip.md",
-    "7. spells/Thunderous Smite.md",
-    "7. spells/Phantasmal Force.md",
-    "7. spells/Hex.md",
-    "2.Monsters/Shadow druid.md",
-    "2.Monsters/Undead stag.md",
-    "3.Quests/Act 1/Rot Beneath the Boughs.md",
-    "5.Sessions/Session 6.md",
-    "5.Sessions/Session 0.md",
-    "3.Quests/Act 1/Shadows in the Depths.md",
-    "9.Downloaded/Gamemastering/Pantheons.md",
-    "9.Downloaded/Gamemastering/Poisons.md",
-    "9.Downloaded/Gamemastering/Traps.md",
-    "4. items/Ring of final rest.md",
-    "4. items/Traveler’s Beacon.md",
-    "1.pc/Tarnak the Terrible.md",
-    "1.pc/Rolf Ravioli.md",
-    "1.pc/Roderick Fitzgerald-blackwood.md",
-    "1.pc/TinkerWiz.md",
-    "1.pc/Varron Hellebore.md",
-    "1.pc/Yakub Khalid Sumbul.md",
-    "4. items/Amulet of the Grovebound.md",
-    "4. mecanics",
-    "4. items/XML's/test.xml",
-    "4. items/XML's",
-    "9.Images/thundercore.png",
-    "9.Images/ZebaPopeholt.png",
-    "9.Images/sunken church.png",
-    "1.badguys",
-    "1.npc/Thundercore/School",
-    "3.Quests/Completed",
-    "1.npc/Thundercore",
-    "Nieuw - Text Document.txt",
-    "9.Images/SimzyTayfoot.png",
-    "9.Images/JilaAikener.png",
-    "9.Images/realm_of_bel.png",
-    "9.Images/Ironhearth's acedemy.png",
-    "9.Images/DALL·E 2024-12-13 15.12.36 - A top-down battlemap for a D&D scenario set in an abandoned forest mill. The map includes a circular clearing surrounded by dense trees and undergrowt.webp",
-    "7. spells",
-    "1.npc/Statblocks",
-    "Ironhearth's acedemy-fightingpit.png",
-    "9.Images/Ironhearth's acedemy-fightingpit.png"
-  ]
+  "active": "80cfc962576e7791",
+  "lastOpenFiles": []
 }

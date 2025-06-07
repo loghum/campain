@@ -3,8 +3,8 @@ name: Simzy Tayfoot
 location: Thundercore
 role: Shool student
 building: "[[Ironheart’s Academy of Blades and Spells]]"
-level: "3"
-hp: "24"
+level: "4"
+hp: "30"
 ac: "15"
 modifier: "2"
 ---
@@ -25,7 +25,7 @@ type: Humanoid
 subtype: None
 alignment: Neutral
 ac: 15
-hp: 24
+hp: 30
 speed: 30 ft.
 stats: [10, 14, 14, 12, 20, 9]
 saves:
@@ -45,9 +45,9 @@ senses: Passive Perception 13
 languages: Common, Druidic
 cr: 1
 spells:
-  - cantrips [[Produce Flame]], [[Thorn whip]]
-  - 1st level (4 slots) [[Thunderwave]], [[Healing Word]], [[Entangle]]
-  - 2nd level (2 slots) [[Hold Person]], [[Spike Growth]], [[Heat Metal]]
+  - cantrips [[Produce Flame]], [[Thorn whip]], [[Shillelagh]]
+  - 1st level (4 slots) [[Thunderwave]], [[Healing Word]], [[Entangle]], [[Ice Knife]]
+  - 2nd level (3 slots) [[Hold Person]], [[Spike Growth]], [[Heat Metal]], [[Summon Beast]]
 traits:
   - name: Combat Wild Shape
     desc: As a bonus action, the Druid can expend one use of Wild Shape to transform into a beast with a CR of 1 or lower. They can use a bonus action to expend a spell slot and regain 1d8 hit points per spell level while in beast form
@@ -71,7 +71,50 @@ reactions:
 ```
 
 ```statblock
-creature: Dire Wolf
+monster: Bestial Spirit
+name: Bestial Spirit
+size: Small
+type: Beast 
+subtype: None
+alignment: Neutral
+ac: 13  
+hp: 30 
+speed: 30 ft., climb 30 ft.  
+stats: [18, 11, 16, 4, 14, 5]
+saves:
+  - strength: +6
+  - dexterity: +2
+  - constitution: +5
+  - intelligence: -3
+  - wisdom: +4
+  - charisma: -3
+skillsaves:
+  - Perception: +4
+damage_vulnerabilities: None
+damage_resistances: None
+damage_immunities: None
+condition_immunities: None
+senses: Darkvision 60 ft., Passive Perception 12
+languages: Understands the languages you speak
+cr: —
+proficiency_bonus: Equals your bonus
+traits:
+  - name: Pack Tactics
+    desc: The beast has advantage on an attack roll against a creature if at least one of the beast’s allies is within 5 feet of the creature and the ally isn’t incapacitated.
+actions:
+  - name: Multiattack
+    desc: The beast makes 1 attack 
+  - name: Maul
+    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d8 + 4 + 2 piercing damage."
+legendary_actions:
+  - name: None
+    desc: None
+bonus_actions:
+  - name: None
+    desc: None
+reactions:
+  - name: None
+    desc: None
 ```
 
 

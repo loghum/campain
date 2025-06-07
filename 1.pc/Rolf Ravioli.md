@@ -1,8 +1,11 @@
 ---
 name: Rolf
-level: "4"
+level: "5"
 hp: "34"
 ac: "14"
 modifier: "4"
 ---
 [[Moon-touched sword]]
+[[Flameheart dagger]]
+[[Locket of self reliance]]
+[[Potion of greater healing]]

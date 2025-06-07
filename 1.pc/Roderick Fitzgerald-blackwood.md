@@ -1,8 +1,10 @@
 ---
 name: Roderick
-level: "4"
+level: "5"
 hp: "100"
 ac: "20"
 modifier: "4"
 ---
-Test
+[[Horn of Silent Alarm]]
+[[Ring of Protection]]
+[[Potion of greater healing]]
