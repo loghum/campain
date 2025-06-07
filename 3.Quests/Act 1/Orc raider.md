@@ -9,13 +9,20 @@ Zijn ogen zijn opvallend: licht goudbruin, bijna geel, met een twinkel van plezi
 Hij stelt zich voor met een soepele buiging:  
 **"Merrick Flint, tot uw dienst. Speler, verhalenverteller... en een tikje geluksbrenger, als de wind goed staat."**
 
-dichte koets met daarom een bestuurden met een grote kruisboog.
+dichte koets met daarom een bestuurden met een grote kruisboog. Naam van bestuurder: Retar
 
 onderweg [[Dice 21]] spelen
 
+
+Omgevallen boom. Komt staat een troll. Kijkt verdrietig sip. Troll: ik verdrietieg. ik blij willen. Jullie mij blij maken!
+
+```encounter
+name: Encounter name
+creatures:
+  - Troll
+```
+
 Bestuurden scheerm. Meneer. en daarna gegorgel en 2 pijlen punten door het hout van de wagen.
-
-
 ```encounter
 name: Encounter name
 creatures:

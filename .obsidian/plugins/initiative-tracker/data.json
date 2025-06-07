@@ -1,7 +1,47 @@
 {
-  "players": [],
-  "parties": [],
-  "defaultParty": null,
+  "players": [
+    {
+      "note": "Rolf Ravioli",
+      "path": "1.pc/Rolf Ravioli.md",
+      "name": "Rolf",
+      "ac": "14",
+      "hp": "34",
+      "level": "5",
+      "modifier": "4",
+      "player": true
+    },
+    {
+      "note": "Tarnak the Terrible",
+      "path": "1.pc/Tarnak the Terrible.md",
+      "name": "Tarnak the Terrible",
+      "ac": "14",
+      "hp": "34",
+      "level": "5",
+      "modifier": "4",
+      "player": true
+    },
+    {
+      "note": "TinkerWiz",
+      "path": "1.pc/TinkerWiz.md",
+      "name": "TinkerWiz",
+      "ac": "14",
+      "hp": "34",
+      "level": "5",
+      "modifier": "4",
+      "player": true
+    }
+  ],
+  "parties": [
+    {
+      "name": "Part -",
+      "players": [
+        "Rolf",
+        "Tarnak the Terrible",
+        "TinkerWiz"
+      ]
+    }
+  ],
+  "defaultParty": "Part -",
   "statuses": [
     {
       "name": "Blinded",
@@ -98,9 +138,97 @@
   "playerMarker": "default",
   "monsterMarker": "default",
   "state": {
-    "creatures": [],
+    "creatures": [
+      {
+        "name": "Rolf",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 34,
+        "currentMaxHP": 34,
+        "ac": "14",
+        "currentAC": "14",
+        "note": "Rolf Ravioli",
+        "path": "1.pc/Rolf Ravioli.md",
+        "id": "ID_aad87ae84a8b",
+        "currentHP": 34,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "5",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Tarnak the Terrible",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 34,
+        "currentMaxHP": 34,
+        "ac": "14",
+        "currentAC": "14",
+        "note": "Tarnak the Terrible",
+        "path": "1.pc/Tarnak the Terrible.md",
+        "id": "ID_2b3acb9a2958",
+        "currentHP": 34,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "5",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "TinkerWiz",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 34,
+        "currentMaxHP": 34,
+        "ac": "14",
+        "currentAC": "14",
+        "note": "TinkerWiz",
+        "path": "1.pc/TinkerWiz.md",
+        "id": "ID_7b1b7a5a692b",
+        "currentHP": 34,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "5",
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Troll",
+        "initiative": 18,
+        "static": false,
+        "modifier": 1,
+        "hp": 84,
+        "currentMaxHP": 84,
+        "cr": "5",
+        "ac": 15,
+        "currentAC": 15,
+        "id": "ID_3a3b3baabb9a",
+        "currentHP": 84,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "8d10 + 40",
+        "rollHP": false
+      }
+    ],
     "state": false,
-    "name": null,
+    "name": "Encounter name",
     "round": 1,
     "logFile": "",
     "rollHP": false
@@ -134,5 +262,5 @@
     "showXP": true,
     "sidebarIcon": true
   },
-  "rollPlayerInitiatives": 0
+  "rollPlayerInitiatives": 2
 }

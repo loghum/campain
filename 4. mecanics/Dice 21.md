@@ -6,4 +6,4 @@ Doel < 21.
 4. hoogtste getal wint
 5. gelijk -> pot verdeeld.
 
-Als de begin inzet nog een keer wordt ingezet, mag er opnieuw gerolled worden of iemand anders forceren opnieuw te rollen.
+Als de dubbele begin inzet nog een keer wordt ingezet, mag er opnieuw gerolled worden.

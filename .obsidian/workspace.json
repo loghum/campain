@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Sessions/Session 6.md",
+                "file": "4. mecanics/Dice 21.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Session 6"
+              "title": "Dice 21"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.Sessions/Session 6.md",
+                "file": "3.Quests/Act 1/Orc raider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Session 6"
+              "title": "Backlinks for Orc raider"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.Sessions/Session 6.md",
+                "file": "3.Quests/Act 1/Orc raider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Session 6"
+              "title": "Outgoing links from Orc raider"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.Sessions/Session 6.md",
+                "file": "3.Quests/Act 1/Orc raider.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Session 6"
+              "title": "Outline of Orc raider"
             }
           },
           {
@@ -171,12 +171,28 @@
               "title": "Dice Tray"
             }
           }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "8d565032524f5c1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eebc8991124e217d",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 778.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,5 +208,8 @@
     }
   },
   "active": "80cfc962576e7791",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "3.Quests/Act 1/Orc raider.md",
+    "5.Sessions/Session 6.md"
+  ]
 }
