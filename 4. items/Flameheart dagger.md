@@ -1,15 +1,16 @@
 ---
-<item>
-    <name>Flameheart Dagger</name>
-    <detail>Uncommon (requires attunement)</detail>
-    <type>M</type>
-    <magic>YES</magic>
-    <weight>6</weight>
-    <property>P,F,L</property>
-    <dmg1>1d4</dmg1>
-    <dmgType>S</dmgType>
-    <text>The Flameheart Dagger deals an additional 1d4 fire damage on a hit. Once per day, the wielder can use a bonus action to ignite the blade, causing it to deal an additional 2d4 fire damage for 1 minute.</text>
-  </item>
+{
+  "name": "Flameheart Dagger",
+  "detail": "Uncommon (requires attunement)",
+  "type": "M",
+  "magic": "YES",
+  "weight": 6,
+  "property": "P,F,L",
+  "dmg1": "1d4",
+  "range": "20/60",
+  "dmgType": "S",
+  "text": "The Flameheart Dagger deals an additional 1d4 fire damage on a hit. Once per day, the wielder can use a bonus action to ignite the blade, causing it to deal an additional 2d4 fire damage for 1 minute."
+}
 ---
 
 ### Flameheart Dagger

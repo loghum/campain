@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4cf61f051bce3391",
+        "id": "2d24728c7db5a68d",
         "type": "tabs",
         "children": [
           {
-            "id": "80cfc962576e7791",
+            "id": "d333d016adb108df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. mecanics/Dice 21.md",
-                "mode": "source",
+                "file": "4.world/The Shattered Crownlands.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dice 21"
+              "title": "The Shattered Crownlands"
+            }
+          },
+          {
+            "id": "351f5f4fcb89d9e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Runescape goals.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Runescape goals"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 574.5
   },
   "right": {
     "id": "89269e3e5c7772a4",
@@ -142,23 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.Quests/Act 1/Orc raider.md",
+                "file": "Runescape goals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Orc raider"
-            }
-          },
-          {
-            "id": "e075f8f723000361",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
+              "title": "Outline of Runescape goals"
             }
           },
           {
@@ -170,29 +175,23 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "8d565032524f5c1d",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "eebc8991124e217d",
+            "id": "e075f8f723000361",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 778.5
+    "width": 1024.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +206,43 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "80cfc962576e7791",
+  "active": "351f5f4fcb89d9e5",
   "lastOpenFiles": [
-    "3.Quests/Act 1/Orc raider.md",
-    "5.Sessions/Session 6.md"
+    "Summon Beast.md",
+    "Runescape goals.md",
+    "Pasted image 20250610112551.png",
+    "1.badGuys.md",
+    "4.world/The Shattered Crownlands.md",
+    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
+    "3.Quests/Act 1/EmberDeep.md",
+    "2.Monsters/Moltrax.md",
+    "3.Quests/Act 1/Strange dad.md",
+    "2.Monsters/Hellhound.md",
+    "2.Monsters/Hobgoblin devastator.md",
+    "2.Monsters/Fire snake.md",
+    "2.Monsters/Githyanki Knight.md",
+    "2.Monsters/Helmed Horror.md",
+    "3.Quests/Act 1/Dream Gauntlet.md",
+    "2.Monsters/Durgar flame guard.md",
+    "9.Downloaded/Spells/Shatter.md",
+    "4. items/Bracers of the emberwright.md",
+    "4. items/Runic Shield of Thar-Grim.md",
+    "4. items/Forge-Soul Focus.md",
+    "4. items/Girdle of the stoneblood clan.md",
+    "Ramon's epic adventure/Monsters/Phantom Warrior.md",
+    "Ramon's epic adventure/Monsters/Fading Specter.md",
+    "1.pc/Tarnak the Terrible.md",
+    "Ramon's epic adventure/Main - Quest - for DM.md",
+    "Ramon's epic adventure/Spells-Conditions/Madness.md",
+    "Ramon's epic adventure/Riddles.md",
+    "Ramon's epic adventure/Spells-Conditions",
+    "Ramon's epic adventure/Organisations",
+    "Ramon's epic adventure/Monsters",
+    "Ramon's epic adventure/Items",
+    "Ramon's epic adventure/Dungeon",
+    "Ramon's epic adventure",
+    "9.Images/emberforge.png",
+    "9.Images/emberforge",
+    "9.Images/Unconfirmed 347062.crdownload"
   ]
 }

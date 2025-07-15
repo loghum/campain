@@ -1,0 +1,41 @@
+- [ ] Dragon defender
+	- [ ] Access warriors gild
+		- [ ] 65 attack
+		- [ ] 65 strength
+- [ ]  66 range for sunlight hunter crossbow
+- [ ]  Barrow gloves (Recipe for disaster)
+	- [ ] Lumbridge guide
+		- [ ] Murder Mystery
+		- [ ] Witch house
+	- [ ] Evil Dave
+		- [ ] Shadow of the storm
+			- [ ] The golem
+	- [ ] Sir amik varze
+		- [ ] Legends quest
+		- [ ] heroes quest
+			- [ ] Merlin's crystal
+		- [ ] Shilo Village
+			- [ ] Junlge potion
+		- [ ] Undergound pass
+	- [ ] King awowogei
+		- [ ] 70 cooking
+- [ ]  Cooked karambwan
+	- [ ] 65 fishing
+	- [ ] Talk to Tinsay
+		- [ ] Tai Bwo Wannai Trio
+- [ ]  full procelyte
+	- [ ] The slug menace
+		- [ ] sea slug
+- [ ] Zombie axe
+	- [ ] 65 attack
+	- [ ] 70 smithing
+	- [ ] Defender of varrock
+		- [ ] Temple of ikov
+		- [ ] Family crest
+			- [ ] 59 magic
+		- [ ] Garden of Tranquility
+			- [ ] Creature of fenkenstrain
+		- [ ] Wat lies below
+- [ ] rune pouch - 75 points in LastManStanding
+
+

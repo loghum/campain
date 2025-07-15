@@ -2927,6 +2927,1034 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Grick Alpha",
+      {
+        "monster": "Grick Alpha",
+        "name": "Grick Alpha",
+        "size": "Large",
+        "type": "Monstrosity",
+        "subtype": "—",
+        "alignment": "Neutral",
+        "ac": "18 (natural armor)",
+        "hp": 75,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": [
+          18,
+          16,
+          15,
+          4,
+          14,
+          9
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "—",
+        "damage_resistances": "bludgeoning, piercing, slashing from nonmagical weapons",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "cr": 7,
+        "proficiency_bonus": 3,
+        "traits": [
+          {
+            "name": "Stone Camouflage",
+            "desc": "The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The grick makes two attacks: one with its tail and one with its tentacles. If it hits with its tentacles, it can make one beak attack against the same target."
+          },
+          {
+            "name": "Tail",
+            "desc": "+7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+          },
+          {
+            "name": "Tentacles",
+            "desc": "+7 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) slashing damage."
+          },
+          {
+            "name": "Beak",
+            "desc": "+7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Hobgoblin Devastator",
+      {
+        "monster": "Hobgoblin Devastator",
+        "name": "Hobgoblin Devastator",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Goblinoid",
+        "alignment": "Lawful Evil",
+        "ac": "13 (Studded Leather)",
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          13,
+          12,
+          14,
+          16,
+          13,
+          11
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "arcana": 5
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 11",
+        "languages": "Common, Goblin",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Arcane Advantage",
+            "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally who isn’t incapacitated."
+          },
+          {
+            "name": "Army Arcane",
+            "desc": "When the hobgoblin casts a damaging or saving‑throw spell, it can choose itself and any number of allies to be immune to the spell's damage and automatically succeed on its saving throw."
+          }
+        ],
+        "spells": [
+          {
+            "cantrips": [
+              "<STATBLOCK-WIKI-LINK>Acid Splash<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Fire Bolt<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Ray of Frost<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Shocking Grasp<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "level_1 (4 slots)": [
+              "<STATBLOCK-WIKI-LINK>Fog Cloud<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Magic Missile<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Thunderwave<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "level_2 (3 slots)": [
+              "<STATBLOCK-WIKI-LINK>Gust of Wind<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Melf’s Acid Arrow<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Scorching Ray<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "level_3 (3 slots)": [
+              "<STATBLOCK-WIKI-LINK>Fireball<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Fly<STATBLOCK-WIKI-LINK>",
+              "<STATBLOCK-WIKI-LINK>Lightning Bolt<STATBLOCK-WIKI-LINK>"
+            ]
+          },
+          {
+            "level_4 (1 slot)": [
+              "<STATBLOCK-WIKI-LINK>Ice Storm<STATBLOCK-WIKI-LINK>"
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The hobgoblin makes two attacks: one with its quarterstaff and one with its devastating spell attack."
+          },
+          {
+            "name": "Quarterstaff",
+            "desc": "+3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) if used with two hands."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Spell save DC 13, +5 to hit with spell attacks. See spell list above."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Banshee",
+      {
+        "monster": "Banshee",
+        "name": "Banshee",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "—",
+        "alignment": "Chaotic Evil",
+        "ac": "12 (natural armor)",
+        "hp": 58,
+        "speed": "0 ft., fly 40 ft. (hover)",
+        "stats": [
+          6,
+          14,
+          10,
+          12,
+          11,
+          17
+        ],
+        "saves": [
+          {
+            "wisdom": 2
+          },
+          {
+            "charisma": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 0
+          }
+        ],
+        "damage_vulnerabilities": "—",
+        "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
+        "damage_immunities": "cold, necrotic, poison",
+        "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "Common, Elvish",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Detect Life",
+            "desc": "The banshee can magically sense the presence of creatures up to 5 miles away that aren’t undead or constructs."
+          },
+          {
+            "name": "Incorporeal Movement",
+            "desc": "The banshee can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Corrupting Touch (Melee Spell Attack)",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) necrotic damage."
+          },
+          {
+            "name": "Horrifying Visage",
+            "desc": "Each non-undead creature within 60 ft. that can see the banshee must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the save at the end of each of its turns, with disadvantage if the banshee is in line of sight. On a success or the effect ending, the target is immune to this feature for the next 24 hours."
+          },
+          {
+            "name": "Wail (1/Day)",
+            "desc": "The banshee releases a mournful wail, provided it isn’t in sunlight. All other creatures within 30 ft. that can hear it must make a DC 13 Constitution save. On a failure, a creature drops to 0 hit points. On a success, it takes 10 (3d6) psychic damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Meazel",
+      {
+        "monster": "Meazel",
+        "name": "Meazel",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Meazel",
+        "alignment": "Neutral Evil",
+        "ac": "13 (natural armor)",
+        "hp": 35,
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          17,
+          9,
+          14,
+          13,
+          10
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "perception": 3
+          },
+          {
+            "stealth": 5
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 120 ft., passive Perception 13",
+        "languages": "Common",
+        "cr": 1,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Shadow Stealth",
+            "desc": "While in dim light or darkness, the meazel can take the Hide action as a bonus action."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Garrote (Melee Weapon Attack)",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13). Until the grapple ends, the target takes 10 (2d6 + 3) bludgeoning damage at the start of each of the meazel’s turns. The meazel can’t make weapon attacks while grappling in this way."
+          },
+          {
+            "name": "Shortsword (Melee Weapon Attack)",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 3 (1d6) necrotic damage."
+          },
+          {
+            "name": "Shadow Teleport (Recharge 5–6)",
+            "desc": "The meazel and any creature it is grappling teleport to an unoccupied space within 500 ft. that the meazel has seen before, provided both origin and destination are in dim light or darkness. Any creature teleported this way is cursed by shadow for 1 hour: undead and creatures native to the Shadowfell within 300 ft. can sense the cursed target, preventing it from hiding from them."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Githyanki Knight",
+      {
+        "monster": "Githyanki Knight",
+        "name": "Githyanki Knight",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Gith",
+        "alignment": "Lawful Evil",
+        "ac": "18 (plate)",
+        "hp": 91,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          14,
+          15,
+          14,
+          14,
+          15
+        ],
+        "saves": [
+          {
+            "constitution": 5
+          },
+          {
+            "intelligence": 5
+          },
+          {
+            "wisdom": 5
+          }
+        ],
+        "skillsaves": [],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 12",
+        "languages": "Common, Gith",
+        "cr": 8,
+        "proficiency_bonus": 3,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Mage Hand<STATBLOCK-WIKI-LINK>",
+          "3rd level (2/day) <STATBLOCK-WIKI-LINK>Nondetection<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Tongues<STATBLOCK-WIKI-LINK>",
+          "5th level (1/day) <STATBLOCK-WIKI-LINK>Plane Shift<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Telekinesis<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "desc": "The githyanki’s innate spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no components."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The githyanki makes two silver greatsword attacks."
+          },
+          {
+            "name": "Silver Greatsword",
+            "desc": "+9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. On a critical hit against a creature in an astral body, the githyanki severs the silvery cord instead of dealing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Misty Step (2/day)",
+            "desc": "The githyanki casts Misty Step, requiring no components."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Helmed Horror",
+      {
+        "monster": "Helmed Horror",
+        "name": "Helmed Horror",
+        "size": "Medium",
+        "type": "Construct",
+        "subtype": "—",
+        "alignment": "Neutral",
+        "ac": "20 (natural armor)",
+        "hp": 67,
+        "speed": "30 ft., fly 30 ft. (hover)",
+        "stats": [
+          18,
+          13,
+          16,
+          10,
+          10,
+          10
+        ],
+        "saves": [
+          {
+            "constitution": 3
+          },
+          {
+            "dexterity": 1
+          },
+          {
+            "intelligence": 0
+          },
+          {
+            "wisdom": 0
+          },
+          {
+            "charisma": 0
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "Necrotic, Poison",
+        "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Stunned",
+        "senses": "Blindsight 60 ft., passive Perception 14",
+        "languages": "Understands Common and one other language but can’t speak",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Magic Resistance",
+            "desc": "The helmed horror has advantage on saving throws against spells and other magical effects."
+          },
+          {
+            "name": "Spell Immunity",
+            "desc": "The helmed horror is immune to three spells chosen by its creator (typical examples: detect magic, fireball, lightning bolt)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The helmed horror makes two Arcane Sword attacks."
+          },
+          {
+            "name": "Arcane Sword",
+            "desc": "+8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Arcane Adept",
+      {
+        "monster": "Arcane Adept",
+        "name": "Arcane Adept",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Any (e.g., Human or Elf)",
+        "alignment": "Neutral Evil",
+        "ac": "13 (Mage Armor)",
+        "hp": "45 (6d8 + 18)",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          12,
+          16,
+          12,
+          14
+        ],
+        "saves": [
+          {
+            "intelligence": 6
+          },
+          {
+            "wisdom": 3
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 6
+          },
+          {
+            "deception": 4
+          }
+        ],
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Passive Perception 11",
+        "languages": "Common, plus one other",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "spells": [
+          {
+            "cantrips": "<STATBLOCK-WIKI-LINK>Fire Bolt<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Mage Hand<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1st level (4 slots)": "<STATBLOCK-WIKI-LINK>Mage Armor<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shield<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Magic Missile<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Disguise Self<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "2nd level (3 slots)": "<STATBLOCK-WIKI-LINK>Mirror Image<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Misty Step<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "3rd level (2 slots)": "<STATBLOCK-WIKI-LINK>Counterspell<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fireball<STATBLOCK-WIKI-LINK>"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "The Arcane Adept is a 6th-level spellcaster. Intelligence is their spellcasting ability (spell save DC 14, +6 to hit with spell attacks). They have the following spells prepared: [spells as above]."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Misty Step",
+            "desc": "Teleport up to 30 feet to an unoccupied space that you can see."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shield",
+            "desc": "Cast Shield in response to being hit by an attack or targeted by Magic Missile."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Ghoul Minion",
+      {
+        "monster": "Ghoul Minion",
+        "name": "Ghoul Minion",
+        "size": "Medium",
+        "type": "Undead",
+        "alignment": "Chaotic Evil",
+        "ac": 12,
+        "hp": 20,
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          12,
+          14,
+          6,
+          10,
+          5
+        ],
+        "damage_immunities": "Poison",
+        "condition_immunities": "Charmed, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "languages": "understands Common but can't speak",
+        "cr": "1/2",
+        "traits": [
+          {
+            "name": "Pack Howl",
+            "desc": "When two or more Shrieking Husks are adjacent to the same target, they gain advantage on attack rolls."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Claw",
+            "desc": "+4 to hit, 2d6+2 slashing. DC 10 CON or be paralyzed until end of next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Aldric the Shackled",
+      {
+        "monster": "Mutated Wight",
+        "name": "Aldric the Shackled",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Former Paladin",
+        "alignment": "Chaotic Evil",
+        "ac": 16,
+        "hp": 55,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          12,
+          16,
+          10,
+          11,
+          15
+        ],
+        "saves": [
+          {
+            "con": 5
+          },
+          {
+            "cha": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "religion": 3
+          }
+        ],
+        "damage_resistances": "Necrotic, Nonmagical Bludgeoning",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Charmed, Exhaustion, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "languages": "Common",
+        "cr": 3,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Grave Echo",
+            "desc": "If Aldric is reduced to 0 HP, he rises once with 1 HP at the start of his next turn. This occurs once per combat."
+          },
+          {
+            "name": "Undead Command",
+            "desc": "Once per turn, Aldric can command an undead ally within 30 ft. to make one attack as a bonus action."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Chain Flail",
+            "desc": "+5 to hit, 1d8+3 bludgeoning + 1d6 necrotic. On hit, DC 13 Strength save or be restrained by spectral chains (escape DC 13 at end of turn)."
+          },
+          {
+            "name": "Withering Touch (Recharge 5–6)",
+            "desc": "Target takes 3d10 necrotic damage. If this reduces a creature to 0 HP, they rise as a zombie 1 minute later under Aldric’s control."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Phantom Warrior",
+      {
+        "monster": "Phantom Warrior",
+        "name": "Phantom Warrior",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Echo Spirit",
+        "alignment": "Lawful Neutral",
+        "ac": 16,
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          17,
+          14,
+          16,
+          10,
+          12,
+          11
+        ],
+        "damage_resistances": "Necrotic, Radiant, Bludgeoning/Piercing/Slashing from nonmagical",
+        "condition_immunities": "Frightened, Grappled",
+        "senses": "Darkvision 60 ft., passive Perception 11",
+        "languages": "Common, Celestial (echoes only)",
+        "cr": 3,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Half-Real",
+            "desc": "The Phantom Warrior is invisible until it makes an attack or takes damage."
+          },
+          {
+            "name": "Shadow Merge (Recharge 6)",
+            "desc": "If the Phantom Warrior is in dim light or darkness, it can become invisible again until it attacks or takes damage."
+          },
+          {
+            "name": "Radiant Feedback",
+            "desc": "When struck by radiant damage, the Echo must succeed on a DC 13 CHA save or become vulnerable to all damage until the end of its next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Spirit Blade",
+            "desc": "+5 to hit, 2d8+3 force damage. If both attacks hit the same target, the target must make a DC 13 Wisdom save or be haunted (disadvantage on saves vs. fear)."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Fading Specter",
+      {
+        "monster": "Fading Specter (Variant)",
+        "name": "Fading Specter",
+        "size": "Medium",
+        "type": "Undead",
+        "alignment": "Neutral Evil",
+        "ac": 14,
+        "hp": 30,
+        "speed": "0 ft., fly 50 ft. (hover)",
+        "stats": [
+          6,
+          14,
+          12,
+          10,
+          12,
+          5
+        ],
+        "damage_resistances": "Acid, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from Nonmagical",
+        "damage_immunities": "Cold, Necrotic, Poison",
+        "condition_immunities": "Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
+        "senses": "Darkvision 60 ft., passive Perception 11",
+        "languages": "None",
+        "cr": "1½",
+        "traits": [
+          {
+            "name": "Tormenting Wail (Recharge 5–6)",
+            "desc": "Each creature within 10 feet must succeed on a **DC 14 Wisdom saving throw** or be frightened for 1 minute. Targets can repeat the save at the end of each of their turns."
+          },
+          {
+            "name": "Phantasmal Flicker",
+            "desc": "Once per turn, when the Specter takes damage, it can move up to 15 feet as a reaction without provoking opportunity attacks."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Life Drain",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 10 (3d6) necrotic damage. The target must succeed on a **DC 10 Constitution saving throw** or its hit point maximum is reduced by the damage taken until the next long rest."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Durgar Flameguard",
+      {
+        "monster": "Durgar Flameguard",
+        "name": "Durgar Flameguard",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Dwarf",
+        "alignment": "Lawful Neutral",
+        "ac": "18 (charred dwarven plate)",
+        "hp": 120,
+        "speed": "25 ft.",
+        "stats": [
+          19,
+          10,
+          18,
+          9,
+          12,
+          11
+        ],
+        "saves": [
+          {
+            "constitution": 7
+          },
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 7
+          },
+          {
+            "perception": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "fire, necrotic, bludgeoning/piercing/slashing from nonmagical attacks",
+        "damage_immunities": "poison",
+        "condition_immunities": "poisoned, exhaustion, charmed",
+        "senses": "darkvision 60 ft., passive Perception 14",
+        "languages": "Dwarvish, Ignan",
+        "cr": 6,
+        "proficiency_bonus": 3,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Endless Duel",
+            "desc": "When reduced to 0 hit points, the Dûrgar can make a DC 15 Constitution saving throw. On a success, it instead drops to 10 hit points and regains its turn. This feature recharges after a long rest."
+          },
+          {
+            "name": "Fire-Forged Flesh",
+            "desc": "The Dûrgar has resistance to fire and necrotic damage. Its body radiates heat; any creature that grapples it or hits it with a melee attack while within 5 feet takes 3 (1d6) fire damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Dûrgar makes two Flamebound Greataxe attacks."
+          },
+          {
+            "name": "Flamebound Greataxe",
+            "desc": "+7 to hit, reach 5 ft., one target. Hit: 12 (1d12 + 6) slashing damage plus 7 (2d6) fire damage. On a critical hit, the target must succeed on a DC 14 Constitution saving throw or ignite, taking 5 (1d10) fire damage at the end of each of its turns until it or another creature uses an action to extinguish the flames."
+          },
+          {
+            "name": "Fire Echo (Recharge 5–6)",
+            "desc": "The Dûrgar slams his axe into the ground, releasing a fiery shockwave in a 10-foot radius. Each creature other than the Dûrgar must make a DC 14 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much on a success. Creatures that fail are also knocked prone."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Fire Snake",
+      {
+        "monster": "Fire Snake",
+        "name": "Fire Snake",
+        "size": "Medium",
+        "type": "Elemental",
+        "subtype": "—",
+        "alignment": "Neutral Evil",
+        "ac": 14,
+        "hp": 22,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          14,
+          11,
+          7,
+          10,
+          8
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Cold",
+        "damage_resistances": "Bludgeoning, Piercing, and Slashing from nonmagical attacks",
+        "damage_immunities": "Fire",
+        "condition_immunities": "None",
+        "senses": "passive Perception 10, darkvision 60 ft.",
+        "languages": "Understands Ignan but can't speak",
+        "cr": 1,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Heated Body",
+            "desc": "A creature that touches the fire snake or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The fire snake makes two attacks: one with its bite and one with its tail."
+          },
+          {
+            "name": "Bite",
+            "desc": "+3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage plus 3 (1d6) fire damage."
+          },
+          {
+            "name": "Tail",
+            "desc": "+3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage plus 3 (1d6) fire damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Hellhound",
+      {
+        "monster": "Hellhound",
+        "name": "Hellhound",
+        "size": "Medium",
+        "type": "Fiend",
+        "subtype": null,
+        "alignment": "Lawful Evil",
+        "ac": "15 (natural armor)",
+        "hp": "45 (7d8 + 14)",
+        "speed": "50 ft.",
+        "stats": [
+          17,
+          12,
+          14,
+          6,
+          13,
+          6
+        ],
+        "saves": [
+          {
+            "dexterity": 3
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 5
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "fire",
+        "damage_immunities": "fire",
+        "condition_immunities": null,
+        "senses": "darkvision 60 ft., passive Perception 15",
+        "languages": "understands Infernal but can't speak",
+        "cr": 3,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Pack Tactics",
+            "desc": "The hellhound has advantage on an attack roll against a creature if at least one of the hellhound’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          },
+          {
+            "name": "Keen Hearing and Smell",
+            "desc": "The hellhound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage."
+          },
+          {
+            "name": "Fire Breath (Recharge 5–6)",
+            "desc": "The hellhound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much on a successful one."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Moltrax, the Smeltery Tyrant",
+      {
+        "monster": "Moltrax, the Smeltery Tyrant",
+        "name": "Moltrax, the Smeltery Tyrant",
+        "size": "Large",
+        "type": "Elemental",
+        "subtype": "Fire",
+        "alignment": "Chaotic Evil",
+        "ac": "16 (molten armor)",
+        "hp": "105 (14d10 + 28)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          14,
+          16,
+          10,
+          12,
+          13
+        ],
+        "saves": [
+          {
+            "strength": 7
+          },
+          {
+            "constitution": 6
+          },
+          {
+            "dexterity": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "intimidation": 5
+          },
+          {
+            "perception": 4
+          }
+        ],
+        "damage_vulnerabilities": "cold",
+        "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_immunities": "fire, poison",
+        "condition_immunities": "poisoned, grappled, restrained, prone",
+        "senses": "darkvision 60 ft., passive Perception 14",
+        "languages": "Ignan, understands Dwarvish but can’t speak",
+        "cr": 7,
+        "proficiency_bonus": 3,
+        "spells": [
+          "2/day each <STATBLOCK-WIKI-LINK>Heat Metal<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Misty Step (fiery burst)<STATBLOCK-WIKI-LINK>",
+          "1/day <STATBLOCK-WIKI-LINK>Fireball<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Molten Body",
+            "desc": "A creature that hits Moltrax with a melee attack while within 5 feet takes 5 (1d10) fire damage."
+          },
+          {
+            "name": "Furnace Core",
+            "desc": "If Moltrax would take fire damage, it instead regains hit points equal to half the fire damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Moltrax makes two melee attacks: one with Molten Slam and one with Lava Whip."
+          },
+          {
+            "name": "Molten Slam",
+            "desc": "+7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
+          },
+          {
+            "name": "Lava Whip",
+            "desc": "+7 to hit, reach 15 ft., one target. Hit: 9 (1d10 + 4) fire damage, and the target must succeed on a DC 14 Strength saving throw or be pulled 10 ft. toward Moltrax."
+          },
+          {
+            "name": "Eruption (Recharge 5–6)",
+            "desc": "Moltrax causes molten cracks to burst from the floor in a 15-ft. radius. Each creature in the area must make a DC 14 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half on a success."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Ignition Surge",
+            "desc": "Until the start of its next turn, Moltrax’s melee attacks deal an extra 1d6 fire damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Scalding Backlash",
+            "desc": "When hit by a melee attack, Moltrax can emit a blast of steam. The attacker must succeed on a DC 13 Constitution saving throw or take 5 (1d10) fire damage."
+          }
+        ],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},

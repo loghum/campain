@@ -29,6 +29,16 @@
       "level": "5",
       "modifier": "4",
       "player": true
+    },
+    {
+      "note": "Roderick Fitzgerald-blackwood",
+      "path": "1.pc/Roderick Fitzgerald-blackwood.md",
+      "name": "Roderick",
+      "ac": "20",
+      "hp": "100",
+      "level": "5",
+      "modifier": "4",
+      "player": true
     }
   ],
   "parties": [
@@ -39,9 +49,18 @@
         "Tarnak the Terrible",
         "TinkerWiz"
       ]
+    },
+    {
+      "name": "Party",
+      "players": [
+        "Rolf",
+        "Tarnak the Terrible",
+        "TinkerWiz",
+        "Roderick"
+      ]
     }
   ],
-  "defaultParty": "Part -",
+  "defaultParty": "Party",
   "statuses": [
     {
       "name": "Blinded",
@@ -150,7 +169,7 @@
         "currentAC": "14",
         "note": "Rolf Ravioli",
         "path": "1.pc/Rolf Ravioli.md",
-        "id": "ID_aad87ae84a8b",
+        "id": "ID_98a94a69fb09",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
@@ -172,8 +191,8 @@
         "currentAC": "14",
         "note": "Tarnak the Terrible",
         "path": "1.pc/Tarnak the Terrible.md",
-        "id": "ID_2b3acb9a2958",
-        "currentHP": 34,
+        "id": "ID_0babdb183abb",
+        "currentHP": 6,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -194,8 +213,8 @@
         "currentAC": "14",
         "note": "TinkerWiz",
         "path": "1.pc/TinkerWiz.md",
-        "id": "ID_7b1b7a5a692b",
-        "currentHP": 34,
+        "id": "ID_fafaabfaa8a9",
+        "currentHP": 23,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -206,28 +225,49 @@
         "friendly": false
       },
       {
-        "name": "Troll",
-        "initiative": 18,
+        "name": "Roderick",
+        "initiative": 0,
         "static": false,
-        "modifier": 1,
-        "hp": 84,
-        "currentMaxHP": 84,
-        "cr": "5",
-        "ac": 15,
-        "currentAC": 15,
-        "id": "ID_3a3b3baabb9a",
-        "currentHP": 84,
+        "modifier": 4,
+        "hp": 100,
+        "currentMaxHP": 100,
+        "ac": "20",
+        "currentAC": "20",
+        "note": "Roderick Fitzgerald-blackwood",
+        "path": "1.pc/Roderick Fitzgerald-blackwood.md",
+        "id": "ID_a9eb59a9aa9b",
+        "currentHP": 100,
         "tempHP": 0,
         "status": [],
         "enabled": true,
+        "level": "5",
+        "player": true,
         "active": false,
         "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Durgar Flameguard",
+        "initiative": 14,
+        "static": false,
+        "modifier": 0,
+        "hp": 120,
+        "currentMaxHP": 120,
+        "cr": 6,
+        "ac": "18 (charred dwarven plate)",
+        "currentAC": "18 (charred dwarven plate)",
+        "id": "ID_99bb1b2a6929",
+        "currentHP": 120,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": true,
+        "hidden": false,
         "friendly": false,
-        "hit_dice": "8d10 + 40",
         "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": "Encounter name",
     "round": 1,
     "logFile": "",
