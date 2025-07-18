@@ -6,7 +6,7 @@ type: Fiend
 subtype: null
 alignment: Lawful Evil
 ac: 15 (natural armor)
-hp: 45 (7d8 + 14)
+hp: 45
 speed: 50 ft.
 stats: [17, 12, 14, 6, 13, 6]  # STR, DEX, CON, INT, WIS, CHA
 saves:
