@@ -397,7 +397,7 @@ As they advance carefully over the spikes, the real threat begins:
 
 **Everyone must make a DC 14 Wisdom saving throw.**
 
-- **Failure**: Gain **1 level of Minor [[Madness]]** — hallucinations, echoing voices, or distrust of an ally until the end of the next short rest.
+- **Failure**: Gain **1 level of Minor [[3.Quests/Completed/Ramon's/Madness]]** — hallucinations, echoing voices, or distrust of an ally until the end of the next short rest.
     
 - **Success**: You hear the voices, but shrug them off.
     
@@ -630,6 +630,16 @@ creatures:
 - 2:Graveborn Skirmisher
 - 2:Ghoul Minion
 - Bonecrush Sentinel
+
+```
+
+```encounter
+
+ame: Ritual Sentries
+
+creatures:
+
+- Lair
 
 ```
 

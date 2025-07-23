@@ -3304,17 +3304,17 @@
       {
         "monster": "Helmed Horror",
         "name": "Helmed Horror",
-        "size": "Medium",
+        "size": "Large",
         "type": "Construct",
         "subtype": "—",
-        "alignment": "Neutral",
-        "ac": "20 (natural armor)",
-        "hp": 67,
-        "speed": "30 ft., fly 30 ft. (hover)",
+        "alignment": "Unaligned",
+        "ac": "20 (plate armor, shield)",
+        "hp": 75,
+        "speed": "30 ft.",
         "stats": [
-          18,
+          20,
           13,
-          16,
+          18,
           10,
           10,
           10
@@ -3342,31 +3342,35 @@
           }
         ],
         "damage_vulnerabilities": "None",
-        "damage_resistances": "None",
-        "damage_immunities": "Necrotic, Poison",
-        "condition_immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Stunned",
-        "senses": "Blindsight 60 ft., passive Perception 14",
-        "languages": "Understands Common and one other language but can’t speak",
-        "cr": 4,
-        "proficiency_bonus": 2,
+        "damage_resistances": "Bludgeoning, Piercing, and Slashing from nonmagical weapons",
+        "damage_immunities": "Force, Necrotic, Poison",
+        "condition_immunities": "Blinded, Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned",
+        "senses": "Blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+        "languages": "Understands commands of its creator",
+        "cr": 5,
+        "proficiency_bonus": 3,
         "traits": [
           {
             "name": "Magic Resistance",
-            "desc": "The helmed horror has advantage on saving throws against spells and other magical effects."
+            "desc": "The Helmed Horror has advantage on saving throws against spells and other magical effects."
           },
           {
             "name": "Spell Immunity",
-            "desc": "The helmed horror is immune to three spells chosen by its creator (typical examples: detect magic, fireball, lightning bolt)."
+            "desc": "The Helmed Horror is immune to three spells chosen by its creator. Suggested: Dispel Magic, Heat Metal, Lightning Bolt."
+          },
+          {
+            "name": "Arcane Anchor",
+            "desc": "If destroyed, this guardian sends a magical pulse to Vaeroth, alerting him instantly."
           }
         ],
         "actions": [
           {
             "name": "Multiattack",
-            "desc": "The helmed horror makes two Arcane Sword attacks."
+            "desc": "The Helmed Horror makes two longsword attacks."
           },
           {
-            "name": "Arcane Sword",
-            "desc": "+8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+            "name": "Longsword",
+            "desc": "+7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
           }
         ],
         "bonus_actions": [],
@@ -4017,7 +4021,7 @@
         "alignment": "Chaotic Evil",
         "ac": "17 (molten armor)",
         "hp": 180,
-        "speed": "30 ft.",
+        "speed": "30 ft., swim 20 ft. (lava only)",
         "stats": [
           20,
           14,
@@ -4069,6 +4073,10 @@
           {
             "name": "Heat Shimmer Aura",
             "desc": "Creatures that start their turn within 10 feet of Moltrax take 3 (1d6) fire damage (no save). A creature that takes this damage has disadvantage on the next Dexterity (Stealth) check made before the start of its next turn (the heat distorts and glows)."
+          },
+          {
+            "name": "Lava Glide",
+            "desc": "While in its lair, Moltrax can use 10 feet of movement to submerge into a lava pit and emerge from another lava pit within 60 feet. This movement does not provoke opportunity attacks."
           },
           {
             "name": "Legendary Resistance (2/Day)",
@@ -4151,6 +4159,368 @@
           }
         ],
         "regional_effects": []
+      }
+    ],
+    [
+      "Bonecrush Sentinel",
+      {
+        "monster": "Bonecrush Sentinel",
+        "name": "Bonecrush Sentinel",
+        "size": "Large",
+        "type": "Undead",
+        "alignment": "Neutral Evil",
+        "ac": 17,
+        "hp": 95,
+        "speed": "30 ft.",
+        "stats": [
+          20,
+          10,
+          18,
+          5,
+          10,
+          6
+        ],
+        "damage_resistances": "Bludgeoning, Piercing, and Slashing from nonmagical weapons",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Frightened, Charmed, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "cr": 5,
+        "traits": [
+          {
+            "name": "Bonewall",
+            "desc": "Creatures behind the Sentinel have half cover from ranged attacks."
+          },
+          {
+            "name": "Unyielding Bulk",
+            "desc": "When the Sentinel drops to 0 HP, its body becomes difficult terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Cracking Maul",
+            "desc": "+7 to hit, 2d10 + 5 bludgeoning damage."
+          },
+          {
+            "name": "Stomp (Recharge 5–6)",
+            "desc": "DC 15 Strength save or 2d6 bludgeoning and prone in 10 ft. radius."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Graveborn Skirmisher",
+      {
+        "monster": "Graveborn Skirmisher",
+        "name": "Graveborn Skirmisher",
+        "size": "Medium",
+        "type": "Undead",
+        "alignment": "Chaotic Evil",
+        "ac": "15 (patched armor)",
+        "hp": 36,
+        "speed": "40 ft.",
+        "stats": [
+          16,
+          16,
+          12,
+          8,
+          10,
+          5
+        ],
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Pack Tactics",
+            "desc": "Advantage on attack rolls if an ally is within 5 ft. of the target."
+          },
+          {
+            "name": "Skirmish Step",
+            "desc": "After hitting a target, the Skirmisher may move 10 ft. without provoking opportunity attacks."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Rusted Blade",
+            "desc": "+5 to hit, 2d6 + 2 slashing damage. Target must make a DC 13 Con save or take 1d6 necrotic damage at the start of its next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Dark Acolyte",
+      {
+        "monster": "Dark Acolyte",
+        "name": "Dark Acolyte",
+        "size": "Medium",
+        "type": "Humanoid (undead)",
+        "alignment": "Neutral Evil",
+        "ac": 12,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          12,
+          13,
+          11,
+          16
+        ],
+        "saves": [
+          {
+            "wis": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "religion": 5
+          }
+        ],
+        "damage_resistances": "Necrotic",
+        "cr": 3,
+        "traits": [
+          {
+            "name": "Ward Channeler",
+            "desc": "If both Acolytes are alive, Vaeroth’s ward remains active."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Chill Bolt",
+            "desc": "+5 to hit, range 60 ft., 3d8 cold damage."
+          },
+          {
+            "name": "Channel Ward (Recharge 6)",
+            "desc": "Restores 10 temporary HP to Vaeroth or another undead within 60 ft."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Vaeroth-Kael",
+      {
+        "monster": "Vaeroth-Kael",
+        "name": "Vaeroth-Kael",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "—",
+        "alignment": "Neutral Evil",
+        "ac": "17 (Mage Armor, Arcane Ward)",
+        "hp": "130 (20d8 + 40)",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          14,
+          20,
+          12,
+          16
+        ],
+        "saves": [
+          {
+            "int": 9
+          },
+          {
+            "wis": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 9
+          },
+          {
+            "religion": 8
+          },
+          {
+            "history": 7
+          }
+        ],
+        "damage_resistances": "Cold, Necrotic, Lightning; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 11",
+        "languages": "Common, Draconic, Infernal",
+        "cr": 8,
+        "proficiency_bonus": 3,
+        "traits": [
+          {
+            "name": "Arcane Ward",
+            "desc": "When Vaeroth casts a spell of 1st level or higher, he gains 5 temporary hit points (max 15 at a time). These absorb damage before HP is lost."
+          },
+          {
+            "name": "Reanimator's Bond",
+            "desc": "Undead creatures within 30 ft. of Vaeroth gain +1 to attack and saving throws and add his proficiency bonus to their damage rolls."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Vaeroth is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following spells prepared:\n**Cantrips (at will):** Chill Touch, Prestidigitation, Mage Hand, Minor Illusion **1st (4 slots):** Mage Armor, Shield, Magic Missile **2nd (3 slots):** Mirror Image, Misty Step **3rd (3 slots):** Counterspell, Vampiric Touch, Animate Dead **4th (3 slots):** Greater Invisibility, Blight **5th (2 slots):** Wall of Force, *Bind the Fallen Will* (custom)"
+          },
+          {
+            "name": "Undying Scholar",
+            "desc": "When Vaeroth is reduced to 0 HP, he instead drops to 1 HP and casts *Misty Step* without using a spell slot. Once per long rest."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Withering Bolt",
+            "desc": "Ranged Spell Attack: +8 to hit, range 90 ft., one target. Hit: 25 (5d8 + 3) necrotic damage."
+          },
+          {
+            "name": "Graveburst (Recharge 5–6)",
+            "desc": "Vaeroth calls on unstable magic to rupture the ground. All creatures in a 15-ft. radius centered on a point within 60 ft. must make a DC 16 Constitution save or take 31 (7d8) necrotic damage and fall prone. Half on success."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Command Undead",
+            "desc": "Vaeroth commands one undead within 60 ft. to immediately move up to its speed and make one attack. This does not consume that creature's action."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Warp Flesh",
+            "desc": "When targeted by a melee attack, Vaeroth can force the attacker to make a DC 16 Wisdom save. On a failure, they hallucinate briefly and have disadvantage on the attack roll."
+          }
+        ],
+        "legendary_actions_header": "Legendary Actions",
+        "legendary_actions_desc": "Vaeroth can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time, and only at the end of another creature's turn. Vaeroth regains spent legendary actions at the start of his turn.",
+        "legendary_actions": [
+          {
+            "name": "Command Undead",
+            "desc": "Vaeroth uses Command Undead."
+          },
+          {
+            "name": "Teleport (Costs 2 Actions)",
+            "desc": "Vaeroth magically teleports up to 30 feet to an unoccupied space he can see."
+          },
+          {
+            "name": "Essence Leech (Costs 2 Actions)",
+            "desc": "Vaeroth targets one undead creature he can see within 30 feet. If the creature is CR 1 or lower, or has 20 hit points or fewer, it is destroyed and Vaeroth regains 15 hit points. If the creature resists, it must succeed on a DC 16 Constitution saving throw or be destroyed, granting Vaeroth 10 hit points. On a success, the creature survives and nothing happens."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Sir Caldrath Doomspire",
+      {
+        "monster": "Sir Caldrath Doomspire",
+        "name": "Sir Caldrath Doomspire",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Knight",
+        "alignment": "Lawful Evil",
+        "ac": "18 (Plate)",
+        "hp": "112 (15d8 + 45)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          12,
+          16,
+          10,
+          14,
+          16
+        ],
+        "saves": [
+          {
+            "wis": 5
+          },
+          {
+            "cha": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "intimidation": 6
+          },
+          {
+            "perception": 4
+          }
+        ],
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Charmed, Frightened, Poisoned",
+        "senses": "Darkvision 60 ft., passive Perception 14",
+        "languages": "Common, Infernal",
+        "cr": 6,
+        "proficiency_bonus": 3,
+        "traits": [
+          {
+            "name": "Martial Undeath",
+            "desc": "Sir Caldrath can use a corrupted Lay on Hands once per long rest, healing himself for 20 HP as necrotic regeneration."
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "Sir Caldrath has advantage on saving throws against spells and magical effects."
+          },
+          {
+            "name": "Cracked Aura of Despair",
+            "desc": "Enemies within 10 ft. have disadvantage on saving throws against being frightened."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Greatsword",
+            "desc": "+7 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage."
+          },
+          {
+            "name": "Hellfire Smite (Recharge 5–6)",
+            "desc": "Sir Caldrath channels unholy fire into his next strike. On hit, it deals an extra 18 (4d8) fire damage and forces a DC 15 Wisdom saving throw or the target is frightened until the end of its next turn."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Legendary Actions",
+            "desc": "Sir Caldrath can take 1 legendary action per round, only at the end of another creature’s turn."
+          },
+          {
+            "name": "Grave Step",
+            "desc": "Sir Caldrath teleports up to 15 ft. to an unoccupied space he can see, leaving behind a shadowy echo for 1 round."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "lair action",
+      {
+        "monster": "lair action",
+        "name": "lair action",
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout",
+        "init": 20,
+        "size": "Tiny",
+        "type": "Fiend",
+        "subtype": "Demon",
+        "alignment": "Chaotic Evil",
+        "ac": 1,
+        "hp": 1,
+        "speed": "30 ft., fly 30 ft. (see Bad Flier)",
+        "stats": [
+          6,
+          14,
+          13,
+          4,
+          9,
+          5
+        ],
+        "saves": "None",
+        "skillsaves": "None",
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Cold, Fire, Lightning",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Blinded, Poisoned",
+        "senses": "Blindsight 30 ft. (blind beyond this radius), passive Perception 9",
+        "languages": "Understands Abyssal but can't speak",
+        "cr": 0,
+        "spells": "None"
       }
     ]
   ],

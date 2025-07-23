@@ -1,4 +1,4 @@
-[[Berric Ironheart]] [[Lyra stormraven]]
+[[Berric Ironheart]] [[Selvara Wyneth-Ironheart]]
 
 ## beschrijving
 

@@ -1,7 +1,7 @@
-- [ ] Dragon defender
-	- [ ] Access warriors gild
-		- [ ] 65 attack
-		- [ ] 65 strength
+- [x] Dragon defender
+	- [x] Access warriors gild
+		- [x] 65 attack
+		- [x] 65 strength
 - [ ]  66 range for sunlight hunter crossbow
 - [ ]  Barrow gloves (Recipe for disaster)
 	- [ ] Lumbridge guide
