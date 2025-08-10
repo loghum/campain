@@ -13,12 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.world/The Shattered Crownlands.md",
+                "file": "z.test/test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Shattered Crownlands"
+              "title": "test"
+            }
+          },
+          {
+            "id": "eebc8991124e217d",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          },
+          {
+            "id": "dc67aac6eb992a7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z.test/test.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "test"
             }
 <<<<<<< HEAD
           },
@@ -66,7 +90,8 @@
 =======
 >>>>>>> ab0dd32 (work)
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,15 +213,20 @@
               "type": "outline",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "4.world/The Shattered Crownlands.md",
 =======
                 "file": "3.Quests/Act 1/Orc raider.md",
 >>>>>>> ab0dd32 (work)
+=======
+                "file": "z.test/test.md",
+>>>>>>> 5e0aae6 (Added zooi)
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "title": "Outline of The Shattered Crownlands"
             }
@@ -212,6 +242,9 @@
 =======
               "title": "Outline of Orc raider"
 >>>>>>> ab0dd32 (work)
+=======
+              "title": "Outline of test"
+>>>>>>> 5e0aae6 (Added zooi)
             }
           },
           {
@@ -246,6 +279,7 @@
             "id": "8bec8f80c355d0b0",
 =======
         "currentTab": 4
+<<<<<<< HEAD
       },
       {
         "id": "8d565032524f5c1d",
@@ -263,6 +297,8 @@
             }
           }
         ]
+=======
+>>>>>>> 5e0aae6 (Added zooi)
       }
     ],
     "direction": "horizontal",
@@ -285,6 +321,7 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
   "active": "9d575760197c07e4",
   "lastOpenFiles": [
@@ -317,9 +354,12 @@
     "Ramon's epic adventure/Monsters/Fading Specter.md",
 =======
   "active": "80cfc962576e7791",
+=======
+  "active": "dc67aac6eb992a7a",
+>>>>>>> 5e0aae6 (Added zooi)
   "lastOpenFiles": [
-    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
     "4.world/The Shattered Crownlands.md",
+    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
     "9.Images/realm_of_bel.png",
     "Runescape goals.md",
     "Ramon's epic adventure/Spells-Conditions/Madness.md",

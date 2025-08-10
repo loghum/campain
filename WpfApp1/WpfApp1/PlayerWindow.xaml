@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp1.PlayerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfApp1="clr-namespace:WpfApp1"
+        Width="1920"
+        Height="1080"
+        Title="Dm window">
+    <Grid>
+        <ComboBox Name="MapSelector" HorizontalAlignment="Left" Visibility="Collapsed" VerticalAlignment="Top" Width="150" Margin="10"/>
+        <Image Name="MapBackgroundImage" Stretch="Uniform" />
+        <Canvas Name="BattleCanvas" Background="Transparent" Margin="0,40,0,0"/>
+    </Grid>
+</Window>
