@@ -8,8 +8,8 @@
           {
             "Name": "Player1",
             "Owner": "Player",
-            "X": 502.00000000000006,
-            "Y": -6,
+            "X": 1034,
+            "Y": 430,
             "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1
@@ -17,8 +17,8 @@
           {
             "Name": "Enemy1",
             "Owner": "DM",
-            "X": 1184.2,
-            "Y": 613.8000000000001,
+            "X": 996.2,
+            "Y": 431.80000000000007,
             "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1

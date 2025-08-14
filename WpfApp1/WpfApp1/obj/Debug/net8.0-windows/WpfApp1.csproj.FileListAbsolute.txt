@@ -26,3 +26,4 @@ C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\obj\Debug\net8.0-wi
 C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
 C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
 C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

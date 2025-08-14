@@ -8,7 +8,7 @@ using WpfApp1.Classes;
 
 namespace WpfApp1
 {
-    public partial class PlayerWindow: Window
+    public partial class PlayerWindow: BattleWindowsBase
     {
         private readonly bool _isDm;
         private BattleMap _currentMap;
@@ -48,7 +48,7 @@ namespace WpfApp1
             bitmap.EndInit();
             
             MapBackgroundImage.Source = bitmap;
-            RenderTokens();
+            RenderTokens(BattleCanvas, _isDm, _currentMap);
         }
         
         private void MapSelector_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -83,69 +83,14 @@ namespace WpfApp1
 
             _currentMap.GameState.StateChanged += OnStateChanged;
 
-            RenderTokens();
+            RenderTokens(BattleCanvas, _isDm, _currentMap);
         }
 
         private void OnStateChanged()
         {
-            RenderTokens();
+            RenderTokens(BattleCanvas, _isDm, _currentMap);
 
             // **No saving here, only update UI**
-        }
-
-        protected virtual void RenderTokens()
-        {
-            BattleCanvas.Children.Clear();
-
-            foreach (var token in _currentMap.GameState.Tokens)
-            {
-                var stack = new StackPanel
-                {
-                    Orientation = Orientation.Vertical,
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    Cursor = Cursors.Hand
-                };
-                
-                stack.Children.Add(token.CreateToken());
-                
-                Canvas.SetLeft(stack, token.X);
-                Canvas.SetTop(stack, token.Y);
-
-                // DM can move all tokens; players can move only their own
-                var canDrag = _isDm || token.Owner == "Player";
-
-                if (canDrag)
-                {
-                    stack.MouseLeftButtonDown += (s, e) =>
-                    {
-                        _dragToken = token;
-                        _lastPos = e.GetPosition(BattleCanvas);
-                        stack.CaptureMouse();
-                        e.Handled = true;
-                    };
-
-                    stack.MouseMove += (s, e) =>
-                    {
-                        if (_dragToken != null && e.LeftButton == MouseButtonState.Pressed)
-                        {
-                            var pos = e.GetPosition(BattleCanvas);
-                            var dx = pos.X - _lastPos.X;
-                            var dy = pos.Y - _lastPos.Y;
-                            _lastPos = pos;
-                            _currentMap.GameState.UpdateTokenPosition(_dragToken, _dragToken.X + dx, _dragToken.Y + dy);
-                        }
-                    };
-
-                    stack.MouseLeftButtonUp += (s, e) =>
-                    {
-                        _dragToken = null;
-                        stack.ReleaseMouseCapture();
-                        e.Handled = true;
-                    };
-                }
-
-                BattleCanvas.Children.Add(stack);
-            }
         }
     }
 }

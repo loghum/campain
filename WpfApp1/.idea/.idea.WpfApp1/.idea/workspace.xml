@@ -8,111 +8,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a1d9cf6-ad47-41d4-aee2-f15463145ab0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WpfApp1/BattleWindowsBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/Classes/Token.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/Classes/Token.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/Services/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/Services/SaveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/WpfApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/WpfApp1.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/savegame.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/savegame.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_23xe1szu_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_23xe1szu_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_23xe1szu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_23xe1szu_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_23xe1szu_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_da3cbfkv_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_da3cbfkv_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_da3cbfkv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_da3cbfkv_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_da3cbfkv_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_drcfihaq_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_drcfihaq_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_drcfihaq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_drcfihaq_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_drcfihaq_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_fijm5tej_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_fijm5tej_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_fijm5tej_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_fijm5tej_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_fijm5tej_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_hjr5oe0c_wpftmp.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_jjgicl13_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_jjgicl13_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_jjgicl13_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_jjgicl13_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_jjgicl13_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_kf4o21in_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_kf4o21in_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_kf4o21in_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_kf4o21in_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_kf4o21in_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_knquxaaj_wpftmp.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_nqxni5js_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_nqxni5js_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_nqxni5js_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_nqxni5js_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_nqxni5js_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_uh32fqhn_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_uh32fqhn_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_uh32fqhn_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_uh32fqhn_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_uh32fqhn_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_yjmmvwh3_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_yjmmvwh3_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_yjmmvwh3_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_yjmmvwh3_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_yjmmvwh3_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_ywsi1stg_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_ywsi1stg_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_ywsi1stg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_ywsi1stg_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_ywsi1stg_wpftmp.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_zdtja2ly_wpftmp.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_zdtja2ly_wpftmp.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_zdtja2ly_wpftmp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_zdtja2ly_wpftmp.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_zdtja2ly_wpftmp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/WpfApp1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/savegame.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/savegame.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +57,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -143,22 +66,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.WpfApp1.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.WpfApp1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="WpfApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -200,6 +123,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
