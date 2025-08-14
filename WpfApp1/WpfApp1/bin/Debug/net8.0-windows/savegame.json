@@ -1,0 +1,16 @@
+{
+  "Tokens": [
+    {
+      "Name": "Player1",
+      "Owner": "Player",
+      "X": 100,
+      "Y": 100
+    },
+    {
+      "Name": "Enemy1",
+      "Owner": "DM",
+      "X": 200,
+      "Y": 150
+    }
+  ]
+}

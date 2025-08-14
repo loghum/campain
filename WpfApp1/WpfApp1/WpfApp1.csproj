@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Images\test.jpg" />
+      <Resource Include="Images\test.jpg" />
+      <None Remove="Images\dark-cavern-battle-map-dnd.jpg" />
+      <Resource Include="Images\test2.jpg" />
+      <None Remove="Images\dwarf.jpg" />
+      <Resource Include="Images\dwarf.jpg" />
+    </ItemGroup>
+
+</Project>

@@ -3,6 +3,7 @@ name: Encounter name
 creatures:
   - 2: Goblin
   - Hobgoblin
+  - Hobgoblina
   - 
 ```
 
