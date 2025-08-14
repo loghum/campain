@@ -10,7 +10,7 @@
             "Owner": "Player",
             "X": 458,
             "Y": -42,
-            "ImagePath": "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\Images\\test123.png",
+            "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1
           },
@@ -19,7 +19,7 @@
             "Owner": "DM",
             "X": 877,
             "Y": 381,
-            "ImagePath": "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\Images\\test123.png",
+            "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1
           }
@@ -36,7 +36,7 @@
             "Owner": "Player",
             "X": 860,
             "Y": 556,
-            "ImagePath": "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\Images\\test123.png",
+            "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1
           },
@@ -45,7 +45,7 @@
             "Owner": "DM",
             "X": 1327,
             "Y": 522,
-            "ImagePath": "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\Images\\test123.png",
+            "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 1
           }
@@ -62,7 +62,7 @@
             "Owner": "Player",
             "X": 469,
             "Y": -40,
-            "ImagePath": "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\Images\\test123.png",
+            "ImagePath": "Images\\test123.png",
             "TokenSize": 40,
             "Size": 2
           }

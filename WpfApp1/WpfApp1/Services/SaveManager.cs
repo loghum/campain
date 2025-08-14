@@ -5,7 +5,7 @@ namespace WpfApp1.Classes;
 
 public class SaveManager
 {
-    private static string SavePath => "C:\\Users\\Gamer\\RiderProjects\\WpfApp1\\WpfApp1\\savegame.json";
+    private static string SavePath => Path.Combine(AppContext.BaseDirectory, "savegame.json");
 
     public static void SaveAll(List<BattleMap> battleMaps)
     {

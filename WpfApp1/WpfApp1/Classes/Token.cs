@@ -1,8 +1,8 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace WpfApp1.Classes
 {
@@ -20,11 +20,22 @@ namespace WpfApp1.Classes
 
         public Image CreateToken()
         {
+            string fullPath = Path.Combine(AppContext.BaseDirectory, ImagePath);
+            
+            if (!File.Exists(fullPath))
+                throw new FileNotFoundException($"Image not found: {fullPath}");
+            
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri(fullPath, UriKind.Absolute);
+            bitmap.CacheOption = BitmapCacheOption.OnLoad; // avoids file lock
+            bitmap.EndInit();
+            
            return new Image
             {
                 Width = TokenSize * Size,
                 Height = TokenSize * Size,
-                Source = new BitmapImage(new Uri(ImagePath, UriKind.RelativeOrAbsolute))
+                Source = bitmap
             };
         }
 

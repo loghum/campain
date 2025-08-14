@@ -1,9 +1,9 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using WpfApp1.Classes;
 
 namespace WpfApp1
@@ -58,7 +58,18 @@ namespace WpfApp1
 
             _currentMap = map;
 
-            MapBackgroundImage.Source = new BitmapImage(new Uri(map.BackgroundImagePath, UriKind.RelativeOrAbsolute));
+            string fullPath = Path.Combine(AppContext.BaseDirectory, map.BackgroundImagePath);
+            
+            if (!File.Exists(fullPath))
+                throw new FileNotFoundException($"Image not found: {fullPath}");
+            
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri(fullPath, UriKind.Absolute);
+            bitmap.CacheOption = BitmapCacheOption.OnLoad; // avoids file lock
+            bitmap.EndInit();
+            
+            MapBackgroundImage.Source = bitmap;
 
             _currentMap.GameState.StateChanged += OnStateChanged;
 

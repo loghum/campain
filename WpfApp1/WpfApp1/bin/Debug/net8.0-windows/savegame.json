@@ -1,16 +1,73 @@
 {
-  "Tokens": [
+  "BattleMaps": [
     {
-      "Name": "Player1",
-      "Owner": "Player",
-      "X": 100,
-      "Y": 100
+      "Name": "City",
+      "BackgroundImagePath": "Images/test.jpg",
+      "GameState": {
+        "Tokens": [
+          {
+            "Name": "Player1",
+            "Owner": "Player",
+            "X": 502.00000000000006,
+            "Y": -6,
+            "ImagePath": "Images\\test123.png",
+            "TokenSize": 40,
+            "Size": 1
+          },
+          {
+            "Name": "Enemy1",
+            "Owner": "DM",
+            "X": 1184.2,
+            "Y": 613.8000000000001,
+            "ImagePath": "Images\\test123.png",
+            "TokenSize": 40,
+            "Size": 1
+          }
+        ]
+      }
     },
     {
-      "Name": "Enemy1",
-      "Owner": "DM",
-      "X": 200,
-      "Y": 150
+      "Name": "TEST123",
+      "BackgroundImagePath": "Images/test.jpg",
+      "GameState": {
+        "Tokens": [
+          {
+            "Name": "Player1",
+            "Owner": "Player",
+            "X": 860,
+            "Y": 556,
+            "ImagePath": "Images\\test123.png",
+            "TokenSize": 40,
+            "Size": 1
+          },
+          {
+            "Name": "Enemy1",
+            "Owner": "DM",
+            "X": 1327,
+            "Y": 522,
+            "ImagePath": "Images\\test123.png",
+            "TokenSize": 40,
+            "Size": 1
+          }
+        ]
+      }
+    },
+    {
+      "Name": "Dungeon",
+      "BackgroundImagePath": "Images/test2.jpg",
+      "GameState": {
+        "Tokens": [
+          {
+            "Name": "Rogue",
+            "Owner": "Player",
+            "X": 469,
+            "Y": -40,
+            "ImagePath": "Images\\test123.png",
+            "TokenSize": 40,
+            "Size": 2
+          }
+        ]
+      }
     }
   ]
 }
