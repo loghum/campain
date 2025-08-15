@@ -3,7 +3,6 @@
     {
       "Name": "City",
       "BackgroundImagePath": "Images/test.jpg",
-      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {
@@ -25,12 +24,12 @@
             "Size": 1
           }
         ]
-      }
+      },
+      "PixelsPerFeet": 10
     },
     {
       "Name": "TEST123",
       "BackgroundImagePath": "Images/test.jpg",
-      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {
@@ -52,12 +51,12 @@
             "Size": 1
           }
         ]
-      }
+      },
+      "PixelsPerFeet": 10
     },
     {
       "Name": "Dungeon",
       "BackgroundImagePath": "Images/test2.jpg",
-      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {
@@ -70,7 +69,8 @@
             "Size": 2
           }
         ]
-      }
+      },
+      "PixelsPerFeet": 10
     }
   ]
 }

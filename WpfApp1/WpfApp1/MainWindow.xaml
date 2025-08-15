@@ -7,8 +7,10 @@
         Height="1080"
         Title="Dm window">
     <Grid>
-        <ComboBox Name="MapSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="10"/>
         <Image Name="MapBackgroundImage" Stretch="Uniform" />
         <Canvas Name="BattleCanvas" Background="Transparent" Margin="0,40,0,0"/>
+        
+        <ComboBox Name="MapSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="10"/>
+        <ComboBox Name="MeasureSelector" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="30"/>
     </Grid>
 </wpfApp1:BattleWindowsBase>
