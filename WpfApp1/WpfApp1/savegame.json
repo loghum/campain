@@ -3,6 +3,7 @@
     {
       "Name": "City",
       "BackgroundImagePath": "Images/test.jpg",
+      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {
@@ -29,6 +30,7 @@
     {
       "Name": "TEST123",
       "BackgroundImagePath": "Images/test.jpg",
+      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {
@@ -55,6 +57,7 @@
     {
       "Name": "Dungeon",
       "BackgroundImagePath": "Images/test2.jpg",
+      "PixelsPerFeet" : 10,
       "GameState": {
         "Tokens": [
           {

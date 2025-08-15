@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a1d9cf6-ad47-41d4-aee2-f15463145ab0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/BattleWindowsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/BattleWindowsBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/Classes/BattleMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/Classes/BattleMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
@@ -24,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/savegame.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/savegame.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.WpfApp1.executor": "Run",
+    ".NET Project.WpfApp1.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -112,7 +111,7 @@
       <workItem from="1755166806894" duration="346000" />
       <workItem from="1755167426677" duration="2130000" />
       <workItem from="1755260609852" duration="564000" />
-      <workItem from="1755262666851" duration="3483000" />
+      <workItem from="1755262666851" duration="3779000" />
     </task>
     <servers />
   </component>
@@ -164,6 +163,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WpfApp1/App.xaml.cs</url>
+          <line>16</line>
+          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\App.xaml.cs" containingFunctionPresentation="Method 'OnStartup'">
+            <startOffsets>
+              <option value="396" />
+            </startOffsets>
+            <endOffsets>
+              <option value="446" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -15,12 +15,7 @@ public class BattleWindowsBase : Window
     private Token _dragToken;
     private Point _lastPos;
     
-    protected void SetCurrentMap(BattleMap map)
-    {
-        _currentMap = map;
-    }
-    
-    protected void RenderTokens(Canvas battleCanvas)
+    private void RenderTokens(Canvas battleCanvas)
     {
             battleCanvas.Children.Clear();
 
@@ -34,7 +29,11 @@ public class BattleWindowsBase : Window
                 };
                 
                 stack.Children.Add(token.CreateToken());
-                stack.Children.Add(token.CreateNameText());
+
+                if (IsDm)
+                {
+                    stack.Children.Add(token.CreateNameText());
+                }
 
                 Canvas.SetLeft(stack, token.X);
                 Canvas.SetTop(stack, token.Y);
