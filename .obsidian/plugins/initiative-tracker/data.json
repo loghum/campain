@@ -1,6 +1,16 @@
 {
   "players": [
     {
+      "note": "Roderick Fitzgerald-blackwood",
+      "path": "1.pc/Roderick Fitzgerald-blackwood.md",
+      "name": "Roderick",
+      "ac": "20",
+      "hp": "100",
+      "level": "5",
+      "modifier": "4",
+      "player": true
+    },
+    {
       "note": "Rolf Ravioli",
       "path": "1.pc/Rolf Ravioli.md",
       "name": "Rolf",
@@ -29,38 +39,20 @@
       "level": "5",
       "modifier": "4",
       "player": true
-    },
-    {
-      "note": "Roderick Fitzgerald-blackwood",
-      "path": "1.pc/Roderick Fitzgerald-blackwood.md",
-      "name": "Roderick",
-      "ac": "20",
-      "hp": "100",
-      "level": "5",
-      "modifier": "4",
-      "player": true
     }
   ],
   "parties": [
     {
-      "name": "Part -",
+      "name": "Party",
       "players": [
+        "Roderick",
         "Rolf",
         "Tarnak the Terrible",
         "TinkerWiz"
       ]
-    },
-    {
-      "name": "Party",
-      "players": [
-        "Rolf",
-        "Tarnak the Terrible",
-        "TinkerWiz",
-        "Roderick"
-      ]
     }
   ],
-  "defaultParty": "Party",
+  "defaultParty": null,
   "statuses": [
     {
       "name": "Blinded",
@@ -159,6 +151,132 @@
   "state": {
     "creatures": [
       {
+        "name": "Magma Mephit",
+        "initiative": 19,
+        "static": false,
+        "modifier": 1,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "cr": "1/2",
+        "ac": 11,
+        "currentAC": 11,
+        "id": "ID_582b3baa893b",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "5d6 + 4",
+        "rollHP": false
+      },
+      {
+        "name": "Magma Mephit",
+        "initiative": 12,
+        "static": false,
+        "modifier": 1,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "cr": "1/2",
+        "ac": 11,
+        "currentAC": 11,
+        "id": "ID_da290b7b3b19",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "5d6 + 4",
+        "rollHP": false
+      },
+      {
+        "name": "Magma Mephit",
+        "initiative": 20,
+        "static": false,
+        "modifier": 1,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "cr": "1/2",
+        "ac": 11,
+        "currentAC": 11,
+        "id": "ID_69d89acabb28",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "5d6 + 4",
+        "rollHP": false
+      },
+      {
+        "name": "Magma Mephit",
+        "initiative": 4,
+        "static": false,
+        "modifier": 1,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "cr": "1/2",
+        "ac": 11,
+        "currentAC": 11,
+        "id": "ID_f96b9b8bab29",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "5d6 + 4",
+        "rollHP": false
+      },
+      {
+        "name": "Magma Mephit",
+        "initiative": 20,
+        "static": false,
+        "modifier": 1,
+        "hp": 22,
+        "currentMaxHP": 22,
+        "cr": "1/2",
+        "ac": 11,
+        "currentAC": 11,
+        "id": "ID_3b79d94a88e8",
+        "currentHP": 22,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "5d6 + 4",
+        "rollHP": false
+      },
+      {
+        "name": "Roderick",
+        "initiative": 0,
+        "static": false,
+        "modifier": 4,
+        "hp": 100,
+        "currentMaxHP": 100,
+        "ac": "20",
+        "currentAC": "20",
+        "note": "Roderick Fitzgerald-blackwood",
+        "path": "1.pc/Roderick Fitzgerald-blackwood.md",
+        "id": "ID_b8399b695afa",
+        "currentHP": 100,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": "5",
+        "player": true,
+        "hidden": false,
+        "friendly": false
+      },
+      {
         "name": "Rolf",
         "initiative": 0,
         "static": false,
@@ -169,22 +287,13 @@
         "currentAC": "14",
         "note": "Rolf Ravioli",
         "path": "1.pc/Rolf Ravioli.md",
-<<<<<<< HEAD
-        "id": "ID_7b68faba6899",
-=======
-<<<<<<< HEAD
-        "id": "ID_bb5bc89be9ba",
-=======
-        "id": "ID_b99b7849992b",
->>>>>>> 5e0aae6 (Added zooi)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
+        "id": "ID_692ae919d899",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": "5",
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -194,27 +303,18 @@
         "static": false,
         "modifier": 4,
         "hp": 34,
-        "currentMaxHP": "34",
+        "currentMaxHP": 34,
         "ac": "14",
         "currentAC": "14",
         "note": "Tarnak the Terrible",
         "path": "1.pc/Tarnak the Terrible.md",
-<<<<<<< HEAD
-        "id": "ID_895b9b28cac8",
-=======
-<<<<<<< HEAD
-        "id": "ID_e928b90a3ae8",
-=======
-        "id": "ID_ab68d96beaf8",
->>>>>>> 5e0aae6 (Added zooi)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-        "currentHP": 6,
+        "id": "ID_c959a97acb68",
+        "currentHP": 34,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": "5",
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -229,140 +329,15 @@
         "currentAC": "14",
         "note": "TinkerWiz",
         "path": "1.pc/TinkerWiz.md",
-<<<<<<< HEAD
-        "id": "ID_295b1a092b2b",
-=======
-<<<<<<< HEAD
-        "id": "ID_b80b0879892a",
-=======
-        "id": "ID_8afa29791aea",
->>>>>>> 5e0aae6 (Added zooi)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-        "currentHP": 23,
+        "id": "ID_299b7ae95bb9",
+        "currentHP": 34,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": "5",
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Roderick",
-        "initiative": 0,
-        "static": false,
-        "modifier": 4,
-        "hp": 100,
-        "currentMaxHP": 100,
-        "ac": "20",
-        "currentAC": "20",
-        "note": "Roderick Fitzgerald-blackwood",
-        "path": "1.pc/Roderick Fitzgerald-blackwood.md",
-<<<<<<< HEAD
-        "id": "ID_fb7a687a7bf9",
-=======
-<<<<<<< HEAD
-        "id": "ID_4a3a5ad8c8e9",
-=======
-        "id": "ID_8978d90a69e8",
->>>>>>> 5e0aae6 (Added zooi)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-        "currentHP": 100,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "level": "5",
-        "player": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false
-<<<<<<< HEAD
-      },
-      {
-        "name": "Moltrax the Smeltery Tyrant",
-        "initiative": 18,
-        "static": false,
-        "modifier": 2,
-        "hp": 180,
-        "currentMaxHP": 180,
-        "cr": 9,
-        "ac": "17 (molten armor)",
-        "currentAC": "17 (molten armor)",
-        "id": "ID_d99a181a1acb",
-        "currentHP": 180,
-=======
-<<<<<<< HEAD
-=======
-      },
-      {
-        "name": "Goblin",
-        "initiative": 9,
-        "static": false,
-        "modifier": 2,
-        "hp": 7,
-        "currentMaxHP": 7,
-        "cr": "1/4",
-        "ac": 15,
-        "currentAC": 15,
-        "id": "ID_f919497b9a4a",
-        "currentHP": 7,
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-<<<<<<< HEAD
-        "rollHP": false
-=======
-        "hit_dice": "2d6",
-        "rollHP": false
-      },
-      {
-        "name": "Goblin",
-        "initiative": 22,
-        "static": false,
-        "modifier": 2,
-        "hp": 7,
-        "currentMaxHP": 7,
-        "cr": "1/4",
-        "ac": 15,
-        "currentAC": 15,
-        "id": "ID_f8e959088959",
-        "currentHP": 7,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": true,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "2d6",
-        "rollHP": false
-      },
-      {
-        "name": "Hobgoblin",
-        "initiative": 6,
-        "static": false,
-        "modifier": 1,
-        "hp": 11,
-        "currentMaxHP": 11,
-        "cr": "1/2",
-        "ac": 18,
-        "currentAC": 18,
-        "id": "ID_0ada5808a91b",
-        "currentHP": 11,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "2d8 + 2",
-        "rollHP": false
->>>>>>> 5e0aae6 (Added zooi)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
       }
     ],
     "state": false,
@@ -400,5 +375,5 @@
     "showXP": true,
     "sidebarIcon": true
   },
-  "rollPlayerInitiatives": 2
+  "rollPlayerInitiatives": 0
 }

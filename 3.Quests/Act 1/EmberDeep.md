@@ -45,9 +45,9 @@ creatures:
 Oranje: dwarven rune : "Gnarn" = Forge
 
 Noord - troon
-oost - Zware ijzeren deur die licht oranje is van de hitter
-zuid - normale deur, staat op een kier
-west - geen deur gewoon een opening
+oost - normale deur => torch room
+zuid - zware deur met mechaniche opening
+west - Ingestorte deur opening. vol met rotsen
 
 
 ### Torch room
@@ -61,13 +61,15 @@ Indigo: "Sholm" = Stone
 
 >Jullie stappen een kamer binnen die onmiddellijk opvalt door haar vreemde, bijna rituele uitstraling. De muren zijn glad gehouwen uit donker steen, maar het oog wordt meteen naar de wanden getrokken door **zeven brandende fakkels**, elk stevig verankerd in een houder van een andere kleur:  
 **rood, oranje, geel, groen, blauw, indigo en violet** – als de kleuren van een regenboog, maar hier gedempt door het flakkerende licht van het vuur.
-> Oud-Dwergs gegraveerd: "Notes veigs sire ot file, file flues eth gofer, rife mocseuns lal" : “Stone gives rise to life,  Life fuels the forge,  Fire consumes all.”
+> Common gegraveerd: "Notes veigs sire ot file, file flues eth gofer, rife mocseuns lal" : “Stone gives rise to life,  Life fuels the forge,  Fire consumes all.”
 > Aan de **zuidzijde** van de kamer zien jullie een stevige, metalen deur. Op het eerste gezicht lijkt dit de enige uitgang, maar wanneer jullie ogen wennen aan het schijnsel, zien jullie iets eigenaardigs: **de oostelijke muur lijkt nét iets te glad en te egaal**, alsof er geen naden of voegen te zien zijn. Het voelt onnatuurlijk… en misschien verbergt het iets.
 
 Laat de spelers een **Wisdom (Perception)** of **Intelligence (Investigation)** check doen om te ontdekken dat er een geheime deur is.
 
 - **DC 14:** Ze merken lichte krasjes op de vloer – alsof er iets zwaars verschoven is tegen deze muur.
 - **DC 16:** Ze vinden een subtiele spleet in het steen en zien dat de muur hol klinkt wanneer erop wordt geklopt.
+
+indigo, green, oranje, red
 
 - Elke fakkel kan worden **ingedrukt als een hendel**.
 - Als een fakkel wordt ingedrukt, dooft de vlam kort en licht de vloer onder de fakkel op.
@@ -92,6 +94,8 @@ _"Voor koning Tharim! Voor de troon! Terug, vervloekte schimmen!"_
 Dan merkt hij jullie op. Zijn blik verhardt, zijn schreeuw weerkaatst door de stenen muren:  
 _"Versterkingen!? Over mijn lijk!"_
 Met een oorverdovend gebrul stormt hij op jullie af.
+
+Aan de muur zit een schakelaar.
 
 Aan het einde van de kamer zit een grote schakelaar.
 ```encounter

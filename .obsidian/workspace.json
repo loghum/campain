@@ -1,142 +1,41 @@
 {
   "main": {
-    "id": "31ac31d71dbcdf11",
+    "id": "7210dde2215f750c",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "2a6a9ef697e52ff4",
+        "id": "c3d0c6800f4474af",
         "type": "tabs",
         "children": [
           {
-            "id": "7d3164984375d60c",
-=======
-        "id": "4cf61f051bce3391",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "80cfc962576e7791",
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "3.Quests/Completed/Ramon's/Endboss Battleplan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Endboss Battleplan"
-=======
-                "file": "z.test/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "eebc8991124e217d",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          },
-          {
-            "id": "dc67aac6eb992a7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z.test/test.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "test"
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-            }
-<<<<<<< HEAD
-          },
-          {
-            "id": "d512cac92917d20a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Completed/Ramon's/Main - Quest - for DM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Main - Quest - for DM"
-            }
-          },
-          {
-            "id": "100e8efae3d06981",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Running plots.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Running plots"
-            }
-          },
-          {
-            "id": "ebba04c847ea6ab3",
+            "id": "d5b260f4e3c22e79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "3.Quests/Act 1/EmberDeep.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "EmberDeep"
             }
-          },
-          {
-            "id": "47ece8930b89f00b",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-=======
->>>>>>> ab0dd32 (work)
           }
-        ],
-<<<<<<< HEAD
-        "currentTab": 4
-=======
-        "currentTab": 2
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "819935e43cfb0db9",
+    "id": "51ed47b7f824a310",
     "type": "split",
     "children": [
       {
-        "id": "07fd8df89ddd5d00",
+        "id": "1b4b10ba08ca41a6",
         "type": "tabs",
         "children": [
           {
-            "id": "9d575760197c07e4",
+            "id": "58edaf1953465b22",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -149,12 +48,12 @@
             }
           },
           {
-            "id": "751733d03cb48bba",
+            "id": "a9e3dfd93e534d7e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"1.npc/Thundercore/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +65,7 @@
             }
           },
           {
-            "id": "8ebc2e5c09ceb1f9",
+            "id": "185c79f6a91f7f63",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -179,55 +78,32 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 291.5
-=======
     "width": 300
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
   },
   "right": {
-    "id": "89269e3e5c7772a4",
+    "id": "1ea32d127c653967",
     "type": "split",
     "children": [
       {
-        "id": "c1e2be42c927c868",
+        "id": "be7567b694fc7e8d",
         "type": "tabs",
         "children": [
           {
-            "id": "0b731a31dfa2dc05",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "3.Quests/Act 1/Orc raider.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Orc raider"
-            }
-          },
-          {
-            "id": "cab67a19e4cb7761",
+            "id": "e1eeb5689d59507d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.Quests/Act 1/Orc raider.md",
+                "file": "3.Quests/Act 1/EmberDeep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Orc raider"
+              "title": "Outgoing links from EmberDeep"
             }
           },
           {
-            "id": "c50d09813c382489",
+            "id": "b02a20af7d1c05a7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -242,48 +118,22 @@
             }
           },
           {
-            "id": "3a095b2c99ce19e8",
+            "id": "a798be5037ec37ec",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "file": "4.world/The Shattered Crownlands.md",
-=======
-                "file": "3.Quests/Act 1/Orc raider.md",
->>>>>>> ab0dd32 (work)
-=======
-                "file": "z.test/test.md",
->>>>>>> 5e0aae6 (Added zooi)
+                "file": "3.Quests/Act 1/EmberDeep.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "title": "Outline of The Shattered Crownlands"
+              "title": "Outline of EmberDeep"
             }
           },
           {
-            "id": "921cc4dc655281ed",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-=======
-              "title": "Outline of Orc raider"
->>>>>>> ab0dd32 (work)
-=======
-              "title": "Outline of test"
->>>>>>> 5e0aae6 (Added zooi)
-            }
-          },
-          {
-            "id": "e075f8f723000361",
+            "id": "04d0723e3fb705d0",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -293,7 +143,7 @@
             }
           },
           {
-            "id": "921cc4dc655281ed",
+            "id": "80bd2814d5bd76e8",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -303,32 +153,14 @@
             }
           }
         ],
-<<<<<<< HEAD
-        "currentTab": 5
-<<<<<<< HEAD
-      }
-    ],
-    "direction": "horizontal",
-    "width": 838.5
-=======
+        "currentTab": 3
       },
       {
-        "id": "c5618ac6789fc06a",
+        "id": "ed2431462db8d711",
         "type": "tabs",
         "children": [
           {
-            "id": "8bec8f80c355d0b0",
-=======
-        "currentTab": 4
-<<<<<<< HEAD
-      },
-      {
-        "id": "8d565032524f5c1d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eebc8991124e217d",
->>>>>>> ab0dd32 (work)
+            "id": "7a31a817a16ed5f1",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
@@ -338,20 +170,14 @@
             }
           }
         ]
-=======
->>>>>>> 5e0aae6 (Added zooi)
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 578.5
-=======
-    "width": 778.5
->>>>>>> ab0dd32 (work)
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
+    "width": 1185.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -363,92 +189,24 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-<<<<<<< HEAD
-  "active": "e075f8f723000361",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "active": "9d575760197c07e4",
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
+  "active": "d5b260f4e3c22e79",
   "lastOpenFiles": [
-    "2.Monsters/Lair action.md",
-    "3.Quests/Act 1/EmberDeep.md",
-    "2.Monsters/Abyssal chicken.md",
-    "2.Monsters/Arcane adept.md",
-    "2.Monsters/Dummy The Iron Bruiser.md",
-    "2.Monsters/Banshee.md",
-    "2.Monsters/Moltrax.md",
+    "3.Quests/Act 1/Ember deep 2.md",
     "5.Sessions/Session 10.md",
-    "3.Quests/Running plots.md",
-    "4. items/Nature's mourning staff.md",
-    "4. items/Moon-touched sword.md",
-    "4. items/Mender’s Stone.md",
-    "4. items/Locket of self reliance.md",
-    "4. items/orb of direction.md",
-    "4. items/Potion of greater healing.md",
-    "4. items/Ring of final rest.md",
-    "4. items/Prices.md",
-    "4. items/Ethereal boots.md",
-    "4. items/Amulet of the Grovebound.md",
-    "4. items/Bracers of the emberwright.md",
-    "4. items/Flameheart dagger.md",
-    "4. items/Forge-Soul Focus.md",
-    "4. items/Girdle of the stoneblood clan.md",
-<<<<<<< HEAD
-    "4. items/Griefpiercer.md",
-    "4. items/Horn of Silent Alarm.md",
-    "4. items/Runic Shield of Thar-Grim.md",
-    "3.Quests/Completed/Ramon's",
-    "Pasted image 20250610112551.png",
-    "Ramon's epic adventure/Spells-Conditions",
-    "4.world/The vale Of verdantia/Organisations",
-=======
-    "Ramon's epic adventure/Monsters/Phantom Warrior.md",
-    "Ramon's epic adventure/Monsters/Fading Specter.md",
-=======
-  "active": "80cfc962576e7791",
-=======
-  "active": "dc67aac6eb992a7a",
->>>>>>> 5e0aae6 (Added zooi)
-  "lastOpenFiles": [
-    "4.world/The Shattered Crownlands.md",
-    "4.world/The vale Of verdantia/1.Vale of Verdantia.md",
+    "3.Quests/Act 1/EmberDeep.md",
+    "1.pc/Roderick Fitzgerald-blackwood.md",
+    "1.pc/Rolf Ravioli.md",
+    "1.pc/Pc party.md",
+    "1.pc/Tarnak the Terrible.md",
+    "2.Monsters/Moltrax.md",
+    "3.Quests/Act 1/Dream Gauntlet.md",
+    "9.Images/thundercore.png",
+    "9.Images/SimzyTayfoot.png",
     "9.Images/realm_of_bel.png",
-    "Runescape goals.md",
-    "Ramon's epic adventure/Spells-Conditions/Madness.md",
-    "Ramon's epic adventure/Spells-Conditions/Exhaustion.md",
-    "Ramon's epic adventure/Spells-Conditions/Bind the fallen will.md",
-    "Ramon's epic adventure/Monsters/Vaeroth-Kael.md",
-    "Ramon's epic adventure/Monsters/Vaeroth-Kael 1.md",
-    "Ramon's epic adventure/Monsters/Sir Caldrath Doomspire.md",
-    "Ramon's epic adventure/Monsters/Revenant Adventurer.md",
-    "Ramon's epic adventure/Monsters/Phantom Warrior.md",
-    "Ramon's epic adventure/Monsters/Helmet horror.md",
-    "Ramon's epic adventure/Monsters/Graveborn Skirmisher.md",
-    "Ramon's epic adventure/Monsters/Ghoul Minion.md",
-    "Ramon's epic adventure/Monsters/Fading Specter.md",
-    "Ramon's epic adventure/Monsters/Dark Acolyte.md",
-    "Ramon's epic adventure/Monsters/Bound Wight.md",
-    "Ramon's epic adventure/Monsters/Bonecrush Sentinel.md",
-    "Ramon's epic adventure/Monsters/Aldric the Shackled.md",
-    "Ramon's epic adventure/Items/Griefpiercer.md",
-    "Ramon's epic adventure/Organisations/The Obsidian Ledger - organisation.md",
-    "Ramon's epic adventure/Items/Gravetide Vow.md",
-    "Ramon's epic adventure/Dungeon/Dungeon layout - crypt of the hollow flame.md",
->>>>>>> ab0dd32 (work)
-    "Ramon's epic adventure/Spells-Conditions",
-    "Ramon's epic adventure/Riddles.md",
-    "Ramon's epic adventure/Sigismund Dijkstra.md",
-    "Ramon's epic adventure/Main - Quest - for DM.md",
->>>>>>> 6ecd7750b57b25f857b1134462de9ea1db11bc3d
-    "Ramon's epic adventure/Monsters",
-    "Ramon's epic adventure/Organisations",
-    "Ramon's epic adventure/Items",
-    "Ramon's epic adventure/Dungeon",
-    "Ramon's epic adventure",
-    "9.Images/emberforge.png",
-    "9.Images/JilaAikener.png",
     "9.Images/Ironhearth's acedemy.png",
-    "9.Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp"
+    "9.Images/emberforge.png",
+    "9.Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp",
+    "simpel Battlemap client.md",
+    "Runescape goals.md"
   ]
 }
