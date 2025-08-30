@@ -49,7 +49,7 @@ actions:
   - name: Molten Slam
     desc: "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 7 (2d6) fire damage."
   - name: Lava Whip
-    desc: "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 11 (2d6 + 4) fire damage, and the target must succeed on a DC 15 Strength saving throw or be pulled up to 15 feet toward Moltrax. A target pulled into a space within 5 feet of Moltrax immediately takes Molten Body damage."
+    desc: "Melee Weapon Attack: +8 to hit, reach 60 ft., one target. Hit: 11 (2d6 + 4) fire damage, and the target must succeed on a DC 15 Strength saving throw or be pulled up to 15 feet toward Moltrax. A target pulled into a space within 5 feet of Moltrax immediately takes Molten Body damage."
   - name: Eruption (Recharge 5–6)
     desc: Moltrax slams its fists down, causing molten cracks to explode in a 20-foot radius centered on itself (creatures currently in the air and at least 10 ft. up are unaffected). Each creature in the area must make a DC 15 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much on a success. Spaces that failed saves become searing slag until the start of Moltrax's next turn; a creature that enters or starts its turn in searing slag takes 5 (1d10) fire damage.
 bonus_actions:
