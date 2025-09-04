@@ -2,40 +2,46 @@
 	- [x] Access warriors gild
 		- [x] 65 attack
 		- [x] 65 strength
-- [ ]  66 range for sunlight hunter crossbow
-- [ ]  Barrow gloves (Recipe for disaster)
-	- [ ] Lumbridge guide
-		- [ ] Murder Mystery
-		- [ ] Witch house
-	- [ ] Evil Dave
-		- [ ] Shadow of the storm
-			- [ ] The golem
-	- [ ] Sir amik varze
-		- [ ] Legends quest
-		- [ ] heroes quest
-			- [ ] Merlin's crystal
-		- [ ] Shilo Village
-			- [ ] Junlge potion
-		- [ ] Undergound pass
-	- [ ] King awowogei
-		- [ ] 70 cooking
-- [ ]  Cooked karambwan
-	- [ ] 65 fishing
-	- [ ] Talk to Tinsay
-		- [ ] Tai Bwo Wannai Trio
-- [ ]  full procelyte
-	- [ ] The slug menace
-		- [ ] sea slug
+- [x]  66 range for sunlight hunter crossbow
+- [x]  Barrow gloves (Recipe for disaster)
+	- [x] Lumbridge guide
+		- [x] Murder Mystery
+		- [x] Witch house
+	- [x] Evil Dave
+		- [x] Shadow of the storm
+			- [x] The golem
+	- [x] Sir amik varze
+		- [x] Legends quest
+		- [x] heroes quest
+			- [x] Merlin's crystal
+		- [x] Shilo Village
+			- [x] Junlge potion
+		- [x] Undergound pass
+	- [x] King awowogei
+		- [x] 70 cooking
+- [x]  Cooked karambwan
+	- [x] 65 fishing
+	- [x] Talk to Tinsay
+		- [x] Tai Bwo Wannai Trio
+- [x]  full procelyte
+	- [x] The slug menace
+		- [x] sea slug
 - [ ] Zombie axe
-	- [ ] 65 attack
-	- [ ] 70 smithing
-	- [ ] Defender of varrock
+	- [x] 65 attack
+	- [x] 70 smithing
+	- [x] Defender of varrock
 		- [ ] Temple of ikov
-		- [ ] Family crest
-			- [ ] 59 magic
-		- [ ] Garden of Tranquility
-			- [ ] Creature of fenkenstrain
-		- [ ] Wat lies below
-- [ ] rune pouch - 75 points in LastManStanding
+		- [x] Family crest
+			- [x] 59 magic
+		- [x] Garden of Tranquility
+			- [x] Creature of fenkenstrain
+		- [x] Wat lies below
+- [ ] rune pouch - mage training arena
+
+
+- **Law Runes:** ~263
+- **Nature Runes:** ~1,065 (including both Graveyard and Alchemist)
+- **Cosmic Runes:** ~1,410
+- **Elemental Runes:** Around 1,500-2,000 of each (Air, Water, and Earth)
 
 
