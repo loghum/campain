@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Varron
+---
 ### 🌲 **Amulet of the Grovebound**
 
 _Uncommon, requires attunement_

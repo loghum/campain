@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Rolf
+---
 ### **Traveler’s Beacon**
 
 _Wondrous item, rare_

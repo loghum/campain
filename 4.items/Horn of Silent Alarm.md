@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Roderick
+---
 ## Horn of Silent Alarm
 
 Wondrous item, common, minor tier

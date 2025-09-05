@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: none
+---
 ### **Bracers of the Emberwright**
 
 - **Type:** Wondrous Item (W)

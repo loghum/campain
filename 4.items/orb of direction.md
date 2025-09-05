@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Tinkerwiz
+---
 ## Orb of Direction
 
 Wondrous item, common, minor tier, 3 lb.

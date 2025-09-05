@@ -7,5 +7,5 @@ modifier: "4"
 ---
 [[Moon-touched sword]]
 [[Flameheart dagger]]
-[[Locket of self reliance]]
+
 [[Potion of greater healing]]

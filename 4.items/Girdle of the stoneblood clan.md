@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: None
+---
 ### **Girdle of the Stoneblood Clan**
 
 - **Type:** Wondrous Item (W)

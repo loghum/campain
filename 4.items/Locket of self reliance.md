@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Roderick
+---
 ### **Locket of Self-Reliance**
 
 _Wondrous Item, uncommon (attunement required)_

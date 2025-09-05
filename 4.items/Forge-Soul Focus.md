@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: None
+---
 ### **Forge-Soul Focus**
 
 - **Type:** Focus (R)

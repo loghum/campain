@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Varron
+---
 ### **Nature’s Mourning Staff**
 
 _Uncommon, requires attunement (by a druid, ranger, or nature-themed spellcaster)_  

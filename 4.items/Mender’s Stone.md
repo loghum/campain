@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Tinkerwiz
+---
 # Mender’s Stone
 _Wondrous Item, common_
 

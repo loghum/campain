@@ -8,3 +8,4 @@ modifier: "4"
 [[Horn of Silent Alarm]]
 [[Ring of Protection]]
 [[Potion of greater healing]]
+[[Locket of self reliance]]

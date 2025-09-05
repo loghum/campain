@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Yakub
+---
 ### Ring of the Final Rest
 
 _Wondrous Item (Ring), rare (no attunement required)_

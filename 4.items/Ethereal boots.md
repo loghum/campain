@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Tarnak
+---
 ## Ethereal Boots  
 *Wondrous Item (Boots), uncommon (attunement required)*
 

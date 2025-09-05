@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Tarnak
+---
 Thermal Cube
 
 Source: Icewind Dale - Rime of the Frostmaiden

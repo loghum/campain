@@ -6,7 +6,7 @@ type: Humanoid
 subtype: Any (e.g., Human or Elf)
 alignment: Neutral Evil
 ac: 15 (Mage Armor)
-hp: 45 (6d8 + 18)
+hp: 45
 speed: 30 ft.
 stats: [10, 14, 12, 16, 12, 14]
 saves:

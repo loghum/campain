@@ -6,4 +6,4 @@ ac: "14"
 modifier: "4"
 ---
 [[Mender’s Stone]]
-[[Ethereal boots]]
+

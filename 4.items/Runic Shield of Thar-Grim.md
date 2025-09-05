@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: None
+---
 ### **Runic Shield of Thar-Grimm**
 
 - **Type:** Shield (S)

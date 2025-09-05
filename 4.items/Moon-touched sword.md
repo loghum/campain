@@ -1,3 +1,7 @@
+---
+name: Amulet of the Grovebound
+owner: Rolf
+---
 #### Moon-Touched Sword
 
 Generic variant, common, minor tier
