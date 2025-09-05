@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "simpel Battlemap client.md",
-                "mode": "source",
+                "file": "3.Quests/Act 1/Dream Gauntlet.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "simpel Battlemap client"
+              "title": "Dream Gauntlet"
+            }
+          },
+          {
+            "id": "c8b59a5a93484788",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,22 +184,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "869b860b95263f3d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c8b59a5a93484788",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -210,13 +205,17 @@
   },
   "active": "890be5476eee19f5",
   "lastOpenFiles": [
+    "3.Quests/Act 1/Strange dad.md",
+    "1.pc/Baltazar Bal.md",
+    "1.pc/Rolf Ravioli.md",
+    "5.Sessions/Session 0.md",
+    "simpel Battlemap client.md",
     "Runescape goals.md",
     "5.Sessions/Session 11.md",
     "Pasted image 20250905150312.png",
     "Untitled 1.base",
     "Untitled.base",
     "3.Quests/Act 1/Dream Gauntlet.md",
-    "3.Quests/Act 1/Strange dad.md",
     "1.pc/Pc party.md",
     "4.items/Cockring of protection.md",
     "4.items/Ethereal boots.md",
@@ -231,14 +230,10 @@
     "1.pc/Varron Hellebore.md",
     "1.pc/TinkerWiz.md",
     "1.pc/Tarnak the Terrible.md",
-    "1.pc/Rolf Ravioli.md",
     "1.pc/Roderick Fitzgerald-blackwood.md",
     "4.items/Nature's mourning staff.md",
     "4.items/Moon-touched sword.md",
     "4.items/Mender’s Stone.md",
-    "4.items/Locket of self reliance.md",
-    "4.items/Javeling of lighting.md",
-    "4.items/Horn of Silent Alarm.md",
     "4.itemsXml",
     "9.Images/thundercore.png",
     "9.Images/SimzyTayfoot.png",
