@@ -55,6 +55,14 @@ creatures:
 
 > _“Sing, child,” whispers a voice. “Let the pain in.”_
 
+
+```encounter
+name: Encounter name
+creatures: 
+  - 6: goblin
+  - 
+```
+
 ### 🧱 Arena
 
 - A shadow cathedral. Floating candles provide light; extinguishing one creates a magical darkness sphere (10 ft).

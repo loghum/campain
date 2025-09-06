@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/Act 1/Dream Gauntlet.md",
+                "file": "2.Monsters/Arcane adept.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dream Gauntlet"
+              "title": "Arcane adept"
             }
           },
           {
@@ -30,9 +30,51 @@
               "icon": "initiative-tracker-creature-view",
               "title": "Combatant"
             }
+          },
+          {
+            "id": "604173be42ff1daa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Quests/Act 1/Dream Gauntlet.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Dream Gauntlet"
+            }
+          },
+          {
+            "id": "cd62c6bb84a25f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Quests/Act 1/Dream Gauntlet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dream Gauntlet"
+            }
+          },
+          {
+            "id": "b973b06daaa470cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Quests/Act 1/Dream Gauntlet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dream Gauntlet"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,6 +226,22 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "8ba8fc103b5f0185",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b76108f51d2af11",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,19 +261,23 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "890be5476eee19f5",
+  "active": "604173be42ff1daa",
   "lastOpenFiles": [
+    "2.Monsters/Arcane adept.md",
+    "3.Quests/Act 1/Dream Gauntlet.md",
     "3.Quests/Act 1/Strange dad.md",
+    "3.Quests/Act 1/EmberDeep.md",
+    "3.Quests/Act 1/Ember deep 2.md",
+    "5.Sessions/Session 0.md",
+    "5.Sessions/Session 1.md",
     "1.pc/Baltazar Bal.md",
     "1.pc/Rolf Ravioli.md",
-    "5.Sessions/Session 0.md",
     "simpel Battlemap client.md",
     "Runescape goals.md",
     "5.Sessions/Session 11.md",
     "Pasted image 20250905150312.png",
     "Untitled 1.base",
     "Untitled.base",
-    "3.Quests/Act 1/Dream Gauntlet.md",
     "1.pc/Pc party.md",
     "4.items/Cockring of protection.md",
     "4.items/Ethereal boots.md",
@@ -230,10 +292,6 @@
     "1.pc/Varron Hellebore.md",
     "1.pc/TinkerWiz.md",
     "1.pc/Tarnak the Terrible.md",
-    "1.pc/Roderick Fitzgerald-blackwood.md",
-    "4.items/Nature's mourning staff.md",
-    "4.items/Moon-touched sword.md",
-    "4.items/Mender’s Stone.md",
     "4.itemsXml",
     "9.Images/thundercore.png",
     "9.Images/SimzyTayfoot.png",
