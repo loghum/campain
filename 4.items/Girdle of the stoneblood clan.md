@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Girdle of the stoneblood clan
 owner: None
 ---
 ### **Girdle of the Stoneblood Clan**

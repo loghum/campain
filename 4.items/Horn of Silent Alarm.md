@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Horn of Silent Alarm
 owner: Roderick
 ---
 ## Horn of Silent Alarm

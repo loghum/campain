@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: orb of direction
 owner: Tinkerwiz
 ---
 ## Orb of Direction

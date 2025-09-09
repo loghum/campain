@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Ring of final rest
 owner: Yakub
 ---
 ### Ring of the Final Rest

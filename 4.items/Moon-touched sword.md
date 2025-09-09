@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Moon-touched sword
 owner: Rolf
 ---
 #### Moon-Touched Sword

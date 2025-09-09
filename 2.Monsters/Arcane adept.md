@@ -41,3 +41,5 @@ reactions:
     desc: "Cast Shield in response to being hit by an attack or targeted by Magic Missile."
 
 ```
+
+18

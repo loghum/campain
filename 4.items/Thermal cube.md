@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Thermal cube
 owner: Tarnak
 ---
 Thermal Cube

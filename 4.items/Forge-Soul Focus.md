@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Forge-Soul focus
 owner: None
 ---
 ### **Forge-Soul Focus**

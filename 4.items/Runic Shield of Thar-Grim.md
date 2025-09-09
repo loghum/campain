@@ -1,6 +1,19 @@
 ---
-name: Amulet of the Grovebound
+export: true
 owner: None
+name: "Runic Shield of Thar-Grim"
+type: S
+magic: 1
+ac: 2
+detail: "Rare, requires attunement"
+value: 1800
+weight: 6
+text:
+  - "A heavy dwarven shield embedded with glowing runes."
+  - "You gain a +1 bonus to AC. Once per long rest, when hit by a melee attack, you can use your reaction to force the attacker to make a DC 13 Dexterity saving throw: On a failed save, the attacker takes 2d6 fire damage and has disadvantage on their next attack roll."
+"modifier_bonus":
+  - "ac +1"
+
 ---
 ### **Runic Shield of Thar-Grimm**
 

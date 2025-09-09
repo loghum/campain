@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Javeling of lighting
 owner: Rolf
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Mender’s Stone
 owner: Tinkerwiz
 ---
 # Mender’s Stone

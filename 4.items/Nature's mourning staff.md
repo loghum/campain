@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Nature's mourning staff
 owner: Varron
 ---
 ### **Nature’s Mourning Staff**

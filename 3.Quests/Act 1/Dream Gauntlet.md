@@ -59,7 +59,8 @@ creatures:
 ```encounter
 name: Encounter name
 creatures: 
-  - 6: goblin
+  - 6: Goblin
+  - 
   - 
 ```
 

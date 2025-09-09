@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Ethereal boots
 owner: Tarnak
 ---
 ## Ethereal Boots  

@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Wand of magic missile
 owner: none
 ---
 

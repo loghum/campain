@@ -4,7 +4,7 @@
 [[TinkerWiz]]
 
 ```dataview 
-table owner
+table owner, export
 from "4.items"
 sort owner desc
 ```

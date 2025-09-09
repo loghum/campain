@@ -1,7 +1,7 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Potion of greater healing
 owner: 
-- Rolf
 - Roderick
 ---
 ### Potion of greater healing (150GP)

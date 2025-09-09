@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Braces of the emberwright
 owner: none
 ---
 ### **Bracers of the Emberwright**

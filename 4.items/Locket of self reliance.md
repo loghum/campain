@@ -1,5 +1,6 @@
 ---
-name: Amulet of the Grovebound
+export: false
+name: Locket of self reliance
 owner: Roderick
 ---
 ### **Locket of Self-Reliance**
