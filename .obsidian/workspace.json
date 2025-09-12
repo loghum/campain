@@ -4,77 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "52f6b27d605c9dc7",
+        "id": "619e9a2e5ff2785e",
         "type": "tabs",
         "children": [
           {
-            "id": "890be5476eee19f5",
+            "id": "ca8fa2218fd83c3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.Monsters/Arcane adept.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Arcane adept"
-            }
-          },
-          {
-            "id": "ebed55746827fe87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9.Downloaded/Spells/Fireball.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fireball"
-            }
-          },
-          {
-            "id": "c8b59a5a93484788",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "initiative-tracker-creature-view"
-            }
-          },
-          {
-            "id": "604173be42ff1daa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/Act 1/Dream Gauntlet.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Dream Gauntlet"
-            }
-          },
-          {
-            "id": "f772eee2e41d1434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.items/Runic Shield of Thar-Grim.md",
+                "file": "3.Quests/EmberDeep.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Runic Shield of Thar-Grim"
+              "title": "EmberDeep"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fireball",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,12 +73,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "d9f9f7cda414c1db",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10.Dm/Left side bar.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Left side bar"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 396.5
   },
   "right": {
     "id": "1ea32d127c653967",
@@ -282,44 +245,49 @@
       "sample-plugin:Generate XML": false
     }
   },
-  "active": "f772eee2e41d1434",
+  "active": "ca8fa2218fd83c3b",
   "lastOpenFiles": [
-    "Templates/WeaponTemplate.md",
-    "4.items/Runic Shield of Thar-Grim.md",
+    "4.items/Water crystal.md",
     "4.items/Bracers of the emberwright.md",
-    "4.items/Bonecrusher's Hammer.md",
+    "2.Monsters/Marid.md",
+    "2.Monsters/Quickling.md",
+    "2.Monsters/Banshee.md",
+    "2.Monsters/Nyx the shade walker.md",
+    "2.Monsters/Helmed Horror.md",
+    "2.Monsters/Arcane adept.md",
+    "2.Monsters/Abyssal chicken.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/The vale Of verdantia.md",
+    "3.Quests/EmberDeep.md",
+    "3.Quests/Strange dad.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Wizards tower.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Thundercore.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Dark farm.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled 1.md",
+    "3.Quests/Running plots.md",
+    "10.Dm/Images/hexcrawl.PNG",
+    "10.Dm/Mechanic/Hexcrawl.md",
+    "4.world/The Shattered Crownlands/The Shattered Crownlands.md",
+    "4.items/4.items.md",
+    "3.Quests/3.Quests.md",
+    "10.Dm/Left side bar.md",
+    "4.items/Amulet of the Grovebound.md",
+    "1.pc/Tarnak the Terrible.md",
+    "1.pc/TinkerWiz.md",
+    "4.world/The Shattered Crownlands",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Locations",
+    "10.Dm",
     "ExportedXML/brumster_compendium.xml",
     "ExportedXML",
-    "1.pc/Pc party.md",
-    "5.Sessions/Session 11.md",
-    "4.items/Girdle of the stoneblood clan.md",
-    "4.items/Forge-Soul Focus.md",
-    "4.items/Locket of self reliance.md",
-    "4.items/Amulet of the Grovebound.md",
-    "4.items/Cockring of protection.md",
-    "4.items/Wand of magic missile.md",
-    "4.items/Traveler’s Beacon.md",
-    "4.items/Thermal cube.md",
-    "4.items/Ring of final rest.md",
-    "4.items/Potion of greater healing.md",
-    "4.items/orb of direction.md",
-    "4.items/Nature's mourning staff.md",
-    "4.items/Moon-touched sword.md",
-    "4.items/Mender’s Stone.md",
-    "4.items/Javeling of lighting.md",
-    "4.items/Horn of Silent Alarm.md",
-    "4.items/Flameheart dagger.md",
-    "4.items/Ethereal boots.md",
-    "Templates/ArmorTemplate.md",
     "Pasted image 20250905150312.png",
     "Untitled 1.base",
     "Untitled.base",
     "4.itemsXml",
-    "9.Images/thundercore.png",
-    "9.Images/SimzyTayfoot.png",
-    "9.Images/realm_of_bel.png",
-    "9.Images/Ironhearth's acedemy.png",
-    "9.Images/emberforge.png",
-    "9.Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp"
+    "10.Dm/Images/thundercore.png",
+    "10.Dm/Images/SimzyTayfoot.png",
+    "10.Dm/Images/realm_of_bel.png",
+    "10.Dm/Images/Ironhearth's acedemy.png",
+    "10.Dm/Images/emberforge.png",
+    "10.Dm/Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp"
   ]
 }

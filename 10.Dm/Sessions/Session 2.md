@@ -1,3 +1,6 @@
+---
+session: 2
+---
 # vorige sessie
 Gevochten tegen het andere team. Dik gewonnen.
 

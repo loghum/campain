@@ -1,4 +1,7 @@
-
+---
+session: 11
+date: 06 09(september) 2025
+---
 ## Wat gebeurde in vorige sessie
 jullie werden om gevraagt om een gat te onderzoeken waar in brandstaande vleermuizen uitkwamen. Jullie daalden af een afgrenrande dwarven troon room. Overal lagen verkoolde lijken. Op 1 van die lijken lag een gekleurde edel steen. Verderop vonden jullie een kamer met verschillende geleurde vakkels. Na een poging, wat resulteerde in brandwonden, gingen jullie verder. In een kamen lieten jullie een restless dwarven ghost rusten. Jullie werden aangevallen door vuur slangen en jullie zijn langs slapen hell hounds geslopen. Daarnaa gevaarlijke lava poel oversgelopen en uiteindelijk met een magma elemental gevochten. 2 van jullie waren bewusteloos. We eindigden de sessie met de ondekking van een portaal naar de fire plane waar jullie getuige zijn van de opbouw van een invasie kamp. Hier waaren we gebleven. 
 

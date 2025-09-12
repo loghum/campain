@@ -1,3 +1,7 @@
+---
+session:  10
+date: 31 08 oktober 2025
+---
 
 ## Wat gebeurde in vorige sessie
 **Vorige keer kwamen jullie oog in oog te staan met een magiër die op het punt stond een lich te worden…**

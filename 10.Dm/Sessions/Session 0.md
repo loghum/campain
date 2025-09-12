@@ -1,3 +1,7 @@
+---
+session: 0
+---
+
 ##  vorige sessie
 
 ##  Bespreken

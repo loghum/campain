@@ -1,3 +1,9 @@
+---
+status: todo
+start location: [[Ironheart’s Academy of Blades and Spells]]
+---
+
+
 Lyra stormraven geeft een les over wilde planten die heelende krachten hebben. Geeft de klas de opdracht om de natuur in te gaan om ingredienten te halen om een healing potion te maken. Lyra houd de party appart. Opdracht voor jullie. Niet vertellen aan berric, dat handel ik wel af. Mijn vader heeft om hulp gevraagt maar Berric wil hem niet helpen. 5 minuten buiten de school heeft mijn vader een campje opgezet. je kunt hem niet missen. Vroeger was hij anders."
 
 # Het kamp

@@ -1,3 +1,9 @@
+---
+status: active
+start location: [[Ironheart’s Academy of Blades and Spells]]
+---
+
+
 >De grote deur zwaait open en een man met vuile handen en een gezicht vol schrammen haast zich naar binnen. Zijn stem trilt terwijl hij spreekt.
 “Alsjeblieft, iemand moet ons helpen! Ik was net een waterput aan het graven, hier vlak buiten Thundercore, toen ineens de grond onder mijn voeten begon te zakken.”
 “En toen… toen kwam het vuur! Brandende vleermuizen, honderden, ze vlogen omhoog uit het gat dat was ontstaan.”
@@ -184,3 +190,229 @@ Red gem: "Durim" = Flame
 >Voor je ligt een kamp dat duidelijk nog in volle voorbereiding is. Overal zie je gespierde figuren met rood gloeiende huid en scherpe, gloeiende ogen die tenten van gescheurd leer en gesmolten metaal in elkaar zetten. Ze slepen zware kettingen, plaatsen smeulende vuurkorven en versterken muren van zwarte rotsen met metalen platen. De stemmen klinken gejaagd, vol haast en dreiging, terwijl ze hun wapens slijpen en orders roepen. Vonken springen telkens op als ze met hamers op het heet gesmeed ijzer slaan.
 >In de verte, voorbij het kamp, verschijnen langzaam silhouetten op de horizon. Een leger van soldaten met vurige helmen en wapenrustingen marcheert gestaag over het lavaveld. Hun voetstappen doen de grond licht trillen. Hoog in de lucht cirkelen rijen vurige draken, met brede vleugels die de gloeiende lucht doorsnijden. Af en toe stijgt een vurige ademstoot op, alsof ze de komst van het kamp bewaken en voorbereiden op een komende aanval.
 >Het gevoel bekruipt je: dit is geen gewoon kamp, maar een voorhoede van een dreigende invasie – een vuurstorm die spoedig zal losbarsten over alles wat leeft.
+
+
+## ✅ **HOOFDLIJN**
+
+1. **De Bibliotheek** → ontdekking van de oplossing.
+    
+2. **Reis naar het Moeras** → sfeer en gevaren.
+    
+3. **Ontmoeting met de Elemental** → dialoog & keuzes.
+    
+4. **Mini-Dungeon: De Vervloekte Ruïne** → breek de vloek.
+    
+5. **Tijdsdruk-mechaniek** → groeiend gevaar in Fire Realm.
+    
+6. **Terug naar de Smelterij** → sluit het portaal.
+    
+
+---
+
+# **1. Bibliotheek – Het Geheim van het Kristal**
+
+**Beschrijvingstekst:**
+
+> De geur van oud perkament en inkt vult de lucht terwijl je rijen boeken ziet die zich uitstrekken tot in de schaduwrijke hoeken van de zaal. Houten ladders staan tegen hoge planken, en kaarsen flakkeren zacht terwijl een zachte stilte over de ruimte hangt. Een zwaar boek, met een omslag van verweerd blauw leer en zilveren inscripties, ligt open op een tafel, alsof het op je wacht.
+
+**Wat vinden ze?**
+
+- Een passage over **portalen naar het Vuur**:
+    
+    > _“Waar de hitte van een andere wereld door scheuren sijpelt, kan slechts de zuiverheid van water het vuur doven. Zoek de Wachter van het Spiegelende Moeras. Zijn hart van bevroren essentie sluit wat eens geopend is.”_
+    
+- **Checks:**
+    
+    - _Arcana (DC 14)_: Elementals kunnen kristallen maken, maar langzaam.
+        
+    - _Nature (DC 12)_: Het Spiegelende Moeras → bekend als een gevaarlijk, mistig gebied met oude ruïnes.
+        
+
+---
+
+# **2. Het Moeras – Het Fluisterende Veil**
+
+**Beschrijvingstekst bij aankomst:**
+
+> Een kille mist bedekt het landschap als een sluier. Jullie laarzen zakken weg in drassige grond terwijl traag water glinstert tussen wortels en omgevallen bomen. Het geluid van kikkers sterft weg zodra jullie dieper het moeras in trekken. De lucht ruikt naar natte aarde en rotting. In de verte, omringd door water dat zo zwart is dat het lijkt op een spiegel, stijgt een ruïne uit als een gebroken tand van steen.
+
+**Gevaren onderweg:**
+
+- **Moerasbeesten** (bijv. **2x Giant Leeches** of **Swarm of Insects**) voor sfeer.
+    
+- _Survival (DC 13)_ checks om niet te verdwalen.
+    
+
+---
+
+# **3. De Elemental Verschijnt**
+
+Bij de zwarte plas rijst het wezen op uit het water.
+
+**Voorlees-tekst:**
+
+> Het water golft en stijgt, vormt een draaiende kolom. Twee lichtgevende orbs verschijnen als ogen. Het wezen heeft geen mond, maar jullie horen een stem in jullie gedachten – diep en hol, als druppels die in een grot vallen:  
+> _“Stervelingen… Waarom schendt gij mijn eeuwige sluimering?”_
+
+---
+
+### **Dialoogopties**
+
+- **De waarheid vertellen** → Het portaal, dreiging Fire Realm.
+    
+    - _“Ik voel de hitte… Ja. De wereld brandt, en jullie zoeken mijn hart om het vuur te doven.”_
+        
+- **Het kristal eisen** (Intimidation DC 18) → Elemental weigert.
+    
+- **Onderhandelen** (Persuasion DC 15) → Hij legt het probleem uit:
+    
+    > _“Ik kan geven wat je zoekt… maar mijn kracht is geketend. Een vloek, oud en donker, houdt mijn essentie in pijn. Breek de binding, en ik zal schenken wat jullie vragen. Anders… duurt het drie dagen om slechts één kristal te vormen.”_
+    
+
+**Mechaniek:**
+
+- Zonder vloekbreking: **3 dagen** wachten → **Fire Realm leger groeit**.
+    
+- Met vloekbreking: **8 uur** → sneller, veiliger.
+    
+
+**Twist:**
+
+> _“Weet dit: dwingt gij mij met geweld… dan vergaat het kristal in de diepte en krijgen jullie niets.”_
+
+---
+
+# **4. Mini-Dungeon – De Vervloekte Ruïne**
+
+Locatie: **een half verzonken tempel** midden in het moeras.
+
+**Voorlees-tekst:**
+
+> Het water staat tot jullie knieën terwijl jullie de ruïne betreden. Zuilen, zwart van vocht, rijzen scheef uit de modder. Aan de wanden hangen half vergane reliëfs van kronkelende wortels en vissen. Het hart van deze plek is een totem van rottend hout en botten, pulserend met een ziekelijke groene gloed.
+
+---
+
+### **Encounters**
+
+- **Kleine kamers vol moerasgas** → Constitution saves (DC 12) om niet vergiftigd te raken.
+    
+- **Ondoden**:
+    
+    - **2x Drowned Dead (Ghoul-achtige wezens)**.
+        
+    - **1x Corrupt Druid Spirit** (uses Druid spell list, HP ~45).
+        
+- **Het Totem**
+    
+    - _Arcana of Religion (DC 15)_ → begrijpen hoe het werkt.
+        
+    - Vernietiging: 20 HP, immuun voor normaal wapen → vuur of radiant nodig.
+        
+
+**Effect:**  
+Bij vernietiging barst er een golf van koude energie uit → vloek gebroken.
+
+---
+
+# **5. Dreigend Visioen (Elke dag die verstrijkt)**
+
+Wanneer de party wacht of rust:
+
+> Een plotselinge hitte omringt je. Je ziet door een rode waas een leger van vurige wezens marcheren over zwartgeblakerde grond. Een reusachtige salamander heft een speer terwijl draken schaduwen werpen over een brandende hemel. Dan trekt het beeld weg – maar de geur van rook blijft hangen.
+
+---
+
+# **6. Finale – Terug naar de Smelterij**
+
+- Kristal geplaatst → skill challenge:
+    
+    - Con saves (DC 14) tegen hitte.
+        
+    - Strength/Arcana checks om energie te kanaliseren.
+        
+- **Vijanden stormen door terwijl het portaal instort**: Magma Mephits + 1x Fire Elemental.
+    
+- Countdown → als ze falen, komt er een **Salamander** door (mini-boss).
+
+in library zoekt party naar manier om firepplane te sluiten. Vinden boek met info dat er een item bestaat. Welke checks? en wat verteld het boek? De auteur van de boek is alleen bekend als BB[[Baltazar Bal]]. Die woont ergens ten oosten van  Dark farm maar voor de bergen. Wie weet dit? Magic docent op school? Wat kan BB vertellen over het item en waar ze het kunnen vinden.
+[[Water crystal]] bewaakt door een [[marid]]. 
+
+## 🌊 Scène: Onderwaterpaleis / Watervaltempel
+
+**Setting:**
+
+- Kristal zweeft boven een glinsterende fontein in een bassin.
+    
+- Mist, regendruppels en glinsterend water creëren dramatisch effect.
+    
+- Glad terrein → halve beweging, Acrobatics DC 12 om niet uit te glijden.
+    
+
+**Introductie Marid:**
+
+> “Wie zijn jullie, zandkorrels, om te dromen dit juweel te dragen? Dit hart van mijn rijk is niet voor stervelingen!”
+
+---
+
+## 💬 Roleplay / Skill Checks
+
+|Actie PC|Mogelijke Check|Moeilijkheid|Resultaat bij succes|
+|---|---|---|---|
+|Vleien / eerbetoon|Persuasion (Cha)|DC 15|Marid luistert, mogelijk tijdelijk afleiding|
+|Portal uitleggen|Arcana / Nature / History (Int)|DC 16|Marid overweegt samenwerking|
+|Geschenkje / eerbetoon|Persuasion / Insight|DC 14|Marid voelt zich geëerd, open voor deal|
+|Heimelijk kristal benaderen|Sleight of Hand / Stealth|DC 18|Succes = dichterbij; falen → Marid wordt vijandig|
+
+---
+
+## ⚔️ Combat Tips
+
+- Gebruik terrein: Marid houdt afstand en manipuleert waterpoelen om spelers te scheiden of te vertragen.
+    
+- Summons: Water Elemental kan 1–2 spelers bezig houden, maar niet overdrijven.
+    
+- Zonder Legendary Actions is het een puur tactisch gevecht: focus op positioning en watermagie.
+    
+
+---
+
+## 🎭 Afsluiting / Mogelijke Uitkomsten
+
+1. **Diplomatie / Onderhandeling:** Marid geeft de kristal als de party overtuigt of een dienst verricht.
+    
+2. **Combat:** Marid kan verslagen worden; kristal komt vrij, maar Marid kan ontsnappen of een natuurramp veroorzaken.
+    
+3. **Slimme twist:** de kristal kan vrijwillig meegaan, Marid boos maar niet dood.
+
+
+Library
+
+# Library Research – Water Crystal Info
+
+| Check Type | Info Type | DC | Success | Partial / Failure |
+|------------|-----------|----|--------|-----------------|
+| Arcana / Investigation | Basic existence | 12 | The party learns the **Water Crystal exists** and **can close the Fire Plane portal** | Partial: only knows a magical item exists that may help with portals; method unclear |
+| Arcana / Investigation | Method / mechanics | 16 | The party learns the crystal **must be held inside the portal for 10 minutes** | Partial: they know the crystal must touch the portal, but unsure of timing or focus needed |
+| Arcana / Investigation | Location hints | 14 | The party learns the crystal is in **coastal or underwater ruins** | Partial: only vague sense of “near water” |
+| Arcana / Intelligence | Hazards / guardians | 17 | The party learns **elemental guardians may protect the crystal** and possible environmental hazards | Partial: only that the crystal may be dangerous, no specifics |
+| History / Arcana | Author context | 10 | Recognize **Baltazar Bal** as the author, a planar researcher | Partial: only initials “BB” recognized |
+
+BB baltazar ball
+
+# Interaction with Baltazar Bal – Check Options
+
+| Check Type | DC | Success | Partial / Failure | Notes |
+|------------|----|--------|-----------------|-------|
+| Persuasion | 15 | Baltazar warms up slightly, giving **full info** about the Water Crystal: location hints, portal mechanics, and guardian warnings. | Partial: He gives **vague or cryptic hints**, may require retry or another check; could also give misleading info. | Failure: He refuses to help unless they apologize or offer a favor. |
+| Intimidation | 16 | Baltazar reluctantly gives the info **but may try to trick them**, exaggerating dangers or exaggerating difficulty. | Partial: He shares only **partial info**, but warns them sternly. | Failure: He becomes hostile; may call guards or refuse to speak further. |
+| Deception | 17 | PC convinces Baltazar they are sincere or on an urgent mission; he gives info cautiously. | Partial: He sees through most of the deception, giving **ambiguous info** or requiring more convincing. | Failure: He catches the lie; refuses to give any info and may impose a minor consequence (magical prank, misdirection). |
+| Insight | 14 | Allows PC to **detect if Baltazar is holding back info** or trying to mislead. | Partial: Detects only some hesitancy or sarcasm. | Failure: Misreads his mood; might trust false info. |
+| Arcana / History (asking for context) | 12 | He provides **historical context**, confirming crystal exists and its general properties. | Partial: Only confirms that a magical item exists; no specifics. | Failure: He refuses to answer, citing safety or secrecy. |
+
+
+
+
+```leaflet  
+id:hexcrawl ### Must be unique with no spaces  
+image: [[hexcrawl.PNG]] ### Link to the map image file  
+```

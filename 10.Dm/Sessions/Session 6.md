@@ -1,3 +1,6 @@
+---
+session: 6
+---
 ![[Shadows in the Depths#LOOT]]
 
 Lyra: laten we terug gaan naar Fritz(het paard) en dan heb ik nog iets voor jullie:  [[Traveler’s Beacon]]
