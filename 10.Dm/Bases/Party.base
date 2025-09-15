@@ -1,0 +1,31 @@
+views:
+  - type: table
+    name: Pc's in party
+    filters:
+      and:
+        - file.folder == "1.pc"
+        - inParty == "true"
+    order:
+      - file.name
+      - hp
+      - ac
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.hp: 47
+      note.ac: 119
+  - type: table
+    name: All pc's
+    filters:
+      and:
+        - file.folder == "1.pc"
+    order:
+      - file.name
+      - hp
+      - ac
+      - level
+      - inParty
+    sort:
+      - property: file.name
+        direction: ASC

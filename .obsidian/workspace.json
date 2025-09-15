@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "619e9a2e5ff2785e",
+        "id": "38a3644fae19ce00",
         "type": "tabs",
         "children": [
           {
-            "id": "ca8fa2218fd83c3b",
+            "id": "19ad044fa2642271",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.Quests/EmberDeep.md",
+                "file": "z.test/test.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "EmberDeep"
+              "title": "test"
             }
           }
         ]
@@ -105,50 +105,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1eeb5689d59507d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2.Monsters/Arcane adept.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Arcane adept"
-            }
-          },
-          {
-            "id": "b02a20af7d1c05a7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "a798be5037ec37ec",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2.Monsters/Arcane adept.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Arcane adept"
-            }
-          },
-          {
             "id": "04d0723e3fb705d0",
             "type": "leaf",
             "state": {
@@ -164,51 +120,11 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "DICE_ROLLER_VIEW"
-            }
-          },
-          {
-            "id": "3bfab1e86a0167de",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2.Monsters/Arcane adept.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Arcane adept"
-            }
-          },
-          {
-            "id": "b94b96741a786d83",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "7c3232bec456503e",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
               "icon": "dices",
               "title": "Dice Tray"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "8ba8fc103b5f0185",
@@ -242,47 +158,50 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "sample-plugin:Generate XML": false
+      "sample-plugin:Generate XML": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ca8fa2218fd83c3b",
+  "active": "19ad044fa2642271",
   "lastOpenFiles": [
-    "4.items/Water crystal.md",
-    "4.items/Bracers of the emberwright.md",
-    "2.Monsters/Marid.md",
-    "2.Monsters/Quickling.md",
-    "2.Monsters/Banshee.md",
-    "2.Monsters/Nyx the shade walker.md",
-    "2.Monsters/Helmed Horror.md",
-    "2.Monsters/Arcane adept.md",
-    "2.Monsters/Abyssal chicken.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/The vale Of verdantia.md",
-    "3.Quests/EmberDeep.md",
-    "3.Quests/Strange dad.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Wizards tower.md",
+    "3.Quests/3.Quests.md",
+    "simpel Battlemap client.md",
+    "Runescape goals.md",
+    "Untitled.md",
+    "2025-09-15.md",
+    "10.Dm/Left side bar.md",
+    "10.Dm/Main page.md",
+    "7. spells/Armor of agathys.md",
+    "10.Dm/Bases/Party.base",
+    "10.Dm/Templates/New npc.md",
+    "10.Dm/Templates/Encounter template.md",
+    "10.Dm/Templates/Monster statblock template.md",
+    "10.Dm/Templates/Create custom monster.md",
+    "10.Dm/Templates/Item Template.md",
+    "10.Dm/Templates/Add new map.md",
+    "10.Dm/_dictionaries.md.md",
+    "10.Dm/Bases/Last edited file.base",
     "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Thundercore.md",
     "4.world/The Shattered Crownlands/The vale Of verdantia/Dark farm.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled 1.md",
-    "3.Quests/Running plots.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/The sleepy willow.md",
+    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled.md",
+    "1.pc/Roderick Fitzgerald-blackwood.md",
+    "1.pc/Baltazar Bal.md",
+    "1.npc/Lyra vanHolt.md",
+    "1.npc/Brain in a jar.md",
+    "1.npc/Thundercore/Meyn Ridian.md",
+    "1.npc/Thundercore/Meron Hardwell.md",
+    "1.npc/Thundercore/Marek halford.md",
+    "10.Dm/Bases/Thundercore people.base",
+    "10.Dm/Bases/Sessions.base",
+    "10.Dm/Bases/Items.base",
+    "10.Dm/Bases",
     "10.Dm/Images/hexcrawl.PNG",
-    "10.Dm/Mechanic/Hexcrawl.md",
-    "4.world/The Shattered Crownlands/The Shattered Crownlands.md",
-    "4.items/4.items.md",
-    "3.Quests/3.Quests.md",
-    "10.Dm/Left side bar.md",
-    "4.items/Amulet of the Grovebound.md",
-    "1.pc/Tarnak the Terrible.md",
-    "1.pc/TinkerWiz.md",
     "4.world/The Shattered Crownlands",
     "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Locations",
     "10.Dm",
     "ExportedXML/brumster_compendium.xml",
-    "ExportedXML",
     "Pasted image 20250905150312.png",
-    "Untitled 1.base",
-    "Untitled.base",
-    "4.itemsXml",
     "10.Dm/Images/thundercore.png",
     "10.Dm/Images/SimzyTayfoot.png",
     "10.Dm/Images/realm_of_bel.png",

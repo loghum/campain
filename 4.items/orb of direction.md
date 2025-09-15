@@ -1,6 +1,6 @@
 ---
 export: false
-name: orb of direction
+name: Orb of direction
 owner: Tinkerwiz
 ---
 ## Orb of Direction

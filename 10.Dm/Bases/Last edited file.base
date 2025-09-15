@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    limit: 15
+    columnSize:
+      file.ctime: 261
+      file.mtime: 351

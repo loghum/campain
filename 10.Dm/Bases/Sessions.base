@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Sessions
+    filters:
+      and:
+        - file.folder == "10.Dm/Sessions"
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - session
+    sort:
+      - property: session
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.mtime: 250

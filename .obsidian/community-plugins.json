@@ -6,5 +6,7 @@
   "obsidian-leaflet-plugin",
   "remember-cursor-position",
   "sample-plugin",
-  "folder-notes"
+  "folder-notes",
+  "templater-obsidian",
+  "new-tab-default-page"
 ]
