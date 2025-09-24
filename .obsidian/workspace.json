@@ -13,15 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z.test/test.md",
+                "file": "3.Quests/EmberDeep.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "EmberDeep"
+            }
+          },
+          {
+            "id": "6b76108f51d2af11",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          },
+          {
+            "id": "9c88366107984b8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Quests/Completed/Dream Gauntlet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dream Gauntlet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "meteo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,15 +148,94 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
+          },
+          {
+            "id": "3c3c3841e5799bb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "z.test/test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for test"
+            }
+          },
+          {
+            "id": "2a626c86d599d293",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "z.test/test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from test"
+            }
+          },
+          {
+            "id": "8986337435a1dbc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8af1191203ffbfff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z.test/test.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of test"
+            }
           }
         ]
       },
       {
-        "id": "8ba8fc103b5f0185",
+        "id": "d862641439f30125",
         "type": "tabs",
         "children": [
           {
-            "id": "6b76108f51d2af11",
+            "id": "3220d51b8484fde8",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5a56a86ab6972c10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62f66cacf3abb2d8",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
@@ -162,45 +266,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19ad044fa2642271",
+  "active": "04d0723e3fb705d0",
   "lastOpenFiles": [
+    "1.pc/Tarnak the Terrible.md",
+    "4.Earth/Xathliss/The vale Of verdantia/The vale Of verdantia.md",
+    "10.Dm/Images/Earth.png",
+    "4.Earth/Xathliss/Xathliss.md",
+    "4.Earth/4.Earth.md",
+    "4.Earth/Verdantia/Verdantia.md",
+    "4.Earth/Verdantia/Organisations/The Obsidian Ledger - organisation.md",
+    "4.Earth/Kalthar/Kalthar.md",
+    "4.Earth/Xathliss/The vale Of verdantia/Thundercore/Thundercore.md",
+    "4.Earth/Xathliss/Xathliss tribes",
+    "4.Earth/Xathliss/Kalthar colonies",
+    "4.Earth/Xathliss/The vale Of verdantia/Dark farm.md",
+    "4.Earth/Xathliss/The vale Of verdantia/Untitled.md",
+    "4.Earth/Kalthar",
+    "4.Earth/Verdantia",
     "3.Quests/3.Quests.md",
+    "3.Quests/EmberDeep.md",
+    "3.Quests/Completed/Dream Gauntlet.md",
+    "10.Dm/Downloaded 5e content/Spells (Alt)/Spells M.md",
+    "10.Dm/Downloaded 5e content/Spells (Alt)/## Spell Lists.md",
+    "4.items/Ring of final rest.md",
+    "7. spells/Armor of agathys.md",
+    "10.Dm/Downloaded 5e content/Monsters/Air Elemental.md",
+    "10.Dm/Downloaded 5e content/Monsters/Ancient Blue Dragon (Chromatic).md",
+    "10.Dm/Downloaded 5e content/Gamemastering/Poisons.md",
+    "10.Dm/Downloaded 5e content/Gamemastering/Conditions.md",
+    "4.items/Bonecrusher's Hammer.md",
+    "10.Dm/Bases/Items.base",
+    "z.test/test.md",
     "simpel Battlemap client.md",
     "Runescape goals.md",
-    "Untitled.md",
-    "2025-09-15.md",
-    "10.Dm/Left side bar.md",
-    "10.Dm/Main page.md",
-    "7. spells/Armor of agathys.md",
     "10.Dm/Bases/Party.base",
-    "10.Dm/Templates/New npc.md",
-    "10.Dm/Templates/Encounter template.md",
-    "10.Dm/Templates/Monster statblock template.md",
-    "10.Dm/Templates/Create custom monster.md",
-    "10.Dm/Templates/Item Template.md",
-    "10.Dm/Templates/Add new map.md",
-    "10.Dm/_dictionaries.md.md",
     "10.Dm/Bases/Last edited file.base",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Thundercore.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Dark farm.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/The sleepy willow.md",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Untitled.md",
-    "1.pc/Roderick Fitzgerald-blackwood.md",
-    "1.pc/Baltazar Bal.md",
-    "1.npc/Lyra vanHolt.md",
-    "1.npc/Brain in a jar.md",
-    "1.npc/Thundercore/Meyn Ridian.md",
-    "1.npc/Thundercore/Meron Hardwell.md",
-    "1.npc/Thundercore/Marek halford.md",
     "10.Dm/Bases/Thundercore people.base",
     "10.Dm/Bases/Sessions.base",
-    "10.Dm/Bases/Items.base",
     "10.Dm/Bases",
     "10.Dm/Images/hexcrawl.PNG",
-    "4.world/The Shattered Crownlands",
-    "4.world/The Shattered Crownlands/The vale Of verdantia/Thundercore/Locations",
-    "10.Dm",
-    "ExportedXML/brumster_compendium.xml",
     "Pasted image 20250905150312.png",
     "10.Dm/Images/thundercore.png",
     "10.Dm/Images/SimzyTayfoot.png",
