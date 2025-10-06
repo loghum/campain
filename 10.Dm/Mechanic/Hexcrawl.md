@@ -1,95 +1,84 @@
-# ⚔️ Hexcrawl Procedures (5e)
+| Type terrein              | Hexschaal (6 miles) |
+| ------------------------- | ------------------- |
+| Vlak / Grasland           | 4 hexes/day         |
+| Bos / Heuvels             | 3 hexes/day         |
+| Bergen / moeilijk terrein | 2 hexes/day         |
+| Moeras / Rivieren         | 1 hex/day           |
 
-## 1. Hex Size & Travel Pace
-- **Hex Size:** 6 miles across.
-- **Normal Pace:** 2 hexes/day.
-- **Fast Pace:** 3 hexes/day, but:
-  - Disadvantage on Perception.
-  - No Stealth.
-- **Slow Pace:** 1 hex/day, but:
-  - Advantage on Perception & Navigation.
+| d20 Roll | Weather / Conditions | Effect                                                                                                                                                     |
+| -------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1–8      | Helder / Zon         | Geen straf, normale snelheid, zicht +2 voor verkennen.                                                                                                     |
+| 9–12     | Wolken / Bewolkt     | Geen impact op snelheid, perceptie checks -1.                                                                                                              |
+| 13–15    | Regen / Motregen     | Reizen 1 hex minder / dag, Stealth en Survival checks -1. Kleine kans (1 op 6) op uitglijden of materiaal beschadigd.                                      |
+| 16       | Storm / Onweer       | Reizen 2 hexes minder / dag, voordeel voor schuilen checks, kans op blikseminslag (1d6 damage op 1 karakter als roll = 1).                                 |
+| 17       | Sneeuw / IJzel       | Reizen 2 hexes minder / dag, Survival + Perception -1, kans op uitglijden (1d4 minor schade of vermoeiing).                                                |
+| 18–20    | Mist / Dichte nevel  | Zicht beperkt tot 1 hex, voordeel voor schuilen, nadeel voor navigatie (-1 op Survival / Nature). Kans op verdwalen (1 op 4) en extra hex reizen verloren. |
 
----
+| d20 Roll | Encounter Type                           |
+|----------|-----------------------------------------|
+| 1–7      | Niets / rustige reis                     |
+| 8–10      | Wilde dieren                             |
+| 11–13    | Lizardfolk / Roaming Bandits             |
+| 14–15    | Magische / Bovennatuurlijke gebeurtenis |
+| 16–17    | Veldslag / Mini-boss                     |
+| 18–20    | Random NPC / Handelaar / Reiziger       |
 
-## 2. Terrain Travel Costs
-Each terrain type increases or decreases how many hexes the party can cover in a day.
 
-| Terrain   | Cost per Hex | Notes |
-|-----------|--------------|-------|
-| Plains / Grassland / Road | 1 | Easy travel |
-| Hills / Forest            | 2 | Costs 2 hexes of movement to enter |
-| Swamp / Jungle            | 2 | Foraging DC +5 |
-| Desert                    | 2 | Requires 2 waterskins per PC/day |
-| Mountains                 | 3 | Very slow, dangerous terrain |
+### **Stap 4: Exacte Vijanden (rol 1d6)**
 
-> Example: At **Normal Pace** (2 hexes/day), a party can cover **2 plains hexes**, **1 forest hex**, or **1 mountain hex** per day.
+#### **1d6 Wilde Dieren**
 
----
+| 1d6 | Encounter                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------ |
+| 1   | Wolven Alpha Pack `encounter: 3: Wolf, 2: Dire Wolf` |
+| 2   | Bears – 2 bruine beren, knockdown attack (Str DC 14) `encounter: 3: Brown Bear`                                                  |
+| 3   | Boars + Wolves – 2 everzwijnen + 2 wolven, charge + gore attacks  `encounter: 2: Boar, 1 Dire Wolf`                                           |
+| 4   | Spinnen – 3–4 Giant Spiders, web attacks mogelijk, movement beperkt `encounter: 4: Giant Spider`                                          |
+| 5   | Snakes – 3–4 Giant Poisonous Snakes, Con save DC 14 of poison  `encounter: 4: Giant Poisonous Snake`                                               |
+| 6   | Giant Eagles – 2 Eagles, flyby attacks + opportunity attacks  `encounter: 3: Giant Eagle`                                         |
 
-## 3. Daily Exploration Turn
-1. **Choose pace & direction.**
-2. **Navigation Check (Survival).**  
-   - DC 10: clear road, plains.  
-   - DC 15: forest, hills.  
-   - DC 20: swamp, mountain, storm.  
-   - Failure = party veers off course (1d6 random direction).
-3. **Travel.** Spend movement points based on terrain.
-4. **Foraging (optional).** One PC may roll Survival (DC 15):  
-   - Success = 1d6 rations + 1d4 waterskins.  
-   - Modify DC: desert DC 20, grasslands DC 10.
-5. **Random Encounter Check.** Roll per hex (or 2–3/day).  
-   - On a 1 (d6), roll encounter table.
-6. **Camp.**  
-   - Mark off 1 ration + 1 waterskin/PC.  
-   - Missing supply = DC 10 Con save → 1 level exhaustion.
+```encounter
+name: Encounter name
+creatures:
+  - Brown Bear
+  - Giant Poisonous Snake
+  - Giant Eagle
+  - 
+  - Hobgoblin
+  - Hobgoblina
+  - 
+```
 
----
+|1d10|Encounter|
+|---|---|
+|1|**Lizardfolk Patrol** – 3–4 Warriors + 1 Shaman, patrouillerend in territorium|
+|2|**Lizardfolk + Wild Animal** – 2–3 Warriors + 1 Giant Crocodile of 2 Swamp Wolves|
+|3|**Lizardfolk Ambush / Rival Tribe** – 3–4 Warriors van een andere Lizardfolk groep|
+|4|**Bandit Squad** – 3–4 bandieten (2 melee, 1–2 crossbows), op doorreis|
+|5|**Goblins Ambush** – 4–5 goblins incl. 1–2 archers, vallen of terrain advantage|
+|6|**Lizardfolk vs Bandits** – 2 Lizardfolk Warriors + 2 Bandits, conflict tussen de groepen|
+|7|**Lizardfolk Scouts + Traps** – 2–3 Warriors, verborgen in terrein met natuurlijke vallen|
+|8|**Bandit Leader Encounter** – 1 Bandit Leader (AC 16, 45 HP) + 1–2 minions|
+|9|**Lizardfolk + Environmental Hazard** – 1 Shaman + 2 Warriors + natuurlijke obstakels (valstrikken, moeilijk terrein)|
+|10|**Elite Lizardfolk Force** – 1 Shaman + 3 Warriors, zeer tactisch, verdedigend territorium|
 
-## 4. Rest & Night Dangers
-- **Long Rest:** 8 hours in relative safety.  
-- **Night Encounter:** 50% chance → check table.  
-- **Watch:** PCs on watch make Perception checks to avoid surprise.
+rol d6. 1-3 [[Scalebite Clan]] 4-6[[Sunfang Tribe]]
+#### **1d6 Mini-boss / Veldslag**
 
----
+| 1d6 | Encounter                                                                              |
+| --- | -------------------------------------------------------------------------------------- |
+| 1   | Veteran Bandit Captain – 1 captain (AC 17, 85 HP, multiattack) + 3 elite minions       |
+| 2   | Ogre / Troll – 1 Ogre/Troll (AC 15–16, 100+ HP), regeneratie 5 HP/turn + 2 minions     |
+| 3   | Bear Alpha + Wolves – 1 bear alpha (AC 15, 85 HP) + 3 wolves, charge + terrain hazards |
+| 4   | Hill Giant Scout – 1 Hill Giant (AC 16, 105 HP) + 1–2 minions                          |
+| 5   | Lizardfolk Ambush – 1 Shaman + 2–3 Warrior minions, traps & tactical attacks           |
+| 6   | Mixed Surprise Ambush – 1 Ogre + 2 Goblins + 1 Lizardfolk + environmental hazard       |
 
-## 5. Discovering Hex Features
-- Each hex: 1 **major feature** + 0–2 **minor features**.
-- On entering a hex, roll 1d6:  
-  - 1–2: nothing noticed.  
-  - 3–6: party finds major feature.  
-- **Advantage** if traveling Slow Pace or high passive Perception.  
-- Hidden sites may require **4 hours searching**.
 
----
 
-## 6. Weather
-Roll daily or weekly.
-- Clear skies  
-- Rain  
-- Storm (movement halved, navigation disadvantage)  
-- Heat (extra water required)  
-- Snow (movement halved, foraging harder)  
-- Fog (disadvantage on Perception & navigation)
 
----
-
-## 7. Resource Management
-- **Food & Water:** 1 ration + 1 waterskin/PC/day.  
-- **Encumbrance (optional):** Track treasure & supply weight.  
-- **Exhaustion:** Enforces the danger of poor planning.
-
----
-
-## 8. Example Encounter Table (Forest, 1d12)
-1. Bandit scouts (3d4 bandits).  
-2. Hungry owlbear.  
-3. Druid with animal companion.  
-4. Abandoned campsite (loot or clues).  
-5. Dire wolves (2d6).  
-6. Goblin warband.  
-7. Ancient tree with hidden shrine.  
-8. Lost traveler (friend… or bait).  
-9. Giant spider nest.  
-10. Dryad warning of danger.  
-11. Battlefield ghost.  
-12. Signs of villain’s influence.
+| Rust Type               | Duur    | Locatie / Veiligheid                               | Herstel HP                        | Herstel Hit Dice                                 | Spells                     |
+| ----------------------- | ------- | -------------------------------------------------- | --------------------------------- | ------------------------------------------------ | -------------------------- |
+| **Short Rest**          | 10 min  | Overal (hex, bos, vlakte)                          | Gebruik **1 hit dice**            | Niets                                            | Niks                       |
+| **Onveilige Long Rest** | 6–8 uur | Onbeschermd terrein (bos, vlakte, heuvels, moeras) | Gebruik hit dice zoals short rest | **Halve hit dice terug** (afronden naar beneden) | Pc's lvl. 2lvl en 3lvl = 5 |
+| **Veilige Long Rest**   | 6–8 uur | Dorpen, versterkte ruïnes, beschermd kamp          | Volledige HP                      | **Alle hit dice terug**                          | Alle spell slots           |
