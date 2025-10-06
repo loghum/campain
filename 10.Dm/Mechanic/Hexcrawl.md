@@ -30,55 +30,70 @@
 
 | 1d6 | Encounter                                                                                              |
 | --- | ------------------------------------------------------------------------------------------------------ |
-| 1   | Wolven Alpha Pack `encounter: 3: Wolf, 2: Dire Wolf` |
-| 2   | Bears – 2 bruine beren, knockdown attack (Str DC 14) `encounter: 3: Brown Bear`                                                  |
-| 3   | Boars + Wolves – 2 everzwijnen + 2 wolven, charge + gore attacks  `encounter: 2: Boar, 1 Dire Wolf`                                           |
-| 4   | Spinnen – 3–4 Giant Spiders, web attacks mogelijk, movement beperkt `encounter: 4: Giant Spider`                                          |
-| 5   | Snakes – 3–4 Giant Poisonous Snakes, Con save DC 14 of poison  `encounter: 4: Giant Poisonous Snake`                                               |
-| 6   | Giant Eagles – 2 Eagles, flyby attacks + opportunity attacks  `encounter: 3: Giant Eagle`                                         |
+| 1   | `encounter: 3: Wolf, 2: Dire Wolf` |
+| 2   | `encounter: 3: Brown Bear`                                                  |
+| 3   | `encounter: 2: Boar, 1 Dire Wolf`                                           |
+| 4   | `encounter: 4: Giant Spider`                                          |
+| 5   | `encounter: 4: Giant Poisonous Snake`                                               |
+| 6   | `encounter: 3: Giant Eagle`                                         |
 
 ```encounter
 name: Encounter name
 creatures:
   - Brown Bear
-  - Giant Poisonous Snake
-  - Giant Eagle
+  - Lizard warrior
+  - Lizardfolk Warrior
+  - Lizardfolk Veteran
+  - Lizardfolk Archer
+  - Hobgoblin Devastator
+  - Lizardfolk Brute
+  - Owlbear
+  - Black Bear
+  - Cave Bear
+  - Polar Bear
+  - Lizardfolk Spirit Caller
   - 
-  - Hobgoblin
-  - Hobgoblina
+  - Ogre
   - 
 ```
 
 |1d10|Encounter|
 |---|---|
-|1|**Lizardfolk Patrol** – 3–4 Warriors + 1 Shaman, patrouillerend in territorium|
-|2|**Lizardfolk + Wild Animal** – 2–3 Warriors + 1 Giant Crocodile of 2 Swamp Wolves|
-|3|**Lizardfolk Ambush / Rival Tribe** – 3–4 Warriors van een andere Lizardfolk groep|
-|4|**Bandit Squad** – 3–4 bandieten (2 melee, 1–2 crossbows), op doorreis|
-|5|**Goblins Ambush** – 4–5 goblins incl. 1–2 archers, vallen of terrain advantage|
-|6|**Lizardfolk vs Bandits** – 2 Lizardfolk Warriors + 2 Bandits, conflict tussen de groepen|
-|7|**Lizardfolk Scouts + Traps** – 2–3 Warriors, verborgen in terrein met natuurlijke vallen|
-|8|**Bandit Leader Encounter** – 1 Bandit Leader (AC 16, 45 HP) + 1–2 minions|
-|9|**Lizardfolk + Environmental Hazard** – 1 Shaman + 2 Warriors + natuurlijke obstakels (valstrikken, moeilijk terrein)|
-|10|**Elite Lizardfolk Force** – 1 Shaman + 3 Warriors, zeer tactisch, verdedigend territorium|
+|1|**Lizardfolk Patrol** `encounter: 3:Lizardfolk Warrior, 1:Lizardfolk Elite Guard, 1:Lizardfolk Shaman`      |
+|2|**Lizardfolk + Wild Animal** – `encounter: 2:Lizardfolk Veteran, 2:Dire Wolf` |
+|3|**Lizardfolk Ambush / Rival Tribe** + traps– `encounter: 3:Lizardfolk Archer, 3:Lizard warrior`|
+|4|**Bandit Squad** – `encounter: 1:Bandit Captain, 5:Bandit`|
+|5|**Goblins Ambush** – `encounter: 8:Goblin,1: Hobgoblin Devastator`|
+|6|**Lizardfolk vs Bandits** – `encounter: 2:Lizardfolk Warrior,5:Bandit`|
+|7|**Lizardfolk Scouts + Traps** – `encounter: 2:Lizardfolk Archer,1:Lizardfolk Veteran, 2:Lizardfolk Veteran`||
+|8|**Bandit Leader Encounter** – 1`encounter: 2:Bandit Captain,5:Bandit`|
+|9|**Lizardfolk + Environmental Hazard** – `encounter: 5:Lizardfolk Warrior, 1:Lizardfolk Shaman`|
+|10|**Elite Lizardfolk Force** – `encounter: 2:Lizardfolk Elite Guard, 2:Lizardfolk Warrior, 1:Lizardfolk Shaman, 1:Lizardfolk Brute`|
 
 rol d6. 1-3 [[Scalebite Clan]] 4-6[[Sunfang Tribe]]
 #### **1d6 Mini-boss / Veldslag**
 
 | 1d6 | Encounter                                                                              |
 | --- | -------------------------------------------------------------------------------------- |
-| 1   | Veteran Bandit Captain – 1 captain (AC 17, 85 HP, multiattack) + 3 elite minions       |
-| 2   | Ogre / Troll – 1 Ogre/Troll (AC 15–16, 100+ HP), regeneratie 5 HP/turn + 2 minions     |
-| 3   | Bear Alpha + Wolves – 1 bear alpha (AC 15, 85 HP) + 3 wolves, charge + terrain hazards |
-| 4   | Hill Giant Scout – 1 Hill Giant (AC 16, 105 HP) + 1–2 minions                          |
-| 5   | Lizardfolk Ambush – 1 Shaman + 2–3 Warrior minions, traps & tactical attacks           |
-| 6   | Mixed Surprise Ambush – 1 Ogre + 2 Goblins + 1 Lizardfolk + environmental hazard       |
+| 1   | Veteran Bandit Captain –  `encounter: 1:Veteran Bandit Captain, 2: Bandit Captain, 4: Bandit`    |
+| 2   | Ogre / Troll – `encounter: 2:Troll`   Loot:  |
+| 3   | White bear - `encounter: 1:Polar Bear, 3:Brown Bear`  |
+| 4   | Hill Giant Scout –  `encounter: 1:Hill Giant`                         |
+| 5   | Lizardfolk Ambush – `encounter: 1:Lizardfolk Spirit Caller, 3:Lizardfolk Veteran, 2: Lizardfolk Warrior`           |
+| 6   | Mixed Surprise Ambush –    `encounter: 1:Ettin, 1:Ogre, 6: Goblin`    |
+
+|#|Encounter|Loot|
+|---|---|---|
+|1|Veteran Bandit Captain – `encounter: 1:Veteran Bandit Captain, 2: Bandit Captain, 4: Bandit`|150 gp in chest, 45 sp on corpses, 2 potions of healing, thieves’ tools, 3 sets of fine clothing, 3 scimitars, 4 daggers, 2 shields, 2 leather armor sets|
+|2|Ogre / Troll – `encounter: 2:Troll`|80 gp, 2 silver rings, troll hide (enough for hide armor), 1 large gem (~100 gp), 1 club, 1 javelin, bundle of preserved meat and swamp herbs|
+|3|White Bear – `encounter: 1:Polar Bear, 3:Brown Bear`|4 pelts (1 polar, 3 brown), 75gold for perfect polar pelt. 15 for brown|
+|4|Hill Giant Scout – `encounter: 1:Hill Giant`|200 gp, 3 large silver coins (10 gp each), giant-sized war club, 2 sacks of preserved food, 1 large ruby (~250 gp), 1 fur cloak|
+|5|Lizardfolk Ambush – `encounter: 1:Lizardfolk Spirit Caller, 3:Lizardfolk Veteran`|75 gp in trade beads, 4 sets of hides, 1 pouch of swamp herbs (~25 gp), small ceremonial dagger, 4 spears, 1 quarterstaff, basket of edible swamp fruits/roots|
+|6|Mixed Surprise Ambush – `encounter: 1:Ettin, 1:Ogre, 6:Goblin`|150 gp scattered, 2 potions of healing, 6 leather armor sets, 4 shortbows, 6 daggers, 1 club, 1 greatclub (Ettin), 1 small sapphire and 1 small ruby (~100 gp total), sack of preserved food and trade goods (rope, torches, fishing hooks)|
 
 
-
-
-| Rust Type               | Duur    | Locatie / Veiligheid                               | Herstel HP                        | Herstel Hit Dice                                 | Spells                     |
-| ----------------------- | ------- | -------------------------------------------------- | --------------------------------- | ------------------------------------------------ | -------------------------- |
-| **Short Rest**          | 10 min  | Overal (hex, bos, vlakte)                          | Gebruik **1 hit dice**            | Niets                                            | Niks                       |
-| **Onveilige Long Rest** | 6–8 uur | Onbeschermd terrein (bos, vlakte, heuvels, moeras) | Gebruik hit dice zoals short rest | **Halve hit dice terug** (afronden naar beneden) | Pc's lvl. 2lvl en 3lvl = 5 |
-| **Veilige Long Rest**   | 6–8 uur | Dorpen, versterkte ruïnes, beschermd kamp          | Volledige HP                      | **Alle hit dice terug**                          | Alle spell slots           |
+| Rust Type               | Duur    | Locatie / Veiligheid                               | Herstel HP                        | Herstel Hit Dice                                 | Spells                                                           |
+| ----------------------- | ------- | -------------------------------------------------- | --------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
+| **Short Rest**          | 10 min  | Overal (hex, bos, vlakte)                          | Gebruik **1 hit dice**            | Niets                                            | Niks                                                             |
+| **Onveilige Long Rest** | 6–8 uur | Onbeschermd terrein (bos, vlakte, heuvels, moeras) | Gebruik hit dice zoals short rest | **Halve hit dice terug** (afronden naar beneden) | Pc's lvl. 2lvl en 3lvl = 5. Rage 1d3: 1-2 = 1 rage, 3-4 = 2 rage |
+| **Veilige Long Rest**   | 6–8 uur | Dorpen, versterkte ruïnes, beschermd kamp          | Volledige HP                      | **Alle hit dice terug**                          | Alle spell slots                                                 |

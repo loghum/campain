@@ -23,15 +23,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.Dm/Mechanic/Hexcrawl.md",
+                "file": "2.Monsters/Lizardfolk Archer.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hexcrawl"
+              "title": "Lizardfolk Archer"
+            }
+          },
+          {
+            "id": "acac95568225ab4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3.Quests/closing the portal.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "closing the portal"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.5
+    "width": 629.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,43 +262,42 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "sample-plugin:Generate XML": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "04d0723e3fb705d0",
+  "active": "acac95568225ab4a",
   "lastOpenFiles": [
-    "10.Dm/Mechanic/Soul links.md",
+    "1.npc/Jorvan Trask.md",
+    "3.Quests/closing the portal.md",
+    "3.Quests/3.Quests.md",
+    "3.Quests/EmberDeep.md",
     "10.Dm/Mechanic/Hexcrawl.md",
+    "2.Monsters/Veteran Bandit Captain.md",
+    "2.Monsters/Lizardfolk Archer.md",
+    "2.Monsters/Lizardfolk spirit caller.md",
+    "2.Monsters/Lizardfolk Brute.md",
+    "2.Monsters/Lizardfolk veteran.md",
+    "2.Monsters/Lizardfolk Shaman.md",
+    "2.Monsters/Lizardfolk elite Guard.md",
+    "2.Monsters/Lizardfok warrior.md",
+    "10.Dm/Templates/Create custom monster.md",
+    "10.Dm/Left side bar.md",
+    "2.Monsters/Undead stag.md",
+    "2.Monsters/Hobgoblin devastator.md",
+    "2.Monsters/Githyanki Knight.md",
+    "10.Dm/Mechanic/Soul links.md",
     "10.Dm/Mechanic/Dice 21.md",
     "z.test/test.md",
     "10.Dm/Downloaded 5e content/Monsters/Wolf (Creature).md",
     "10.Dm/Downloaded 5e content/Monsters/Dire Wolf (Creature).md",
-    "3.Quests/EmberDeep.md",
     "4.Earth/Xathliss/Xathliss tribes/Scalebite Clan.md",
     "4.Earth/Xathliss/Xathliss tribes/Sunfang Tribe.md",
     "4.Earth/Xathliss/Xathliss.md",
-    "4.Earth/Xathliss/The vale Of verdantia/The vale Of verdantia.md",
-    "4.Earth/Kalthar/Kalthar.md",
-    "3.Quests/Completed/Dream Gauntlet.md",
-    "4.Earth/Xathliss/The vale Of verdantia/Thundercore/Thundercore.md",
-    "4.Earth/Verdantia/Verdantia.md",
-    "1.pc/Tarnak the Terrible.md",
     "10.Dm/Images/Earth.png",
-    "4.Earth/4.Earth.md",
-    "4.Earth/Verdantia/Organisations/The Obsidian Ledger - organisation.md",
     "4.Earth/Xathliss/Xathliss tribes",
     "4.Earth/Xathliss/Kalthar colonies",
-    "4.Earth/Xathliss/The vale Of verdantia/Dark farm.md",
-    "4.Earth/Xathliss/The vale Of verdantia/Untitled.md",
     "4.Earth/Kalthar",
     "4.Earth/Verdantia",
-    "3.Quests/3.Quests.md",
-    "10.Dm/Downloaded 5e content/Spells (Alt)/Spells M.md",
-    "10.Dm/Downloaded 5e content/Spells (Alt)/## Spell Lists.md",
-    "4.items/Ring of final rest.md",
-    "7. spells/Armor of agathys.md",
-    "10.Dm/Downloaded 5e content/Monsters/Air Elemental.md",
     "10.Dm/Bases/Items.base",
     "10.Dm/Bases/Party.base",
     "10.Dm/Bases/Last edited file.base",

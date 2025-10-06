@@ -4606,6 +4606,657 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Lizardfolk Warrior",
+      {
+        "monster": "Lizardfolk Warrior",
+        "name": "Lizardfolk Warrior",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral",
+        "ac": "16 (natural armor, shield)",
+        "hp": 36,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          16,
+          12,
+          14,
+          8,
+          12,
+          8
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "athletics": 5
+          },
+          {
+            "perception": 3
+          },
+          {
+            "survival": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "Draconic",
+        "cr": 1,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for up to 15 minutes."
+          },
+          {
+            "name": "Cunning Artisan",
+            "desc": "As part of a short rest, the lizardfolk can harvest bone and hide from slain creatures to craft simple weapons or shields."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lizardfolk has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The lizardfolk makes two attacks: one with its bite and one with its spear."
+          },
+          {
+            "name": "Bite",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+          },
+          {
+            "name": "Spear",
+            "desc": "+5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d8 + 3) piercing damage, or 8 (1d10 + 3) if used two-handed."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Elite Guard",
+      {
+        "monster": "Lizardfolk Elite Guard",
+        "name": "Lizardfolk Elite Guard",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral",
+        "ac": "17 (natural armor, shield)",
+        "hp": 68,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          18,
+          12,
+          16,
+          9,
+          13,
+          9
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "athletics": 6
+          },
+          {
+            "perception": 3
+          },
+          {
+            "survival": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "Draconic",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for up to 15 minutes."
+          },
+          {
+            "name": "Reptilian Tenacity",
+            "desc": "When reduced to 0 hit points, the lizardfolk makes a DC 13 Constitution saving throw. On a success, it drops to 1 hit point instead (1/long rest)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The lizardfolk makes two melee attacks."
+          },
+          {
+            "name": "Trident",
+            "desc": "+6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
+          },
+          {
+            "name": "Bite",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [
+          {
+            "name": "Parry",
+            "desc": "The lizardfolk adds +2 to its AC against one melee attack that would hit it."
+          }
+        ],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Archer",
+      {
+        "monster": "Lizardfolk Archer",
+        "name": "Lizardfolk Archer",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral",
+        "ac": "15 (leather armor, natural armor)",
+        "hp": 52,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          12,
+          17,
+          14,
+          9,
+          13,
+          9
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "perception": 3
+          },
+          {
+            "stealth": 5
+          },
+          {
+            "survival": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "Draconic",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for up to 15 minutes."
+          },
+          {
+            "name": "Amphibious Stalker",
+            "desc": "The lizardfolk has advantage on Dexterity (Stealth) checks while in water or swamp terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The lizardfolk makes two ranged attacks with its longbow."
+          },
+          {
+            "name": "Longbow",
+            "desc": "+5 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+          },
+          {
+            "name": "Scimitar",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Withdraw",
+            "desc": "The lizardfolk moves up to half its speed without provoking opportunity attacks (1/turn)."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Veteran",
+      {
+        "monster": "Lizardfolk Veteran",
+        "name": "Lizardfolk Veteran",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral",
+        "ac": "17 (natural armor, shield)",
+        "hp": 76,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          17,
+          13,
+          15,
+          10,
+          12,
+          8
+        ],
+        "saves": [
+          {
+            "strength": 5
+          },
+          {
+            "constitution": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 3
+          },
+          {
+            "survival": 3
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "Draconic",
+        "cr": 3,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for 15 minutes."
+          },
+          {
+            "name": "Cunning Artisan",
+            "desc": "As part of a short rest, the lizardfolk can craft basic weapons from slain creatures."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lizardfolk has advantage on attack rolls against a creature if at least one of its allies is within 5 feet of the creature and not incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The lizardfolk makes two attacks: one with its spear and one with its bite."
+          },
+          {
+            "name": "Spear",
+            "desc": "+5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+          },
+          {
+            "name": "Bite",
+            "desc": "+5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Shaman",
+      {
+        "monster": "Lizardfolk Shaman",
+        "name": "Lizardfolk Shaman",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral",
+        "ac": "14 (natural armor)",
+        "hp": 71,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          11,
+          12,
+          14,
+          10,
+          17,
+          10
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "medicine": 5
+          },
+          {
+            "nature": 3
+          },
+          {
+            "perception": 5
+          },
+          {
+            "survival": 5
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 15",
+        "languages": "Draconic",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Guidance<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thorn Whip<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Sacred Flame<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Cure Wounds<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fog Cloud<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Command<STATBLOCK-WIKI-LINK>",
+          "2nd level (3 slots) <STATBLOCK-WIKI-LINK>Flame Blade<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Lesser Restoration<STATBLOCK-WIKI-LINK>",
+          "3rd level (3 slots) <STATBLOCK-WIKI-LINK>Call Lightning<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Dispel Magic<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Bestow Curse<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for up to 15 minutes."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The lizardfolk is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks)."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lizardfolk has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "+3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) bludgeoning damage."
+          },
+          {
+            "name": "Bite",
+            "desc": "+3 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Channel the Wild (1/Short Rest)",
+            "desc": "The shaman casts Entangle or Fog Cloud without expending a spell slot."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Brute",
+      {
+        "monster": "Lizardfolk Brute",
+        "name": "Lizardfolk Brute",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral Evil",
+        "ac": "16 (natural armor)",
+        "hp": 102,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          18,
+          12,
+          16,
+          8,
+          11,
+          9
+        ],
+        "saves": [
+          {
+            "strength": 6
+          },
+          {
+            "constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 6
+          },
+          {
+            "intimidation": 2
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 10",
+        "languages": "Draconic",
+        "cr": 5,
+        "proficiency_bonus": 3,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for 15 minutes."
+          },
+          {
+            "name": "Brute",
+            "desc": "A melee weapon deals one extra die of its damage when the lizardfolk hits with it (included in the attack)."
+          },
+          {
+            "name": "Relentless (Recharges after a Short or Long Rest)",
+            "desc": "If damage reduces the lizardfolk to 0 hit points, it drops to 1 hit point instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The lizardfolk makes two attacks with its greatclub."
+          },
+          {
+            "name": "Greatclub",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+          },
+          {
+            "name": "Bite",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Lizardfolk Spirit Caller",
+      {
+        "monster": "Lizardfolk Spirit caller",
+        "name": "Lizardfolk Spirit Caller",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Lizardfolk",
+        "alignment": "Neutral Evil",
+        "ac": "15 (natural armor)",
+        "hp": 84,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": [
+          12,
+          12,
+          14,
+          10,
+          16,
+          11
+        ],
+        "saves": [
+          {
+            "wisdom": 6
+          },
+          {
+            "constitution": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "medicine": 6
+          },
+          {
+            "nature": 4
+          },
+          {
+            "perception": 6
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 16",
+        "languages": "Draconic",
+        "cr": 6,
+        "proficiency_bonus": 3,
+        "spells": [
+          "cantrips <STATBLOCK-WIKI-LINK>Guidance<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Sacred Flame<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Thaumaturgy<STATBLOCK-WIKI-LINK>",
+          "1st level (4 slots) <STATBLOCK-WIKI-LINK>Cure Wounds<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Entangle<STATBLOCK-WIKI-LINK>",
+          "2nd level (3 slots) <STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Spike Growth<STATBLOCK-WIKI-LINK>",
+          "3rd level (3 slots) <STATBLOCK-WIKI-LINK>Call Lightning<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Dispel Magic<STATBLOCK-WIKI-LINK>",
+          "4th level (2 slots) <STATBLOCK-WIKI-LINK>Guardian of Nature<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Ice Storm<STATBLOCK-WIKI-LINK>"
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "The shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks)."
+          },
+          {
+            "name": "Hold Breath",
+            "desc": "The lizardfolk can hold its breath for 15 minutes."
+          },
+          {
+            "name": "Swamp’s Favor",
+            "desc": "While standing in natural water or swamp terrain, the shaman has advantage on Concentration checks."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lizardfolk has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "+4 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) bludgeoning damage."
+          },
+          {
+            "name": "Summon Swamp Spirits (1/day)",
+            "desc": "The shaman summons spectral crocodiles that appear in three unoccupied spaces within 30 feet. Each lasts 1 minute, counts as a beast, and attacks the shaman’s enemies using the crocodile statblock."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Veteran Bandit Captain",
+      {
+        "monster": "Veteran Bandit Captain",
+        "name": "Veteran Bandit Captain",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Human",
+        "alignment": "Chaotic Evil",
+        "ac": "17 (studded leather, shield)",
+        "hp": 84,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          14,
+          14,
+          12,
+          13,
+          12
+        ],
+        "saves": [
+          {
+            "dexterity": 4
+          },
+          {
+            "constitution": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 5
+          },
+          {
+            "intimidation": 4
+          },
+          {
+            "perception": 3
+          },
+          {
+            "stealth": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "Common",
+        "cr": 4,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Pack Tactics",
+            "desc": "The bandit captain has advantage on attack rolls against a creature if at least one of the captain's allies is within 5 feet of the creature and the ally isn't incapacitated."
+          },
+          {
+            "name": "Leadership (Recharges after a Short or Long Rest)",
+            "desc": "For 1 minute, the bandit captain can utter a special command or warning. When a creature that can hear the captain within 30 feet makes an attack roll or saving throw, the creature can add a d4 to its roll."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The bandit captain makes three attacks: two with its scimitar and one with its dagger."
+          },
+          {
+            "name": "Scimitar",
+            "desc": "+6 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage."
+          },
+          {
+            "name": "Dagger",
+            "desc": "+6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Parry",
+            "desc": "The bandit captain adds +2 to its AC against one melee attack that would hit it."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
