@@ -8,29 +8,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a1d9cf6-ad47-41d4-aee2-f15463145ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WpfApp1/Classes/MeasurementMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/BattleWindowsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/BattleWindowsBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/savegame.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/bin/Debug/net8.0-windows/savegame.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/folder-notes/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/folder-notes/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/folder-notes/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/folder-notes/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/initiative-tracker/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.obsidian/plugins/initiative-tracker/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/plugins/remember-cursor-position/cursor-positions.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.obsidian/plugins/remember-cursor-position/cursor-positions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.Dm/Main page.md" beforeDir="false" afterPath="$PROJECT_DIR$/../10.Dm/Main page.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.Dm/Sessions/Session 11.md" beforeDir="false" afterPath="$PROJECT_DIR$/../10.Dm/Sessions/Session 11.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Monsters/Marid.md" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Monsters/Marid.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.Quests/Running plots.md" beforeDir="false" afterPath="$PROJECT_DIR$/../3.Quests/Running plots.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.Quests/closing the portal.md" beforeDir="false" afterPath="$PROJECT_DIR$/../3.Quests/closing the portal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.items/Bonecrusher's Hammer.md" beforeDir="false" afterPath="$PROJECT_DIR$/../4.items/Bonecrusher's Hammer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.items/Bracers of the emberwright.md" beforeDir="false" afterPath="$PROJECT_DIR$/../4.items/Bracers of the emberwright.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/App.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/GeneratedInternalTypeHelper.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/ref/WpfApp1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/refint/WpfApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp1/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +57,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/bvanlochem/Documents/Github/campain/WpfApp1/WpfApp1/BattleWindowsBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bvanlochem/Documents/Github/campain/WpfApp1/WpfApp1/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bvanlochem/Documents/Github/campain/WpfApp1/WpfApp1/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56fad711d44d4d47bc9f3128de5ae30ac90920/89/30d19962/SafeFileHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp1/PlayerWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bvanlochem/Documents/Github/campain/WpfApp1/WpfApp1/PlayerWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -67,22 +69,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.WpfApp1.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.WpfApp1.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="WpfApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -120,6 +122,7 @@
       <workItem from="1755167426677" duration="2130000" />
       <workItem from="1755260609852" duration="564000" />
       <workItem from="1755262666851" duration="5503000" />
+      <workItem from="1759863653940" duration="5000" />
     </task>
     <servers />
   </component>
@@ -148,54 +151,26 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WpfApp1/Services/SaveManager.cs</url>
-          <line>11</line>
-          <properties documentPath="C:\Users\Gamer\RiderProjects\WpfApp1\WpfApp1\Classes\SaveManager.cs" containingFunctionPresentation="Method 'SaveAll'">
-            <startOffsets>
-              <option value="266" />
-            </startOffsets>
-            <endOffsets>
-              <option value="322" />
-            </endOffsets>
-          </properties>
+          <line>9</line>
+          <properties documentPath="C:\Users\Gamer\RiderProjects\WpfApp1\WpfApp1\Classes\SaveManager.cs" containingFunctionPresentation="Method 'SaveAll'" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WpfApp1/App.xaml.cs</url>
-          <line>36</line>
-          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\App.xaml.cs" containingFunctionPresentation="Method 'OnStartup'">
-            <startOffsets>
-              <option value="1102" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1151" />
-            </endOffsets>
-          </properties>
+          <line>35</line>
+          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\App.xaml.cs" containingFunctionPresentation="Method 'OnStartup'" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WpfApp1/App.xaml.cs</url>
-          <line>16</line>
-          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\App.xaml.cs" containingFunctionPresentation="Method 'OnStartup'">
-            <startOffsets>
-              <option value="396" />
-            </startOffsets>
-            <endOffsets>
-              <option value="446" />
-            </endOffsets>
-          </properties>
+          <line>15</line>
+          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\App.xaml.cs" containingFunctionPresentation="Method 'OnStartup'" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WpfApp1/MainWindow.xaml.cs</url>
-          <line>54</line>
-          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\MainWindow.xaml.cs" containingFunctionPresentation="Method 'BattleCanvas_MouseLeftButtonDown'">
-            <startOffsets>
-              <option value="1952" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2010" />
-            </endOffsets>
-          </properties>
+          <line>41</line>
+          <properties documentPath="C:\Users\bvanlochem\Documents\Github\campain\WpfApp1\WpfApp1\MainWindow.xaml.cs" containingFunctionPresentation="Method 'BattleCanvas_MouseLeftButtonDown'" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

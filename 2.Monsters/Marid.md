@@ -41,6 +41,6 @@ actions:
     desc: "Dexterity Save DC 18, 60 ft. long, 10 ft. wide line. Failure: 31 (9d6) Cold damage and Huge or smaller creatures are pushed 20 ft and prone. Success: Half damage."
 bonus_actions:
   - name: Misty Veil (Recharge 5–6)
-    desc: "The marid casts Fog Cloud using the same spellcasting ability as Spellcasting."
+    desc: "The marid casts [[Fog Cloud]] using the same spellcasting ability as Spellcasting."
 legendary_actions: []
 ```
