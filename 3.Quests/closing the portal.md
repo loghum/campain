@@ -24,6 +24,8 @@ Books are writen by [[Jorvan Trask]]
 At the **Water Temple**, the **marid** guards the **Water Crystal**, needed to seal a planar rift.  
 He refuses to give it up until a **broken pact** is restored.
 
+> Er rijst iets op uit het water, verwrongen en onstabiel. Zijn huid glanst in ziekelijk blauw en groen, donkere aderen trekken zich kronkelend over zijn lichaam, en zijn ogen gloeien met een stormachtig, onnatuurlijk licht. Als het spreekt, klinkt de stem schor en scherp, als golven die over rotsen slaan.
+
 > _“My currents are fouled. The scaled ones let their waters rot. Restore the bond, or your world will drown in filth.”_
 
 He gestures toward the marsh beyond the temple — home to a tribe of lizardfolk once bound to him by oath.
@@ -69,6 +71,13 @@ He agrees to lead them to the poisoned spring.
 ## 🐍 Scene 2 – The Poisoned Pool
 
 **Boxed Intro:**
+```encounter
+name: Encounter name
+creatures:
+  - Ancient Swamp Hag Spirit
+  - 
+  - 
+```
 
 > The swamp opens into a clearing where the water turns black and viscous. Bubbles rise and burst with a hiss, releasing a stench of rot. A faint blue glow flickers beneath the muck — and something moves.
 

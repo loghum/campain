@@ -7,7 +7,7 @@ type: Elemental
 subtype: Genie
 alignment: Chaotic Neutral
 ac: 17
-hp: 229 (17d10 + 136)
+hp: 230
 speed: 30 ft., Fly 60 ft., Swim 90 ft.
 stats: [22, 12, 26, 18, 17, 18]
 saves:

@@ -37,25 +37,6 @@
 | 5   | `encounter: 4: Giant Poisonous Snake`                                               |
 | 6   | `encounter: 3: Giant Eagle`                                         |
 
-```encounter
-name: Encounter name
-creatures:
-  - Brown Bear
-  - Lizard warrior
-  - Lizardfolk Warrior
-  - Lizardfolk Veteran
-  - Lizardfolk Archer
-  - Hobgoblin Devastator
-  - Lizardfolk Brute
-  - Owlbear
-  - Black Bear
-  - Cave Bear
-  - Polar Bear
-  - Lizardfolk Spirit Caller
-  - 
-  - Ogre
-  - 
-```
 
 |1d10|Encounter|
 |---|---|
