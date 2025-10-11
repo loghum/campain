@@ -1,5 +1,6 @@
 ---
 export: false
+exported: true
 name: Nature's mourning staff
 owner: Varron
 ---

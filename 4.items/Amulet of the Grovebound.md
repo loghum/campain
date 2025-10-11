@@ -1,5 +1,6 @@
 ---
 export: false
+exported: true
 name: Amulet of the Grovebound
 owner: Varron
 ---

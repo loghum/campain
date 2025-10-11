@@ -2,6 +2,7 @@
 export: false
 name: Flameheart dagger
 owner: Rolf
+exported: true
 ---
 
 ### Flameheart Dagger

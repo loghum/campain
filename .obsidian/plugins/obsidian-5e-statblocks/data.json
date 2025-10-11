@@ -3995,15 +3995,15 @@
           },
           {
             "name": "Wild Surge 8",
-            "desc": "Vines and flowers erupt around you. For the duration of your rage, the ground within 15 feet is **difficult terrain** for enemies."
+            "desc": "A sudden gravitational pulse erupts from you, dragging everything toward your position. Each creature within 20 feet, including yourself, must make a Strength saving throw or be pulled up to 15 feet closer to you and **knocked prone**. Objects not being worn or carried are pulled in as well. You take **1d6 bludgeoning damage** from the strain, as your body momentarily warps under its own gravity."
           },
           {
             "name": "Wild Surge 9",
-            "desc": "A bolt of radiant light shoots from your chest at a creature you can see within 30 feet. It must make a Constitution save or take **2d8 radiant damage** and be **blinded until the start of your next turn**. You can use this again as a **bonus action** each turn while raging."
+            "desc": "A bolt of radiant light shoots from your chest at a creature you can see within 30 feet. It must make a Constitution save or take **2d8 radiant damage** and be **blinded until thestart of your next turn**. You can use this again as a **bonus action** each turn while raging."
           },
           {
             "name": "Wild Surge 10",
-            "desc": "Your rage warps the flow of time. Until your rage ends, you can **reroll one attack roll, ability check, or saving throw** **once per turn**, but must use the new result."
+            "desc": "Flames erupt from your chest, wreathing you in fire. Each creature within 10 feet of you, including yourself, must make a Dexterity saving throw. On a failed save, they take **1d10 fire damage**; on a success, half as much. Until your rage ends, any creature that starts its turn within 5 feet of you takes **1 fire damage**. You take this damage as well if you start your turn in the flames."
           }
         ],
         "source": "Homebrew",

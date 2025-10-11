@@ -1,5 +1,6 @@
 ---
 export: false
+exported: true
 name: Ring of final rest
 owner: Yakub
 ---

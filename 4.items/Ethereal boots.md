@@ -2,6 +2,7 @@
 export: false
 name: Ethereal boots
 owner: Tarnak
+exported: true
 ---
 ## Ethereal Boots  
 *Wondrous Item (Boots), uncommon (attunement required)*

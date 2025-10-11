@@ -2,6 +2,7 @@
 export: false
 name: Orb of direction
 owner: Tinkerwiz
+exported: true
 ---
 ## Orb of Direction
 

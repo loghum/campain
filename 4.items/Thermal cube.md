@@ -2,6 +2,7 @@
 export: false
 name: Thermal cube
 owner: Tarnak
+exported: true
 ---
 Thermal Cube
 

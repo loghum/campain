@@ -2,6 +2,7 @@
 export: false
 name: Locket of self reliance
 owner: Roderick
+exported: true
 ---
 ### **Locket of Self-Reliance**
 

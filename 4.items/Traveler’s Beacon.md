@@ -2,6 +2,7 @@
 export: false
 name: Traveler’s Beacon
 owner: Rolf
+exported: true
 ---
 ### **Traveler’s Beacon**
 

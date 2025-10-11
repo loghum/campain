@@ -2,6 +2,7 @@
 export: false
 name: Mender’s Stone
 owner: Tinkerwiz
+exported: true
 ---
 # Mender’s Stone
 _Wondrous Item, common_

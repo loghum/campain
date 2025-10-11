@@ -2,6 +2,7 @@
 export: false
 name: Moon-touched sword
 owner: Rolf
+exported: true
 ---
 #### Moon-Touched Sword
 

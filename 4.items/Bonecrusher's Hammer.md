@@ -13,4 +13,5 @@ dmg1: 2d6
 dmg2: 2d6
 dmgType: B
 property: H,2H
+exported: true
 ---

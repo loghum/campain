@@ -2,6 +2,7 @@
 export: false
 name: Horn of Silent Alarm
 owner: Roderick
+exported: true
 ---
 ## Horn of Silent Alarm
 
