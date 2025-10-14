@@ -1,14 +1,42 @@
 {
   "main": {
-    "id": "7210dde2215f750c",
+    "id": "687c6ca971e9cfdc",
     "type": "split",
     "children": [
       {
-        "id": "38a3644fae19ce00",
+        "id": "08ed1ab5446317b1",
         "type": "tabs",
         "children": [
           {
-            "id": "6b76108f51d2af11",
+            "id": "ef2cbe56e92e68b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Earth/Xathliss/The vale Of verdantia/The vale Of verdantia.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The vale Of verdantia"
+            }
+          },
+          {
+            "id": "704b7f38f8ba4ccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Earth/Xathliss/Xathliss tribes/Scalebite Clan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scalebite Clan"
+            }
+          },
+          {
+            "id": "89c9ff43d50fbe46",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
@@ -18,44 +46,35 @@
             }
           },
           {
-            "id": "e213e6225d1818a8",
+            "id": "d9a5e4d5f49284e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "4.items/Bonecrusher's Hammer.md",
+                "file": "1.npc/Vaelis, the drowned whisper.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Bonecrusher's Hammer"
-=======
-                "file": "10.Dm/Main page.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Main page"
->>>>>>> 34a4b6d (WIP)
+              "title": "Vaelis, the drowned whisper"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "51ed47b7f824a310",
+    "id": "bbbf0c0101658246",
     "type": "split",
     "children": [
       {
-        "id": "1b4b10ba08ca41a6",
+        "id": "1bd3a2957287da97",
         "type": "tabs",
         "children": [
           {
-            "id": "58edaf1953465b22",
+            "id": "7b8224339d478fee",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,12 +87,12 @@
             }
           },
           {
-            "id": "a9e3dfd93e534d7e",
+            "id": "fc27f89e4b439b4e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "meteo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +104,7 @@
             }
           },
           {
-            "id": "185c79f6a91f7f63",
+            "id": "9dbf6e0d466d99f3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,64 +112,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "d9f9f7cda414c1db",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10.Dm/Left side bar.md",
-                "mode": "preview",
-                "source": true
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Left side bar"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 300
   },
   "right": {
-    "id": "1ea32d127c653967",
+    "id": "a10653365e006e6c",
     "type": "split",
     "children": [
       {
-        "id": "be7567b694fc7e8d",
+        "id": "bfc0b297150c9acb",
         "type": "tabs",
         "children": [
           {
-            "id": "04d0723e3fb705d0",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "80bd2814d5bd76e8",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-            }
-          },
-          {
-            "id": "3c3c3841e5799bb0",
+            "id": "55c6e7825c12cea8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z.test/test.md",
+                "file": "10.Dm/Mechanic/Hexcrawl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,25 +143,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for test"
+              "title": "Backlinks for Hexcrawl"
             }
           },
           {
-            "id": "2a626c86d599d293",
+            "id": "f29b25cb90db9d66",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z.test/test.md",
+                "file": "10.Dm/Mechanic/Hexcrawl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from test"
+              "title": "Outgoing links from Hexcrawl"
             }
           },
           {
-            "id": "8986337435a1dbc3",
+            "id": "0f195792e95025da",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -193,159 +176,86 @@
             }
           },
           {
-            "id": "8af1191203ffbfff",
+            "id": "4d9495077085eb31",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "z.test/test.md",
+                "file": "10.Dm/Mechanic/Hexcrawl.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of Hexcrawl"
             }
-          }
-        ]
-      },
-      {
-        "id": "d862641439f30125",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "3220d51b8484fde8",
+            "id": "c8123c508322f85a",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "initiative-tracker-view",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
-          }
-        ]
-      },
-      {
-        "id": "5a56a86ab6972c10",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "62f66cacf3abb2d8",
+            "id": "28147ee9492e8170",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 629.5
+    "width": 595.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "sample-plugin:Generate XML": false
     }
   },
-  "active": "e213e6225d1818a8",
+  "active": "d9a5e4d5f49284e7",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "obsidian-sample-plugin-master/versions.json",
-    "obsidian-sample-plugin-master/version-bump.mjs",
-    "obsidian-sample-plugin-master/tsconfig.json",
-    "obsidian-sample-plugin-master/styles.css",
-    "obsidian-sample-plugin-master/README.md",
-    "obsidian-sample-plugin-master/package.json",
-    "obsidian-sample-plugin-master/package-lock.json",
-    "obsidian-sample-plugin-master/manifest.json",
-    "obsidian-sample-plugin-master/main.ts",
-    "obsidian-sample-plugin-master/LICENSE",
-    "obsidian-sample-plugin-master/esbuild.config.mjs",
-    "obsidian-sample-plugin-master/AGENTS.md",
-    "obsidian-sample-plugin-master",
+    "10.Dm/Mechanic/Hexcrawl.md",
+    "1.npc/Vaelis, the drowned whisper.md",
+    "2.Monsters/Lizardfok warrior.md",
+    "2.Monsters/Lizardfolk Archer.md",
+    "2.Monsters/Lizardfolk elite Guard.md",
+    "2.Monsters/Lizardfolk Brute.md",
+    "2.Monsters/Lizardfolk Shaman.md",
+    "2.Monsters/Lizardfolk spirit caller.md",
+    "2.Monsters/Lizardfolk veteran.md",
     "10.Dm/Sessions/Session 12.md",
     "10.Dm/Main page.md",
+    "4.Earth/Xathliss/Xathliss tribes/Scalebite Clan.md",
+    "4.items/Runic Shield of Thar-Grim.md",
+    "4.items/Bracers of the emberwright.md",
+    "4.items/Forge-Soul Focus.md",
+    "4.Earth/Xathliss/The vale Of verdantia/The vale Of verdantia.md",
+    "4.Earth/Xathliss/The vale Of verdantia/Thundercore/The sleepy willow.md",
     "2.Monsters/Marid.md",
     "3.Quests/closing the portal.md",
-    "3.Quests/EmberDeep.md",
     "4.Earth/Xathliss/The vale Of verdantia/Wizards tower.md",
-    "2025-10-10.md",
-    "4.Earth/Xathliss/The vale Of verdantia/Untitled.md",
-    "4.Earth/Xathliss/The vale Of verdantia/Dark farm.md",
-    "4.Earth/Xathliss/The vale Of verdantia/Thundercore/Thundercore.md",
-    "3.Quests/3.Quests.md",
-    "2.Monsters/Ancient swamp hag spirit.md",
-    "2.Monsters/poisonous Swam Plant.md",
-    "10.Dm/Mechanic/Hexcrawl.md",
-    "3.Quests/Running plots.md",
-    "2.Monsters/Medium undead beast.md",
-    "2.Monsters/Moltrax.md",
-    "2.Monsters/Arcane adept.md",
-    "4.Earth/Xathliss/The vale Of verdantia/The vale Of verdantia.md",
-    "4.Earth/Xathliss/Xathliss tribes/Scalebite Clan.md",
-    "4.Earth/Xathliss/Xathliss tribes/Sunfang Tribe.md",
-    "2.Monsters/Veteran Bandit Captain.md",
-    "2.Monsters/Lizardfolk veteran.md",
-    "10.Dm/Images/Earth.png",
-=======
-    "4.items/orb of direction.md",
-    "10.Dm/Main page.md",
-    "4.items/Nature's mourning staff.md",
-    "4.items/Amulet of the Grovebound.md",
-    "4.items/Ring of final rest.md",
-    "10.Dm/Templates/Encounter template.md",
-    "4.items/Bonecrusher's Hammer.md",
-    "1.pc/Tarnak the Terrible.md",
-    "1.pc/TinkerWiz.md",
-    "10.Dm/Sessions/Session 12.md",
-    "2.Monsters/poisonous Swam Plant.md",
-    "2.Monsters/Ancient swamp hag spirit.md",
-    "4.items/Bracers of the emberwright.md",
-    "10.Dm/Templates/Item Template.md",
-    "10.Dm/Templates/New npc.md",
-    "4.items/Wand of magic missile.md",
-    "4.items/Girdle of the stoneblood clan.md",
-    "10.Dm/Left side bar.md",
-    "4.items/Forge-Soul Focus.md",
-    "10.Dm/Sessions/Session 11.md",
-    "4.items/Water crystal.md",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.lref",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/WpfApp1_MarkupCompile.cache",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/PlayerWindow.g.cs",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/GeneratedInternalTypeHelper.g.cs",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/MainWindow.g.cs",
-    "WpfApp1/WpfApp1/obj/Debug/net8.0-windows/App.g.cs",
-    "WpfApp1/WpfApp1/obj/f59cc065-a1df-4f5c-81b6-f4190f287e69.tmp",
-    "4.Earth/Xathliss/Xathliss.md",
-    "4.Earth/Kalthar/Kalthar.md",
-    "10.Dm/Images/Earth.png",
-    "2.Monsters/Lizardfolk Archer.md",
     "4.Earth/4.Earth.md",
-    "3.Quests/3.Quests.md",
-    "4.Earth/Xathliss/Xathliss tribes",
-    "4.Earth/Xathliss/Kalthar colonies",
-    "4.Earth/Kalthar",
->>>>>>> 34a4b6d (WIP)
-    "10.Dm/Images/hexcrawl.PNG",
-    "Pasted image 20250905150312.png",
-    "10.Dm/Images/thundercore.png",
-    "10.Dm/Images/SimzyTayfoot.png",
-    "10.Dm/Images/realm_of_bel.png",
-    "10.Dm/Images/Ironhearth's acedemy.png",
-    "10.Dm/Images/emberforge.png",
-    "10.Dm/Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp"
+    "3.Quests/Running plots.md"
   ]
 }

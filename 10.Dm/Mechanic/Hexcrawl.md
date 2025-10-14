@@ -38,18 +38,18 @@
 | 6   | `encounter: 3: Giant Eagle`                                         |
 
 
-|1d10|Encounter|
-|---|---|
-|1|**Lizardfolk Patrol** `encounter: 3:Lizardfolk Warrior, 1:Lizardfolk Elite Guard, 1:Lizardfolk Shaman`      |
-|2|**Lizardfolk + Wild Animal** – `encounter: 2:Lizardfolk Veteran, 2:Dire Wolf` |
-|3|**Lizardfolk Ambush / Rival Tribe** + traps– `encounter: 3:Lizardfolk Archer, 3:Lizard warrior`|
-|4|**Bandit Squad** – `encounter: 1:Bandit Captain, 5:Bandit`|
-|5|**Goblins Ambush** – `encounter: 8:Goblin,1: Hobgoblin Devastator`|
-|6|**Lizardfolk vs Bandits** – `encounter: 2:Lizardfolk Warrior,5:Bandit`|
-|7|**Lizardfolk Scouts + Traps** – `encounter: 2:Lizardfolk Archer,1:Lizardfolk Veteran, 2:Lizardfolk Veteran`||
-|8|**Bandit Leader Encounter** – 1`encounter: 2:Bandit Captain,5:Bandit`|
-|9|**Lizardfolk + Environmental Hazard** – `encounter: 5:Lizardfolk Warrior, 1:Lizardfolk Shaman`|
-|10|**Elite Lizardfolk Force** – `encounter: 2:Lizardfolk Elite Guard, 2:Lizardfolk Warrior, 1:Lizardfolk Shaman, 1:Lizardfolk Brute`|
+| 1d10 | Encounter                                                                                                                         |     |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 1    | **Lizardfolk Patrol** `encounter: 3:Lizardfolk Warrior, 1:Lizardfolk Elite Guard, 1:Lizardfolk Shaman`                            |     |
+| 2    | **Lizardfolk + Wild Animal** – `encounter: 2:Lizardfolk Veteran, 2:Dire Wolf`                                                     |     |
+| 3    | **Lizardfolk Ambush / Rival Tribe** + traps– `encounter: 3:Lizardfolk Archer, 3:Lizardfolk Warrior`                                   |     |
+| 4    | **Bandit Squad** – `encounter: 1:Bandit Captain, 5:Bandit`                                                                        |     |
+| 5    | **Goblins Ambush** – `encounter: 8:Goblin,1: Hobgoblin Devastator`                                                                |     |
+| 6    | **Lizardfolk vs Bandits** – `encounter: 2:Lizardfolk Warrior,5:Bandit`                                                            |     |
+| 7    | **Lizardfolk Scouts + Traps** – `encounter: 2:Lizardfolk Archer,1:Lizardfolk Veteran, 2:Lizardfolk Veteran`                       |     |
+| 8    | **Bandit Leader Encounter** – 1`encounter: 2:Bandit Captain,5:Bandit`                                                             |     |
+| 9    | **Lizardfolk + Environmental Hazard** – `encounter: 5:Lizardfolk Warrior, 1:Lizardfolk Shaman`                                    |     |
+| 10   | **Elite Lizardfolk Force** – `encounter: 2:Lizardfolk Elite Guard, 2:Lizardfolk Warrior, 1:Lizardfolk Shaman, 1:Lizardfolk Brute` |     |
 
 rol d6. 1-3 [[Scalebite Clan]] 4-6[[Sunfang Tribe]]
 #### **1d6 Mini-boss / Veldslag**
