@@ -1,6 +1,6 @@
 ---
 export: true
-owner: None
+owner: Tarnak
 name: Girdle of the stoneblood clan
 type: W
 magic: 1

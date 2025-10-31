@@ -214,6 +214,48 @@
       "resultText": "[1, 5, 6, 2, 4, 4, 4, 2]",
       "timestamp": 1757185439536,
       "id": "mjgYIshcOcZN"
+    },
+    {
+      "result": 10,
+      "original": "1d20kl",
+      "resultText": "[10]",
+      "timestamp": 1761919999118,
+      "id": "T5Zh9RO62TDv"
+    },
+    {
+      "result": 11,
+      "original": "1d20kl",
+      "resultText": "[11]",
+      "timestamp": 1761920010795,
+      "id": "lFqESa2Pv6wl"
+    },
+    {
+      "result": 8,
+      "original": "1d8",
+      "resultText": "[8]",
+      "timestamp": 1761923120778,
+      "id": "9r-JS7_YhzqO"
+    },
+    {
+      "result": 1,
+      "original": "1d8",
+      "resultText": "[1]",
+      "timestamp": 1761923133625,
+      "id": "CW7ngQhSlSVb"
+    },
+    {
+      "result": 5,
+      "original": "1d8",
+      "resultText": "[5]",
+      "timestamp": 1761923145892,
+      "id": "5wWZw7pHdk1M"
+    },
+    {
+      "result": 8,
+      "original": "1d8",
+      "resultText": "[8]",
+      "timestamp": 1761923153347,
+      "id": "N51umUCJ3FQ0"
     }
   ]
 }

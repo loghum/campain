@@ -1,6 +1,6 @@
 ---
 export: true
-owner: None
+owner: Roderick
 name: Forge-Soul Focus
 type: W
 magic: 1

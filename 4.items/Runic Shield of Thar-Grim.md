@@ -1,6 +1,6 @@
 ---
 export: true
-owner: None
+owner: Rolf
 name: Runic Shield of Thar-Grim
 type: S
 magic: 1

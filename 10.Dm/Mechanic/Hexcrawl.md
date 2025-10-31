@@ -42,7 +42,7 @@
 | ---- | --------------------------------------------------------------------------------------------------------------------------------- | --- |
 | 1    | **Lizardfolk Patrol** `encounter: 3:Lizardfolk Warrior, 1:Lizardfolk Elite Guard, 1:Lizardfolk Shaman`                            |     |
 | 2    | **Lizardfolk + Wild Animal** – `encounter: 2:Lizardfolk Veteran, 2:Dire Wolf`                                                     |     |
-| 3    | **Lizardfolk Ambush / Rival Tribe** + traps– `encounter: 3:Lizardfolk Archer, 3:Lizardfolk Warrior`                                   |     |
+| 3    | **Lizardfolk Ambush / Rival Tribe** + traps– `encounter: 3:Lizardfolk Archer, 3:Lizardfolk Warrior`                               |     |
 | 4    | **Bandit Squad** – `encounter: 1:Bandit Captain, 5:Bandit`                                                                        |     |
 | 5    | **Goblins Ambush** – `encounter: 8:Goblin,1: Hobgoblin Devastator`                                                                |     |
 | 6    | **Lizardfolk vs Bandits** – `encounter: 2:Lizardfolk Warrior,5:Bandit`                                                            |     |

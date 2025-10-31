@@ -1,6 +1,6 @@
 ---
 export: true
-owner: None
+owner: Tinkerwiz
 name: Bracers of the emberwright
 type: W
 magic: 1

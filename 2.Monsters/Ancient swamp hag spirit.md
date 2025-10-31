@@ -34,12 +34,12 @@ traits:
   - name: Swamp Step
     desc: The hag can move through swampy terrain without penalty and leave a 10-ft radius of difficult terrain until the start of her next turn.
 actions:
-  - name: Engulfing Vines
-    desc: "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. Target must succeed on a DC 14 Strength saving throw or be restrained. Restrained targets take 7 (2d6) poison damage at the start of the hag's turns."
+  - name: Engulfing Vines (Recharge 4–6)  
+    desc: "The swamp itself rises at the hag’s command, lashing out with roots and thorned vines. Each creature in a 15-foot-radius centered on a point within 30 ft. must make a DC 16 Dexterity saving throw.\n\nFailed save: 13 (2d8 + 4) bludgeoning damage and restrained.\n\nSuccessful save: Half damage, not restrained.\n\nRestrained creatures can use an action to make a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check to free themselves. At the start of the hag’s turn, restrained creatures take 7 (2d6) poison damage."
   - name: Curse of the Mire (Recharge 5–6)
-    desc: "The hag targets up to 2 creatures within 30 ft. Each must make a DC 14 Constitution save or be poisoned for 1 minute. Poisoned targets take 5 (1d10) poison damage at the start of their turn. They can repeat the save at the end of each of their turns."
-  - name: Poisoned Tendrils
-    desc: "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning plus 5 (1d10) poison damage."
+    desc: "The hag targets up to 2 creatures within 30 ft. Each must make a DC 16 Constitution save or be poisoned for 1 minute. Poisoned targets take 5 (1d10) poison damage at the start of their turn. They can repeat the save at the end of each of their turns."
+  - name: 2x Poisoned Tendrils
+    desc: "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning plus 5 (1d10) poison damage."
 bonus_actions:
   - name: Summon Swamp Minions
     desc: "The hag summons 1–2 Small swamp minions (poisonous plants or swamp oozes) in unoccupied spaces within 30 ft. `encounter: 1:Poisonous Swamp Plant`"

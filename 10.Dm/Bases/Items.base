@@ -11,7 +11,7 @@ views:
       - exported
     sort:
       - property: owner
-        direction: DESC
+        direction: ASC
       - property: file.name
         direction: ASC
     columnSize:

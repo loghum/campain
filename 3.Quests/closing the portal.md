@@ -22,9 +22,8 @@ Books are writen by [[Jorvan Trask]]
 ### **Setup**
 
 At the **Water Temple**, the **marid** guards the **Water Crystal**, needed to seal a planar rift.  
-He refuses to give it up until a **broken pact** is restored.
+He refuses to give it up until a **broken pact** is restored. lizardmen Tzural - dead shaman
 
-> Er rijst iets op uit het water, verwrongen en onstabiel. Zijn huid glanst in ziekelijk blauw en groen, donkere aderen trekken zich kronkelend over zijn lichaam, en zijn ogen gloeien met een stormachtig, onnatuurlijk licht. Als het spreekt, klinkt de stem schor en scherp, als golven die over rotsen slaan.
 
 > _“My currents are fouled. The scaled ones let their waters rot. Restore the bond, or your world will drown in filth.”_
 
@@ -47,24 +46,19 @@ The tribe greets the party with suspicion but not violence.
 - **Chief Kressk**, proud and defensive of his people.
     
 - **Acolyte Ssiva**, young and still faithful to the marid.
+Tzural - dead shaman
+
+When the ritual ceased, the creature beneath the spring **began to stir** — and its influence quickly spread.  
+The lizardfolk who went to investigate never returned, or came back **changed**: sickly, aggressive, whispering of voices from the mud.
+
+Now the tribe believes the spring is **cursed**.  
+They’ve set up crude wards and refuse to go near it.
+
+- A hunting party that tried to investigate vanished.
     
-
-**What they learn:**  
-The tribe’s sacred spring has become poisoned from below.  
-Vasskath tried to purify it by invoking an **ancient swamp spirit** — but it twisted the ritual, corrupting the water and breaking the pact.
-
-**Skill checks:**
-
-- **Arcana / Nature (DC 14):** The poison is magical and spreading unnaturally fast.
+- Strange lights and bubbling ooze appear around the spring at night.
     
-- **Persuasion (DC 13):** Convince Vasskath to guide the party to the source.
-    
-- **Insight (DC 12):** He blames himself but hides that he awakened something dangerous.
-    
-
-> **Vasskath:** “It called itself _the Eater Below_. I thought it would heal the waters. Instead, it drank them dry.”
-
-He agrees to lead them to the poisoned spring.
+- The tribe waits for a “sign from the merid,” unaware that the merid can’t reach them directly.
 
 ---
 
