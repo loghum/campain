@@ -5,7 +5,7 @@ size: Medium
 type: Humanoid
 subtype: Lizardfolk
 alignment: Neutral
-ac: 14 (natural armor)
+ac: 14
 hp: 71
 speed: 30 ft., swim 30 ft.
 stats: [11, 12, 14, 10, 17, 10]
