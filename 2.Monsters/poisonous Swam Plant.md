@@ -5,8 +5,8 @@ size: Small
 type: Plant
 subtype: Swamp
 alignment: Neutral
-ac: 12 (natural armor)
-hp: 22
+ac: 12
+hp: 12
 speed: 10 ft., swim 10 ft.
 stats:
   - 8

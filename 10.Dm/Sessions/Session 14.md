@@ -17,9 +17,8 @@ Komen ze victor brandius tegen. Party zien 2 rode dragon born door de jungle ren
 ```encounter
 name: Encounter name
 creatures:
-  - Salamander
   - 3: Lizardfolk Warrior
-  - 2: Lizardfolk Archer
+  - 4: Lizardfolk Archer
   - Lizardfolk Shaman
   - 
   - 
@@ -93,7 +92,7 @@ withing 20 feet can do check
 | Round | DC  | Result                                    | Description                                                                                                                   |
 | :---: | :-: | :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 |   1   | 30  | `encounter: 2:Steam Mephit, 1:Salamander` | The portal is at full power; fire explodes outward for **3d6 fire damage** to anyone within **10 ft** at the start of battle. |
-|   2   | 25  | `encounter: 3:Steam Mephit`               | The portal flickers but remains stable; heat intensifies (**1d4 fire damage** at the start of each turn).                     |
+|   2   | 25  | `encounter: 4:Steam Mephit`               | The portal flickers but remains stable; heat intensifies (**1d4 fire damage** at the start of each turn).                     |
 |   3   | 20  | `encounter: 6:Cinderling`                 | The air fills with sparks and smoke; visibility reduced by half near the portal.                                              |
 |   4   | 15  | `encounter: Fire Snake`                   | The Water Crystal hums and frost creeps across the ground.                                                                    |
 |   5   | 10  | `encounter: 3:Cinderling`                 | The portal destabilizes — flames lash out (**Dex save DC 15** or **2d6 fire damage**).                                        |
