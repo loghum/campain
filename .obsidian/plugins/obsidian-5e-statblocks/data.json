@@ -5790,6 +5790,275 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Skeleton Reaver",
+      {
+        "monster": "Skeleton Reaver",
+        "name": "Skeleton Reaver",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Skeleton",
+        "alignment": "Lawful Evil",
+        "ac": 16,
+        "hp": 68,
+        "speed": "30 ft.",
+        "stats": [
+          16,
+          14,
+          18,
+          8,
+          10,
+          6
+        ],
+        "saves": [
+          {
+            "con": 7
+          }
+        ],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Bludgeoning",
+        "damage_resistances": "None",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned, Exhaustion",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "Common",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Improved Undead Fortitude",
+            "desc": "If damage reduces the skeleton to 0 hit points, it makes a Constitution saving throw (DC 5 + damage taken). On a success, it drops to 1 hit point instead. Radiant damage or a critical hit bypasses this trait."
+          },
+          {
+            "name": "Relentless Bones",
+            "desc": "Once per turn, when the skeleton hits with a melee weapon attack, it deals an extra 4 (1d8) necrotic damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The skeleton makes two melee attacks."
+          },
+          {
+            "name": "Bone Greatsword",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 4 (1d8) necrotic damage."
+          },
+          {
+            "name": "Cleave Through Flesh (Recharge 5–6)",
+            "desc": "The skeleton makes one Bone Greatsword attack against each creature of its choice within 5 feet."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Grasping Bones",
+            "desc": "When a creature the skeleton can see moves out of its reach, the skeleton makes one Bone Greatsword attack against that creature. On a hit, the creature’s speed becomes 0 until the end of the current turn. This movement interruption works even if the creature takes the Disengage action."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Skeleton Marksman",
+      {
+        "monster": "Skeleton Marksman",
+        "name": "Skeleton Marksman",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Skeleton",
+        "alignment": "Lawful Evil",
+        "ac": 15,
+        "hp": 55,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          18,
+          12,
+          8,
+          14,
+          6
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Bludgeoning",
+        "damage_resistances": "None",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned, Exhaustion",
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "Common",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the skeleton to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the skeleton drops to 1 hit point instead."
+          },
+          {
+            "name": "Deadeye Frame",
+            "desc": "Attacking at long range doesn’t impose disadvantage on the skeleton’s ranged weapon attacks."
+          },
+          {
+            "name": "Bone Sniper",
+            "desc": "Once per turn, the skeleton deals an extra 7 (2d6) damage when it hits with a ranged weapon attack."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The skeleton makes two ranged weapon attacks."
+          },
+          {
+            "name": "Heavy Bone Longbow",
+            "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 4) piercing damage."
+          },
+          {
+            "name": "Pinning Shot (Recharge 5–6)",
+            "desc": "Ranged Weapon Attack: +7 to hit. On a hit, the target takes normal damage and must succeed on a DC 14 Strength saving throw or have its speed reduced to 0 until the end of its next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Skeleton Necromancer",
+      {
+        "monster": "Skeleton Necromancer",
+        "name": "Skeleton Necromancer",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Skeleton",
+        "alignment": "Lawful Evil",
+        "ac": 14,
+        "hp": 75,
+        "speed": "30 ft.",
+        "stats": [
+          8,
+          14,
+          16,
+          16,
+          14,
+          10
+        ],
+        "saves": [
+          {
+            "wis": 5
+          },
+          {
+            "con": 6
+          }
+        ],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Bludgeoning",
+        "damage_resistances": "None",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned, Exhaustion",
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "Common, Abyssal",
+        "cr": 3,
+        "proficiency_bonus": 2,
+        "spells": [
+          {
+            "cantrips (at will)": "<STATBLOCK-WIKI-LINK>Chill Touch<STATBLOCK-WIKI-LINK> 2d8, <STATBLOCK-WIKI-LINK>Toll the Dead<STATBLOCK-WIKI-LINK> 2d12, <STATBLOCK-WIKI-LINK>Mage Hand<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1st level (4 slots)": "<STATBLOCK-WIKI-LINK>False Life<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Ray of Sickness<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Shield<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "2nd level (3 slots)": "<STATBLOCK-WIKI-LINK>Blindness/Deafness<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Web<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "3rd level (2 slots)": "<STATBLOCK-WIKI-LINK>Lightning Bolt<STATBLOCK-WIKI-LINK> 8d6, <STATBLOCK-WIKI-LINK>Vampiric Touch<STATBLOCK-WIKI-LINK>"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the skeleton to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the skeleton drops to 1 hit point instead."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "The skeleton is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It requires no material components."
+          },
+          {
+            "name": "Grave Sustenance",
+            "desc": "When a creature within 30 feet of the skeleton drops to 0 hit points, the skeleton regains 10 hit points."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Necrotic Ray",
+            "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Reassemble Skeleton (Recharge 5–6)",
+            "desc": "The necromancer targets one destroyed skeleton it can see within 30 feet. The skeleton reforms with 20 hit points and acts on the necromancer’s next initiative count. This ability fails if the skeleton was destroyed by radiant damage or a critical hit. The necromancer can have no more than two reassembled skeletons at one time."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Skeleton Reassembled",
+      {
+        "monster": "Skeleton Reassembled",
+        "name": "Skeleton Reassembled",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "Skeleton",
+        "alignment": "Lawful Evil",
+        "ac": 13,
+        "hp": 20,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          14,
+          10,
+          6,
+          8,
+          5
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "Bludgeoning",
+        "damage_resistances": "None",
+        "damage_immunities": "Poison",
+        "condition_immunities": "Poisoned, Exhaustion",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Common",
+        "cr": "1/8",
+        "proficiency_bonus": 2,
+        "traits": [
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the skeleton to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the skeleton drops to 1 hit point instead."
+          },
+          {
+            "name": "Patchwork Bones",
+            "desc": "This skeleton has disadvantage on saving throws against being knocked prone, grappled, or shoved."
+          },
+          {
+            "name": "Reanimated Husk",
+            "desc": "If this skeleton is reduced to 0 hit points after using Undead Fortitude, it cannot be reassembled again."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bone Blade",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+          },
+          {
+            "name": "Fracture Strike",
+            "desc": "If the skeleton hits the same creature with two Bone Blade attacks in a single turn, the target takes an extra 3 (1d6) necrotic damage."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},

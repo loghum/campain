@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Who owns item
+    filters:
+      and:
+        - file.folder == "5.Items"
+    order:
+      - file.name
+      - owner
+      - export
+      - exported
+    sort:
+      - property: export
+        direction: DESC
+      - property: owner
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.owner: 219
+  - type: table
+    name: Items to export
+    filters:
+      and:
+        - file.folder == "4.items"
+        - export == true

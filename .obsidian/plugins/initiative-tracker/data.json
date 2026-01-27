@@ -59,37 +59,19 @@
       "level": "5",
       "modifier": "4",
       "player": true
+    },
+    {
+      "note": "Dominic decoco",
+      "path": "1.pc/Dominic decoco.md",
+      "name": "Dominic de'coco",
+      "ac": "14",
+      "hp": "34",
+      "level": "5",
+      "modifier": "4",
+      "player": true
     }
   ],
   "parties": [
-    {
-      "name": "Party",
-      "players": [
-        "Roderick",
-        "Rolf",
-        "Tarnak the Terrible",
-        "TinkerWiz"
-      ]
-    },
-    {
-      "name": "party2",
-      "players": [
-        "Rolf",
-        "Tarnak the Terrible",
-        "TinkerWiz",
-        "Baltazar"
-      ]
-    },
-    {
-      "name": "Viktor party",
-      "players": [
-        "Roderick",
-        "Rolf",
-        "Tarnak the Terrible",
-        "TinkerWiz",
-        "Victor Brandius"
-      ]
-    },
     {
       "name": "PartyZonderRoderick",
       "players": [
@@ -98,9 +80,19 @@
         "TinkerWiz",
         "Victor Brandius"
       ]
+    },
+    {
+      "name": "Party",
+      "players": [
+        "Roderick",
+        "Dominic de'coco",
+        "Tarnak the Terrible",
+        "TinkerWiz",
+        "Victor Brandius"
+      ]
     }
   ],
-  "defaultParty": "Viktor party",
+  "defaultParty": "Party",
   "statuses": [
     {
       "name": "Blinded",
@@ -200,7 +192,7 @@
     "creatures": [
       {
         "name": "Roderick",
-        "initiative": 0,
+        "initiative": 13,
         "static": false,
         "modifier": 4,
         "hp": 100,
@@ -209,7 +201,7 @@
         "currentAC": "20",
         "note": "Roderick Fitzgerald-blackwood",
         "path": "1.pc/Roderick Fitzgerald-blackwood.md",
-        "id": "ID_7b5a89f879db",
+        "id": "ID_5acbf9cac9e8",
         "currentHP": 100,
         "tempHP": 0,
         "status": [],
@@ -221,17 +213,17 @@
         "friendly": false
       },
       {
-        "name": "Rolf",
-        "initiative": 0,
+        "name": "Dominic de'coco",
+        "initiative": 20,
         "static": false,
         "modifier": 4,
         "hp": 34,
         "currentMaxHP": 34,
         "ac": "14",
         "currentAC": "14",
-        "note": "Rolf Ravioli",
-        "path": "1.pc/Rolf Ravioli.md",
-        "id": "ID_fb9b2b889998",
+        "note": "Dominic decoco",
+        "path": "1.pc/Dominic decoco.md",
+        "id": "ID_189ad898ba48",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
@@ -244,7 +236,7 @@
       },
       {
         "name": "Tarnak the Terrible",
-        "initiative": 0,
+        "initiative": 13,
         "static": false,
         "modifier": 4,
         "hp": 34,
@@ -253,7 +245,7 @@
         "currentAC": "14",
         "note": "Tarnak the Terrible",
         "path": "1.pc/Tarnak the Terrible.md",
-        "id": "ID_dbbafa895ba9",
+        "id": "ID_cbc879b88868",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
@@ -266,7 +258,7 @@
       },
       {
         "name": "TinkerWiz",
-        "initiative": 0,
+        "initiative": 9,
         "static": false,
         "modifier": 4,
         "hp": 34,
@@ -275,7 +267,7 @@
         "currentAC": "14",
         "note": "TinkerWiz",
         "path": "1.pc/TinkerWiz.md",
-        "id": "ID_bb1b6bb9bacb",
+        "id": "ID_6bbaea2898a9",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
@@ -288,7 +280,7 @@
       },
       {
         "name": "Victor Brandius",
-        "initiative": 0,
+        "initiative": 12,
         "static": false,
         "modifier": 4,
         "hp": 34,
@@ -297,7 +289,7 @@
         "currentAC": "14",
         "note": "Viktor Brandius",
         "path": "1.pc/Viktor Brandius.md",
-        "id": "ID_d85aea19f98b",
+        "id": "ID_282848095969",
         "currentHP": 34,
         "tempHP": 0,
         "status": [],
@@ -307,74 +299,11 @@
         "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Salamander",
-        "initiative": 5,
-        "static": false,
-        "modifier": 2,
-        "hp": 90,
-        "currentMaxHP": 90,
-        "cr": "5",
-        "ac": 15,
-        "currentAC": 15,
-        "id": "ID_3b28094989fb",
-        "currentHP": 90,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "12d10 + 24",
-        "rollHP": false
-      },
-      {
-        "name": "Steam Mephit",
-        "initiative": 15,
-        "static": false,
-        "modifier": 0,
-        "hp": 21,
-        "currentMaxHP": 21,
-        "cr": "1/4",
-        "ac": 10,
-        "currentAC": 10,
-        "id": "ID_ca99d92899c9",
-        "currentHP": 21,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "6d6",
-        "rollHP": false
-      },
-      {
-        "name": "Steam Mephit",
-        "initiative": 15,
-        "static": false,
-        "modifier": 0,
-        "hp": 21,
-        "currentMaxHP": 21,
-        "cr": "1/4",
-        "ac": 10,
-        "currentAC": 10,
-        "id": "ID_ab89a80b290b",
-        "currentHP": 21,
-        "tempHP": 0,
-        "status": [],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "hit_dice": "6d6",
-        "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": "Encounter name",
-    "round": 1,
+    "round": 8,
     "logFile": "",
     "rollHP": false
   },

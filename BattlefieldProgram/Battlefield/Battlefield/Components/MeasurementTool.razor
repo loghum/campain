@@ -1,0 +1,31 @@
+﻿<select class="form-select" @bind-Value="SelectedShape" style="margin-bottom:8px;">
+    <option value="">None</option>
+    <option value="line">Line</option>
+    <option value="square">Square</option>
+    <option value="circle">Circle</option>
+    <option value="cone">45° Cone</option>
+</select>
+@if (!string.IsNullOrEmpty(SelectedShape) && Start != End)
+{
+    <svg draggable="false" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;">
+        @if (SelectedShape == "line")
+        {
+            <line x1="@Start.X" y1="@Start.Y" x2="@End.X" y2="@End.Y" stroke="red" stroke-width="2"/>
+        }
+        @* Add SVG for square, circle, cone as needed *@
+    </svg>
+    <div style="position:absolute; left:@($"{End.X}px"); top:@($"{End.Y}px"); background:white; border:1px solid black;">
+        @($"{DistanceInFeet} ft")
+    </div>
+}
+
+@code {
+    [Parameter] public required BattlefieldModel CurrentBattlefield { get; set; }
+    [Parameter] public string SelectedShape { get; set; } = "";
+    [Parameter] public (double X, double Y) Start { get; set; }
+    [Parameter] public (double X, double Y) End { get; set; }
+    [Parameter] public EventCallback<string> SelectedShapeChanged { get; set; }
+    
+    double DistanceInFeet => Math.Round(
+        Math.Sqrt(Math.Pow(End.X - Start.X, 2) + Math.Pow(End.Y - Start.Y, 2)) / CurrentBattlefield.TokenSize * 5, 1);
+}

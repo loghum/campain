@@ -114,7 +114,7 @@ creatures:
   - 
 ```
 
-1 hobgoblin heeft de glazen bol[[Orb of direction]]. Verder hebben de hobgoblins 5 silver en een potion of healing. Verder is er niks te halen hier.
+1 hobgoblin heeft de glazen bol[[orb of direction]]. Verder hebben de hobgoblins 5 silver en een potion of healing. Verder is er niks te halen hier.
 
 ## trail 3 terug reis.
 12 uur reis. 14 perception check voor bekend landmarks. haal. dan 2 uur van reistijd af. survival check of 15 voor snelste weg thuis. fail dan komen ze tijden een short een beer tegen.

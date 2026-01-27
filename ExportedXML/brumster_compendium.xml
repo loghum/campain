@@ -1,49 +1,14 @@
 <?xml version="1.0"?>
 <compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
 <item>
-  <name>Runic Shield of Thar-Grim</name>
-  <type>S</type>
-  <magic>1</magic>
-  <ac>2</ac>
-  <detail>Rare, requires attunement</detail>
-  <value>1800</value>
-  <weight>6</weight>
-  <text>A heavy dwarven shield embedded with glowing runes.</text>
-  <text>You gain a +1 bonus to AC. Once per long rest, when hit by a melee attack, you can use your reaction to force the attacker to make a DC 13 Dexterity saving throw: On a failed save, the attacker takes 2d6 fire damage and has disadvantage on their next attack roll.</text>
-  <modifier category="bonus">ac +1</modifier>
-</item>
-
-<item>
-  <name>Girdle of the stoneblood clan</name>
+  <name>Crystal of the sealing</name>
   <type>W</type>
   <magic>1</magic>
-  <detail>Wonderous item, Attunement</detail>
+  <detail>wondrous item, consumable</detail>
   <value>1</value>
   <weight>1</weight>
-  <text>A broad dwarven belt engraved with the runes of the Stoneblood Clan.</text>
-  <text>Your Strength score increases by 1, to a maximum of 21. While raging, you gain resistance to force damage.Once per day, if you drop below 25% HP while raging, you gain 10 temporary hit points.</text>
-</item>
-
-<item>
-  <name>Forge-Soul Focus</name>
-  <type>W</type>
-  <magic>1</magic>
-  <detail>Focus, attumend</detail>
-  <value>1</value>
-  <weight>1</weight>
-  <text>A focus made from obsidian fused with glowing forge veins.</text>
-  <text>You gain a +1 bonus to spell attack rolls. Once per day, a fire spell you cast can ignore fire resistance. You can cast Control Flames once per day</text>
-</item>
-
-<item>
-  <name>Bracers of the emberwright</name>
-  <type>W</type>
-  <magic>1</magic>
-  <detail>Braces, required attument, Wondrous item</detail>
-  <value>1800</value>
-  <weight>1</weight>
-  <text>Forged by ancient dwarven smith-mages, these rune-etched bracers glow faintly when channeling fire magic or tinkering with tools.</text>
-  <text>You gain a +1 bonus to spell attack rolls made using artificer spells. You gan a +1 bonus to checks made with Tinker&apos;s tools and smith tools. Once per day, when casting a spell that deals fire damage, you can reroll one damage die</text>
+  <text>This shimmering crystal holds the essence of water and is imbued with the power to close portals to fiery realms.</text>
+  <text>As an action, you can use the crystal to attempt to close a portal to a Fire-aligned plane. Range 20 feet, The portal must be visible and within range. Make an Arcana, Religion, or Nature check to close the portal</text>
 </item>
 
 <item>
@@ -58,6 +23,7 @@
   <dmg2>2d6</dmg2>
   <dmgType>B</dmgType>
   <property>H,2H</property>
+  <exported>true</exported>
 </item>
 
 </compendium>

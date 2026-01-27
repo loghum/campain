@@ -1,0 +1,14 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+
+<h3>Select Your Role</h3>
+
+<button class="role-button" @onclick="() => ChooseRole(true)">Dungeon Master (DM)</button>
+<button class="role-button" @onclick="() => ChooseRole(false)">Player</button>
+
+@code {
+    private void ChooseRole(bool isDM)
+    {
+        NavManager.NavigateTo(isDM ? $"/DmBattlefieldMap" : $"/PlayerBattlefieldMap");
+    }
+}

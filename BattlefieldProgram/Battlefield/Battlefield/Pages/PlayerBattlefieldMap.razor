@@ -1,0 +1,15 @@
+﻿@page "/PlayerBattlefieldMap"
+@using Battlefield.Components
+@inherits BattlefieldMapBase
+
+@if (CurrentBattlefield != null)
+{
+    <BattlefieldView CurrentBattlefield="CurrentBattlefield"
+                     @bind-Zoom="@CurrentBattlefield.Zoom"
+                     MapWidth="@MapWidth"
+                     MapHeight="@MapHeight"
+                     OnMouseMove="OnMouseMove"
+                     OnMouseUp="OnMouseUp"
+                     OnTokenMouseDown="HandleTokenMouseDown"/>
+}
+                 

@@ -1,0 +1,173 @@
+﻿@page "/DmBattlefieldMap"
+@using Battlefield.Models
+@using Battlefield.Services
+@using Microsoft.AspNetCore.SignalR.Client
+@using Battlefield.Components
+@inherits BattlefieldMapBase
+@inject HttpClient Http
+@inject BattlefieldService BattlefieldService
+
+<div style="margin-bottom:20px;">
+    <InputFile OnChange="OnInputFileChange" />
+    <button class="btn btn-primary mt-2" @onclick="CreateToken">Create Token</button>
+    <InputSelect class="form-select" @bind-Value="CurrentBattleFieldId" style="margin-top:10px;">
+        <option value="">-- Select a battlefield --</option>
+        @foreach (var item in BattlefieldModels)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </InputSelect>
+</div>
+
+
+
+@if (CurrentBattlefield != null)
+{
+    <div style="margin-bottom:10px;">
+        <label>Token Size: </label>
+        <input type="number"
+               min="1"
+               max="500"
+               @bind="@CurrentBattlefield.TokenSize"
+               style="width:60px;" />
+    </div>
+    <MeasurementTool
+        CurrentBattlefield="CurrentBattlefield"
+        @bind-SelectedShape="MeasurementSelectedShape"
+        Start="@MeasurementStart"
+        End="@MeasurementEnd" />
+    
+    <div style="position:relative; width:100%; height:100%;"
+         @onmousedown="HandleMouseDown"
+         @onmouseup="HandleMouseUp"
+         @onmousemove="HandleMouseMove">
+    <BattlefieldView CurrentBattlefield="CurrentBattlefield"
+                     @bind-Zoom="@CurrentBattlefield.Zoom"
+                     MapWidth="@MapWidth"
+                     MapHeight="@MapHeight"
+                     TokenSize="@CurrentBattlefield.TokenSize"
+                     OnMouseMove="OnMouseMove"
+                     OnMouseUp="OnMouseUp"
+                     OnTokenMouseDown="HandleTokenMouseDown"/>
+    </div>
+}
+
+@code {
+    private IBrowserFile? selectedFile;
+    private string? uploadedImageUrl;
+    private string currentBattleFieldId;
+
+
+    // Example map and token sizes
+    private double MapWidth { get; set; } = 1000;
+    private double MapHeight { get; set; } = 800;
+    private double TokenSize { get; set; } = 50;
+    
+    private string CurrentBattleFieldId
+    {
+        get => currentBattleFieldId;
+        set
+        {
+            if (currentBattleFieldId == value)
+            {
+                return;
+            }
+
+            currentBattleFieldId = value;
+            _ = SwitchBattlefieldAsync(value);
+        }
+    }
+
+    private async Task SwitchBattlefieldAsync(string battlefieldId)
+    {
+        if (!string.IsNullOrEmpty(BattlefieldId) && hubConnection != null)
+        {
+            await hubConnection.InvokeAsync("LeaveBattlefield", BattlefieldId);
+        }
+
+        BattlefieldId = battlefieldId;
+        CurrentBattlefield = BattlefieldService.GetBattlefield(battlefieldId);
+
+        if (hubConnection != null)
+        {
+            await hubConnection.InvokeAsync("JoinBattlefield", battlefieldId);
+            await hubConnection.InvokeAsync("SetActiveBattlefield", battlefieldId);
+        }
+
+        StateHasChanged();
+    }
+
+    private List<BattlefieldModel> BattlefieldModels { get; set; } = new List<BattlefieldModel>();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        
+        BattlefieldModels = BattlefieldService.GetBattlefields();
+
+        // Set the first battlefield as active
+        if (BattlefieldModels.Any())
+        {
+            CurrentBattleFieldId = BattlefieldModels.First().Id;
+            CurrentBattlefield = BattlefieldService.GetBattlefield(CurrentBattleFieldId);
+
+            if (hubConnection != null)
+            {
+                await hubConnection.InvokeAsync("JoinBattlefield", CurrentBattleFieldId);
+                await hubConnection.InvokeAsync("SetActiveBattlefield", CurrentBattleFieldId);
+            }
+        }
+    }
+    
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+    }
+
+    private async Task CreateToken()
+    {
+        if (string.IsNullOrEmpty(CurrentBattleFieldId) || CurrentBattlefield == null)
+            return;
+
+        // Service uploads the file, creates the token and adds it to the battlefield
+        var token = await BattlefieldService.CreateTokenAsync(CurrentBattleFieldId, selectedFile);
+
+        // Clear selected file after upload
+        selectedFile = null;
+
+        if (token != null)
+        {
+            // Notify other clients via SignalR if available
+            if (hubConnection != null)
+            {
+                await hubConnection.SendAsync("CreateToken", token.Id, token.X, token.Y, token.Color, token.DmOnly, token.ImageUrl);
+            }
+
+            StateHasChanged();
+        }
+    }
+    
+    void HandleMouseDown(MouseEventArgs e)
+    {
+        if (!string.IsNullOrEmpty(MeasurementSelectedShape))
+            HandleMeasurementMouseDown(e);
+        else
+            OnMapMouseDown(e); // implement if needed
+    }
+
+    void HandleMouseMove(MouseEventArgs e)
+    {
+        if (IsMeasuring)
+            HandleMeasurementMouseMove(e);
+        else
+            OnMouseMove(e);
+    }
+
+    void HandleMouseUp(MouseEventArgs e)
+    {
+        if (IsMeasuring)
+            HandleMeasurementMouseUp(e);
+        else
+            OnMouseUp();
+    }
+}

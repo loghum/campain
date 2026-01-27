@@ -1,0 +1,97 @@
+﻿@using Battlefield.Models
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Web
+
+@if (CurrentBattlefield != null)
+{
+    <div style="margin-bottom:10px;">
+        <label>Zoom: @Zoom:F2x</label>
+        <input type="range"
+               min="1"
+               max="10"
+               step="1"
+               @bind="Zoom"
+               @bind:event="oninput"
+               style="width:400px;" />
+    </div>
+
+    <div class="battlefield-wrapper"
+         @onmousemove="HandleMouseMove"
+         @onmouseup="HandleMouseUp"
+         @onmouseleave="HandleMouseUp"
+         style="width:100%; height:80vh; overflow:auto; position: relative; border:1px solid #ccc;">
+
+        <img src="@CurrentBattlefield.BackgroundImageUrl"
+             draggable="false"
+         style="
+                position:absolute;
+                top:0;
+                left:0;
+                transform: scale(@Zoom);
+                transform-origin: top left;
+                width:@MapWidth px;
+                height:@MapHeight px;
+                transition: transform 0.05s linear;
+                user-select:none;" />
+
+    @foreach (var token in CurrentBattlefield.Tokens)
+    {
+        <div style="
+    position: absolute;
+    left:@(token.X * CurrentBattlefield.Zoom)px;
+    top:@(token.Y * CurrentBattlefield.Zoom)px;
+    width:@(CurrentBattlefield.TokenSize * token.GridSize * CurrentBattlefield.Zoom)px;
+    text-align: center;
+    pointer-events: none;">
+            <div class="token"
+                 style="
+             width:100%;
+             height:@(CurrentBattlefield.TokenSize * token.GridSize * CurrentBattlefield.Zoom)px;
+             background-color:@token.Color;
+             @(token.ImageUrl != null ? $"background-image: url('{token.ImageUrl}'); background-size: cover; background-position: center;" : "");
+             cursor:move;
+             pointer-events: auto;
+             transition: width 0.05s linear, height 0.05s linear;"
+                 @onmousedown="e => HandleTokenMouseDown(e, token)">
+            </div>
+            <div style="font-size: 8px; color: white; margin-top: 2px; width:100%;">
+                @token.Name
+            </div>
+        </div>
+    }
+    </div>
+}
+
+@code {
+    private double _zoom = 1;
+    [Parameter] public BattlefieldModel? CurrentBattlefield { get; set; }
+
+    [Parameter]
+    public double Zoom
+    {
+        get => _zoom;
+        set
+        {
+            if (Math.Abs(_zoom - value) > double.Epsilon)
+            {
+                _zoom = value;
+                _ = ZoomChanged.InvokeAsync(value);
+            }
+        }
+    }
+
+    [Parameter] public EventCallback<double> ZoomChanged { get; set; }
+
+    [Parameter] public double MapWidth { get; set; } = 1000;
+    [Parameter] public double MapHeight { get; set; } = 800;
+    [Parameter] public double TokenSize { get; set; } = 50;
+
+    [Parameter] public EventCallback<MouseEventArgs> OnMouseMove { get; set; }
+    [Parameter] public EventCallback<MouseEventArgs> OnMouseUp { get; set; }
+    [Parameter] public EventCallback<TokenMouseDownArgs> OnTokenMouseDown { get; set; }
+
+    private Task HandleMouseMove(MouseEventArgs e) => OnMouseMove.InvokeAsync(e);
+    private Task HandleMouseUp(MouseEventArgs e) => OnMouseUp.InvokeAsync(e);
+    private Task HandleTokenMouseDown(MouseEventArgs e, Token token)
+        => OnTokenMouseDown.InvokeAsync(new TokenMouseDownArgs { E = e, Token = token });
+}
