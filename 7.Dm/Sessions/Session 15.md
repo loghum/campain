@@ -1,7 +1,7 @@
 ---
 session: 15
-date: 2 11(nov) 2025
-current: "true"
+date: 25 1 2026
+current: "false"
 ---
 
 # Vorige sessie

@@ -3,7 +3,7 @@ views:
     name: Sessions
     filters:
       and:
-        - file.folder == "10.Dm/Sessions"
+        - file.folder == "7.Dm/Sessions"
     order:
       - file.name
       - file.mtime

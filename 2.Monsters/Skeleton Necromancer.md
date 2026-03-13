@@ -38,7 +38,7 @@ actions:
     desc: "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 14 (4d6) necrotic damage."
 bonus_actions:
   - name: Reassemble Skeleton (Recharge 5–6)
-    desc: "The necromancer targets one destroyed skeleton it can see within 30 feet. The skeleton reforms with 20 hit points and acts on the necromancer’s next initiative count. This ability fails if the skeleton was destroyed by radiant damage or a critical hit. The necromancer can have no more than two reassembled skeletons at one time."
+    desc: "The necromancer targets one destroyed skeleton it can see within 30 feet. The skeleton reforms with 20 hit points and acts on the necromancer’s next initiative count. This ability fails if the skeleton was destroyed by radiant damage or a critical hit. The necromancer can have no more than two reassembled skeletons at one time. `encounter: Skeleton Reassembled `"
 
 
 ```

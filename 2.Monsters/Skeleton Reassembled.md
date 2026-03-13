@@ -27,6 +27,8 @@ traits:
   - name: Reanimated Husk
     desc: "If this skeleton is reduced to 0 hit points after using Undead Fortitude, it cannot be reassembled again."
 actions:
+  - name: Multi attack
+    desc: The reassembled skeleton takes 2 bone blade attacks
   - name: Bone Blade
     desc: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
   - name: Fracture Strike
