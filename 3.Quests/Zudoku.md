@@ -71,8 +71,21 @@ Kleine ruimte met een grote gesloten deur.
 
 ## room 5
 
+```encounter
+name: Encounter name
+creatures: 
+  - 3:Star Spawn Grue
+  - 
+  - Star Spawn Hulk
+```
 
+Loot:
 
+black opal(1000gp)
+bloodstone 3(50gp)
+amethyst 4(100gp)
+moonstone(2)50gp
+void pearl(1) 500gp
 
 
 

@@ -133,3 +133,8 @@ Succes → speler kan de **bel luiden en winnen**.
 
 Groot feest, veel drinken en eten. Berrick neemt jullie even appart, "Jullie zijn nu geslaagd, jullie zijn altijd welkom hier maar ik heb jullie slaapzaal nodig. Volgende week komen nieuwe studenten. Gelukkig hebben jullie net een nieuw onderkomen. Success daar."
 
+
+
+
+2 kinderen, "Jullie anvoteuries. wij hebeen avontuur gevonden. Hond rende weg en kwam terug met een edelsteen. Hond gevold, maar kwamen bij grot maar durvden neit naar binnen. Was er erg donker."
+
