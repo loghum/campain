@@ -913,84 +913,64 @@
     [
       "Shadow Demon",
       {
-        "monster": "Shadow Demon",
+        "mmonster": "Shadow Demon",
         "name": "Shadow Demon",
-        "size": "Medium",
+        "size": "Large",
         "type": "Fiend",
-        "subtype": "Demon",
-        "alignment": "Chaotic Evil",
-        "ac": 13,
-        "hp": 66,
+        "subtype": "None",
+        "alignment": "None",
+        "ac": 15,
+        "hp": 85,
         "speed": "30 ft., fly 30 ft.",
         "stats": [
-          1,
-          17,
-          12,
+          14,
+          18,
+          16,
           14,
           13,
-          14
+          16
         ],
-        "saves": [
-          {
-            "dexterity": 5
-          },
-          {
-            "charisma": 4
-          }
-        ],
-        "skillsaves": [
-          {
-            "Stealth": 7
-          }
-        ],
-        "damage_vulnerabilities": "Radiant",
-        "damage_resistances": "Acid, Fire, Necrotic, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical attacks",
-        "damage_immunities": "Cold, Lightning, Poison",
-        "condition_immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
-        "senses": "Darkvision 120 ft., passive Perception 11",
-        "languages": "Abyssal, telepathy 120 ft.",
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 11",
+        "languages": "None",
         "cr": 4,
-        "spells": "None",
+        "proficiency_bonus": 2,
+        "spells": [],
         "traits": [
           {
             "name": "Incorporeal Movement",
-            "desc": "The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
-          },
-          {
-            "name": "Light Sensitivity",
-            "desc": "While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+            "desc": "The shadow demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
           },
           {
             "name": "Shadow Stealth",
-            "desc": "While in dim light or darkness, the demon can take the Hide action as a bonus action."
+            "desc": "While in darkness, the shadow demon is invisible."
           }
         ],
         "actions": [
           {
-            "name": "Claws",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage."
-          }
-        ],
-        "legendary_actions": [
+            "name": "Multiattack",
+            "desc": "The shadow demon makes two claw attacks."
+          },
           {
-            "name": "None",
-            "desc": "None"
-          }
-        ],
-        "bonus_actions": [
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 3 (1d6) necrotic damage."
+          },
           {
-            "name": "None",
-            "desc": "None"
+            "name": "Shadow Grasp (Recharge 4–6)",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 15) and restrained. The target takes 7 (2d6) necrotic damage at the start of each of its turns while grappled."
           }
         ],
-        "reactions": [
-          {
-            "name": "None",
-            "desc": "None"
-          }
-        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
         "source": "Homebrew",
-        "layout": "Basic 5e Layout"
+        "layout": "Basic 5e Layout",
+        "monster": "Shadow Demon"
       }
     ],
     [
@@ -6187,6 +6167,574 @@
           {
             "name": "Confounding Bite",
             "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage, and the target must succeed on a DC 10 Wisdom saving throw or attack rolls against it have advantage until the start of the grue's next turn."
+          }
+        ],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Shadow",
+      {
+        "name": "Shadow",
+        "source": "5e SRD",
+        "size": "Medium",
+        "type": "Undead",
+        "subtype": "None",
+        "alignment": "Chaotic Evil",
+        "ac": 12,
+        "hp": 16,
+        "hit_dice": "3d8 + 2",
+        "speed": "40 ft.",
+        "stats": [
+          6,
+          14,
+          13,
+          6,
+          10,
+          8
+        ],
+        "skillsaves": [
+          {
+            "stealth": 4
+          }
+        ],
+        "damage_vulnerabilities": "Radiant",
+        "damage_resistances": "Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical attacks",
+        "damage_immunities": "Necrotic, Poison",
+        "condition_immunities": "Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained",
+        "senses": "Darkvision 60 ft., passive Perception 10",
+        "languages": "None",
+        "cr": "1/2",
+        "bestiary": true,
+        "traits": [
+          {
+            "name": "Amorphous",
+            "desc": "The shadow can move through a space as narrow as 1 inch wide without squeezing."
+          },
+          {
+            "name": "Shadow Stealth",
+            "desc": "While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6."
+          },
+          {
+            "name": "Sunlight Weakness",
+            "desc": "While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Strength Drain",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage. The target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later."
+          }
+        ],
+        "monster": "Shadow",
+        "saves": [],
+        "proficiency_bonus": 2,
+        "spells": [],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Shadow Mastiff",
+      {
+        "monster": "Shadow Mastiff",
+        "name": "Shadow Mastiff",
+        "size": "Medium",
+        "type": "Monstrosity",
+        "subtype": "None",
+        "alignment": "Neutral Evil",
+        "ac": 12,
+        "hp": 33,
+        "speed": "40 ft.",
+        "stats": [
+          16,
+          14,
+          13,
+          5,
+          12,
+          5
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "perception": 3
+          },
+          {
+            "stealth": 6
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Bludgeoning, Piercing, and Slashing from nonmagical attacks while in dim light or darkness",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., passive Perception 13",
+        "languages": "None",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Ethereal Awareness",
+            "desc": "The shadow mastiff can see ethereal creatures and objects."
+          },
+          {
+            "name": "Keen Hearing and Smell",
+            "desc": "The shadow mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          },
+          {
+            "name": "Shadow Blend",
+            "desc": "While in dim light or darkness, the shadow mastiff can use a bonus action to become invisible, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is incapacitated."
+          },
+          {
+            "name": "Sunlight Weakness",
+            "desc": "While in bright light created by sunlight, the shadow mastiff has disadvantage on attack rolls, ability checks, and saving throws."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Veil Unbound Cult Fanatic",
+      {
+        "monster": "Veil Unbound Cult Fanatic",
+        "name": "Veil Unbound Cult Fanatic",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "None",
+        "ac": "13 (studded leather)",
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": [
+          11,
+          14,
+          16,
+          10,
+          12,
+          14
+        ],
+        "saves": [
+          {
+            "wis": 4
+          },
+          {
+            "cha": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "religion": 2
+          },
+          {
+            "persuasion": 4
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 11",
+        "languages": "None",
+        "cr": 2,
+        "proficiency_bonus": 2,
+        "spells": [
+          {
+            "spellcasting (save DC 12, +4 to hit)": [
+              {
+                "at will": "<STATBLOCK-WIKI-LINK>Thaumaturgy<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Sacred Flame<STATBLOCK-WIKI-LINK> (necrotic damage instead of radiant)"
+              },
+              {
+                "3/day": "<STATBLOCK-WIKI-LINK>Command<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Inflict Wounds<STATBLOCK-WIKI-LINK>"
+              },
+              {
+                "1/day": "<STATBLOCK-WIKI-LINK>Hold Person<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Darkness<STATBLOCK-WIKI-LINK>"
+              }
+            ]
+          }
+        ],
+        "traits": [
+          {
+            "name": "Dark Devotion",
+            "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The fanatic makes two melee attacks."
+          },
+          {
+            "name": "Scimitar",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Veil Unbound Cultist",
+      {
+        "monster": "Veil Unbound Cultist",
+        "name": "Veil Unbound Cultist",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Any race",
+        "alignment": "Any non-good alignment",
+        "ac": 12,
+        "hp": 9,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          12,
+          10,
+          10,
+          11,
+          10
+        ],
+        "saves": [],
+        "skillsaves": [
+          {
+            "religion": 2
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 10",
+        "languages": "Common",
+        "cr": "1/2",
+        "proficiency_bonus": 2,
+        "spells": [],
+        "traits": [],
+        "actions": [
+          {
+            "name": "Dagger",
+            "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+          },
+          {
+            "name": "Dark Chant (1/Day)",
+            "desc": "One creature within 30 feet must succeed on a DC 12 Wisdom saving throw or be frightened until the end of its next turn."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Vaelis, Archmage of the Obsidian Veil",
+      {
+        "monster": "Vaelis, Archmage of the Obsidian Veil",
+        "name": "Vaelis, Archmage of the Obsidian Veil",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Warlock",
+        "alignment": "Lawful Evil",
+        "ac": "16 (dark reinforced robes)",
+        "hp": 95,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          18,
+          14,
+          12,
+          18
+        ],
+        "saves": [
+          {
+            "wis": 5
+          },
+          {
+            "cha": 7
+          },
+          {
+            "con": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 6
+          },
+          {
+            "deception": 7
+          },
+          {
+            "religion": 6
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 11",
+        "languages": "None",
+        "cr": 7,
+        "proficiency_bonus": 3,
+        "spells": [
+          {
+            "cantrips (at will)": "<STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> 1d10, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1/day spells": null
+          },
+          {
+            "3/day": "<STATBLOCK-WIKI-LINK>Darkness<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Counterspell<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fear<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "2/day": "<STATBLOCK-WIKI-LINK>Blight<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hunger of Hadar<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1/day": "<STATBLOCK-WIKI-LINK>Shadow of Moil<STATBLOCK-WIKI-LINK>"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Vaelis is a high-level warlock. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks)."
+          },
+          {
+            "name": "Dark Bargain",
+            "desc": "When Vaelis is reduced to 0 hit points, he instead drops to 1 hit point. He can use this trait once per long rest."
+          },
+          {
+            "name": "Arcane of the Veil",
+            "desc": "Vaelis can maintain concentration on one additional spell beyond normal limits only if one is a warlock spell he cast."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one or two targets. Hit: 9 (1d10 + 4) force damage per beam."
+          },
+          {
+            "name": "Life Leech Dagger",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 7 (2d6) necrotic damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Shadow Step",
+            "desc": "Vaelis teleports up to 30 ft. to an unoccupied space he can see that is in dim light or darkness."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Fade Into Shadow",
+            "desc": "When Vaelis is hit by an attack, he can impose disadvantage on the attack roll and teleport up to 15 ft. to an unoccupied space he can see in dim light or darkness."
+          }
+        ],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Vaelis",
+      {
+        "monster": "Vaelis",
+        "name": "Vaelis",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "Warlock",
+        "alignment": "Lawful Evil",
+        "ac": 16,
+        "hp": 95,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          18,
+          14,
+          12,
+          18
+        ],
+        "saves": [
+          {
+            "wis": 5
+          },
+          {
+            "cha": 7
+          },
+          {
+            "con": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "arcana": 6
+          },
+          {
+            "deception": 7
+          },
+          {
+            "religion": 6
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 11",
+        "languages": "None",
+        "cr": 7,
+        "proficiency_bonus": 3,
+        "spells": [
+          {
+            "cantrips (at will)": "<STATBLOCK-WIKI-LINK>Eldritch Blast<STATBLOCK-WIKI-LINK> 1d10, <STATBLOCK-WIKI-LINK>Minor Illusion<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1/day spells": null
+          },
+          {
+            "3/day": "<STATBLOCK-WIKI-LINK>Darkness<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Counterspell<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Fear<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "2/day": "<STATBLOCK-WIKI-LINK>Blight<STATBLOCK-WIKI-LINK>, <STATBLOCK-WIKI-LINK>Hunger of Hadar<STATBLOCK-WIKI-LINK>"
+          },
+          {
+            "1/day": "<STATBLOCK-WIKI-LINK>Shadow of Moil<STATBLOCK-WIKI-LINK>"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Vaelis is a high-level warlock. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks)."
+          },
+          {
+            "name": "Dark Bargain",
+            "desc": "When Vaelis is reduced to 0 hit points, he instead drops to 1 hit point. He can use this trait once per long rest."
+          },
+          {
+            "name": "Arcane of the Veil",
+            "desc": "Vaelis can maintain concentration on one additional spell beyond normal limits only if one is a warlock spell he cast."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one or two targets. Hit: 9 (1d10 + 4) force damage per beam."
+          },
+          {
+            "name": "Life Leech Dagger",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 7 (2d6) necrotic damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Shadow Step",
+            "desc": "Vaelis teleports up to 30 ft. to an unoccupied space he can see that is in dim light or darkness."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Fade Into Shadow",
+            "desc": "When Vaelis is hit by an attack, he can impose disadvantage on the attack roll and teleport up to 15 ft. to an unoccupied space he can see in dim light or darkness."
+          }
+        ],
+        "legendary_actions": [],
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Umbral Warden",
+      {
+        "monster": "Umbral Warden",
+        "name": "Umbral Warden",
+        "size": "Huge",
+        "type": "Aberration",
+        "subtype": "Undead",
+        "alignment": "None",
+        "ac": 17,
+        "hp": 190,
+        "speed": "40 ft., fly 40 ft.",
+        "stats": [
+          18,
+          16,
+          20,
+          16,
+          16,
+          18
+        ],
+        "saves": [],
+        "skillsaves": [],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "None",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "passive Perception 13",
+        "languages": "None",
+        "cr": 11,
+        "proficiency_bonus": 4,
+        "spells": [],
+        "traits": [
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If the Umbral Warden fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Living Darkness",
+            "desc": "The Umbral Warden is always considered to be in dim light or darkness beyond 15 feet of it."
+          },
+          {
+            "name": "Aura of Dread",
+            "desc": "Each enemy within 20 feet of the Umbral Warden must succeed on a DC 15 Wisdom saving throw or be frightened until the end of its next turn."
+          },
+          {
+            "name": "Shadow Regeneration",
+            "desc": "The Umbral Warden regains 15 hit points at the start of its turn while in darkness."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Umbral Warden makes two Umbral Tendril attacks."
+          },
+          {
+            "name": "Umbral Tendril",
+            "desc": "Melee or Ranged Spell Attack: +8 to hit, reach 30 ft., one target. Hit: 15 (2d10 + 4) necrotic damage. The target must succeed on a DC 15 Strength saving throw or be restrained."
+          },
+          {
+            "name": "Devour Light (Recharge 5–6)",
+            "desc": "The Umbral Warden releases a 20-foot-radius burst of consuming darkness. Each creature in that area must make a DC 16 Constitution saving throw, taking 22 (6d6) necrotic damage on a failed save, or half as much on a success. Creatures that fail the save are also blinded until the end of their next turn."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Split Shadow",
+            "desc": "The Umbral Warden creates 1–2 shadow minions in unoccupied spaces it can see within 30 feet."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [
+          {
+            "name": "Shadow Step",
+            "desc": "The Umbral Warden teleports up to 30 feet to an unoccupied space it can see in dim light or darkness."
+          },
+          {
+            "name": "Tendril Attack",
+            "desc": "The Umbral Warden makes one Umbral Tendril attack."
           }
         ],
         "source": "Homebrew",

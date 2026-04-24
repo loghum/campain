@@ -1,7 +1,7 @@
 ---
 session: 16
 date: 15 5 2026
-current: "true"
+current: "false"
 ---
 
 # Vorige sessie
@@ -54,6 +54,11 @@ Jullie laatste proef… begint nu. "
 Berrick leid jullie naar een deur op het gras velt. 15 meter achter de deur staat een 5 meter hoge toren met een bel. "De persoon die het snelste door de deur is en de bel lelt, is de beste avonturier van jullie groep. Om het eerlijk te maken, krijgen julllie alleem een lockpick!"
 
 Roll initiative. Laagste gaat eerst.
+
+IIIIIIIIIIIIIII       Ramon
+IIIIIIIIIIII         Jeff
+IIIIIIIl             Tom
+IIIIIIIIII
 
 #### 1. De Startdeur
 

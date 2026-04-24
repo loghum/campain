@@ -1,44 +1,38 @@
 ```statblock
 monster: Shadow Demon
 name: Shadow Demon
-size: Medium
+size: Large
 type: Fiend
-subtype: Demon
-alignment: Chaotic Evil
-ac: 13
-hp: 66
+subtype: None
+alignment: None
+ac: 15
+hp: 85
 speed: 30 ft., fly 30 ft.
-stats: [1, 17, 12, 14, 13, 14]
-saves:
-  - dexterity: +5
-  - charisma: +4
-skillsaves:
-  - Stealth: +7
-damage_vulnerabilities: Radiant
-damage_resistances: Acid, Fire, Necrotic, Thunder; Bludgeoning, Piercing, and Slashing from nonmagical attacks
-damage_immunities: Cold, Lightning, Poison
-condition_immunities: Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
-senses: Darkvision 120 ft., passive Perception 11
-languages: Abyssal, telepathy 120 ft.
+stats: [14, 18, 16, 14, 13, 16]
+saves: []
+skillsaves: []
+damage_vulnerabilities: None
+damage_resistances: None
+damage_immunities: None
+condition_immunities: None
+senses: passive Perception 11
+languages: None
 cr: 4
-spells: None
+proficiency_bonus: +2
+spells: []
 traits:
   - name: Incorporeal Movement
-    desc: "The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
-  - name: Light Sensitivity
-    desc: "While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    desc: "The shadow demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
   - name: Shadow Stealth
-    desc: "While in dim light or darkness, the demon can take the Hide action as a bonus action."
+    desc: "While in darkness, the shadow demon is invisible."
 actions:
-  - name: Claws
-    desc: "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage."
-legendary_actions:
-  - name: None
-    desc: None
-bonus_actions:
-  - name: None
-    desc: None
-reactions:
-  - name: None
-    desc: None
+  - name: Multiattack
+    desc: "The shadow demon makes two claw attacks."
+  - name: Claw
+    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 3 (1d6) necrotic damage."
+  - name: Shadow Grasp (Recharge 4–6)
+    desc: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 15) and restrained. The target takes 7 (2d6) necrotic damage at the start of each of its turns while grappled."
+bonus_actions: []
+reactions: []
+legendary_actions: []
 ```
