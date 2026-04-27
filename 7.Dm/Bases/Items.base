@@ -14,8 +14,6 @@ views:
         direction: DESC
       - property: owner
         direction: ASC
-      - property: file.name
-        direction: ASC
     columnSize:
       note.owner: 219
   - type: table

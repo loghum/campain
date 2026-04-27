@@ -1,7 +1,7 @@
 ---
 export: false
 name: Wand of magic missile
-owner: none
+owner: Roderick
 exported: true
 ---
 

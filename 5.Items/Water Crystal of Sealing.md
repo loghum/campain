@@ -1,5 +1,5 @@
 ---
-export: true
+export: false
 owner: None
 name: Crystal of the sealing
 type: W
@@ -10,6 +10,7 @@ weight: 1
 text:
   - This shimmering crystal holds the essence of water and is imbued with the power to close portals to fiery realms.
   - As an action, you can use the crystal to attempt to close a portal to a Fire-aligned plane. Range 20 feet, The portal must be visible and within range. Make an Arcana, Religion, or Nature check to close the portal
+exported: true
 ---
 
 **Water Crystal of the Sealing**  

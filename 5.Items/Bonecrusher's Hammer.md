@@ -1,6 +1,6 @@
 ---
-export: true
-owner: None
+export: false
+owner: Tarnak
 name: Bonecrusher’s Hammer
 type: M
 magic: 1

@@ -1,3 +1,43 @@
+In opdracht van Majoor van Daalen wordt dringend hulp gevraagd.
+
+In het bos ten noorden van Redwall keep zijn **verontrustende verschijnselen** waargenomen: verdwijnende lichtbronnen, onnatuurlijke schaduwen en vermiste patrouilles. Meerdere verkenningseenheden zijn niet teruggekeerd.
+
+De oorsprong lijkt te liggen bij een **oude, ondergrondse ruïne**, vermoedelijk van arcane aard. De locatie wordt als **zeer gevaarlijk** beschouwd.
+
+**Opdracht:**
+
+- Onderzoek de ruïne
+- Achterhaal de oorzaak van de verstoringen
+- Zoek en evacueer eventuele overlevenden
+
+**Beloning:**  
+💰 **250 goudstukken**, uit te keren bij succesvolle terugkeer en rapportage
+
+Melden bij de wachtpost aan de zuidpoort.
+
+— _Majoor van Daalen_
+
+
+
+**Majoor van Daalen spreekt:**
+
+“Jullie zijn hier omdat er iets mis is in het bos ten noorden van hier.
+
+Mensen melden vreemde dingen—licht dat dooft, schaduwen die bewegen alsof ze leven. Ik heb patrouilles gestuurd om het te onderzoeken… geen van hen is teruggekeerd.
+
+We hebben een oude ruïne gevonden. Volgens oude verslagen was het ooit een soort gevangenis. Iets arcaan.
+
+Wat daarbinnen zit, lijkt niet langer opgesloten.
+
+Jullie gaan naar binnen, zoeken uit wat er gaande is, en als er nog overlevenden zijn—breng ze terug.
+
+En luister goed:  
+wat er ook zit… het lijkt licht te haten.
+
+Zorg dat jullie er genoeg van meenemen.
+
+
+
 # 🏰 What Is the Prison?
 
 The Prison of Darkness is an underground arcane facility built by an ancient order to contain a powerful shadow entity:
@@ -23,6 +63,8 @@ The prison is now unstable—both physically and magically.
 
 
 ![[PrisonOfDarknes.png|860]]
+
+1, 5,7,8,9,10,11,13,14
 
 ### **1. The Shattered Gate (Entrance)**
 
@@ -163,6 +205,8 @@ creatures:
 - Repair (Arcana/Religion)
 - Destroy (instant surge of darkness)
 - Leave
+145 gold
+
 
 ---
 
@@ -262,6 +306,11 @@ creatures:
 
 - Offers power in exchange for help
 
+[[Relic of the void seer]]
+
+Gold necklace with blackstone amulet (250gp)
+
+
 ---
 
 ## 🌑 14. The Core Prison (Final Boss Room)
@@ -285,3 +334,5 @@ creatures:
 
 2/3 hp spawn shadows < 126
 1/3 hp shadow pulse < 63
+
+[[Cloak of living shadow]]

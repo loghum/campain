@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
 <compendium xmlns:exsl="http://exslt.org/common" version="5" auto_indent="NO">
 <item>
-  <name>Crystal of the sealing</name>
+  <name>Cloak of living shadow</name>
   <type>W</type>
   <magic>1</magic>
-  <detail>wondrous item, consumable</detail>
+  <detail>Wondrous item, rare (requires attunement)</detail>
   <value>1</value>
   <weight>1</weight>
-  <text>This shimmering crystal holds the essence of water and is imbued with the power to close portals to fiery realms.</text>
-  <text>As an action, you can use the crystal to attempt to close a portal to a Fire-aligned plane. Range 20 feet, The portal must be visible and within range. Make an Arcana, Religion, or Nature check to close the portal</text>
+  <text>This shifting black cloak seems to drink in surrounding light. Its surface ripples like liquid darkness, and faint whispers can sometimes be heard when it moves.</text>
+  <text>While wearing this cloak, you gain the following benefits: While you are in dim light or darkness, attack rolls against you are made with disadvantage. As a bonus action while in dim light or darkness, you can become **invisible** until the start of your next turn or until you attack, cast a spell, or move into bright light.</text>
+  <text>Call the Shadows (1/Day): As an action, you summon 2 Shadows in unoccupied spaces you can see within 30 feet. The shadows act immediately after yours. Roll a d6. on a 1 or 2, the shadows are hostile to your party</text>
+  <exported>false</exported>
 </item>
 
 <item>
-  <name>Bonecrusher’s Hammer</name>
-  <type>M</type>
+  <name>Relic of the Void seer</name>
+  <type>W</type>
   <magic>1</magic>
-  <detail>Weapon (maul or warhammer, uncommon, attunement by a Barbarian)</detail>
-  <value>1500</value>
-  <weight>13</weight>
-  <text>This massive hammer thrums with savage force. When swung in a berserker’s rage, it seems to resonate with the bones of those it strikes, splintering them into dust with each brutal blow. Bonecrushing Effect (2/Rage). While raging, you may unleash this devastating effect up to 2 times per rage when you hit a creature with a skeletal structure (humanoids, beasts, undead, etc.) The target must succeed on a DC 13 Strength saving throw.On a failed save, the hammer’s blow shatters bones and sends splinters flying, dealing 1d6 necrotic damage. The target is left weakened and staggering, suffering disadvantage on Strength saving throws until the start of your next turn. On a success, the target resists the crushing force, though the echo of your strike can still be felt. Creatures without bones (oozes, elementals, constructs, etc.) are unaffected, though they feel the sheer weight of your fury.</text>
-  <dmg1>2d6</dmg1>
-  <dmg2>2d6</dmg2>
-  <dmgType>B</dmgType>
-  <property>H,2H</property>
-  <exported>true</exported>
+  <detail>Wondrous item, rare (requires attunement)</detail>
+  <value>1</value>
+  <weight>1</weight>
+  <text>This cracked shard of obsidian once served as the focus of a cult leader who sought to pierce the veil between light and darkness. When held, it feels unnaturally cold, and shadows seem to bend toward it.</text>
+  <text>While attuned to the Relic of the Void Seer, you gain the following benefits: You can see normally in magical and nonmagical darkness to a distance of 60 feet. You have advantage on Wisdom (Perception)** and **Wisdom (Insight) checks made in dim light or darkness. While you are in dim light or darkness, you cannot be surprised.</text>
+  <text>(1/Day) When a creature you can see within 60 feet makes an attack roll, ability check, or saving throw, you can use your reaction to twist fate: The creature must reroll the d20 and use the new result.</text>
+  <exported>false</exported>
 </item>
 
 </compendium>

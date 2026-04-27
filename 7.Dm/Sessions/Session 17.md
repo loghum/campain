@@ -1,6 +1,6 @@
 ---
 session: 17
-date: 15 5 2026
+date: 24 4 2026
 current: "true"
 ---
 
@@ -23,3 +23,6 @@ Jullie hebben dingen opgeruimd maar echt huiselijk is het niet en daar hebben ju
 [[Jobs]]
 [[Thundercore]]
 
+
+
+[[The prison of darkness]]
