@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4b082d5881dfdf69",
+        "id": "2d8618ffd511ec24",
         "type": "tabs",
         "children": [
           {
-            "id": "09a6a79bf9e46cce",
+            "id": "6be81b8f984ae8ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Items/Relic of the void seer.md",
+                "file": "7.Dm/Main page.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relic of the void seer"
-            }
-          },
-          {
-            "id": "b812a9e50cda4f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3.Quests/The prison of darkness.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "The prison of darkness"
-            }
-          },
-          {
-            "id": "28b374fcf6c9f937",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7.Dm/Sessions/Session 17.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Session 17"
+              "title": "Main page"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,10 +41,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Verkenner"
+              "title": "Files"
             }
           },
           {
@@ -134,12 +107,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55c6e7825c12cea8",
+            "id": "02348b2ba4ec493a",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "341f3936412c37d0",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "153a658629d5d750",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.Dm/Mechanic/Hexcrawl.md",
+                "file": "2.Monsters/Abyssal chicken.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,25 +142,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hexcrawl"
+              "title": "Backlinks for Abyssal chicken"
             }
           },
           {
-            "id": "f29b25cb90db9d66",
+            "id": "826a26642d97f1c7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.Dm/Mechanic/Hexcrawl.md",
+                "file": "2.Monsters/Abyssal chicken.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Hexcrawl"
+              "title": "Outgoing links from Abyssal chicken"
             }
           },
           {
-            "id": "0f195792e95025da",
+            "id": "991bdb3f62d83789",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,53 +175,36 @@
             }
           },
           {
-            "id": "4d9495077085eb31",
+            "id": "2b399402890ea3ab",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "8.House/House.md",
+                "file": "2.Monsters/Abyssal chicken.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of House"
-            }
-          },
-          {
-            "id": "c8123c508322f85a",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "28147ee9492e8170",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "title": "Outline of Abyssal chicken"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
-        "id": "29b8f99d084fe405",
+        "id": "ceb00d2bf6622c34",
         "type": "tabs",
         "children": [
           {
-            "id": "cd53bfc14428556a",
+            "id": "6b8d18b013506afd",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
-              "state": {},
+              "state": {
+                "creatureId": "ID_4b8a5a0b7a48",
+                "creatureName": "Umbral Warden"
+              },
               "icon": "initiative-tracker-creature-view",
               "title": "Combatant"
             }
@@ -241,13 +217,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open snel wisselen": false,
-      "graph:Open grafiek weergave": false,
-      "canvas:Nieuw doek aanmaken": false,
-      "daily-notes:Open de notitie van vandaag": false,
-      "templates:Sjabloon invoegen": false,
-      "command-palette:Open opdrachtenpaneel": false,
-      "bases:Nieuwe basis maken": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
@@ -257,47 +233,47 @@
   },
   "active": "7b8224339d478fee",
   "lastOpenFiles": [
-    "7.Dm/Sessions/Session 17.md",
-    "7.Dm/Left side bar.md",
+    "5.Items/Cloak of living shadow.md",
     "3.Quests/The prison of darkness.md",
     "5.Items/Relic of the void seer.md",
-    "5.Items/Cloak of living shadow.md",
-    "7.Dm/Sessions/Session 16.md",
+    "7.Dm/Left side bar.md",
+    "7.Dm/Sessions/Session 18.md",
+    "7.Dm/Downloaded 5e content/Spells/Hold Person.md",
+    "7.Dm/Sessions/Session 17.md",
+    "2.Monsters/Abyssal chicken.md",
     "7.Dm/Main page.md",
-    "5.Items/Potion of greater healing.md",
-    "5.Items/orb of direction.md",
-    "5.Items/Moon-touched sword.md",
-    "5.Items/Nature's mourning staff.md",
-    "5.Items/Mender’s Stone.md",
-    "5.Items/Javeling of lighting.md",
-    "5.Items/Horn of Silent Alarm.md",
-    "5.Items/Girdle of the stoneblood clan.md",
-    "5.Items/Forge-Soul Focus.md",
-    "5.Items/Flameheart dagger.md",
-    "5.Items/Cockring of protection.md",
-    "5.Items/Bracers of the emberwright.md",
-    "5.Items/Bonecrusher's Hammer.md",
-    "5.Items/Amulet of the Grovebound.md",
-    "2026-04-25.md",
-    "2.Monsters/Veil unbound cult fanatic.md",
-    "2.Monsters/Umbral Warden.md",
-    "2.Monsters/Vaelis.md",
-    "6.Spells/Hunger of Hadar.md",
-    "7.Dm/Images/PrisonOfDarknes.png",
+    "7.Dm/Downloaded 5e content/Spells/Inflict Wounds.md",
+    "7.Dm/Mechanics/Hexcrawl.md",
+    "2.Monsters/Cambion.md",
+    "7.Dm/Downloaded 5e content/Spells/Command.md",
+    "2.Monsters/Cinderling.md",
+    "2.Monsters/Grick alpha.md",
+    "3.Quests/Zudoku.md",
     "7.Dm/Images/zudoku-oplossing.png",
-    "7.Dm/Images/sudokuMap.png",
-    "8.House",
-    "7.Dm/Images/Earth.png",
-    "7.Dm/Bases/Items.base",
     "7.Dm/Images/zudoku.png",
     "7.Dm/Images/ZebaPopeholt.png",
+    "7.Dm/Images/thundercore.png",
+    "7.Dm/Images/sunken church.png",
+    "7.Dm/Images/sudokuMap.png",
+    "7.Dm/Images/SimzyTayfoot.png",
+    "7.Dm/Images/realm_of_bel.png",
+    "7.Dm/Images/PrisonOfDarknes.png",
+    "7.Dm/Images/JilaAikener.png",
+    "3.Quests/Completed/EmberDeep.md",
+    "3.Quests/Completed/Main.md",
+    "3.Quests/Completed/Missing child.md",
+    "3.Quests/Completed/Missing person.md",
+    "3.Quests/Completed/Orc raider.md",
+    "3.Quests/Completed/Rot Beneath the Boughs.md",
+    "3.Quests/Completed/Shadows in the Depths.md",
+    "3.Quests/Completed/Soulbound animals.md",
+    "3.Quests/Completed/The Disappearing Caravan.md",
+    "3.Quests/Completed/closing the portal.md",
+    "8.House",
+    "7.Dm/Bases/Items.base",
     "7.Dm/Bases/Mechanics.base",
     "7.Dm/Bases/CurrentSession.base",
     "7.Dm/Bases/Sessions.base",
-    "7.Dm/Bases/Party.base",
-    "7.Dm/Images/55ccc817-3ba2-47cb-a571-bd0d818789ff.webp",
-    "7.Dm/Images/JilaAikener.png",
-    "7.Dm/Images/sunken church.png",
-    "7.Dm/Images/thundercore.png"
+    "7.Dm/Bases/Party.base"
   ]
 }

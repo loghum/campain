@@ -1,9 +1,9 @@
 ---
 session: 17
 date: 24 4 2026
-current: "true"
+current: "false"
 ---
-
+ejg[oejh]
 # Vorige sessie
 Bepaald via race wie de beste avonturies in jullie groep was. Tot iedereens verbazing was het Tarnak
 
@@ -23,6 +23,11 @@ Jullie hebben dingen opgeruimd maar echt huiselijk is het niet en daar hebben ju
 [[Jobs]]
 [[Thundercore]]
 
+4 bedden 1 bunkbed. 
+
+advantage op initiative.
+
+Jonge tasjes tief 10 moest werk voor party doen. Komt niet opdagen.
 
 
 [[The prison of darkness]]
