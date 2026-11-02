@@ -1,3 +1,6 @@
+---
+image: atlas-vtt/assets/Zombie_1793631112949_5b72am.png
+---
 ```statblock
 monster: Zombie Wolf  
 name: Zombie Wolf  

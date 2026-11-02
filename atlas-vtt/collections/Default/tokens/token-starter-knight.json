@@ -1,0 +1,17 @@
+{
+  "atlasRecord": {
+    "format": 1,
+    "name": "Knight",
+    "imagePath": "atlas-vtt/assets/Knight_1793630983264_9kt1ql.webp",
+    "collection": "Default",
+    "tags": [
+      "Class"
+    ],
+    "showRing": true,
+    "type": "token",
+    "id": "token-starter-knight",
+    "createdAt": 1793630983268,
+    "modifiedAt": 1793630983268,
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/Knight_1793630983264_9kt1ql-30a1dc4a.webp"
+  }
+}

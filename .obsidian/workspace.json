@@ -20,8 +20,49 @@
               "icon": "lucide-file",
               "title": "Main page"
             }
+          },
+          {
+            "id": "659d9a339d414d12",
+            "type": "leaf",
+            "state": {
+              "type": "atlas-vtt-dashboard",
+              "state": {},
+              "icon": "home",
+              "title": "Atlas dashboard"
+            }
+          },
+          {
+            "id": "88f56e698e96337d",
+            "type": "leaf",
+            "state": {
+              "type": "atlas-vtt",
+              "state": {
+                "file": "atlas-vtt/collections/campain/scenes/PedestalRoom.atlasmap",
+                "mapFilePath": "atlas-vtt/collections/campain/scenes/PedestalRoom.atlasmap",
+                "tabs": [
+                  {
+                    "id": "tab-1793631906754-nupvkn",
+                    "filePath": "atlas-vtt/collections/campain/scenes/PedestalRoom.atlasmap",
+                    "displayName": "PedestalRoom",
+                    "isLoaded": true,
+                    "isDirty": false
+                  }
+                ],
+                "activeTabId": "tab-1793631906754-nupvkn",
+                "viewportPerTab": {
+                  "tab-1793631906754-nupvkn": {
+                    "centerX": 693.99,
+                    "centerY": 287.53000000000003,
+                    "scale": 1.5744009732446465
+                  }
+                }
+              },
+              "icon": "map",
+              "title": "Atlas: PedestalRoom.atlasmap"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,17 +221,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.Monsters/Abyssal chicken.md",
+                "file": "atlas-vtt/collections/campain/scenes/PedestalRoom.atlasmap",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Abyssal chicken"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "ceb00d2bf6622c34",
@@ -213,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,20 +270,43 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "templater-obsidian:Templater": false,
-      "sample-plugin:Generate XML": false
+      "sample-plugin:Generate XML": false,
+      "atlas-vtt:Display image on player view": false
     }
   },
-  "active": "7b8224339d478fee",
+  "active": "88f56e698e96337d",
   "lastOpenFiles": [
+    "2.Monsters/Zombie wolf.md",
+    "atlas-vtt/collections/campain/scenes/PedestalRoom.atlasmap",
+    "atlas-vtt/collections/campain/scenes/PedestalRoom.thumb.jpg",
+    "7.Dm/Main page.md",
+    "atlas-vtt/collections/campain/scenes/scene-1793631614931-br9fny.json",
+    "atlas-vtt/collections/campain/encounters/encounter-1793631572764-t9zyle.json",
+    "atlas-vtt/assets/encounter-thumbnails/encounter-1793631572752.png",
+    "atlas-vtt/assets/encounter-thumbnails",
+    "7.Dm/Downloaded 5e content/Monsters/Zombie.md",
+    "atlas-vtt/collections/campain/tokens/token-1793631112972-pexmg4.json",
+    "atlas-vtt/assets/thumbnails/Zombie_1793631112949_5b72am-1f5bd8b3.webp",
+    "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+    "atlas-vtt/collections/campain/maps/map-1793631049547-y8yohb.json",
+    "atlas-vtt/assets/thumbnails/PedestalRoom_1793631049526_jdgfq9-f20de9e9.webp",
+    "atlas-vtt/assets/PedestalRoom_1793631049526_jdgfq9.png",
+    "atlas-vtt/collections/campain/collection.json",
+    "atlas-vtt/collections/campain/players",
+    "atlas-vtt/collections/campain/encounters",
+    "atlas-vtt/collections/campain/scenes",
+    "atlas-vtt/assets/thumbnails/Occultist_1793630983295_eirp1z-6b60db2a.webp",
+    "atlas-vtt/assets/thumbnails/Assassin_1793630983281_19e7ws-755b530d.webp",
+    "atlas-vtt/assets/thumbnails/Knight_1793630983264_9kt1ql-30a1dc4a.webp",
+    "atlas-vtt/assets/thumbnails/Wizard_1793630983250_6pirjy-bcdf3cf1.webp",
+    "5.Items/Relic of the void seer.md",
     "5.Items/Cloak of living shadow.md",
     "3.Quests/The prison of darkness.md",
-    "5.Items/Relic of the void seer.md",
     "7.Dm/Left side bar.md",
     "7.Dm/Sessions/Session 18.md",
     "7.Dm/Downloaded 5e content/Spells/Hold Person.md",
     "7.Dm/Sessions/Session 17.md",
     "2.Monsters/Abyssal chicken.md",
-    "7.Dm/Main page.md",
     "7.Dm/Downloaded 5e content/Spells/Inflict Wounds.md",
     "7.Dm/Mechanics/Hexcrawl.md",
     "2.Monsters/Cambion.md",
@@ -249,16 +314,6 @@
     "2.Monsters/Cinderling.md",
     "2.Monsters/Grick alpha.md",
     "3.Quests/Zudoku.md",
-    "7.Dm/Images/zudoku-oplossing.png",
-    "7.Dm/Images/zudoku.png",
-    "7.Dm/Images/ZebaPopeholt.png",
-    "7.Dm/Images/thundercore.png",
-    "7.Dm/Images/sunken church.png",
-    "7.Dm/Images/sudokuMap.png",
-    "7.Dm/Images/SimzyTayfoot.png",
-    "7.Dm/Images/realm_of_bel.png",
-    "7.Dm/Images/PrisonOfDarknes.png",
-    "7.Dm/Images/JilaAikener.png",
     "3.Quests/Completed/EmberDeep.md",
     "3.Quests/Completed/Main.md",
     "3.Quests/Completed/Missing child.md",
@@ -266,14 +321,6 @@
     "3.Quests/Completed/Orc raider.md",
     "3.Quests/Completed/Rot Beneath the Boughs.md",
     "3.Quests/Completed/Shadows in the Depths.md",
-    "3.Quests/Completed/Soulbound animals.md",
-    "3.Quests/Completed/The Disappearing Caravan.md",
-    "3.Quests/Completed/closing the portal.md",
-    "8.House",
-    "7.Dm/Bases/Items.base",
-    "7.Dm/Bases/Mechanics.base",
-    "7.Dm/Bases/CurrentSession.base",
-    "7.Dm/Bases/Sessions.base",
-    "7.Dm/Bases/Party.base"
+    "3.Quests/Completed/Soulbound animals.md"
   ]
 }

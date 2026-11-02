@@ -1,0 +1,45 @@
+{
+  "description": "Encounter with 4 tokens",
+  "tokens": [
+    {
+      "id": "token-1793631112972-pexmg4",
+      "name": "Zombie",
+      "imagePath": "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+      "size": 1,
+      "statblockPath": "2.Monsters/Zombie wolf.md"
+    },
+    {
+      "id": "token-1793631112972-pexmg4",
+      "name": "Zombie",
+      "imagePath": "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+      "size": 1,
+      "statblockPath": "2.Monsters/Zombie wolf.md"
+    },
+    {
+      "id": "token-1793631112972-pexmg4",
+      "name": "Zombie",
+      "imagePath": "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+      "size": 1,
+      "statblockPath": "2.Monsters/Zombie wolf.md"
+    },
+    {
+      "id": "token-1793631112972-pexmg4",
+      "name": "Zombie",
+      "imagePath": "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+      "size": 1,
+      "statblockPath": "2.Monsters/Zombie wolf.md"
+    }
+  ],
+  "difficulty": "medium",
+  "atlasRecord": {
+    "format": 1,
+    "name": "Encounter 11/2/2026",
+    "collection": "campain",
+    "tags": [],
+    "thumbnailUrl": "app://033e3cb17f4b6f9a7b84e38e0354b62cdbaa/C:/Users/bvanlochem/Documents/Github/campain/atlas-vtt/assets/encounter-thumbnails/encounter-1793631572752.png?1793631572762",
+    "id": "encounter-1793631572764-t9zyle",
+    "createdAt": 1793631572764,
+    "modifiedAt": 1793631572764,
+    "type": "encounter"
+  }
+}

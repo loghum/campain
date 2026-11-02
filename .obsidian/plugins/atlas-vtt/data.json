@@ -1,0 +1,63 @@
+{
+  "showChangelogOnUpdate": true,
+  "changelogMajorUpdatesOnly": false,
+  "checkForUpdates": true,
+  "hotkeys": {},
+  "onboarding": {
+    "enabled": true,
+    "completed": {
+      "assets": true,
+      "tokenStatblocks": true,
+      "palette": true
+    },
+    "tokenImported": true
+  },
+  "starterTokensAdded": false,
+  "laserPointer": {
+    "color": "#ff0059",
+    "size": 16
+  },
+  "diceDisplay": "full",
+  "diceVolume": 1,
+  "detectGridOnNewScenes": true,
+  "diceColour": "light",
+  "diceFont": "medieval",
+  "initiativeNames": false,
+  "initiativeFromTurn": true,
+  "initiativeDock": "right",
+  "initiativeBanner": false,
+  "initiativeFollowTurn": false,
+  "initiativeMovesOnTurn": false,
+  "experimental": {},
+  "toolbar": {},
+  "dungeonGenerator": {
+    "style": "crayon",
+    "view": {
+      "grid": "dotted",
+      "smallTiles": false,
+      "water": true,
+      "props": true,
+      "shadow": true,
+      "secrets": true,
+      "monochrome": false
+    },
+    "theme": "cavern",
+    "tags": [],
+    "floors": 1,
+    "bossRoom": true,
+    "fiveRoom": false
+  },
+  "localPlayerView": {
+    "showToolbar": false,
+    "showTokenNameplates": false,
+    "showNotePreviews": false,
+    "showWidgets": true,
+    "showInitiative": true,
+    "showDiceRolls": false,
+    "showCommandPalette": false,
+    "showCursors": false
+  },
+  "tableTv": {
+    "viewGlideMs": 800
+  }
+}

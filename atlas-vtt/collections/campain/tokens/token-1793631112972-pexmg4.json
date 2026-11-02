@@ -1,0 +1,16 @@
+{
+  "atlasRecord": {
+    "format": 1,
+    "type": "token",
+    "showRing": false,
+    "name": "Zombie",
+    "imagePath": "atlas-vtt/assets/Zombie_1793631112949_5b72am.png",
+    "collection": "campain",
+    "tags": [],
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/Zombie_1793631112949_5b72am-1f5bd8b3.webp",
+    "id": "token-1793631112972-pexmg4",
+    "createdAt": 1793631112972,
+    "modifiedAt": 1793631543598,
+    "statblockPath": "2.Monsters/Zombie wolf.md"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "map-1793631049547-y8yohb",
+  "name": "PedestalRoom",
+  "mapFilePath": "atlas-vtt/assets/PedestalRoom_1793631049526_jdgfq9.png",
+  "tags": [],
+  "collection": "campain",
+  "createdAt": 1793631049547,
+  "modifiedAt": 1793631049547,
+  "atlasRecord": {
+    "format": 1,
+    "type": "map",
+    "name": "PedestalRoom",
+    "mapFilePath": "atlas-vtt/assets/PedestalRoom_1793631049526_jdgfq9.png",
+    "collection": "campain",
+    "tags": [],
+    "thumbnailPath": "atlas-vtt/assets/thumbnails/PedestalRoom_1793631049526_jdgfq9-f20de9e9.webp",
+    "id": "map-1793631049547-y8yohb",
+    "createdAt": 1793631049547,
+    "modifiedAt": 1793631049547
+  }
+}

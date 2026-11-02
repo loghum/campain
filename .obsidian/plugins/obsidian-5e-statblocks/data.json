@@ -6755,10 +6755,9 @@
     "patch": 3
   },
   "paths": [
-    "Downloaded/Monsters",
-    "Downloaded/Monsters (Alt)",
     "2.Monsters",
-    "1.npc"
+    "1.npc",
+    "7.Dm/Downloaded 5e content/Monsters"
   ],
   "autoParse": true,
   "disableSRD": false,
